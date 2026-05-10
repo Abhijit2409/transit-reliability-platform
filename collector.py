@@ -23,6 +23,7 @@ import os
 import time
 from datetime import datetime, timezone
 from pathlib import Path
+from src.parquet_writer import write_collection_cycle
 
 import pandas as pd
 import requests
@@ -223,22 +224,6 @@ def get_output_path(collection_timestamp: datetime) -> Path:
     return folder / f"vehicle_positions_{hour_str}.parquet"
 
 
-def append_to_parquet(new_rows_df: pd.DataFrame, output_path: Path) -> None:
-    """Append a DataFrame of new rows into an hourly Parquet file.
-
-    If the file does not exist, write a new one. Otherwise, read the
-    existing file, concatenate, and rewrite. We rely on pyarrow as the
-    Parquet engine (declared in requirements.txt).
-    """
-    if output_path.exists():
-        existing_df = pd.read_parquet(output_path, engine="pyarrow")
-        combined_df = pd.concat([existing_df, new_rows_df], ignore_index=True)
-    else:
-        combined_df = new_rows_df
-
-    combined_df.to_parquet(output_path, engine="pyarrow", index=False)
-
-
 # =============================================================================
 # UPLOAD (Supabase Storage)
 # -----------------------------------------------------------------------------
@@ -335,9 +320,20 @@ def run_one_cycle() -> None:
     # ---- SAVE LOCAL ---------------------------------------------------------
     try:
         df = pd.DataFrame(rows)
-        output_path = get_output_path(collection_timestamp)
-        append_to_parquet(df, output_path)
-        logging.info(f"Saved data to {output_path.as_posix()}")
+
+        written_path = write_collection_cycle(
+            df=df,
+            base_dir=Path("data/raw"),
+        )
+
+        if written_path is None:
+            logging.error("Parquet write failed")
+            return
+
+        logging.info(f"Saved validated parquet to {written_path.as_posix()}")
+        
+        
+    
     except Exception as e:
         logging.error(f"Save failed: {e}")
         return  # nothing to upload if local save failed
@@ -351,8 +347,8 @@ def run_one_cycle() -> None:
         return
 
     try:
-        upload_to_supabase(output_path)
-        logging.info(f"Uploaded to Supabase: {get_remote_object_key(output_path)}")
+        upload_to_supabase(written_path)
+        logging.info(f"Uploaded to Supabase: {get_remote_object_key(written_path)}")
     except requests.RequestException as e:
         logging.error(f"Supabase upload failed (will retry next cycle): {e}")
     except Exception as e:
