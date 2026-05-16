@@ -1,0 +1,4 @@
+filename,status,size_bytes,row_count,is_empty,is_corrupted,missing_columns,duplicate_count,earliest_timestamp,latest_timestamp,unique_routes
+vehicle_positions_10.parquet,FAIL,35496,825,False,True,,0,,,0
+vehicle_positions_17_175459.parquet,OK,35891,834,False,False,,0,2026-05-14T17:54:59.192399+00:00,2026-05-14T17:54:59.192399+00:00,181
+vehicle_positions_17_175530.parquet,OK,35734,832,False,False,,0,2026-05-14T17:55:30.213845+00:00,2026-05-14T17:55:30.213845+00:00,180

@@ -1,0 +1,16 @@
+filename,status,size_bytes,row_count,is_empty,is_corrupted,missing_columns,duplicate_count,earliest_timestamp,latest_timestamp,unique_routes
+vehicle_positions_06.parquet,FAIL,145116,7921,False,True,,0,,,0
+vehicle_positions_07.parquet,FAIL,1469064,119689,False,True,,0,,,0
+vehicle_positions_08.parquet,FAIL,166900,9494,False,True,,0,,,0
+vehicle_positions_09.parquet,FAIL,474453,32631,False,True,,0,,,0
+vehicle_positions_10.parquet,FAIL,570046,41479,False,True,,0,,,0
+vehicle_positions_12.parquet,FAIL,698609,52196,False,True,,0,,,0
+vehicle_positions_13.parquet,FAIL,1071646,85579,False,True,,0,,,0
+vehicle_positions_14.parquet,FAIL,1210479,98764,False,True,,0,,,0
+vehicle_positions_15.parquet,FAIL,1453682,119333,False,True,,0,,,0
+vehicle_positions_16.parquet,FAIL,1641765,135450,False,True,,0,,,0
+vehicle_positions_18.parquet,FAIL,107507,4528,False,True,,0,,,0
+vehicle_positions_19.parquet,FAIL,841525,65878,False,True,,0,,,0
+vehicle_positions_20.parquet,FAIL,358275,25542,False,True,,0,,,0
+vehicle_positions_22.parquet,FAIL,368390,26036,False,True,,0,,,0
+vehicle_positions_23.parquet,FAIL,538940,40291,False,True,,0,,,0

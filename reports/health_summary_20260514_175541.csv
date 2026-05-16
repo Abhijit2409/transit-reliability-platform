@@ -1,0 +1,2 @@
+generated_at,total_files,valid_files,failed_files,warned_files,empty_files,corrupted_files,total_rows,total_duplicates,avg_rows_per_file,earliest_timestamp,latest_timestamp,freshness_status,freshness_minutes,max_routes_in_file
+2026-05-14T17:55:41.160994+00:00,3,2,1,0,0,1,1666,0,833.0,2026-05-14T17:54:59.192399+00:00,2026-05-14T17:55:30.213845+00:00,FRESH,0.2,181

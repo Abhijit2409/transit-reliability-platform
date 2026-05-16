@@ -1,0 +1,4 @@
+filename,status,size_bytes,row_count,is_empty,is_corrupted,missing_columns,duplicate_count,earliest_timestamp,latest_timestamp,unique_routes
+vehicle_positions_00.parquet,FAIL,302751,21049,False,True,,0,,,0
+vehicle_positions_09.parquet,FAIL,182279,10895,False,True,,0,,,0
+vehicle_positions_10.parquet,FAIL,193063,11677,False,True,,0,,,0
