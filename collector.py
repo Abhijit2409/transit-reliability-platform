@@ -28,6 +28,8 @@ from src.parquet_writer import write_collection_cycle
 import pandas as pd
 import requests
 from google.transit import gtfs_realtime_pb2
+import pyarrow
+print("PYARROW VERSION:", pyarrow.__version__)
 
 # Local convenience: load a `.env` file if one exists, so you don't have to
 # `export` variables every time. On Railway, env vars are injected by the
