@@ -2,53 +2,29 @@
 collector.py
 ============
 TransLink GTFS-Realtime Vehicle Position Collector.
-
-This collector:
-- polls TransLink GTFS-RT VehiclePositions every 30 seconds
-- parses the protobuf feed
-- writes one validated parquet file per polling cycle
-- uploads the validated parquet file to Supabase Storage
-- logs pyarrow version for debugging parquet compatibility
-
-Important:
-- Local parquet writing is handled by src/parquet_writer.py
-- That writer performs atomic writes and read-back validation
-- Supabase upload happens only after local validation succeeds
 """
-
-# =============================================================================
-# IMPORTS
-# =============================================================================
 
 import logging
 import os
+import sys
 import time
 from datetime import datetime, timezone
 from pathlib import Path
 
 import pandas as pd
-import requests
 import pyarrow
+import requests
 from google.transit import gtfs_realtime_pb2
 
 from src.parquet_writer import write_collection_cycle
 
 
-# =============================================================================
-# OPTIONAL LOCAL ENV LOADING
-# =============================================================================
-
 try:
     from dotenv import load_dotenv
-
     load_dotenv()
 except ImportError:
     pass
 
-
-# =============================================================================
-# CONFIG
-# =============================================================================
 
 API_KEY = os.getenv("TRANSLINK_API_KEY", "").strip()
 
@@ -70,12 +46,7 @@ COLLECT_ALL_ROUTES = True
 SELECTED_ROUTE_IDS = ["099", "095", "R5"]
 
 
-# =============================================================================
-# LOGGING
-# =============================================================================
-
 def setup_logging() -> None:
-    """Configure logging to console and a daily local log file."""
     Path(LOG_FOLDER).mkdir(parents=True, exist_ok=True)
 
     log_file = Path(LOG_FOLDER) / f"collector_{datetime.now().strftime('%Y-%m-%d')}.log"
@@ -91,12 +62,7 @@ def setup_logging() -> None:
     )
 
 
-# =============================================================================
-# FETCH
-# =============================================================================
-
 def fetch_vehicle_positions() -> bytes:
-    """Fetch raw GTFS-RT VehiclePositions protobuf bytes from TransLink."""
     response = requests.get(
         API_URL,
         params={"apikey": API_KEY},
@@ -106,12 +72,7 @@ def fetch_vehicle_positions() -> bytes:
     return response.content
 
 
-# =============================================================================
-# PARSE
-# =============================================================================
-
 def parse_feed(raw_bytes: bytes, collection_timestamp: datetime) -> list[dict]:
-    """Parse GTFS-RT protobuf response into vehicle position rows."""
     feed = gtfs_realtime_pb2.FeedMessage()
     feed.ParseFromString(raw_bytes)
 
@@ -131,9 +92,6 @@ def parse_feed(raw_bytes: bytes, collection_timestamp: datetime) -> list[dict]:
             latitude = vehicle.position.latitude
             longitude = vehicle.position.longitude
 
-            # Important:
-            # These GTFS-RT fields may be absent.
-            # Missing should stay None, not fake zero.
             bearing = (
                 vehicle.position.bearing
                 if vehicle.position.HasField("bearing")
@@ -178,37 +136,17 @@ def parse_feed(raw_bytes: bytes, collection_timestamp: datetime) -> list[dict]:
     return rows
 
 
-# =============================================================================
-# SUPABASE HELPERS
-# =============================================================================
-
 def supabase_is_configured() -> bool:
-    """Return True if all required Supabase environment variables are present."""
     return bool(SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY and SUPABASE_BUCKET_NAME)
 
 
 def get_remote_object_key(local_path: Path) -> str:
-    """
-    Convert local parquet path to Supabase object key.
-
-    Local:
-        data/raw/2026-05-24/vehicle_positions_22_221224.parquet
-
-    Remote:
-        raw/2026-05-24/vehicle_positions_22_221224.parquet
-    """
     date_folder = local_path.parent.name
     filename = local_path.name
     return f"{SUPABASE_REMOTE_PREFIX}/{date_folder}/{filename}"
 
 
 def upload_to_supabase(local_path: Path) -> None:
-    """
-    Upload a validated parquet file to Supabase Storage.
-
-    The local file has already passed read-back validation before this function
-    is called.
-    """
     if not local_path.exists():
         raise FileNotFoundError(f"Cannot upload missing file: {local_path}")
 
@@ -223,9 +161,6 @@ def upload_to_supabase(local_path: Path) -> None:
         "Authorization": f"Bearer {SUPABASE_SERVICE_ROLE_KEY}",
         "apikey": SUPABASE_SERVICE_ROLE_KEY,
         "Content-Type": "application/octet-stream",
-
-        # Unique filenames should not need upsert, but keeping true prevents
-        # failures if the same file is retried after a network issue.
         "x-upsert": "true",
     }
 
@@ -240,12 +175,7 @@ def upload_to_supabase(local_path: Path) -> None:
     response.raise_for_status()
 
 
-# =============================================================================
-# ONE COLLECTION CYCLE
-# =============================================================================
-
 def run_one_cycle() -> None:
-    """Run one full fetch → parse → write → upload cycle."""
     collection_timestamp = datetime.now(timezone.utc)
 
     try:
@@ -298,16 +228,13 @@ def run_one_cycle() -> None:
         logging.error(f"Unexpected upload error: {e}")
 
 
-# =============================================================================
-# MAIN LOOP
-# =============================================================================
-
 def main() -> None:
-    """Run the collector continuously."""
     setup_logging()
 
     logging.info("Starting TransLink GTFS collector")
+    logging.info(f"PYTHON VERSION: {sys.version}")
     logging.info(f"PYARROW VERSION: {pyarrow.__version__}")
+    logging.info(f"PANDAS VERSION: {pd.__version__}")
     logging.info(f"Polling interval: {POLLING_INTERVAL_SECONDS}s")
     logging.info(f"Output folder: {OUTPUT_FOLDER}")
 
