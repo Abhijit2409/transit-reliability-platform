@@ -1,0 +1,100 @@
+route_id,route_short_name,route_long_name,bus_subtype,total_records,unique_vehicles,days_active
+6622,016,29th Avenue Station/Arbutus,Regular Bus,174343,109,5
+6627,025,King Edward,Regular Bus,147605,72,5
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,126594,185,5
+6617,007,Nanaimo Station/Dunbar,Regular Bus,120717,84,5
+6728,410,Brighouse Station/22nd St Station,Regular Bus,120234,107,5
+6642,100,Marine Drive,Regular Bus,109016,39,5
+6667,160,Port Coquitlam Station/Kootenay Loop,Regular Bus,102690,71,5
+6715,351,White Rock Centre/Bridgeport Station,Regular Bus,90688,47,5
+6749,701,Haney/Maple Ridge East/Coquitlam Station,Regular Bus,89075,89,5
+6737,501,Langley Centre/Surrey Central Station,Regular Bus,89012,149,5
+6620,010,Granville,Regular Bus,87924,83,5
+6704,320,Langley/Fleetwood/Surrey Central Station,Regular Bus,84931,171,5
+6730,430,Metrotown Station/Brighouse Station,Regular Bus,81097,64,5
+6741,601,Bridgeport Station/South Delta,Regular Bus,73940,60,5
+38311,R2,Marine Drive,RapidBus,70329,43,5
+37809,R3,Lougheed Hwy,RapidBus,69912,20,5
+6657,144,SFU Exchange/Metrotown Station,Regular Bus,66047,85,5
+6819,373,Guildford/Surrey Central Station,Regular Bus,63421,55,5
+6724,403,Bridgeport Station/Three Road,Regular Bus,62635,54,5
+6698,301,Newton Exchange/Brighouse Station Express,Express,61186,36,5
+6727,407,Gilbert/Bridgeport,Regular Bus,57156,69,5
+6646,110,Lougheed Station/Metrotown Station,Regular Bus,51395,62,5
+6666,159,Coquitlam Central Station/Braid Station,Regular Bus,47838,89,5
+6637,050,Waterfront Station/False Creek South,Regular Bus,45532,50,5
+6722,401,Brighouse Station/One Road,Regular Bus,45424,51,5
+30046,183,Moody Centre Station/Coquitlam Central Station,Regular Bus,45401,117,5
+6713,340,Scottsdale/22nd St Station,Regular Bus,44573,32,5
+6628,026,Joyce Station/29th Avenue Station,Regular Bus,44232,72,5
+30043,180,Moody Centre Station/Lougheed Station,Regular Bus,43989,106,5
+6673,211,Seymour/Phibbs Exchange/Burrard Station,Regular Bus,43167,108,5
+7224,791,Haney Place/Braid Station,Regular Bus,42690,59,5
+6650,129,Patterson Station/Holdom Station,Regular Bus,40166,67,5
+6643,101,Lougheed Station/22nd St Station,Regular Bus,38276,66,5
+6660,152,Coquitlam Central Station/Lougheed Station,Regular Bus,38015,85,5
+6644,104,22nd St Station/Annacis Island,Regular Bus,35336,80,5
+6747,620,Tsawwassen Ferry/Bridgeport Station Exp,Regular Bus,35329,29,5
+6658,145,SFU Exchange/Production Station,Regular Bus,35098,32,5
+6680,236,Grouse Mountain/Lonsdale Quay,Regular Bus,34694,105,5
+6661,153,Coquitlam Central Station/Braid Station,Regular Bus,34604,101,5
+17707,337,Fraser Heights/Surrey Central Station,Regular Bus,34296,111,5
+6664,156,Braid Station/Lougheed Station,Regular Bus,34017,74,5
+6723,402,Brighouse Station/Two Road,Regular Bus,33329,57,5
+6629,027,Rupert,Regular Bus,32419,73,5
+6654,136,Lougheed Station/Brentwood Station,Regular Bus,31307,51,5
+6817,147,Metrotown Station/Edmonds Station,Regular Bus,31186,36,5
+30040,174,Coquitlam Central Station/Rocklin,Regular Bus,31082,69,5
+33292,133,Holdom Station/Edmonds Station,Regular Bus,30936,68,5
+30039,173,Coquitlam Central Station/Cedar,Regular Bus,30901,69,5
+6652,134,Lake City Station/Brentwood Station,Regular Bus,29886,53,5
+6665,157,Burquitlam Station/Lougheed Station,Regular Bus,29180,48,5
+6725,404,Brighouse Station/Four Road,Regular Bus,26752,41,5
+30038,172,Coquitlam Central Station/Riverside,Regular Bus,26505,72,5
+6709,326,Guildford/Surrey Central Station,Regular Bus,24734,100,5
+6668,169,Coquitlam Central Station/Braid Station,Regular Bus,24215,70,5
+6818,371,Surrey Central Station/Scott Rd Station,Regular Bus,22588,31,5
+30045,182,Moody Centre Station/Belcarra,Regular Bus,22512,44,5
+30049,186,Coquitlam Central Station/Hampton Park,Regular Bus,22497,60,5
+30050,187,Coquitlam Central Station/Parkway,Regular Bus,21689,86,5
+6806,148,Royal Oak Station/Edmonds Station,Regular Bus,21109,30,5
+6796,105,New West Station/Uptown,Regular Bus,20512,11,5
+36799,249,Lonsdale Quay/Delbrook,Regular Bus,20231,113,5
+30037,171,Coquitlam Central Station/Fremont,Regular Bus,19514,68,5
+6631,029,Elliott/29th Avenue Station,Regular Bus,19106,55,5
+6701,314,Surrey Central Station/Sunbury,Regular Bus,18577,82,5
+39304,031,Metrotown Station/River District,Regular Bus,18520,36,5
+46099,102,New West Station/Victoria  Hill,Regular Bus,18012,20,5
+16719,109,New West Station/Lougheed Station,Regular Bus,17935,35,5
+30047,184,Moody Centre Station/Noons Creek,Regular Bus,17848,60,5
+30584,191,Coquitlam Central Station/Princeton,Regular Bus,17530,58,5
+6841,N9,Broadway-Lougheed,NightBus,16314,49,5
+30036,170,Port Coquitlam Station/Port Coquitlam South,Regular Bus,14956,22,5
+6675,214,Blueridge/Phibbs Exchange/Burrard Station,Regular Bus,14927,61,5
+9745,418,Kingswood/22nd St Station,Regular Bus,14827,61,5
+30048,185,Coquitlam Central Station/Lansdowne,Regular Bus,14282,60,5
+6720,394,White Rock Centre/King George Station,Regular Bus,13980,39,5
+6790,103,New West Station/Quayside,Regular Bus,12980,20,5
+6827,412,Bridgeport Station/Sea Island South,Regular Bus,12908,39,5
+6716,352,White Rock Centre/Bridgeport Station,Regular Bus,12275,34,5
+6656,143,SFU Exchange/Burquitlam Station,Regular Bus,11834,7,5
+30044,181,Moody Centre Station/Ioco,Regular Bus,11492,35,5
+6739,509,Walnut Grove/Surrey Central Station,Regular Bus,11248,68,5
+6717,354,White Rock South/Bridgeport Station,Regular Bus,11138,33,5
+6699,311,Scottsdale/Bridgeport Station,Regular Bus,10977,34,5
+30041,175,Coquitlam Central Station/Meridian,Regular Bus,10617,36,5
+30051,189,Coquitlam Central Station/Lafarge Park,Regular Bus,10538,91,5
+6721,395,Langley Centre/King George Station,Regular Bus,10144,64,5
+6811,146,Metrotown Station/Suncrest,Regular Bus,9652,23,5
+13684,414,Richmond Oval/Brighouse Station,Regular Bus,9561,9,5
+6829,416,East Cambie/Brighouse Station,Regular Bus,8091,12,5
+6830,N10,Granville-YVR,NightBus,7699,23,5
+6776,131,Hastings @ Gilmore/Kootenay Loop,Regular Bus,7492,12,5
+6742,602,Bridgeport Station/Tsawwassen Heights,Regular Bus,7311,35,5
+6710,329,Surrey Central Station/Scottsdale,Regular Bus,7080,45,5
+6743,603,Bridgeport Station/Beach Grove,Regular Bus,6163,26,5
+6744,604,Bridgeport Station/English Bluff,Regular Bus,5709,28,5
+7322,132,Capitol Hill/Hastings @ Gilmore,Regular Bus,4631,12,5
+30042,179,Coquitlam Central Station/Buntzen Lake,Regular Bus,2562,4,2
+7509,150,Coquitlam Central Station/White Pine Beach,Regular Bus,2391,4,2
+18213,231,Harbourside/Lonsdale Quay,Regular Bus,1840,29,5

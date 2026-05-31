@@ -1,0 +1,2 @@
+generated_at,total_files,valid_files,failed_files,warned_files,empty_files,corrupted_files,total_rows,total_duplicates,avg_rows_per_file,earliest_timestamp,latest_timestamp,freshness_status,freshness_minutes,max_routes_in_file
+2026-05-24T19:01:24.605802+00:00,2617,0,2617,0,0,2617,0,0,0,,,UNKNOWN,,0

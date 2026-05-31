@@ -1,0 +1,6 @@
+bus_subtype,routes,mean_cv,median_cv,mean_days_active
+RapidBus,6,0.092,0.073,5.0
+NightBus,10,0.142,0.095,5.0
+Regular Bus,199,0.15,0.112,4.92
+Express,9,0.242,0.157,5.0
+B-Line,1,0.171,0.171,5.0

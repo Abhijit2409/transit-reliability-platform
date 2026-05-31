@@ -1,0 +1,2 @@
+service_date,route_id,total_bunching_events,severe_events,high_events,moderate_events,am_peak_events,pm_peak_events,off_peak_events,avg_bunching_gap_km,median_bunching_gap_km,closest_gap_km,vehicles_involved,affected_segments
+2026-05-23 00:00:00,6641,1000,110,339,551,24,510,466,0.268,0.28,0.0,19,25

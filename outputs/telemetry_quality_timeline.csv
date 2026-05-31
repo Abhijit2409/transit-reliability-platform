@@ -1,0 +1,6 @@
+date,row_count,null_pct_collection_timestamp,null_pct_api_vehicle_timestamp,null_pct_entity_id,null_pct_vehicle_id,null_pct_route_id,null_pct_trip_id,null_pct_latitude,null_pct_longitude,null_pct_bearing,null_pct_speed,invalid_coord_pct,speed_populated_pct,bearing_populated_pct
+2026-05-19,1678374,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.3,0.0,0.0
+2026-05-20,1930580,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.39,0.0,0.0
+2026-05-21,2025325,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.28,0.0,0.0
+2026-05-22,2029152,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.25,0.0,0.0
+2026-05-23,1644085,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.36,0.0,0.0

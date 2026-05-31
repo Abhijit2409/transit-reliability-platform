@@ -1,0 +1,16 @@
+route_id,days_active,mean_daily_records,std_daily_records,min_daily_records,max_daily_records,total_records,cv_daily_records,is_persistent,route_short_name,route_long_name,mode,bus_subtype,cv_capped,cv_score,persistence_score,stability_score
+45596,5,2246.0,1071.2,416,2975,11230,0.4769,True,080,Marine Dr Express,Bus,Express,0.40644,0.0,1.0,40.0
+6742,5,1462.2,688.1,254,1860,7311,0.4706,True,602,Bridgeport Station/Tsawwassen Heights,Bus,Regular Bus,0.40644,0.0,1.0,40.0
+6656,5,2366.8,1068.3,603,3127,11834,0.4514,True,143,SFU Exchange/Burquitlam Station,Bus,Regular Bus,0.40644,0.0,1.0,40.0
+30041,5,2123.4,954.5,468,2788,10617,0.4495,True,175,Coquitlam Central Station/Meridian,Bus,Regular Bus,0.40644,0.0,1.0,40.0
+39305,5,7129.2,3177.0,2013,10380,35646,0.4456,True,222,Willingdon Express,Bus,Express,0.40644,0.0,1.0,40.0
+6635,5,6944.2,3031.2,1927,8978,34721,0.4365,True,044,UBC Exchange/Downtown Express,Bus,Express,0.40644,0.0,1.0,40.0
+7224,5,8538.0,3668.3,2470,11037,42690,0.4296,True,791,Haney Place/Braid Station,Bus,Regular Bus,0.40644,0.0,1.0,40.0
+18213,5,368.0,156.7,107,474,1840,0.4258,True,231,Harbourside/Lonsdale Quay,Bus,Regular Bus,0.40644,0.0,1.0,40.0
+9745,5,2965.4,1205.6,1053,3855,14827,0.4066,True,418,Kingswood/22nd St Station,Bus,Regular Bus,0.40644,0.0,1.0,40.0
+6714,5,10888.6,4419.0,4169,14092,54443,0.4058,True,345,152 Street,Bus,Regular Bus,0.4058,0.0015746481645507737,1.0,40.09
+11693,5,8482.8,3404.3,3331,11017,42414,0.4013,True,388,88 Avenue,Bus,Regular Bus,0.4013,0.012646393071548134,1.0,40.76
+6739,5,2249.6,899.1,771,2903,11248,0.3997,True,509,Walnut Grove/Surrey Central Station,Bus,Regular Bus,0.3997,0.016583013482925013,1.0,40.99
+6718,5,705.8,279.4,257,892,3529,0.3959,True,391,116 Street,Bus,Regular Bus,0.3959,0.02593248695994499,1.0,41.56
+6829,5,1618.2,640.2,594,2076,8091,0.3956,True,416,East Cambie/Brighouse Station,Bus,Regular Bus,0.3956,0.026670603287078043,1.0,41.6
+6716,5,2455.0,969.6,889,3111,12275,0.395,True,352,White Rock Centre/Bridgeport Station,Bus,Regular Bus,0.395,0.028146835941344373,1.0,41.69

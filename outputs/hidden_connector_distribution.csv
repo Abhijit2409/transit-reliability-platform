@@ -1,0 +1,5 @@
+category,vehicle_count,pct_of_fleet
+Single-route workhorse (1 route),65,3.97
+Light cross-route (2 routes),116,7.08
+Connector (3-5 routes),504,30.75
+High-flexibility (6+ routes),954,58.21

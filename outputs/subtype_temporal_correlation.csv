@@ -1,0 +1,6 @@
+bus_subtype,B-Line,Express,NightBus,RapidBus,Regular Bus
+B-Line,1.0,0.938,-0.645,0.947,0.943
+Express,0.938,1.0,-0.668,0.978,0.983
+NightBus,-0.645,-0.668,1.0,-0.776,-0.762
+RapidBus,0.947,0.978,-0.776,1.0,0.988
+Regular Bus,0.943,0.983,-0.762,0.988,1.0

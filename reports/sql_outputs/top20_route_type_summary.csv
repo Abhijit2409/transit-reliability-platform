@@ -1,0 +1,5 @@
+route_type,route_count,avg_reliability_score,worst_reliability_score,best_reliability_score,avg_bunching_rate_pct,avg_severe_bunching_rate_pct,avg_peak_bunching_share_pct,total_bunching_events,total_severe_events
+B-Line,1,84.21,84.21,84.21,7.36,0.81,53.4,1000,110
+RapidBus,2,86.77,77.6,95.94,6.34,1.12,33.9,1356,241
+Regular Bus,13,88.11,81.95,95.24,4.15,0.61,56.82,7028,1013
+Express / Regional,4,92.83,90.7,95.58,0.88,0.08,59.49,272,27

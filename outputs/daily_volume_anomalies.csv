@@ -1,0 +1,6 @@
+date,day_of_week,total_records,volume_z,is_anomaly
+2026-05-19,Tuesday,1678374,-1.092,False
+2026-05-20,Wednesday,1930580,0.412,False
+2026-05-21,Thursday,2025325,0.977,False
+2026-05-22,Friday,2029152,1.0,False
+2026-05-23,Saturday,1644085,-1.297,False

@@ -1,0 +1,105 @@
+bus_subtype,vancouver_hour,records
+B-Line,0,3317
+B-Line,1,2630
+B-Line,2,1144
+B-Line,3,391
+B-Line,5,743
+B-Line,6,5866
+B-Line,7,13103
+B-Line,8,16332
+B-Line,9,17022
+B-Line,10,12984
+B-Line,11,9407
+B-Line,12,9406
+B-Line,13,9318
+B-Line,14,14631
+B-Line,15,18021
+B-Line,16,18991
+B-Line,17,17903
+B-Line,18,13771
+B-Line,19,9047
+B-Line,20,7053
+B-Line,21,5635
+B-Line,22,4101
+B-Line,23,3554
+Express,0,2244
+Express,1,267
+Express,3,19
+Express,4,1571
+Express,5,10306
+Express,6,26704
+Express,7,36371
+Express,8,39618
+Express,9,33137
+Express,10,21746
+Express,11,18427
+Express,12,20992
+Express,13,21791
+Express,14,28260
+Express,15,37969
+Express,16,41760
+Express,17,40850
+Express,18,36326
+Express,19,25881
+Express,20,17966
+Express,21,15137
+Express,22,11790
+Express,23,7027
+NightBus,0,1489
+NightBus,1,9311
+NightBus,2,19838
+NightBus,3,17809
+NightBus,4,12467
+NightBus,5,7153
+NightBus,6,1889
+NightBus,7,315
+NightBus,8,30
+NightBus,22,20
+NightBus,23,219
+RapidBus,0,15306
+RapidBus,1,7230
+RapidBus,2,585
+RapidBus,4,1797
+RapidBus,5,14932
+RapidBus,6,28968
+RapidBus,7,41067
+RapidBus,8,45117
+RapidBus,9,40778
+RapidBus,10,28532
+RapidBus,11,25103
+RapidBus,12,27308
+RapidBus,13,27002
+RapidBus,14,34990
+RapidBus,15,44297
+RapidBus,16,49939
+RapidBus,17,47811
+RapidBus,18,40233
+RapidBus,19,31228
+RapidBus,20,25505
+RapidBus,21,22117
+RapidBus,22,20028
+RapidBus,23,18853
+Regular Bus,0,133166
+Regular Bus,1,72742
+Regular Bus,2,19510
+Regular Bus,3,1498
+Regular Bus,4,22791
+Regular Bus,5,173614
+Regular Bus,6,377804
+Regular Bus,7,488963
+Regular Bus,8,513060
+Regular Bus,9,461475
+Regular Bus,10,352771
+Regular Bus,11,329971
+Regular Bus,12,371727
+Regular Bus,13,378823
+Regular Bus,14,471949
+Regular Bus,15,566905
+Regular Bus,16,602561
+Regular Bus,17,591663
+Regular Bus,18,530257
+Regular Bus,19,411466
+Regular Bus,20,328551
+Regular Bus,21,277384
+Regular Bus,22,225477
+Regular Bus,23,183593

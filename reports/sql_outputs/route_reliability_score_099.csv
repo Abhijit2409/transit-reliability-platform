@@ -1,0 +1,2 @@
+service_date,route_id,total_spacing_rows,total_bunching_events,severe_events,peak_events,bunching_rate_pct,severe_bunching_rate_pct,peak_bunching_share_pct,reliability_score,reliability_band
+2026-05-23 00:00:00,6641,13579,1000,110,534,7.36,0.81,53.4,84.21,Watch

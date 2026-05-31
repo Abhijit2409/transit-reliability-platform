@@ -1,0 +1,18 @@
+route_id,route_short_name,route_long_name,mode
+13686,,Canada Line,SkyTrain
+30052,,Millennium Line,SkyTrain
+30053,,Expo Line,SkyTrain
+31820,372,Clayton Heights/Langley Centre,Bus
+34044,560,Murrayville/Langley Centre,Bus
+34045,561,Langley Centre/Brookswood,Bus
+34544,282,Mt Gardner/Snug Cove,Bus
+44845,900,Bike Bus,Bus
+6770,WCE,West Coast Express,West Coast Express
+6771,,SeaBus,SeaBus
+6777,280,Bluewater/Snug Cove,Bus
+6778,281,Eagle Cliff/Snug Cove,Bus
+6814,562,Langley Centre/Walnut Grove,Bus
+6815,563,Langley Centre/Fernridge,Bus
+6816,564,Langley Centre/Willowbrook,Bus
+8286,370,Cloverdale/Willowbrook,Bus
+HD,HD,HandyDART,HandyDART

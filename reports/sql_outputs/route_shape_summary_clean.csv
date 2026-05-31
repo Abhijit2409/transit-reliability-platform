@@ -1,0 +1,2145 @@
+route_id,route_short_name,route_long_name,direction_id,shape_id,scheduled_trip_count,shape_points,shape_length_km
+10232,256,Whitby Estate/Park Royal/Spuraway,0,317882,44,234,11.67
+10232,256,Whitby Estate/Park Royal/Spuraway,0,312879,44,234,11.67
+10232,256,Whitby Estate/Park Royal/Spuraway,1,317884,44,123,6.01
+10232,256,Whitby Estate/Park Royal/Spuraway,1,312883,44,123,6.01
+11201,033,16th & 33rd Avenue,0,312478,133,310,17.75
+11201,033,16th & 33rd Avenue,0,317484,133,310,17.75
+11201,033,16th & 33rd Avenue,1,312479,132,307,17.98
+11201,033,16th & 33rd Avenue,1,317485,132,307,17.98
+11202,042,Alma/Spanish Banks,0,317493,108,91,3.78
+11202,042,Alma/Spanish Banks,0,312487,58,91,3.78
+11202,042,Alma/Spanish Banks,1,317494,108,76,3.22
+11202,042,Alma/Spanish Banks,1,312488,58,76,3.22
+11692,364,64 Avenue,0,313036,139,228,21.22
+11692,364,64 Avenue,0,318046,139,228,21.22
+11692,364,64 Avenue,1,318047,125,221,22.0
+11692,364,64 Avenue,1,313037,124,221,22.0
+11693,388,88 Avenue,0,313054,34,551,34.49
+11693,388,88 Avenue,0,318064,34,551,34.49
+11693,388,88 Avenue,1,318065,32,507,33.38
+11693,388,88 Avenue,1,313056,32,507,33.38
+11696,609,South Delta Exchange/Ladner Exchange,0,313243,97,236,18.34
+11696,609,South Delta Exchange/Ladner Exchange,0,318254,97,236,18.34
+11696,609,South Delta Exchange/Ladner Exchange,1,313244,100,255,18.32
+11696,609,South Delta Exchange/Ladner Exchange,1,318255,100,255,18.32
+12940,595,208 Street,0,318223,90,295,17.52
+12940,595,208 Street,0,313211,90,295,17.52
+12940,595,208 Street,0,318222,14,333,18.86
+12940,595,208 Street,0,313212,13,333,18.86
+12940,595,208 Street,1,318225,90,260,16.28
+12940,595,208 Street,1,313213,90,260,16.28
+12940,595,208 Street,1,313214,13,288,17.74
+12940,595,208 Street,1,318224,13,288,17.74
+13684,414,Richmond Oval/Brighouse Station,0,313145,44,78,5.21
+13684,414,Richmond Oval/Brighouse Station,0,318153,44,78,5.21
+13684,414,Richmond Oval/Brighouse Station,1,313146,22,80,3.75
+13684,414,Richmond Oval/Brighouse Station,1,313147,22,71,3.11
+13684,414,Richmond Oval/Brighouse Station,1,318155,22,71,3.11
+13684,414,Richmond Oval/Brighouse Station,1,318156,22,80,3.75
+13686,,Canada Line,0,313352,408,270,14.34
+13686,,Canada Line,0,318362,408,270,14.34
+13686,,Canada Line,0,313353,408,259,15.07
+13686,,Canada Line,0,318361,408,259,15.07
+13686,,Canada Line,0,313351,3,57,4.18
+13686,,Canada Line,0,318363,3,57,4.18
+13686,,Canada Line,0,318364,3,68,3.45
+13686,,Canada Line,0,313350,3,68,3.45
+13686,,Canada Line,1,318366,420,259,15.07
+13686,,Canada Line,1,313357,420,259,15.07
+13686,,Canada Line,1,313356,408,270,14.34
+13686,,Canada Line,1,318367,408,270,14.34
+13686,,Canada Line,1,313354,13,68,3.45
+13686,,Canada Line,1,318369,13,68,3.45
+13686,,Canada Line,1,318368,7,57,4.18
+13686,,Canada Line,1,313355,7,57,4.18
+16717,209,Mountain Hwy,0,317725,29,368,18.49
+16717,209,Mountain Hwy,0,312725,29,368,18.49
+16717,209,Mountain Hwy,1,312730,18,362,18.05
+16717,209,Mountain Hwy,1,317726,18,362,18.05
+16717,209,Mountain Hwy,1,317730,13,362,18.05
+16717,209,Mountain Hwy,1,312726,13,362,18.05
+16717,209,Mountain Hwy,1,317728,8,168,7.93
+16717,209,Mountain Hwy,1,312728,8,168,7.93
+16717,209,Mountain Hwy,1,317729,3,199,10.18
+16717,209,Mountain Hwy,1,312727,3,199,10.18
+16718,014,Hastings/UBC Exchange,0,312332,190,267,18.55
+16718,014,Hastings/UBC Exchange,0,318537,190,265,18.45
+16718,014,Hastings/UBC Exchange,0,318499,75,91,6.49
+16718,014,Hastings/UBC Exchange,0,317332,72,178,12.05
+16718,014,Hastings/UBC Exchange,0,312335,45,178,12.05
+16718,014,Hastings/UBC Exchange,0,312334,42,178,12.13
+16718,014,Hastings/UBC Exchange,0,318539,15,148,9.76
+16718,014,Hastings/UBC Exchange,0,317333,15,178,12.13
+16718,014,Hastings/UBC Exchange,0,312336,15,150,9.86
+16718,014,Hastings/UBC Exchange,0,312333,2,236,16.18
+16718,014,Hastings/UBC Exchange,0,318538,2,237,16.14
+16718,014,Hastings/UBC Exchange,1,318540,183,254,18.53
+16718,014,Hastings/UBC Exchange,1,312346,183,256,18.41
+16718,014,Hastings/UBC Exchange,1,317345,79,175,12.43
+16718,014,Hastings/UBC Exchange,1,318500,69,107,7.84
+16718,014,Hastings/UBC Exchange,1,312347,50,177,12.3
+16718,014,Hastings/UBC Exchange,1,312348,46,175,12.43
+16718,014,Hastings/UBC Exchange,1,317346,17,177,12.3
+16719,109,New West Station/Lougheed Station,0,317557,87,166,7.36
+16719,109,New West Station/Lougheed Station,0,312557,87,166,7.36
+16719,109,New West Station/Lougheed Station,1,317558,87,161,7.17
+16719,109,New West Station/Lougheed Station,1,312558,87,161,7.17
+17707,337,Fraser Heights/Surrey Central Station,0,318001,177,138,9.35
+17707,337,Fraser Heights/Surrey Central Station,0,312992,176,138,9.35
+17707,337,Fraser Heights/Surrey Central Station,0,317999,11,107,6.42
+17707,337,Fraser Heights/Surrey Central Station,0,312994,11,107,6.42
+17707,337,Fraser Heights/Surrey Central Station,0,312993,4,97,5.85
+17707,337,Fraser Heights/Surrey Central Station,0,318000,4,97,5.85
+17707,337,Fraser Heights/Surrey Central Station,1,318003,176,130,9.23
+17707,337,Fraser Heights/Surrey Central Station,1,312996,175,130,9.23
+17707,337,Fraser Heights/Surrey Central Station,1,312997,11,88,6.35
+17707,337,Fraser Heights/Surrey Central Station,1,318002,11,88,6.35
+17707,337,Fraser Heights/Surrey Central Station,1,318004,5,135,9.61
+17707,337,Fraser Heights/Surrey Central Station,1,312995,5,135,9.61
+18213,231,Harbourside/Lonsdale Quay,0,317791,5,61,2.58
+18213,231,Harbourside/Lonsdale Quay,0,312791,5,61,2.58
+18213,231,Harbourside/Lonsdale Quay,1,312792,5,65,2.44
+18213,231,Harbourside/Lonsdale Quay,1,317792,5,65,2.44
+18705,531,White Rock Centre/Willowbrook,0,318197,114,244,22.99
+18705,531,White Rock Centre/Willowbrook,0,313188,114,244,22.99
+18705,531,White Rock Centre/Willowbrook,0,318198,2,128,8.26
+18705,531,White Rock Centre/Willowbrook,0,313187,2,128,8.26
+18705,531,White Rock Centre/Willowbrook,0,318199,1,98,6.64
+18705,531,White Rock Centre/Willowbrook,0,313186,1,98,6.64
+18705,531,White Rock Centre/Willowbrook,1,318201,97,267,23.54
+18705,531,White Rock Centre/Willowbrook,1,313189,97,267,23.54
+18705,531,White Rock Centre/Willowbrook,1,313190,18,260,23.14
+18705,531,White Rock Centre/Willowbrook,1,318200,18,260,23.14
+20667,555,Port Mann Express,0,313191,131,399,22.29
+20667,555,Port Mann Express,0,318202,131,399,22.29
+20667,555,Port Mann Express,1,318203,132,407,22.05
+20667,555,Port Mann Express,1,313192,132,407,22.05
+22638,188,Coast Meridian Rd,0,317719,135,224,12.7
+22638,188,Coast Meridian Rd,0,312719,134,224,12.7
+22638,188,Coast Meridian Rd,1,317720,137,205,12.54
+22638,188,Coast Meridian Rd,1,312720,136,205,12.54
+22639,227,Lynn Valley/Phibbs Exchange,0,317772,114,189,8.39
+22639,227,Lynn Valley/Phibbs Exchange,0,312773,114,189,8.39
+22639,227,Lynn Valley/Phibbs Exchange,1,317774,112,160,7.04
+22639,227,Lynn Valley/Phibbs Exchange,1,312775,112,160,7.04
+23384,503,Fraser Hwy Express,0,318181,145,349,33.81
+23384,503,Fraser Hwy Express,0,313171,144,349,33.81
+23384,503,Fraser Hwy Express,0,318183,104,202,18.44
+23384,503,Fraser Hwy Express,0,313169,102,202,18.44
+23384,503,Fraser Hwy Express,0,313170,8,151,15.86
+23384,503,Fraser Hwy Express,0,318182,8,151,15.86
+23384,503,Fraser Hwy Express,0,313172,2,228,20.33
+23384,503,Fraser Hwy Express,0,318180,2,228,20.33
+23384,503,Fraser Hwy Express,1,318186,147,421,36.57
+23384,503,Fraser Hwy Express,1,313175,147,421,36.57
+23384,503,Fraser Hwy Express,1,318188,114,218,17.96
+23384,503,Fraser Hwy Express,1,313173,111,218,17.96
+23384,503,Fraser Hwy Express,1,318187,5,205,18.71
+23384,503,Fraser Hwy Express,1,313174,5,205,18.71
+23384,503,Fraser Hwy Express,1,318185,1,241,19.73
+23384,503,Fraser Hwy Express,1,313177,1,28,2.19
+23384,503,Fraser Hwy Express,1,318184,1,28,2.19
+23384,503,Fraser Hwy Express,1,313176,1,241,19.73
+29038,342,Langley Centre/Newton Exchange,0,313008,134,183,20.85
+29038,342,Langley Centre/Newton Exchange,0,318016,134,183,20.85
+29038,342,Langley Centre/Newton Exchange,0,313007,12,180,20.64
+29038,342,Langley Centre/Newton Exchange,0,318017,12,180,20.64
+29038,342,Langley Centre/Newton Exchange,1,314721,131,249,21.74
+29038,342,Langley Centre/Newton Exchange,1,318018,130,249,21.74
+29038,342,Langley Centre/Newton Exchange,1,318019,13,243,21.35
+29038,342,Langley Centre/Newton Exchange,1,313009,12,243,21.35
+29039,864,Lord Tweedsmuir School Special,1,314723,1,92,11.55
+29039,864,Lord Tweedsmuir School Special,1,318352,1,92,11.55
+29040,840,Brookswood School Special,1,318345,1,123,7.41
+29040,840,Brookswood School Special,1,313334,1,123,7.41
+30036,170,Port Coquitlam Station/Port Coquitlam South,0,317672,125,88,4.21
+30036,170,Port Coquitlam Station/Port Coquitlam South,0,312672,125,88,4.21
+30036,170,Port Coquitlam Station/Port Coquitlam South,1,312674,122,80,4.07
+30036,170,Port Coquitlam Station/Port Coquitlam South,1,317674,122,80,4.07
+30036,170,Port Coquitlam Station/Port Coquitlam South,1,312673,2,91,4.83
+30036,170,Port Coquitlam Station/Port Coquitlam South,1,317675,2,91,4.83
+30036,170,Port Coquitlam Station/Port Coquitlam South,1,317673,1,72,3.43
+30036,170,Port Coquitlam Station/Port Coquitlam South,1,312675,1,72,3.43
+30037,171,Coquitlam Central Station/Fremont,0,317676,103,110,6.86
+30037,171,Coquitlam Central Station/Fremont,0,312676,103,110,6.86
+30037,171,Coquitlam Central Station/Fremont,1,317677,109,133,6.56
+30037,171,Coquitlam Central Station/Fremont,1,312677,108,133,6.56
+30038,172,Coquitlam Central Station/Riverside,0,312679,108,195,10.74
+30038,172,Coquitlam Central Station/Riverside,0,317678,108,195,10.74
+30038,172,Coquitlam Central Station/Riverside,0,312678,1,182,9.17
+30038,172,Coquitlam Central Station/Riverside,0,317679,1,182,9.17
+30038,172,Coquitlam Central Station/Riverside,1,312680,103,200,10.65
+30038,172,Coquitlam Central Station/Riverside,1,317680,103,200,10.65
+30039,173,Coquitlam Central Station/Cedar,0,312681,98,221,11.34
+30039,173,Coquitlam Central Station/Cedar,0,317683,98,221,11.34
+30039,173,Coquitlam Central Station/Cedar,0,312682,5,129,7.19
+30039,173,Coquitlam Central Station/Cedar,0,317682,5,129,7.19
+30039,173,Coquitlam Central Station/Cedar,1,312684,105,266,12.1
+30039,173,Coquitlam Central Station/Cedar,1,317684,105,266,12.1
+30040,174,Coquitlam Central Station/Rocklin,0,312685,98,244,12.61
+30040,174,Coquitlam Central Station/Rocklin,0,317686,98,244,12.61
+30040,174,Coquitlam Central Station/Rocklin,0,312686,7,151,8.46
+30040,174,Coquitlam Central Station/Rocklin,0,317685,7,151,8.46
+30040,174,Coquitlam Central Station/Rocklin,1,317688,104,291,13.18
+30040,174,Coquitlam Central Station/Rocklin,1,312687,103,291,13.18
+30041,175,Coquitlam Central Station/Meridian,0,317691,17,142,8.51
+30041,175,Coquitlam Central Station/Meridian,0,312689,14,142,8.51
+30041,175,Coquitlam Central Station/Meridian,0,312690,9,142,8.51
+30041,175,Coquitlam Central Station/Meridian,0,317690,9,142,8.51
+30041,175,Coquitlam Central Station/Meridian,1,312692,16,176,8.16
+30041,175,Coquitlam Central Station/Meridian,1,317693,16,176,8.16
+30041,175,Coquitlam Central Station/Meridian,1,317692,7,176,8.16
+30041,175,Coquitlam Central Station/Meridian,1,312693,7,176,8.16
+30042,179,Coquitlam Central Station/Buntzen Lake,0,312694,38,285,12.07
+30042,179,Coquitlam Central Station/Buntzen Lake,0,317694,38,285,12.07
+30042,179,Coquitlam Central Station/Buntzen Lake,1,317695,38,293,11.9
+30042,179,Coquitlam Central Station/Buntzen Lake,1,312695,38,293,11.9
+30043,180,Moody Centre Station/Lougheed Station,0,312696,153,206,9.79
+30043,180,Moody Centre Station/Lougheed Station,0,317696,153,206,9.79
+30043,180,Moody Centre Station/Lougheed Station,1,317698,151,198,9.55
+30043,180,Moody Centre Station/Lougheed Station,1,312698,151,198,9.55
+30043,180,Moody Centre Station/Lougheed Station,1,317697,1,179,7.93
+30043,180,Moody Centre Station/Lougheed Station,1,312699,1,179,7.93
+30044,181,Moody Centre Station/Ioco,0,312701,77,174,7.4
+30044,181,Moody Centre Station/Ioco,0,318506,52,312,14.37
+30044,181,Moody Centre Station/Ioco,0,317700,25,174,7.4
+30044,181,Moody Centre Station/Ioco,0,312700,7,438,20.1
+30044,181,Moody Centre Station/Ioco,0,317701,7,438,20.1
+30044,181,Moody Centre Station/Ioco,1,312703,78,158,7.16
+30044,181,Moody Centre Station/Ioco,1,317703,56,294,14.32
+30044,181,Moody Centre Station/Ioco,1,317702,28,158,7.16
+30044,181,Moody Centre Station/Ioco,1,312702,4,294,14.32
+30045,182,Moody Centre Station/Belcarra,0,312705,50,457,20.36
+30045,182,Moody Centre Station/Belcarra,0,317704,50,457,20.36
+30045,182,Moody Centre Station/Belcarra,0,317705,29,415,18.41
+30045,182,Moody Centre Station/Belcarra,0,312704,29,415,18.41
+30045,182,Moody Centre Station/Belcarra,1,312706,46,386,17.96
+30045,182,Moody Centre Station/Belcarra,1,317707,46,386,17.96
+30045,182,Moody Centre Station/Belcarra,1,312707,35,428,19.92
+30045,182,Moody Centre Station/Belcarra,1,317706,35,428,19.92
+30046,183,Moody Centre Station/Coquitlam Central Station,0,317709,141,340,13.38
+30046,183,Moody Centre Station/Coquitlam Central Station,0,312708,140,340,13.38
+30046,183,Moody Centre Station/Coquitlam Central Station,1,317710,138,361,13.28
+30046,183,Moody Centre Station/Coquitlam Central Station,1,312710,137,361,13.28
+30047,184,Moody Centre Station/Noons Creek,0,317711,110,203,6.21
+30047,184,Moody Centre Station/Noons Creek,0,312711,110,203,6.21
+30047,184,Moody Centre Station/Noons Creek,1,317712,115,196,5.81
+30047,184,Moody Centre Station/Noons Creek,1,312712,115,196,5.81
+30048,185,Coquitlam Central Station/Lansdowne,0,312713,115,154,4.49
+30048,185,Coquitlam Central Station/Lansdowne,0,317713,115,154,4.49
+30048,185,Coquitlam Central Station/Lansdowne,1,312714,110,154,4.41
+30048,185,Coquitlam Central Station/Lansdowne,1,317714,110,154,4.41
+30049,186,Coquitlam Central Station/Hampton Park,0,317715,128,178,6.57
+30049,186,Coquitlam Central Station/Hampton Park,0,312715,126,178,6.57
+30049,186,Coquitlam Central Station/Hampton Park,1,317716,126,161,6.46
+30049,186,Coquitlam Central Station/Hampton Park,1,312716,126,161,6.46
+30050,187,Coquitlam Central Station/Parkway,0,312717,120,177,6.48
+30050,187,Coquitlam Central Station/Parkway,0,317717,120,177,6.48
+30050,187,Coquitlam Central Station/Parkway,1,312718,120,170,6.49
+30050,187,Coquitlam Central Station/Parkway,1,317718,120,170,6.49
+30051,189,Coquitlam Central Station/Lafarge Park,0,317721,90,108,4.4
+30051,189,Coquitlam Central Station/Lafarge Park,0,312721,90,108,4.4
+30051,189,Coquitlam Central Station/Lafarge Park,1,312722,90,92,3.91
+30051,189,Coquitlam Central Station/Lafarge Park,1,317722,90,92,3.91
+30052,,Millennium Line,0,318372,618,545,25.53
+30052,,Millennium Line,0,313360,613,545,25.53
+30052,,Millennium Line,0,313361,43,37,1.6
+30052,,Millennium Line,0,318371,43,37,1.6
+30052,,Millennium Line,0,318373,4,363,14.48
+30052,,Millennium Line,0,313359,3,363,14.48
+30052,,Millennium Line,1,318378,612,545,25.53
+30052,,Millennium Line,1,313364,607,545,25.53
+30052,,Millennium Line,1,313366,13,486,21.9
+30052,,Millennium Line,1,318376,13,486,21.9
+30052,,Millennium Line,1,313367,2,363,14.48
+30052,,Millennium Line,1,318375,2,363,14.48
+30053,,Expo Line,0,318391,638,757,28.37
+30053,,Expo Line,0,313374,630,757,28.37
+30053,,Expo Line,0,318390,285,695,29.13
+30053,,Expo Line,0,313375,285,695,29.13
+30053,,Expo Line,0,318383,200,591,25.34
+30053,,Expo Line,0,313382,200,591,25.34
+30053,,Expo Line,0,313373,24,414,12.35
+30053,,Expo Line,0,318392,24,414,12.35
+30053,,Expo Line,0,318394,20,350,10.31
+30053,,Expo Line,0,313371,20,350,10.31
+30053,,Expo Line,0,318396,18,625,27.51
+30053,,Expo Line,0,313372,11,352,13.11
+30053,,Expo Line,0,318393,11,352,13.11
+30053,,Expo Line,0,313369,10,625,27.51
+30053,,Expo Line,0,313384,6,184,7.28
+30053,,Expo Line,0,318381,6,184,7.28
+30053,,Expo Line,0,318382,5,345,16.09
+30053,,Expo Line,0,313383,5,345,16.09
+30053,,Expo Line,0,318385,4,248,9.32
+30053,,Expo Line,0,313380,4,248,9.32
+30053,,Expo Line,0,313379,1,150,4.43
+30053,,Expo Line,0,318386,1,150,4.43
+30053,,Expo Line,1,318409,625,757,28.37
+30053,,Expo Line,1,313392,625,757,28.37
+30053,,Expo Line,1,313393,294,695,29.13
+30053,,Expo Line,1,318408,294,695,29.13
+30053,,Expo Line,1,313402,198,591,25.34
+30053,,Expo Line,1,318399,198,591,25.34
+30053,,Expo Line,1,318413,32,222,7.46
+30053,,Expo Line,1,313388,23,222,7.46
+30053,,Expo Line,1,318400,22,160,8.22
+30053,,Expo Line,1,313401,17,160,8.22
+30053,,Expo Line,1,318410,16,345,16.09
+30053,,Expo Line,1,313391,16,345,16.09
+30053,,Expo Line,1,318411,2,609,24.05
+30053,,Expo Line,1,313390,2,609,24.05
+30053,,Expo Line,1,318414,1,121,5.85
+30053,,Expo Line,1,313387,1,121,5.85
+30053,,Expo Line,1,318402,1,723,27.48
+30053,,Expo Line,1,318415,1,24,0.97
+30053,,Expo Line,1,313400,1,66,3.07
+30053,,Expo Line,1,318401,1,66,3.07
+30053,,Expo Line,1,313398,1,29,1.52
+30053,,Expo Line,1,313399,1,723,27.48
+30053,,Expo Line,1,313386,1,24,0.97
+30053,,Expo Line,1,318403,1,29,1.52
+30055,023,Pacific,0,318495,288,126,5.57
+30055,023,Pacific,0,312444,259,125,5.56
+30055,023,Pacific,0,318496,247,64,2.94
+30055,023,Pacific,1,318497,288,125,5.9
+30055,023,Pacific,1,312445,259,123,5.85
+30055,023,Pacific,1,318498,247,66,3.35
+30584,191,Coquitlam Central Station/Princeton,0,317723,101,118,7.17
+30584,191,Coquitlam Central Station/Princeton,0,312723,101,118,7.17
+30584,191,Coquitlam Central Station/Princeton,1,317724,101,132,7.39
+30584,191,Coquitlam Central Station/Princeton,1,312724,101,132,7.39
+31816,360,Ocean Park/Peace Arch Hospital,0,318037,53,150,12.82
+31816,360,Ocean Park/Peace Arch Hospital,0,313028,53,150,12.82
+31816,360,Ocean Park/Peace Arch Hospital,0,318038,1,21,1.52
+31816,360,Ocean Park/Peace Arch Hospital,0,313027,1,21,1.52
+31816,360,Ocean Park/Peace Arch Hospital,1,313029,52,131,11.6
+31816,360,Ocean Park/Peace Arch Hospital,1,318039,52,131,11.6
+31817,361,Ocean Park/White Rock Centre,0,313030,54,129,10.68
+31817,361,Ocean Park/White Rock Centre,0,318040,54,129,10.68
+31817,361,Ocean Park/White Rock Centre,1,313031,53,180,12.16
+31817,361,Ocean Park/White Rock Centre,1,318041,53,180,12.16
+31818,362,Seaside/White Rock Centre,0,318042,124,50,4.18
+31818,362,Seaside/White Rock Centre,0,313032,92,50,4.18
+31818,362,Seaside/White Rock Centre,1,318043,123,76,3.54
+31818,362,Seaside/White Rock Centre,1,313033,91,76,3.54
+31819,363,Southpoint/Peace Arch Hospital,0,313034,101,184,11.31
+31819,363,Southpoint/Peace Arch Hospital,0,318044,101,184,11.31
+31819,363,Southpoint/Peace Arch Hospital,1,313035,101,189,12.88
+31819,363,Southpoint/Peace Arch Hospital,1,318045,101,189,12.88
+31820,372,Clayton Heights/Langley Centre,0,318054,90,159,11.19
+31820,372,Clayton Heights/Langley Centre,0,313044,90,159,11.19
+31820,372,Clayton Heights/Langley Centre,1,313045,86,162,11.03
+31820,372,Clayton Heights/Langley Centre,1,318055,86,162,11.03
+31821,733,Rock Ridge/Haney Place,0,313287,62,86,6.05
+31821,733,Rock Ridge/Haney Place,0,318297,62,86,6.05
+31821,733,Rock Ridge/Haney Place,0,318298,6,119,7.8
+31821,733,Rock Ridge/Haney Place,0,313286,5,119,7.8
+31821,733,Rock Ridge/Haney Place,0,318296,1,39,2.14
+31821,733,Rock Ridge/Haney Place,0,313288,1,39,2.14
+31821,733,Rock Ridge/Haney Place,1,318300,61,127,7.62
+31821,733,Rock Ridge/Haney Place,1,313290,61,127,7.62
+31821,733,Rock Ridge/Haney Place,1,313289,5,191,9.84
+31821,733,Rock Ridge/Haney Place,1,318301,5,191,9.84
+31821,733,Rock Ridge/Haney Place,1,318299,2,126,7.54
+31821,733,Rock Ridge/Haney Place,1,313291,2,126,7.54
+31822,741,Anderson Creek/Haney Place,0,318303,67,147,6.94
+31822,741,Anderson Creek/Haney Place,0,313293,65,147,6.94
+31822,741,Anderson Creek/Haney Place,0,313294,5,180,8.69
+31822,741,Anderson Creek/Haney Place,0,318302,5,180,8.69
+31822,741,Anderson Creek/Haney Place,0,313292,1,101,3.76
+31822,741,Anderson Creek/Haney Place,0,318304,1,101,3.76
+31822,741,Anderson Creek/Haney Place,1,313296,62,135,6.72
+31822,741,Anderson Creek/Haney Place,1,318306,62,135,6.72
+31822,741,Anderson Creek/Haney Place,1,313295,5,199,9.07
+31822,741,Anderson Creek/Haney Place,1,318307,5,199,9.07
+31822,741,Anderson Creek/Haney Place,1,318305,4,134,6.72
+31822,741,Anderson Creek/Haney Place,1,313297,4,134,6.72
+32799,119,Kingsway,0,317575,247,84,5.63
+32799,119,Kingsway,0,312575,247,84,5.63
+32799,119,Kingsway,1,312576,243,94,5.7
+32799,119,Kingsway,1,317576,243,94,5.7
+33292,133,Holdom Station/Edmonds Station,0,312609,86,144,8.76
+33292,133,Holdom Station/Edmonds Station,0,317607,86,144,8.76
+33292,133,Holdom Station/Edmonds Station,0,312608,33,168,9.18
+33292,133,Holdom Station/Edmonds Station,0,317608,33,168,9.18
+33292,133,Holdom Station/Edmonds Station,0,312607,1,107,6.06
+33292,133,Holdom Station/Edmonds Station,0,317609,1,107,6.06
+33292,133,Holdom Station/Edmonds Station,1,317610,90,153,8.94
+33292,133,Holdom Station/Edmonds Station,1,312611,88,153,8.94
+33292,133,Holdom Station/Edmonds Station,1,317611,33,178,9.55
+33292,133,Holdom Station/Edmonds Station,1,312610,33,178,9.55
+33538,068,UBC Exchange/Wesbrook Village,0,312517,183,162,6.51
+33538,068,UBC Exchange/Wesbrook Village,0,317515,183,162,6.51
+33538,068,UBC Exchange/Wesbrook Village,1,317516,183,131,5.75
+33538,068,UBC Exchange/Wesbrook Village,1,312518,183,131,5.75
+34042,745,Haney Place/Cottonwood,0,318315,52,175,10.47
+34042,745,Haney Place/Cottonwood,0,313306,51,175,10.47
+34042,745,Haney Place/Cottonwood,0,318316,1,260,13.99
+34042,745,Haney Place/Cottonwood,0,313305,1,260,13.99
+34042,745,Haney Place/Cottonwood,1,318317,29,173,10.35
+34042,745,Haney Place/Cottonwood,1,313310,29,173,10.35
+34042,745,Haney Place/Cottonwood,1,313309,19,174,10.43
+34042,745,Haney Place/Cottonwood,1,318318,19,174,10.43
+34042,745,Haney Place/Cottonwood,1,318319,2,38,1.79
+34042,745,Haney Place/Cottonwood,1,313308,2,38,1.79
+34042,745,Haney Place/Cottonwood,1,318320,1,38,1.73
+34042,745,Haney Place/Cottonwood,1,313307,1,38,1.73
+34043,746,Haney Place/Albion,0,318321,37,208,10.52
+34043,746,Haney Place/Albion,0,313312,36,208,10.52
+34043,746,Haney Place/Albion,0,318322,12,226,11.15
+34043,746,Haney Place/Albion,0,313311,12,226,11.15
+34043,746,Haney Place/Albion,1,318325,25,215,10.89
+34043,746,Haney Place/Albion,1,313316,25,215,10.89
+34043,746,Haney Place/Albion,1,318324,13,241,11.73
+34043,746,Haney Place/Albion,1,313315,12,214,10.88
+34043,746,Haney Place/Albion,1,318326,12,214,10.88
+34043,746,Haney Place/Albion,1,313317,12,241,11.73
+34043,746,Haney Place/Albion,1,313318,2,247,12.71
+34043,746,Haney Place/Albion,1,318323,2,247,12.71
+34043,746,Haney Place/Albion,1,318327,1,240,11.73
+34043,746,Haney Place/Albion,1,313314,1,240,11.73
+34044,560,Murrayville/Langley Centre,0,313193,51,186,10.75
+34044,560,Murrayville/Langley Centre,0,318204,51,186,10.75
+34044,560,Murrayville/Langley Centre,1,313194,51,177,10.99
+34044,560,Murrayville/Langley Centre,1,318205,51,177,10.99
+34045,561,Langley Centre/Brookswood,0,313196,51,201,11.41
+34045,561,Langley Centre/Brookswood,0,318206,51,201,11.41
+34045,561,Langley Centre/Brookswood,0,318207,1,69,3.92
+34045,561,Langley Centre/Brookswood,0,313195,1,69,3.92
+34045,561,Langley Centre/Brookswood,1,313197,51,178,11.34
+34045,561,Langley Centre/Brookswood,1,318208,51,178,11.34
+34540,719,Meadowtown/Fraser Way,0,313282,66,113,4.87
+34540,719,Meadowtown/Fraser Way,0,318292,66,113,4.87
+34540,719,Meadowtown/Fraser Way,1,318293,66,119,4.67
+34540,719,Meadowtown/Fraser Way,1,313283,66,119,4.67
+34541,722,Meadowtown/Bonson,0,318294,66,138,7.18
+34541,722,Meadowtown/Bonson,0,313284,66,138,7.18
+34541,722,Meadowtown/Bonson,1,318295,66,133,7.5
+34541,722,Meadowtown/Bonson,1,313285,66,133,7.5
+34542,406,Railway Ave,0,313098,234,134,9.39
+34542,406,Railway Ave,0,318109,234,134,9.39
+34542,406,Railway Ave,1,318110,234,156,11.35
+34542,406,Railway Ave,1,313100,233,156,11.35
+34542,406,Railway Ave,1,313099,2,131,9.29
+34542,406,Railway Ave,1,318111,2,131,9.29
+34543,408,Garden City,0,318130,70,137,10.43
+34543,408,Garden City,0,313118,70,137,10.43
+34543,408,Garden City,0,318129,68,96,8.0
+34543,408,Garden City,0,313119,67,96,8.0
+34543,408,Garden City,0,318128,34,112,9.33
+34543,408,Garden City,0,313120,34,112,9.33
+34543,408,Garden City,0,313117,2,46,4.24
+34543,408,Garden City,0,318131,2,46,4.24
+34543,408,Garden City,1,318133,103,115,10.15
+34543,408,Garden City,1,313122,103,115,10.15
+34543,408,Garden City,1,318134,69,92,8.52
+34543,408,Garden City,1,313121,69,92,8.52
+34543,408,Garden City,1,313123,2,79,7.71
+34543,408,Garden City,1,318132,2,79,7.71
+34544,282,Mt Gardner/Snug Cove,0,317899,12,75,4.1
+34544,282,Mt Gardner/Snug Cove,0,312899,12,75,4.1
+34544,282,Mt Gardner/Snug Cove,1,317900,12,128,6.27
+34544,282,Mt Gardner/Snug Cove,1,312900,12,128,6.27
+36799,249,Lonsdale Quay/Delbrook,0,317830,111,123,5.78
+36799,249,Lonsdale Quay/Delbrook,0,312831,110,123,5.78
+36799,249,Lonsdale Quay/Delbrook,1,317832,107,120,5.78
+36799,249,Lonsdale Quay/Delbrook,1,312832,107,120,5.78
+37807,R5,Hastings St,0,318471,243,244,17.19
+37807,R5,Hastings St,0,313454,243,244,17.19
+37807,R5,Hastings St,0,318481,176,103,7.44
+37807,R5,Hastings St,0,318470,36,92,7.28
+37807,R5,Hastings St,0,313456,26,244,17.19
+37807,R5,Hastings St,0,318469,26,244,17.19
+37807,R5,Hastings St,0,313457,23,173,10.9
+37807,R5,Hastings St,0,318468,23,173,10.9
+37807,R5,Hastings St,0,313455,17,92,7.28
+37807,R5,Hastings St,0,313458,10,95,7.14
+37807,R5,Hastings St,0,318467,10,95,7.14
+37807,R5,Hastings St,1,318476,235,295,18.26
+37807,R5,Hastings St,1,313460,235,295,18.26
+37807,R5,Hastings St,1,318482,195,78,6.79
+37807,R5,Hastings St,1,318475,27,295,18.26
+37807,R5,Hastings St,1,313461,27,295,18.26
+37807,R5,Hastings St,1,318473,21,122,8.43
+37807,R5,Hastings St,1,313463,21,122,8.43
+37807,R5,Hastings St,1,318472,8,112,7.69
+37807,R5,Hastings St,1,313464,8,112,7.69
+37807,R5,Hastings St,1,313462,3,175,12.57
+37807,R5,Hastings St,1,318474,3,175,12.57
+37808,R1,King George Blvd,0,318452,223,139,11.21
+37808,R1,King George Blvd,0,313443,223,139,11.21
+37808,R1,King George Blvd,0,318453,59,147,11.72
+37808,R1,King George Blvd,0,313442,59,147,11.72
+37808,R1,King George Blvd,0,318455,17,126,10.35
+37808,R1,King George Blvd,0,313440,17,126,10.35
+37808,R1,King George Blvd,0,313441,2,134,10.85
+37808,R1,King George Blvd,0,318454,2,134,10.85
+37808,R1,King George Blvd,1,318456,282,147,11.48
+37808,R1,King George Blvd,1,313445,282,147,11.48
+37808,R1,King George Blvd,1,313444,7,134,10.34
+37808,R1,King George Blvd,1,318457,7,134,10.34
+37809,R3,Lougheed Hwy,0,313450,245,195,17.3
+37809,R3,Lougheed Hwy,0,318462,245,195,17.3
+37809,R3,Lougheed Hwy,1,318463,246,216,17.31
+37809,R3,Lougheed Hwy,1,313451,245,216,17.31
+37810,R4,41st Avenue,0,318464,409,280,19.14
+37810,R4,41st Avenue,0,313452,409,280,19.14
+37810,R4,41st Avenue,1,313453,412,303,19.36
+37810,R4,41st Avenue,1,318465,412,303,19.36
+38311,R2,Marine Drive,0,318458,172,169,9.77
+38311,R2,Marine Drive,0,313447,172,169,9.77
+38311,R2,Marine Drive,0,318459,107,169,9.77
+38311,R2,Marine Drive,0,313446,107,169,9.77
+38311,R2,Marine Drive,1,318460,167,231,10.63
+38311,R2,Marine Drive,1,313449,167,231,10.63
+38311,R2,Marine Drive,1,313448,111,231,10.63
+38311,R2,Marine Drive,1,318461,111,231,10.63
+39304,031,Metrotown Station/River District,0,312476,120,118,5.06
+39304,031,Metrotown Station/River District,0,317482,120,118,5.06
+39304,031,Metrotown Station/River District,1,317483,120,127,5.78
+39304,031,Metrotown Station/River District,1,312477,120,127,5.78
+39305,222,Willingdon Express,0,312768,55,226,11.88
+39305,222,Willingdon Express,0,318493,55,265,14.02
+39305,222,Willingdon Express,1,318494,53,258,13.68
+39305,222,Willingdon Express,1,312769,51,226,11.7
+39307,245,Phibbs Exchange/Capilano University,0,317818,177,104,3.91
+39307,245,Phibbs Exchange/Capilano University,0,312818,177,104,3.91
+39307,245,Phibbs Exchange/Capilano University,1,312819,177,97,3.8
+39307,245,Phibbs Exchange/Capilano University,1,317819,177,97,3.8
+40855,350,White Rock Centre/Crescent Beach,0,313015,132,122,10.11
+40855,350,White Rock Centre/Crescent Beach,0,318026,132,122,10.11
+40855,350,White Rock Centre/Crescent Beach,0,313016,4,90,8.27
+40855,350,White Rock Centre/Crescent Beach,0,318025,4,90,8.27
+40855,350,White Rock Centre/Crescent Beach,1,313017,137,99,8.73
+40855,350,White Rock Centre/Crescent Beach,1,318027,137,99,8.73
+44845,900,Bike Bus,0,318359,51,310,28.37
+44845,900,Bike Bus,1,318360,51,258,27.52
+45596,080,Marine Dr Express,0,317517,26,122,7.01
+45596,080,Marine Dr Express,0,312519,26,122,7.01
+45596,080,Marine Dr Express,1,312520,26,132,7.26
+45596,080,Marine Dr Express,1,317518,26,132,7.26
+46099,102,New West Station/Victoria  Hill,0,312543,204,86,3.76
+46099,102,New West Station/Victoria  Hill,0,317543,204,86,3.76
+46099,102,New West Station/Victoria  Hill,1,312544,204,79,3.08
+46099,102,New West Station/Victoria  Hill,1,317544,204,79,3.08
+46604,R6,Scott Road,0,313465,334,167,12.08
+46604,R6,Scott Road,0,318477,334,167,12.08
+46604,R6,Scott Road,1,313466,328,167,12.13
+46604,R6,Scott Road,1,318478,328,167,12.13
+48855,338,East Fraser Heights/Guildford,0,318005,77,116,6.84
+48855,338,East Fraser Heights/Guildford,0,312998,77,116,6.84
+48855,338,East Fraser Heights/Guildford,1,318006,77,125,7.02
+48855,338,East Fraser Heights/Guildford,1,312999,77,125,7.02
+53124,001,Downtown South Circulator,0,318504,163,58,3.09
+53124,001,Downtown South Circulator,0,318549,6,53,2.65
+53124,001,Downtown South Circulator,1,318505,169,29,1.13
+53125,011,29th Avenue Station/FIFA Fan Festival,0,318490,2562,102,4.95
+53125,011,29th Avenue Station/FIFA Fan Festival,1,318489,2562,109,5.5
+53126,736,Haney Place/Golden Ears,0,318507,54,192,14.62
+53126,736,Haney Place/Golden Ears,1,318508,58,206,15.78
+53127,566,Campbell Valley/Langley Centre,0,318535,26,157,12.56
+53127,566,Campbell Valley/Langley Centre,1,318536,26,181,12.71
+6612,002,Macdonald,0,317230,217,211,10.76
+6612,002,Macdonald,0,312225,209,211,10.76
+6612,002,Macdonald,0,317231,83,130,6.7
+6612,002,Macdonald,0,312224,80,130,6.7
+6612,002,Macdonald,1,317232,217,199,10.17
+6612,002,Macdonald,1,312227,209,199,10.17
+6612,002,Macdonald,1,317233,83,118,6.44
+6612,002,Macdonald,1,312226,80,118,6.44
+6613,003,Main,0,312228,238,201,10.57
+6613,003,Main,0,317234,238,201,10.57
+6613,003,Main,1,312229,238,212,10.56
+6613,003,Main,1,317235,238,212,10.56
+6614,004,Powell/UBC Exchange,0,318518,151,296,17.87
+6614,004,Powell/UBC Exchange,0,312231,150,295,17.96
+6614,004,Powell/UBC Exchange,0,318522,24,258,15.22
+6614,004,Powell/UBC Exchange,0,312234,24,257,15.3
+6614,004,Powell/UBC Exchange,0,312230,21,209,12.57
+6614,004,Powell/UBC Exchange,0,317241,21,209,12.57
+6614,004,Powell/UBC Exchange,0,317239,18,209,12.57
+6614,004,Powell/UBC Exchange,0,312233,18,208,12.65
+6614,004,Powell/UBC Exchange,0,317238,10,208,12.65
+6614,004,Powell/UBC Exchange,0,312235,10,105,6.46
+6614,004,Powell/UBC Exchange,0,312232,10,209,12.57
+6614,004,Powell/UBC Exchange,0,318534,10,105,6.23
+6614,004,Powell/UBC Exchange,1,318524,152,280,18.07
+6614,004,Powell/UBC Exchange,1,312245,151,281,17.95
+6614,004,Powell/UBC Exchange,1,312238,17,194,12.47
+6614,004,Powell/UBC Exchange,1,317249,17,194,12.47
+6614,004,Powell/UBC Exchange,1,317246,12,194,12.47
+6614,004,Powell/UBC Exchange,1,318525,11,235,15.25
+6614,004,Powell/UBC Exchange,1,312244,11,236,15.13
+6614,004,Powell/UBC Exchange,1,312242,11,195,12.35
+6614,004,Powell/UBC Exchange,1,312241,10,194,12.47
+6614,004,Powell/UBC Exchange,1,317245,9,195,12.35
+6614,004,Powell/UBC Exchange,1,318527,7,280,18.07
+6614,004,Powell/UBC Exchange,1,312236,7,281,17.95
+6614,004,Powell/UBC Exchange,1,312237,2,194,12.47
+6614,004,Powell/UBC Exchange,1,317250,2,194,12.47
+6614,004,Powell/UBC Exchange,1,312240,1,195,12.35
+6614,004,Powell/UBC Exchange,1,317247,1,195,12.35
+6614,004,Powell/UBC Exchange,1,317248,1,194,12.47
+6614,004,Powell/UBC Exchange,1,312239,1,194,12.47
+6614,004,Powell/UBC Exchange,1,318526,1,146,9.45
+6614,004,Powell/UBC Exchange,1,312243,1,147,9.33
+6615,005,Robson,0,317252,314,50,3.57
+6615,005,Robson,0,312248,304,50,3.57
+6615,005,Robson,0,312247,18,50,3.57
+6615,005,Robson,0,317253,18,50,3.57
+6615,005,Robson,0,317254,6,41,2.92
+6615,005,Robson,0,312246,6,41,2.92
+6615,005,Robson,1,312251,319,51,3.75
+6615,005,Robson,1,317256,305,51,3.75
+6615,005,Robson,1,317255,23,46,3.32
+6615,005,Robson,1,317258,5,45,3.22
+6615,005,Robson,1,312249,5,45,3.22
+6615,005,Robson,1,312250,1,25,2.11
+6615,005,Robson,1,317257,1,25,2.11
+6616,006,Davie,0,317259,334,57,3.15
+6616,006,Davie,0,312253,325,57,3.15
+6616,006,Davie,1,317260,331,54,3.29
+6616,006,Davie,1,312255,321,54,3.29
+6616,006,Davie,1,317261,7,16,1.5
+6616,006,Davie,1,312254,7,16,1.5
+6617,007,Nanaimo Station/Dunbar,0,317263,196,355,18.99
+6617,007,Nanaimo Station/Dunbar,0,312261,178,354,19.08
+6617,007,Nanaimo Station/Dunbar,0,312260,27,355,18.99
+6617,007,Nanaimo Station/Dunbar,0,317266,9,355,18.99
+6617,007,Nanaimo Station/Dunbar,0,317262,9,354,19.08
+6617,007,Nanaimo Station/Dunbar,0,312257,9,355,18.99
+6617,007,Nanaimo Station/Dunbar,0,317264,3,354,19.08
+6617,007,Nanaimo Station/Dunbar,0,312259,3,354,19.08
+6617,007,Nanaimo Station/Dunbar,0,318548,1,176,8.83
+6617,007,Nanaimo Station/Dunbar,0,317265,1,94,3.69
+6617,007,Nanaimo Station/Dunbar,0,312258,1,94,3.69
+6617,007,Nanaimo Station/Dunbar,0,312256,1,174,8.92
+6617,007,Nanaimo Station/Dunbar,1,317269,148,344,19.24
+6617,007,Nanaimo Station/Dunbar,1,312273,148,343,19.1
+6617,007,Nanaimo Station/Dunbar,1,317270,24,344,19.24
+6617,007,Nanaimo Station/Dunbar,1,312271,19,344,19.24
+6617,007,Nanaimo Station/Dunbar,1,318547,12,337,19.33
+6617,007,Nanaimo Station/Dunbar,1,318514,12,338,19.21
+6617,007,Nanaimo Station/Dunbar,1,312270,11,343,19.1
+6617,007,Nanaimo Station/Dunbar,1,318520,6,337,19.33
+6617,007,Nanaimo Station/Dunbar,1,312263,6,344,19.24
+6617,007,Nanaimo Station/Dunbar,1,318531,6,339,19.35
+6617,007,Nanaimo Station/Dunbar,1,318519,6,339,19.35
+6617,007,Nanaimo Station/Dunbar,1,317278,6,344,19.24
+6617,007,Nanaimo Station/Dunbar,1,317271,6,343,19.1
+6617,007,Nanaimo Station/Dunbar,1,318532,6,337,19.33
+6617,007,Nanaimo Station/Dunbar,1,317277,3,178,9.32
+6617,007,Nanaimo Station/Dunbar,1,318517,3,339,19.35
+6617,007,Nanaimo Station/Dunbar,1,312264,3,178,9.32
+6617,007,Nanaimo Station/Dunbar,1,317279,2,343,19.1
+6617,007,Nanaimo Station/Dunbar,1,318533,2,338,19.21
+6617,007,Nanaimo Station/Dunbar,1,317272,2,100,3.88
+6617,007,Nanaimo Station/Dunbar,1,318529,2,339,19.35
+6617,007,Nanaimo Station/Dunbar,1,312269,2,100,3.88
+6617,007,Nanaimo Station/Dunbar,1,318528,2,338,19.21
+6617,007,Nanaimo Station/Dunbar,1,318530,2,338,19.21
+6617,007,Nanaimo Station/Dunbar,1,318523,2,338,19.21
+6617,007,Nanaimo Station/Dunbar,1,318521,2,338,19.21
+6617,007,Nanaimo Station/Dunbar,1,312262,2,343,19.1
+6617,007,Nanaimo Station/Dunbar,1,312266,1,176,10.62
+6617,007,Nanaimo Station/Dunbar,1,312265,1,176,10.62
+6617,007,Nanaimo Station/Dunbar,1,318516,1,338,19.21
+6617,007,Nanaimo Station/Dunbar,1,318545,1,175,10.74
+6617,007,Nanaimo Station/Dunbar,1,318546,1,175,10.74
+6618,008,Fraser,0,312278,199,179,9.69
+6618,008,Fraser,0,317280,199,179,9.69
+6618,008,Fraser,0,312276,31,179,9.69
+6618,008,Fraser,0,317282,31,179,9.69
+6618,008,Fraser,0,312275,17,33,2.42
+6618,008,Fraser,0,317283,17,33,2.42
+6618,008,Fraser,0,317281,12,179,9.69
+6618,008,Fraser,0,312277,12,179,9.69
+6618,008,Fraser,0,312274,7,33,2.42
+6618,008,Fraser,0,317284,7,33,2.42
+6618,008,Fraser,1,317287,220,181,10.18
+6618,008,Fraser,1,312280,220,181,10.18
+6618,008,Fraser,1,317286,28,40,2.85
+6618,008,Fraser,1,312281,28,40,2.85
+6618,008,Fraser,1,312279,18,182,10.26
+6618,008,Fraser,1,317288,18,182,10.26
+6618,008,Fraser,1,312282,1,146,7.64
+6618,008,Fraser,1,317285,1,146,7.64
+6619,009,Broadway,0,317297,232,159,11.95
+6619,009,Broadway,0,312285,231,159,11.95
+6619,009,Broadway,0,317290,61,134,8.91
+6619,009,Broadway,0,312292,60,134,8.91
+6619,009,Broadway,0,312289,25,159,11.95
+6619,009,Broadway,0,317293,25,159,11.95
+6619,009,Broadway,0,317289,2,46,4.07
+6619,009,Broadway,0,312293,2,46,4.07
+6619,009,Broadway,1,312305,251,160,11.99
+6619,009,Broadway,1,317304,251,160,11.99
+6619,009,Broadway,1,312303,40,133,8.73
+6619,009,Broadway,1,317306,40,133,8.73
+6619,009,Broadway,1,312296,17,130,8.55
+6619,009,Broadway,1,317313,17,130,8.55
+6619,009,Broadway,1,317302,5,130,8.55
+6619,009,Broadway,1,312297,4,160,11.99
+6619,009,Broadway,1,317312,4,160,11.99
+6619,009,Broadway,1,312307,4,130,8.55
+6619,009,Broadway,1,312309,2,55,6.0
+6619,009,Broadway,1,317300,2,55,6.0
+6619,009,Broadway,1,312300,1,97,7.16
+6619,009,Broadway,1,317309,1,97,7.16
+6620,010,Granville,0,317321,218,232,12.18
+6620,010,Granville,0,312313,192,229,12.26
+6620,010,Granville,0,312312,39,232,12.18
+6620,010,Granville,0,318510,14,232,12.18
+6620,010,Granville,0,312317,14,229,12.26
+6620,010,Granville,0,317320,13,229,12.26
+6620,010,Granville,0,312315,5,163,8.98
+6620,010,Granville,0,317318,5,163,8.98
+6620,010,Granville,0,312311,3,176,10.45
+6620,010,Granville,0,318511,3,177,10.37
+6620,010,Granville,0,312310,2,176,10.45
+6620,010,Granville,0,318512,2,177,10.37
+6620,010,Granville,1,317325,220,219,12.55
+6620,010,Granville,1,312323,202,220,12.43
+6620,010,Granville,1,312322,28,219,12.55
+6620,010,Granville,1,317324,10,220,12.43
+6620,010,Granville,1,317327,6,219,12.55
+6620,010,Granville,1,312320,6,219,12.55
+6620,010,Granville,1,312318,6,175,10.58
+6620,010,Granville,1,317329,6,175,10.58
+6620,010,Granville,1,312319,2,176,10.46
+6620,010,Granville,1,317328,2,176,10.46
+6620,010,Granville,1,317326,2,220,12.43
+6620,010,Granville,1,312321,2,220,12.43
+6621,015,Cambie,0,317356,228,125,6.86
+6621,015,Cambie,0,312350,209,125,6.86
+6621,015,Cambie,1,317357,230,119,6.92
+6621,015,Cambie,1,312351,211,119,6.92
+6622,016,29th Avenue Station/Arbutus,0,317366,246,318,20.44
+6622,016,29th Avenue Station/Arbutus,0,312365,227,322,20.52
+6622,016,29th Avenue Station/Arbutus,0,317380,170,112,5.51
+6622,016,29th Avenue Station/Arbutus,0,312366,28,318,20.44
+6622,016,29th Avenue Station/Arbutus,0,317367,9,322,20.52
+6622,016,29th Avenue Station/Arbutus,0,312374,6,342,21.92
+6622,016,29th Avenue Station/Arbutus,0,317358,6,347,22.3
+6622,016,29th Avenue Station/Arbutus,0,312353,3,97,5.49
+6622,016,29th Avenue Station/Arbutus,0,317379,3,97,5.49
+6622,016,29th Avenue Station/Arbutus,0,312371,3,210,13.06
+6622,016,29th Avenue Station/Arbutus,0,318542,3,209,12.97
+6622,016,29th Avenue Station/Arbutus,0,317359,2,348,22.38
+6622,016,29th Avenue Station/Arbutus,0,312373,2,343,22.0
+6622,016,29th Avenue Station/Arbutus,0,312368,2,318,20.44
+6622,016,29th Avenue Station/Arbutus,0,317364,2,318,20.44
+6622,016,29th Avenue Station/Arbutus,0,312369,2,344,22.0
+6622,016,29th Avenue Station/Arbutus,0,318541,2,343,21.92
+6622,016,29th Avenue Station/Arbutus,0,318543,1,172,11.01
+6622,016,29th Avenue Station/Arbutus,0,312367,1,319,20.52
+6622,016,29th Avenue Station/Arbutus,0,312370,1,343,21.92
+6622,016,29th Avenue Station/Arbutus,0,312372,1,172,11.09
+6622,016,29th Avenue Station/Arbutus,0,317365,1,319,20.52
+6622,016,29th Avenue Station/Arbutus,0,317362,1,343,21.92
+6622,016,29th Avenue Station/Arbutus,1,317386,227,325,20.62
+6622,016,29th Avenue Station/Arbutus,1,312384,208,327,20.49
+6622,016,29th Avenue Station/Arbutus,1,317391,171,102,4.94
+6622,016,29th Avenue Station/Arbutus,1,312385,27,325,20.62
+6622,016,29th Avenue Station/Arbutus,1,318544,19,347,21.89
+6622,016,29th Avenue Station/Arbutus,1,312389,19,349,21.76
+6622,016,29th Avenue Station/Arbutus,1,312387,11,325,20.62
+6622,016,29th Avenue Station/Arbutus,1,317384,11,325,20.62
+6622,016,29th Avenue Station/Arbutus,1,317387,9,327,20.49
+6622,016,29th Avenue Station/Arbutus,1,317385,4,327,20.49
+6622,016,29th Avenue Station/Arbutus,1,312386,4,327,20.49
+6622,016,29th Avenue Station/Arbutus,1,317383,1,347,21.89
+6622,016,29th Avenue Station/Arbutus,1,312388,1,347,21.89
+6622,016,29th Avenue Station/Arbutus,1,312382,1,119,6.66
+6622,016,29th Avenue Station/Arbutus,1,317389,1,119,6.66
+6623,017,Oak,0,317397,220,199,10.59
+6623,017,Oak,0,312392,220,199,10.59
+6623,017,Oak,1,317400,211,203,12.58
+6623,017,Oak,1,312396,190,207,12.79
+6623,017,Oak,1,312395,31,203,12.58
+6623,017,Oak,1,317399,10,207,12.79
+6623,017,Oak,1,312393,9,203,12.58
+6623,017,Oak,1,317402,9,203,12.58
+6623,017,Oak,1,312394,3,207,12.79
+6623,017,Oak,1,317401,3,207,12.79
+6624,019,Kingsway,0,312403,249,292,14.97
+6624,019,Kingsway,0,317405,249,292,14.97
+6624,019,Kingsway,0,317403,134,142,6.29
+6624,019,Kingsway,0,312405,86,142,6.29
+6624,019,Kingsway,0,318501,66,91,4.02
+6624,019,Kingsway,0,317408,32,65,3.19
+6624,019,Kingsway,0,312400,32,65,3.19
+6624,019,Kingsway,0,317411,25,140,6.17
+6624,019,Kingsway,0,312397,16,140,6.17
+6624,019,Kingsway,0,317404,14,61,2.8
+6624,019,Kingsway,0,312404,14,61,2.8
+6624,019,Kingsway,0,317406,13,292,14.97
+6624,019,Kingsway,0,312402,13,292,14.97
+6624,019,Kingsway,0,318503,9,89,3.9
+6624,019,Kingsway,0,317409,4,152,8.91
+6624,019,Kingsway,0,312399,4,152,8.91
+6624,019,Kingsway,0,312398,4,292,14.97
+6624,019,Kingsway,0,312401,4,238,12.48
+6624,019,Kingsway,0,317410,4,292,14.97
+6624,019,Kingsway,0,317407,4,238,12.48
+6624,019,Kingsway,1,312413,210,290,15.07
+6624,019,Kingsway,1,317413,210,290,15.07
+6624,019,Kingsway,1,317412,154,140,6.28
+6624,019,Kingsway,1,312414,102,140,6.28
+6624,019,Kingsway,1,318502,75,92,4.31
+6624,019,Kingsway,1,312412,42,290,15.07
+6624,019,Kingsway,1,317414,42,290,15.07
+6624,019,Kingsway,1,317419,16,66,3.39
+6624,019,Kingsway,1,312407,16,66,3.39
+6624,019,Kingsway,1,312410,14,68,3.4
+6624,019,Kingsway,1,317416,14,68,3.4
+6624,019,Kingsway,1,317415,10,290,15.07
+6624,019,Kingsway,1,312411,10,290,15.07
+6624,019,Kingsway,1,317420,5,140,6.28
+6624,019,Kingsway,1,312408,4,241,13.0
+6624,019,Kingsway,1,317418,4,241,13.0
+6624,019,Kingsway,1,317417,3,227,11.98
+6624,019,Kingsway,1,312409,3,227,11.98
+6625,020,Victoria,0,317421,230,219,11.57
+6625,020,Victoria,0,312419,229,219,11.57
+6625,020,Victoria,0,317424,30,53,2.6
+6625,020,Victoria,0,312416,29,53,2.6
+6625,020,Victoria,0,312417,7,202,10.55
+6625,020,Victoria,0,317423,7,202,10.55
+6625,020,Victoria,0,317422,3,170,9.08
+6625,020,Victoria,0,312418,3,170,9.08
+6625,020,Victoria,1,317427,221,229,12.32
+6625,020,Victoria,1,312428,196,232,12.53
+6625,020,Victoria,1,312427,36,229,12.32
+6625,020,Victoria,1,317432,28,58,2.84
+6625,020,Victoria,1,312422,27,58,2.84
+6625,020,Victoria,1,317426,12,232,12.53
+6625,020,Victoria,1,312425,11,229,12.32
+6625,020,Victoria,1,317429,11,229,12.32
+6625,020,Victoria,1,317430,4,183,10.11
+6625,020,Victoria,1,312421,4,218,11.56
+6625,020,Victoria,1,312423,4,180,9.91
+6625,020,Victoria,1,312424,4,183,10.11
+6625,020,Victoria,1,318513,4,215,11.35
+6625,020,Victoria,1,317431,4,180,9.91
+6625,020,Victoria,1,317434,3,44,1.87
+6625,020,Victoria,1,312426,3,232,12.53
+6625,020,Victoria,1,317428,3,232,12.53
+6625,020,Victoria,1,312420,3,44,1.87
+6626,022,Knight,0,317435,199,230,11.44
+6626,022,Knight,0,312437,199,230,11.44
+6626,022,Knight,0,312429,26,44,2.45
+6626,022,Knight,0,317443,26,44,2.45
+6626,022,Knight,0,312436,24,217,11.24
+6626,022,Knight,0,317436,24,217,11.24
+6626,022,Knight,0,312435,6,230,11.44
+6626,022,Knight,0,317437,6,230,11.44
+6626,022,Knight,0,312434,3,217,11.24
+6626,022,Knight,0,317438,3,217,11.24
+6626,022,Knight,0,312431,2,254,13.83
+6626,022,Knight,0,317441,2,254,13.83
+6626,022,Knight,0,317439,1,231,11.18
+6626,022,Knight,0,312430,1,118,5.81
+6626,022,Knight,0,317442,1,118,5.81
+6626,022,Knight,0,312433,1,231,11.18
+6626,022,Knight,1,312442,168,218,11.32
+6626,022,Knight,1,317445,168,218,11.32
+6626,022,Knight,1,317449,59,218,11.32
+6626,022,Knight,1,312438,59,218,11.32
+6626,022,Knight,1,312441,6,214,11.05
+6626,022,Knight,1,317446,6,214,11.05
+6626,022,Knight,1,317444,2,290,15.21
+6626,022,Knight,1,317448,2,179,8.89
+6626,022,Knight,1,312439,2,179,8.89
+6626,022,Knight,1,312443,2,290,15.21
+6627,025,King Edward,0,317452,233,400,23.52
+6627,025,King Edward,0,312450,233,400,23.52
+6627,025,King Edward,0,317455,5,242,13.54
+6627,025,King Edward,0,312447,5,242,13.54
+6627,025,King Edward,0,312449,3,272,16.84
+6627,025,King Edward,0,317453,3,272,16.84
+6627,025,King Edward,0,312446,2,310,17.26
+6627,025,King Edward,0,317456,2,310,17.26
+6627,025,King Edward,1,312455,216,403,24.09
+6627,025,King Edward,1,317457,216,403,24.09
+6627,025,King Edward,1,317458,8,255,14.08
+6627,025,King Edward,1,312454,8,255,14.08
+6627,025,King Edward,1,312452,7,273,17.26
+6627,025,King Edward,1,317459,7,315,19.9
+6627,025,King Edward,1,317460,7,273,17.26
+6627,025,King Edward,1,312453,7,315,19.9
+6628,026,Joyce Station/29th Avenue Station,0,312456,140,244,10.65
+6628,026,Joyce Station/29th Avenue Station,0,317463,140,244,10.65
+6628,026,Joyce Station/29th Avenue Station,0,317462,1,202,8.34
+6628,026,Joyce Station/29th Avenue Station,0,312457,1,202,8.34
+6628,026,Joyce Station/29th Avenue Station,1,317464,141,251,10.83
+6628,026,Joyce Station/29th Avenue Station,1,312458,140,251,10.83
+6629,027,Rupert,0,317465,133,124,6.12
+6629,027,Rupert,0,312461,133,124,6.12
+6629,027,Rupert,0,317466,5,153,7.67
+6629,027,Rupert,0,312460,5,153,7.67
+6629,027,Rupert,0,312459,1,98,4.56
+6629,027,Rupert,0,317467,1,98,4.56
+6629,027,Rupert,1,312464,137,127,6.15
+6629,027,Rupert,1,317468,137,127,6.15
+6629,027,Rupert,1,317469,2,136,6.68
+6629,027,Rupert,1,312463,2,136,6.68
+6629,027,Rupert,1,312462,1,53,3.15
+6629,027,Rupert,1,317470,1,53,3.15
+6630,028,Boundary,0,318483,157,222,14.42
+6630,028,Boundary,0,312465,157,187,12.28
+6630,028,Boundary,0,312466,10,97,4.9
+6630,028,Boundary,0,318485,6,132,7.04
+6630,028,Boundary,0,317473,4,91,4.9
+6630,028,Boundary,0,312468,3,115,8.61
+6630,028,Boundary,0,317471,3,115,8.61
+6630,028,Boundary,1,312470,163,186,12.13
+6630,028,Boundary,1,318484,163,207,14.11
+6630,028,Boundary,1,312473,2,95,7.35
+6630,028,Boundary,1,312472,2,76,3.63
+6630,028,Boundary,1,317476,1,69,3.78
+6630,028,Boundary,1,317475,1,95,7.35
+6630,028,Boundary,1,318487,1,98,5.76
+6631,029,Elliott/29th Avenue Station,0,312474,130,56,4.11
+6631,029,Elliott/29th Avenue Station,0,317480,130,56,4.11
+6631,029,Elliott/29th Avenue Station,1,317481,130,71,4.82
+6631,029,Elliott/29th Avenue Station,1,312475,130,71,4.82
+6633,041,41st Avenue,0,317487,219,199,12.35
+6633,041,41st Avenue,0,312481,219,199,12.35
+6633,041,41st Avenue,0,317488,18,128,7.44
+6633,041,41st Avenue,0,312480,18,128,7.44
+6633,041,41st Avenue,0,312482,10,54,4.07
+6633,041,41st Avenue,0,317486,10,54,4.07
+6633,041,41st Avenue,1,312483,225,214,12.67
+6633,041,41st Avenue,1,317492,225,214,12.67
+6633,041,41st Avenue,1,317491,12,143,7.86
+6633,041,41st Avenue,1,312484,12,143,7.86
+6633,041,41st Avenue,1,312485,10,143,7.84
+6633,041,41st Avenue,1,317490,10,143,7.84
+6633,041,41st Avenue,1,317489,3,130,7.21
+6633,041,41st Avenue,1,312486,3,130,7.21
+6635,044,UBC Exchange/Downtown Express,0,317496,51,192,12.1
+6635,044,UBC Exchange/Downtown Express,0,312489,51,192,12.1
+6635,044,UBC Exchange/Downtown Express,1,317498,54,205,12.04
+6635,044,UBC Exchange/Downtown Express,1,312491,54,205,12.04
+6636,049,49th Avenue,0,312498,312,357,21.13
+6636,049,49th Avenue,0,317500,312,357,21.13
+6636,049,49th Avenue,0,312493,15,173,10.44
+6636,049,49th Avenue,0,317502,15,173,10.44
+6636,049,49th Avenue,0,317501,3,252,14.39
+6636,049,49th Avenue,0,314710,3,150,8.73
+6636,049,49th Avenue,0,312497,3,252,14.39
+6636,049,49th Avenue,0,317499,3,150,8.73
+6636,049,49th Avenue,1,317503,316,390,22.19
+6636,049,49th Avenue,1,312507,316,390,22.19
+6636,049,49th Avenue,1,317504,11,195,11.53
+6636,049,49th Avenue,1,312506,11,195,11.53
+6636,049,49th Avenue,1,317506,1,174,9.69
+6636,049,49th Avenue,1,317505,1,171,9.57
+6636,049,49th Avenue,1,312500,1,171,9.57
+6636,049,49th Avenue,1,312499,1,174,9.69
+6637,050,Waterfront Station/False Creek South,0,317508,228,167,6.9
+6637,050,Waterfront Station/False Creek South,0,312510,184,166,6.98
+6637,050,Waterfront Station/False Creek South,0,312509,38,167,6.9
+6637,050,Waterfront Station/False Creek South,0,317507,13,166,6.98
+6637,050,Waterfront Station/False Creek South,1,317510,204,167,7.13
+6637,050,Waterfront Station/False Creek South,1,312516,179,165,7.0
+6637,050,Waterfront Station/False Creek South,1,312513,14,167,7.13
+6637,050,Waterfront Station/False Creek South,1,317512,14,167,7.13
+6637,050,Waterfront Station/False Creek South,1,317514,12,167,7.13
+6637,050,Waterfront Station/False Creek South,1,312511,12,167,7.13
+6637,050,Waterfront Station/False Creek South,1,312515,10,167,7.13
+6637,050,Waterfront Station/False Creek South,1,317511,5,165,7.0
+6637,050,Waterfront Station/False Creek South,1,312514,5,165,7.0
+6637,050,Waterfront Station/False Creek South,1,317513,4,165,7.0
+6637,050,Waterfront Station/False Creek South,1,312512,4,165,7.0
+6637,050,Waterfront Station/False Creek South,1,317509,4,165,7.0
+6638,084,4th Avenue Express,0,312521,136,233,13.77
+6638,084,4th Avenue Express,0,317519,136,233,13.77
+6638,084,4th Avenue Express,1,312522,135,237,13.56
+6638,084,4th Avenue Express,1,317520,135,237,13.56
+6641,099,Broadway B-Line,0,317522,355,152,13.73
+6641,099,Broadway B-Line,0,312527,355,152,13.73
+6641,099,Broadway B-Line,0,312525,54,215,16.97
+6641,099,Broadway B-Line,0,317524,54,215,16.97
+6641,099,Broadway B-Line,0,312524,48,152,13.73
+6641,099,Broadway B-Line,0,317525,48,152,13.73
+6641,099,Broadway B-Line,0,317526,18,215,16.97
+6641,099,Broadway B-Line,0,312523,18,215,16.97
+6641,099,Broadway B-Line,0,317523,2,93,8.85
+6641,099,Broadway B-Line,0,312526,2,93,8.85
+6641,099,Broadway B-Line,0,317521,1,124,11.33
+6641,099,Broadway B-Line,0,314726,1,124,11.33
+6641,099,Broadway B-Line,1,312530,396,167,14.02
+6641,099,Broadway B-Line,1,317528,396,167,14.02
+6641,099,Broadway B-Line,1,312529,80,227,16.95
+6641,099,Broadway B-Line,1,317529,80,227,16.95
+6641,099,Broadway B-Line,1,312528,2,165,12.49
+6641,099,Broadway B-Line,1,317530,2,165,12.49
+6641,099,Broadway B-Line,1,314727,1,185,14.29
+6641,099,Broadway B-Line,1,317527,1,185,14.29
+6642,100,Marine Drive,0,317532,216,293,14.97
+6642,100,Marine Drive,0,312532,216,293,14.97
+6642,100,Marine Drive,0,312531,67,287,15.28
+6642,100,Marine Drive,0,317533,67,287,15.28
+6642,100,Marine Drive,1,312538,193,361,16.88
+6642,100,Marine Drive,1,317534,193,361,16.88
+6642,100,Marine Drive,1,312537,66,368,17.77
+6642,100,Marine Drive,1,317535,66,368,17.77
+6642,100,Marine Drive,1,312536,16,349,16.54
+6642,100,Marine Drive,1,317536,16,349,16.54
+6642,100,Marine Drive,1,312535,6,356,17.43
+6642,100,Marine Drive,1,317537,6,356,17.43
+6643,101,Lougheed Station/22nd St Station,0,317540,108,232,12.21
+6643,101,Lougheed Station/22nd St Station,0,312539,108,232,12.21
+6643,101,Lougheed Station/22nd St Station,1,312542,110,217,12.19
+6643,101,Lougheed Station/22nd St Station,1,317541,110,217,12.19
+6643,101,Lougheed Station/22nd St Station,1,317542,1,81,5.81
+6643,101,Lougheed Station/22nd St Station,1,312541,1,81,5.81
+6644,104,22nd St Station/Annacis Island,0,312548,125,160,11.04
+6644,104,22nd St Station/Annacis Island,0,317548,125,160,11.04
+6644,104,22nd St Station/Annacis Island,0,312549,8,65,4.07
+6644,104,22nd St Station/Annacis Island,0,317547,8,65,4.07
+6644,104,22nd St Station/Annacis Island,1,317551,123,224,11.61
+6644,104,22nd St Station/Annacis Island,1,312551,123,224,11.61
+6644,104,22nd St Station/Annacis Island,1,312552,7,129,5.61
+6644,104,22nd St Station/Annacis Island,1,317550,7,129,5.61
+6645,106,6th Street,0,317555,263,101,6.36
+6645,106,6th Street,0,312555,263,101,6.36
+6645,106,6th Street,1,317556,261,90,6.19
+6645,106,6th Street,1,312556,261,90,6.19
+6646,110,Lougheed Station/Metrotown Station,0,312560,115,332,17.06
+6646,110,Lougheed Station/Metrotown Station,0,317559,115,332,17.06
+6646,110,Lougheed Station/Metrotown Station,0,317560,1,140,7.94
+6646,110,Lougheed Station/Metrotown Station,0,312559,1,140,7.94
+6646,110,Lougheed Station/Metrotown Station,1,317562,116,366,17.45
+6646,110,Lougheed Station/Metrotown Station,1,312564,114,366,17.45
+6646,110,Lougheed Station/Metrotown Station,1,317564,2,274,13.94
+6646,110,Lougheed Station/Metrotown Station,1,312562,2,274,13.94
+6646,110,Lougheed Station/Metrotown Station,1,312563,1,131,5.7
+6646,110,Lougheed Station/Metrotown Station,1,317563,1,131,5.7
+6646,110,Lougheed Station/Metrotown Station,1,317565,1,153,8.07
+6646,110,Lougheed Station/Metrotown Station,1,312561,1,153,8.07
+6647,112,12th Street,0,317566,186,91,4.78
+6647,112,12th Street,0,312566,186,91,4.78
+6647,112,12th Street,1,317567,185,113,5.31
+6647,112,12th Street,1,312568,184,113,5.31
+6647,112,12th Street,1,317568,1,52,2.36
+6647,112,12th Street,1,312567,1,52,2.36
+6648,116,North Fraser Way,0,317571,122,242,14.44
+6648,116,North Fraser Way,0,312569,121,242,14.44
+6648,116,North Fraser Way,0,317569,5,121,7.36
+6648,116,North Fraser Way,0,312571,5,121,7.36
+6648,116,North Fraser Way,1,312573,104,260,15.58
+6648,116,North Fraser Way,1,317573,104,260,15.58
+6648,116,North Fraser Way,1,312572,12,261,15.57
+6648,116,North Fraser Way,1,317574,12,261,15.57
+6648,116,North Fraser Way,1,312574,12,110,7.28
+6648,116,North Fraser Way,1,317572,12,110,7.28
+6649,123,Canada Way,0,317577,203,226,12.64
+6649,123,Canada Way,0,312580,203,226,12.64
+6649,123,Canada Way,0,317580,17,23,2.07
+6649,123,Canada Way,0,312577,17,23,2.07
+6649,123,Canada Way,0,317578,8,194,11.09
+6649,123,Canada Way,0,312579,8,194,11.09
+6649,123,Canada Way,0,317579,1,123,7.42
+6649,123,Canada Way,0,312578,1,123,7.42
+6649,123,Canada Way,1,312584,209,187,11.13
+6649,123,Canada Way,1,317582,209,187,11.13
+6649,123,Canada Way,1,312581,16,22,1.98
+6649,123,Canada Way,1,317585,16,22,1.98
+6649,123,Canada Way,1,317581,2,152,8.54
+6649,123,Canada Way,1,312585,2,152,8.54
+6650,129,Patterson Station/Holdom Station,0,312591,116,204,11.59
+6650,129,Patterson Station/Holdom Station,0,317590,116,204,11.59
+6650,129,Patterson Station/Holdom Station,0,312590,3,221,12.46
+6650,129,Patterson Station/Holdom Station,0,317591,3,221,12.46
+6650,129,Patterson Station/Holdom Station,1,312592,121,220,12.18
+6650,129,Patterson Station/Holdom Station,1,317592,121,220,12.18
+6651,130,Willingdon,0,318491,197,269,14.12
+6651,130,Willingdon,0,312594,197,232,12.15
+6651,130,Willingdon,0,317595,78,145,8.34
+6651,130,Willingdon,0,312595,78,145,8.34
+6651,130,Willingdon,0,312597,3,145,8.34
+6651,130,Willingdon,0,317593,3,145,8.34
+6651,130,Willingdon,1,318492,192,258,13.68
+6651,130,Willingdon,1,312599,192,226,11.7
+6651,130,Willingdon,1,317600,77,134,8.19
+6651,130,Willingdon,1,312600,76,134,8.19
+6651,130,Willingdon,1,317599,9,87,4.82
+6651,130,Willingdon,1,312601,9,87,4.82
+6651,130,Willingdon,1,312602,2,36,2.15
+6651,130,Willingdon,1,317598,2,36,2.15
+6652,134,Lake City Station/Brentwood Station,0,317612,105,199,12.85
+6652,134,Lake City Station/Brentwood Station,0,312614,105,199,12.85
+6652,134,Lake City Station/Brentwood Station,0,312613,1,92,7.96
+6652,134,Lake City Station/Brentwood Station,0,317613,1,92,7.96
+6652,134,Lake City Station/Brentwood Station,0,317614,1,71,3.74
+6652,134,Lake City Station/Brentwood Station,0,312612,1,71,3.74
+6652,134,Lake City Station/Brentwood Station,1,317617,102,196,11.33
+6652,134,Lake City Station/Brentwood Station,1,312615,102,196,11.33
+6652,134,Lake City Station/Brentwood Station,1,312616,2,132,8.14
+6652,134,Lake City Station/Brentwood Station,1,317616,2,132,8.14
+6652,134,Lake City Station/Brentwood Station,1,312617,1,213,11.93
+6652,134,Lake City Station/Brentwood Station,1,317615,1,213,11.93
+6654,136,Lougheed Station/Brentwood Station,0,317618,106,311,13.51
+6654,136,Lougheed Station/Brentwood Station,0,312618,104,311,13.51
+6654,136,Lougheed Station/Brentwood Station,1,312620,106,337,14.11
+6654,136,Lougheed Station/Brentwood Station,1,317619,106,337,14.11
+6654,136,Lougheed Station/Brentwood Station,1,317620,1,143,5.15
+6654,136,Lougheed Station/Brentwood Station,1,312619,1,143,5.15
+6656,143,SFU Exchange/Burquitlam Station,0,312621,40,166,7.54
+6656,143,SFU Exchange/Burquitlam Station,0,317621,40,166,7.54
+6656,143,SFU Exchange/Burquitlam Station,1,312622,40,131,6.42
+6656,143,SFU Exchange/Burquitlam Station,1,317622,40,131,6.42
+6657,144,SFU Exchange/Metrotown Station,0,317623,139,390,18.77
+6657,144,SFU Exchange/Metrotown Station,0,312623,138,390,18.77
+6657,144,SFU Exchange/Metrotown Station,1,317626,140,436,19.75
+6657,144,SFU Exchange/Metrotown Station,1,312625,140,436,19.75
+6657,144,SFU Exchange/Metrotown Station,1,312627,2,153,7.09
+6657,144,SFU Exchange/Metrotown Station,1,317624,2,153,7.09
+6657,144,SFU Exchange/Metrotown Station,1,317627,1,320,14.23
+6657,144,SFU Exchange/Metrotown Station,1,312624,1,320,14.23
+6658,145,SFU Exchange/Production Station,0,312628,192,147,7.41
+6658,145,SFU Exchange/Production Station,0,317628,192,147,7.41
+6658,145,SFU Exchange/Production Station,1,317629,194,163,8.77
+6658,145,SFU Exchange/Production Station,1,312629,194,163,8.77
+6659,151,Como Lake Ave,0,317638,120,177,8.92
+6659,151,Como Lake Ave,0,312638,119,177,8.92
+6659,151,Como Lake Ave,1,312640,118,142,8.62
+6659,151,Como Lake Ave,1,317640,118,142,8.62
+6659,151,Como Lake Ave,1,317639,1,61,5.13
+6659,151,Como Lake Ave,1,312639,1,93,7.27
+6659,151,Como Lake Ave,1,312641,1,61,5.13
+6659,151,Como Lake Ave,1,317641,1,93,7.27
+6660,152,Coquitlam Central Station/Lougheed Station,0,317642,105,250,12.17
+6660,152,Coquitlam Central Station/Lougheed Station,0,312645,103,250,12.17
+6660,152,Coquitlam Central Station/Lougheed Station,0,317645,15,282,12.92
+6660,152,Coquitlam Central Station/Lougheed Station,0,312642,13,282,12.92
+6660,152,Coquitlam Central Station/Lougheed Station,0,317644,2,272,13.25
+6660,152,Coquitlam Central Station/Lougheed Station,0,312643,2,272,13.25
+6660,152,Coquitlam Central Station/Lougheed Station,0,317643,1,304,14.01
+6660,152,Coquitlam Central Station/Lougheed Station,0,312644,1,304,14.01
+6660,152,Coquitlam Central Station/Lougheed Station,1,317648,105,235,12.67
+6660,152,Coquitlam Central Station/Lougheed Station,1,312647,103,235,12.67
+6660,152,Coquitlam Central Station/Lougheed Station,1,312648,14,233,12.25
+6660,152,Coquitlam Central Station/Lougheed Station,1,317647,14,233,12.25
+6660,152,Coquitlam Central Station/Lougheed Station,1,312649,2,257,13.75
+6660,152,Coquitlam Central Station/Lougheed Station,1,317646,2,257,13.75
+6661,153,Coquitlam Central Station/Braid Station,0,317651,115,249,11.24
+6661,153,Coquitlam Central Station/Braid Station,0,312650,115,249,11.24
+6661,153,Coquitlam Central Station/Braid Station,0,317650,1,133,6.25
+6661,153,Coquitlam Central Station/Braid Station,0,312651,1,133,6.25
+6661,153,Coquitlam Central Station/Braid Station,1,317652,117,225,11.4
+6661,153,Coquitlam Central Station/Braid Station,1,312652,117,225,11.4
+6662,128,8th Avenue,0,317586,134,100,7.18
+6662,128,8th Avenue,0,312587,133,100,7.18
+6662,128,8th Avenue,1,317588,134,97,7.25
+6662,128,8th Avenue,1,312589,134,97,7.25
+6662,128,8th Avenue,1,312588,3,33,3.33
+6662,128,8th Avenue,1,317589,3,33,3.33
+6663,155,6th Avenue,0,317653,120,113,8.3
+6663,155,6th Avenue,0,312653,120,113,8.3
+6663,155,6th Avenue,1,317654,121,110,8.36
+6663,155,6th Avenue,1,312654,121,110,8.36
+6664,156,Braid Station/Lougheed Station,0,317655,95,261,14.69
+6664,156,Braid Station/Lougheed Station,0,312655,95,261,14.69
+6664,156,Braid Station/Lougheed Station,1,317656,98,278,15.21
+6664,156,Braid Station/Lougheed Station,1,312656,98,278,15.21
+6665,157,Burquitlam Station/Lougheed Station,0,317657,111,185,10.74
+6665,157,Burquitlam Station/Lougheed Station,0,312657,111,185,10.74
+6665,157,Burquitlam Station/Lougheed Station,1,312658,113,193,11.52
+6665,157,Burquitlam Station/Lougheed Station,1,317658,113,193,11.52
+6666,159,Coquitlam Central Station/Braid Station,0,317661,107,417,19.66
+6666,159,Coquitlam Central Station/Braid Station,0,312660,104,417,19.66
+6666,159,Coquitlam Central Station/Braid Station,0,317659,4,432,20.42
+6666,159,Coquitlam Central Station/Braid Station,0,312662,4,432,20.42
+6666,159,Coquitlam Central Station/Braid Station,0,317662,2,458,21.82
+6666,159,Coquitlam Central Station/Braid Station,0,312659,2,458,21.82
+6666,159,Coquitlam Central Station/Braid Station,0,312661,1,218,9.61
+6666,159,Coquitlam Central Station/Braid Station,0,317660,1,218,9.61
+6666,159,Coquitlam Central Station/Braid Station,1,317665,99,403,19.39
+6666,159,Coquitlam Central Station/Braid Station,1,312663,99,403,19.39
+6666,159,Coquitlam Central Station/Braid Station,1,312665,9,418,20.15
+6666,159,Coquitlam Central Station/Braid Station,1,317663,9,418,20.15
+6666,159,Coquitlam Central Station/Braid Station,1,317664,1,337,16.13
+6666,159,Coquitlam Central Station/Braid Station,1,312664,1,337,16.13
+6667,160,Port Coquitlam Station/Kootenay Loop,0,317668,199,460,26.24
+6667,160,Port Coquitlam Station/Kootenay Loop,0,312666,199,460,26.24
+6667,160,Port Coquitlam Station/Kootenay Loop,1,317669,204,514,26.02
+6667,160,Port Coquitlam Station/Kootenay Loop,1,312669,203,514,26.02
+6668,169,Coquitlam Central Station/Braid Station,0,317670,117,349,11.54
+6668,169,Coquitlam Central Station/Braid Station,0,312670,117,349,11.54
+6668,169,Coquitlam Central Station/Braid Station,1,317671,116,242,10.55
+6668,169,Coquitlam Central Station/Braid Station,1,312671,116,242,10.55
+6672,210,Mountain Hwy Express,0,312736,101,368,18.49
+6672,210,Mountain Hwy Express,0,317731,101,368,18.49
+6672,210,Mountain Hwy Express,0,312735,6,160,8.13
+6672,210,Mountain Hwy Express,0,317732,6,160,8.13
+6672,210,Mountain Hwy Express,0,317734,2,211,10.44
+6672,210,Mountain Hwy Express,0,312733,2,211,10.44
+6672,210,Mountain Hwy Express,0,317735,1,67,3.66
+6672,210,Mountain Hwy Express,0,317733,1,102,5.49
+6672,210,Mountain Hwy Express,0,312734,1,102,5.49
+6672,210,Mountain Hwy Express,0,312732,1,67,3.66
+6672,210,Mountain Hwy Express,1,317737,101,362,18.05
+6672,210,Mountain Hwy Express,1,312741,100,362,18.05
+6672,210,Mountain Hwy Express,1,312739,2,197,10.16
+6672,210,Mountain Hwy Express,1,317739,2,197,10.16
+6672,210,Mountain Hwy Express,1,317740,1,117,5.03
+6672,210,Mountain Hwy Express,1,317738,1,167,7.91
+6672,210,Mountain Hwy Express,1,312740,1,167,7.91
+6672,210,Mountain Hwy Express,1,312738,1,117,5.03
+6673,211,Seymour/Phibbs Exchange/Burrard Station,0,317743,80,414,20.97
+6673,211,Seymour/Phibbs Exchange/Burrard Station,0,312746,55,414,20.97
+6673,211,Seymour/Phibbs Exchange/Burrard Station,0,312745,54,201,10.48
+6673,211,Seymour/Phibbs Exchange/Burrard Station,0,317744,50,201,10.48
+6673,211,Seymour/Phibbs Exchange/Burrard Station,0,317746,4,170,9.7
+6673,211,Seymour/Phibbs Exchange/Burrard Station,0,312743,3,170,9.7
+6673,211,Seymour/Phibbs Exchange/Burrard Station,0,312747,2,385,20.21
+6673,211,Seymour/Phibbs Exchange/Burrard Station,0,317742,2,385,20.21
+6673,211,Seymour/Phibbs Exchange/Burrard Station,0,317745,1,87,6.89
+6673,211,Seymour/Phibbs Exchange/Burrard Station,0,312742,1,233,12.19
+6673,211,Seymour/Phibbs Exchange/Burrard Station,0,312744,1,87,6.89
+6673,211,Seymour/Phibbs Exchange/Burrard Station,0,317747,1,233,12.19
+6673,211,Seymour/Phibbs Exchange/Burrard Station,1,317751,84,388,21.04
+6673,211,Seymour/Phibbs Exchange/Burrard Station,1,312749,62,388,21.04
+6673,211,Seymour/Phibbs Exchange/Burrard Station,1,312750,31,188,10.85
+6673,211,Seymour/Phibbs Exchange/Burrard Station,1,317750,30,188,10.85
+6673,211,Seymour/Phibbs Exchange/Burrard Station,1,317749,22,188,10.85
+6673,211,Seymour/Phibbs Exchange/Burrard Station,1,312751,22,188,10.85
+6673,211,Seymour/Phibbs Exchange/Burrard Station,1,317748,1,188,10.85
+6673,211,Seymour/Phibbs Exchange/Burrard Station,1,317752,1,156,7.89
+6673,211,Seymour/Phibbs Exchange/Burrard Station,1,312752,1,188,10.85
+6673,211,Seymour/Phibbs Exchange/Burrard Station,1,312748,1,156,7.89
+6674,212,Dollarton Hwy,0,317753,67,147,8.97
+6674,212,Dollarton Hwy,0,312754,66,147,8.97
+6674,212,Dollarton Hwy,0,312753,35,143,8.76
+6674,212,Dollarton Hwy,0,317754,35,143,8.76
+6674,212,Dollarton Hwy,1,317755,90,132,8.56
+6674,212,Dollarton Hwy,1,312757,90,132,8.56
+6674,212,Dollarton Hwy,1,317757,8,136,8.77
+6674,212,Dollarton Hwy,1,312755,8,136,8.77
+6674,212,Dollarton Hwy,1,312756,5,136,8.77
+6674,212,Dollarton Hwy,1,317756,5,136,8.77
+6675,214,Blueridge/Phibbs Exchange/Burrard Station,0,312758,82,152,6.57
+6675,214,Blueridge/Phibbs Exchange/Burrard Station,0,317760,82,152,6.57
+6675,214,Blueridge/Phibbs Exchange/Burrard Station,0,317759,16,152,6.57
+6675,214,Blueridge/Phibbs Exchange/Burrard Station,0,312759,16,152,6.57
+6675,214,Blueridge/Phibbs Exchange/Burrard Station,0,317758,2,360,16.92
+6675,214,Blueridge/Phibbs Exchange/Burrard Station,0,312760,2,360,16.92
+6675,214,Blueridge/Phibbs Exchange/Burrard Station,1,317764,82,111,5.33
+6675,214,Blueridge/Phibbs Exchange/Burrard Station,1,312761,82,111,5.33
+6675,214,Blueridge/Phibbs Exchange/Burrard Station,1,312762,14,111,5.33
+6675,214,Blueridge/Phibbs Exchange/Burrard Station,1,317763,13,111,5.33
+6675,214,Blueridge/Phibbs Exchange/Burrard Station,1,312763,5,311,15.92
+6675,214,Blueridge/Phibbs Exchange/Burrard Station,1,317762,5,311,15.92
+6676,228,Grand Blvd,0,317777,124,133,8.24
+6676,228,Grand Blvd,0,312777,124,133,8.24
+6676,228,Grand Blvd,0,312776,3,71,4.26
+6676,228,Grand Blvd,0,317776,3,95,5.68
+6676,228,Grand Blvd,0,312778,3,95,5.68
+6676,228,Grand Blvd,0,317778,3,71,4.26
+6676,228,Grand Blvd,1,317781,126,121,8.43
+6676,228,Grand Blvd,1,312780,124,121,8.43
+6676,228,Grand Blvd,1,312781,3,72,4.69
+6676,228,Grand Blvd,1,317780,3,72,4.69
+6676,228,Grand Blvd,1,312779,1,72,4.71
+6676,228,Grand Blvd,1,317779,1,56,4.27
+6676,228,Grand Blvd,1,317782,1,72,4.71
+6676,228,Grand Blvd,1,312782,1,56,4.27
+6677,229,Lonsdale Ave,0,317783,135,114,5.83
+6677,229,Lonsdale Ave,0,312783,134,114,5.83
+6677,229,Lonsdale Ave,1,317784,136,129,6.67
+6677,229,Lonsdale Ave,1,312784,136,129,6.67
+6678,230,Lonsdale Ave,0,317787,75,159,7.45
+6678,230,Lonsdale Ave,0,312786,75,159,7.45
+6678,230,Lonsdale Ave,0,317785,29,159,7.45
+6678,230,Lonsdale Ave,0,312788,29,159,7.45
+6678,230,Lonsdale Ave,0,312785,10,79,3.93
+6678,230,Lonsdale Ave,0,317788,10,79,3.93
+6678,230,Lonsdale Ave,0,312787,2,126,5.68
+6678,230,Lonsdale Ave,0,317786,2,126,5.68
+6678,230,Lonsdale Ave,1,317789,99,79,4.42
+6678,230,Lonsdale Ave,1,312790,99,79,4.42
+6678,230,Lonsdale Ave,1,312789,10,160,7.99
+6678,230,Lonsdale Ave,1,317790,10,160,7.99
+6679,232,Grouse Mountain/Phibbs Exchange,0,317794,69,252,13.32
+6679,232,Grouse Mountain/Phibbs Exchange,0,312796,69,252,13.32
+6679,232,Grouse Mountain/Phibbs Exchange,0,317793,27,252,13.32
+6679,232,Grouse Mountain/Phibbs Exchange,0,312797,27,252,13.32
+6679,232,Grouse Mountain/Phibbs Exchange,0,317796,2,203,11.04
+6679,232,Grouse Mountain/Phibbs Exchange,0,312794,2,203,11.04
+6679,232,Grouse Mountain/Phibbs Exchange,0,317795,1,221,12.39
+6679,232,Grouse Mountain/Phibbs Exchange,0,312795,1,221,12.39
+6679,232,Grouse Mountain/Phibbs Exchange,1,312799,96,264,13.36
+6679,232,Grouse Mountain/Phibbs Exchange,1,317798,96,264,13.36
+6680,236,Grouse Mountain/Lonsdale Quay,0,317800,155,210,9.37
+6680,236,Grouse Mountain/Lonsdale Quay,0,312802,154,210,9.37
+6680,236,Grouse Mountain/Lonsdale Quay,0,317802,1,163,7.55
+6680,236,Grouse Mountain/Lonsdale Quay,0,312800,1,163,7.55
+6680,236,Grouse Mountain/Lonsdale Quay,1,317803,154,214,10.05
+6680,236,Grouse Mountain/Lonsdale Quay,1,312804,154,214,10.05
+6680,236,Grouse Mountain/Lonsdale Quay,1,317804,1,83,4.48
+6680,236,Grouse Mountain/Lonsdale Quay,1,312803,1,83,4.48
+6682,240,Lynn Valley/Downtown,0,317805,205,239,14.82
+6682,240,Lynn Valley/Downtown,0,312808,204,239,14.82
+6682,240,Lynn Valley/Downtown,0,317807,35,221,14.19
+6682,240,Lynn Valley/Downtown,0,312806,35,221,14.19
+6682,240,Lynn Valley/Downtown,0,312805,1,38,2.28
+6682,240,Lynn Valley/Downtown,0,317808,1,38,2.28
+6682,240,Lynn Valley/Downtown,1,317810,201,252,14.67
+6682,240,Lynn Valley/Downtown,1,312812,201,252,14.67
+6682,240,Lynn Valley/Downtown,1,312813,20,269,15.33
+6682,240,Lynn Valley/Downtown,1,317809,20,269,15.33
+6682,240,Lynn Valley/Downtown,1,312811,13,250,14.4
+6682,240,Lynn Valley/Downtown,1,317811,13,250,14.4
+6682,240,Lynn Valley/Downtown,1,312810,1,267,15.06
+6682,240,Lynn Valley/Downtown,1,317812,1,267,15.06
+6683,241,Upper Lonsdale/Downtown,0,312814,13,229,14.16
+6683,241,Upper Lonsdale/Downtown,0,317815,13,229,14.16
+6683,241,Upper Lonsdale/Downtown,0,312815,5,45,2.16
+6683,241,Upper Lonsdale/Downtown,0,317814,5,45,2.16
+6683,241,Upper Lonsdale/Downtown,1,312817,8,250,14.76
+6683,241,Upper Lonsdale/Downtown,1,317816,8,250,14.76
+6683,241,Upper Lonsdale/Downtown,1,312816,4,248,14.49
+6683,241,Upper Lonsdale/Downtown,1,317817,4,248,14.49
+6685,246,Highland/Downtown,0,317820,101,238,13.05
+6685,246,Highland/Downtown,0,312821,99,238,13.05
+6685,246,Highland/Downtown,0,317821,8,133,6.24
+6685,246,Highland/Downtown,0,312820,8,133,6.24
+6685,246,Highland/Downtown,1,317822,95,256,13.82
+6685,246,Highland/Downtown,1,312826,95,256,13.82
+6685,246,Highland/Downtown,1,312825,10,254,13.55
+6685,246,Highland/Downtown,1,317823,10,254,13.55
+6685,246,Highland/Downtown,1,312823,2,131,6.28
+6685,246,Highland/Downtown,1,312822,2,137,6.31
+6685,246,Highland/Downtown,1,317826,2,137,6.31
+6685,246,Highland/Downtown,1,317825,2,131,6.28
+6685,246,Highland/Downtown,1,312824,1,135,6.44
+6685,246,Highland/Downtown,1,317824,1,135,6.44
+6686,247,Grouse Mountain/Downtown,0,317827,6,301,16.19
+6686,247,Grouse Mountain/Downtown,0,312827,6,301,16.19
+6686,247,Grouse Mountain/Downtown,1,317828,3,320,16.73
+6686,247,Grouse Mountain/Downtown,1,312829,3,320,16.73
+6686,247,Grouse Mountain/Downtown,1,312828,1,318,16.46
+6686,247,Grouse Mountain/Downtown,1,317829,1,318,16.46
+6687,250,Horseshoe Bay/Dundarave/Vancouver,0,317840,182,145,10.49
+6687,250,Horseshoe Bay/Dundarave/Vancouver,0,312836,171,145,10.49
+6687,250,Horseshoe Bay/Dundarave/Vancouver,0,312837,123,456,23.69
+6687,250,Horseshoe Bay/Dundarave/Vancouver,0,317839,123,456,23.69
+6687,250,Horseshoe Bay/Dundarave/Vancouver,0,312839,5,47,3.47
+6687,250,Horseshoe Bay/Dundarave/Vancouver,0,317837,5,47,3.47
+6687,250,Horseshoe Bay/Dundarave/Vancouver,0,317838,2,176,12.92
+6687,250,Horseshoe Bay/Dundarave/Vancouver,0,312838,2,176,12.92
+6687,250,Horseshoe Bay/Dundarave/Vancouver,0,317843,2,121,8.68
+6687,250,Horseshoe Bay/Dundarave/Vancouver,0,317842,1,149,10.47
+6687,250,Horseshoe Bay/Dundarave/Vancouver,0,317841,1,176,12.92
+6687,250,Horseshoe Bay/Dundarave/Vancouver,0,312833,1,121,8.68
+6687,250,Horseshoe Bay/Dundarave/Vancouver,0,312835,1,176,12.92
+6687,250,Horseshoe Bay/Dundarave/Vancouver,0,312834,1,149,10.47
+6687,250,Horseshoe Bay/Dundarave/Vancouver,1,317847,179,182,11.2
+6687,250,Horseshoe Bay/Dundarave/Vancouver,1,312849,173,182,11.2
+6687,250,Horseshoe Bay/Dundarave/Vancouver,1,312851,129,476,23.68
+6687,250,Horseshoe Bay/Dundarave/Vancouver,1,317845,128,476,23.68
+6687,250,Horseshoe Bay/Dundarave/Vancouver,1,312845,6,132,7.38
+6687,250,Horseshoe Bay/Dundarave/Vancouver,1,317851,6,132,7.38
+6687,250,Horseshoe Bay/Dundarave/Vancouver,1,317849,4,52,3.93
+6687,250,Horseshoe Bay/Dundarave/Vancouver,1,312847,4,52,3.93
+6687,250,Horseshoe Bay/Dundarave/Vancouver,1,317850,3,83,6.03
+6687,250,Horseshoe Bay/Dundarave/Vancouver,1,312846,3,83,6.03
+6687,250,Horseshoe Bay/Dundarave/Vancouver,1,312848,2,213,13.3
+6687,250,Horseshoe Bay/Dundarave/Vancouver,1,317848,2,213,13.3
+6687,250,Horseshoe Bay/Dundarave/Vancouver,1,317852,1,62,4.97
+6687,250,Horseshoe Bay/Dundarave/Vancouver,1,317844,1,11,1.77
+6687,250,Horseshoe Bay/Dundarave/Vancouver,1,312844,1,62,4.97
+6687,250,Horseshoe Bay/Dundarave/Vancouver,1,317846,1,346,16.41
+6687,250,Horseshoe Bay/Dundarave/Vancouver,1,312850,1,346,16.41
+6687,250,Horseshoe Bay/Dundarave/Vancouver,1,312852,1,11,1.77
+6688,251,Queens/Park Royal,0,312853,55,119,9.12
+6688,251,Queens/Park Royal,0,317853,55,119,9.12
+6688,251,Queens/Park Royal,1,317854,56,131,10.2
+6688,251,Queens/Park Royal,1,312854,56,131,10.2
+6689,252,Inglewood/Park Royal,0,312855,54,70,6.58
+6689,252,Inglewood/Park Royal,0,317855,54,70,6.58
+6689,252,Inglewood/Park Royal,1,312857,56,73,7.06
+6689,252,Inglewood/Park Royal,1,317857,56,73,7.06
+6690,253,Caulfeild/Vancouver/Park Royal,0,317860,47,199,10.52
+6690,253,Caulfeild/Vancouver/Park Royal,0,312859,47,199,10.52
+6690,253,Caulfeild/Vancouver/Park Royal,0,317859,9,306,17.52
+6690,253,Caulfeild/Vancouver/Park Royal,0,312860,9,306,17.52
+6690,253,Caulfeild/Vancouver/Park Royal,1,312861,42,223,10.28
+6690,253,Caulfeild/Vancouver/Park Royal,1,317862,42,223,10.28
+6690,253,Caulfeild/Vancouver/Park Royal,1,317861,13,353,17.56
+6690,253,Caulfeild/Vancouver/Park Royal,1,312862,13,353,17.56
+6691,254,British Properties/Park Royal/Van,0,317864,45,276,12.27
+6691,254,British Properties/Park Royal/Van,0,312866,45,276,12.27
+6691,254,British Properties/Park Royal/Van,0,317865,3,99,4.64
+6691,254,British Properties/Park Royal/Van,0,312867,3,424,20.13
+6691,254,British Properties/Park Royal/Van,0,312865,3,99,4.64
+6691,254,British Properties/Park Royal/Van,0,317863,3,424,20.13
+6691,254,British Properties/Park Royal/Van,0,317866,1,247,12.5
+6691,254,British Properties/Park Royal/Van,0,317867,1,170,8.26
+6691,254,British Properties/Park Royal/Van,0,312864,1,247,12.5
+6691,254,British Properties/Park Royal/Van,0,312863,1,170,8.26
+6691,254,British Properties/Park Royal/Van,1,317869,45,106,4.8
+6691,254,British Properties/Park Royal/Van,1,312872,45,106,4.8
+6691,254,British Properties/Park Royal/Van,1,317872,4,232,12.41
+6691,254,British Properties/Park Royal/Van,1,312869,4,232,12.41
+6691,254,British Properties/Park Royal/Van,1,312870,3,406,21.77
+6691,254,British Properties/Park Royal/Van,1,317871,3,406,21.77
+6691,254,British Properties/Park Royal/Van,1,317873,1,301,14.5
+6691,254,British Properties/Park Royal/Van,1,312868,1,301,14.5
+6692,255,Dundarave/Capilano University,0,312875,118,259,15.5
+6692,255,Dundarave/Capilano University,0,317874,118,259,15.5
+6692,255,Dundarave/Capilano University,0,312874,20,214,12.15
+6692,255,Dundarave/Capilano University,0,317875,20,214,12.15
+6692,255,Dundarave/Capilano University,1,312878,116,287,16.02
+6692,255,Dundarave/Capilano University,1,317876,116,287,16.02
+6692,255,Dundarave/Capilano University,1,317878,22,237,12.21
+6692,255,Dundarave/Capilano University,1,312876,22,237,12.21
+6692,255,Dundarave/Capilano University,1,317877,3,187,11.12
+6692,255,Dundarave/Capilano University,1,312877,3,187,11.12
+6693,257,Horseshoe Bay/Vancouver Express,0,312885,200,330,21.82
+6693,257,Horseshoe Bay/Vancouver Express,0,317885,200,330,21.82
+6693,257,Horseshoe Bay/Vancouver Express,1,317886,200,362,22.23
+6693,257,Horseshoe Bay/Vancouver Express,1,312886,200,362,22.23
+6698,301,Newton Exchange/Brighouse Station Express,0,317901,125,401,29.7
+6698,301,Newton Exchange/Brighouse Station Express,0,312901,125,401,29.7
+6698,301,Newton Exchange/Brighouse Station Express,1,317902,132,385,29.39
+6698,301,Newton Exchange/Brighouse Station Express,1,312902,132,385,29.39
+6699,311,Scottsdale/Bridgeport Station,0,317908,13,269,29.04
+6699,311,Scottsdale/Bridgeport Station,0,312908,13,269,29.04
+6699,311,Scottsdale/Bridgeport Station,1,317909,12,255,29.17
+6699,311,Scottsdale/Bridgeport Station,1,312909,12,255,29.17
+6700,312,112 Street,0,312911,108,184,13.55
+6700,312,112 Street,0,317910,108,184,13.55
+6700,312,112 Street,0,317911,15,184,13.55
+6700,312,112 Street,0,312910,14,184,13.55
+6700,312,112 Street,1,312913,111,220,13.92
+6700,312,112 Street,1,317913,111,220,13.92
+6700,312,112 Street,1,317914,8,220,13.92
+6700,312,112 Street,1,312912,8,220,13.92
+6700,312,112 Street,1,312914,1,122,9.99
+6700,312,112 Street,1,317912,1,122,9.99
+6701,314,Surrey Central Station/Sunbury,0,317916,32,53,4.86
+6701,314,Surrey Central Station/Sunbury,0,312919,32,53,4.86
+6701,314,Surrey Central Station/Sunbury,0,312916,25,146,11.78
+6701,314,Surrey Central Station/Sunbury,0,317919,25,146,11.78
+6701,314,Surrey Central Station/Sunbury,0,312920,7,54,4.85
+6701,314,Surrey Central Station/Sunbury,0,317915,7,54,4.85
+6701,314,Surrey Central Station/Sunbury,0,317920,1,35,3.64
+6701,314,Surrey Central Station/Sunbury,0,312915,1,35,3.64
+6701,314,Surrey Central Station/Sunbury,1,312923,40,77,6.98
+6701,314,Surrey Central Station/Sunbury,1,317921,40,77,6.98
+6701,314,Surrey Central Station/Sunbury,1,317922,25,138,12.73
+6701,314,Surrey Central Station/Sunbury,1,312922,25,138,12.73
+6701,314,Surrey Central Station/Sunbury,1,312921,1,52,4.95
+6701,314,Surrey Central Station/Sunbury,1,317923,1,51,4.84
+6702,316,116 Street,0,312924,88,165,11.87
+6702,316,116 Street,0,317925,88,165,11.87
+6702,316,116 Street,0,317924,2,166,11.86
+6702,316,116 Street,0,312925,2,166,11.86
+6702,316,116 Street,1,312927,89,159,11.79
+6702,316,116 Street,1,317926,89,159,11.79
+6702,316,116 Street,1,317927,2,90,7.01
+6702,316,116 Street,1,312926,2,90,7.01
+6703,319,Scott Road,0,317929,219,191,12.42
+6703,319,Scott Road,0,312930,218,191,12.42
+6703,319,Scott Road,0,312931,19,191,12.42
+6703,319,Scott Road,0,317928,19,191,12.42
+6703,319,Scott Road,0,312929,12,183,12.0
+6703,319,Scott Road,0,317930,11,183,12.0
+6703,319,Scott Road,0,317931,8,183,12.0
+6703,319,Scott Road,0,312928,8,183,12.0
+6703,319,Scott Road,1,317932,239,211,13.05
+6703,319,Scott Road,1,314712,237,211,13.05
+6703,319,Scott Road,1,312932,20,202,12.52
+6703,319,Scott Road,1,317933,18,202,12.52
+6704,320,Langley/Fleetwood/Surrey Central Station,0,312934,113,285,24.87
+6704,320,Langley/Fleetwood/Surrey Central Station,0,317934,113,285,24.87
+6704,320,Langley/Fleetwood/Surrey Central Station,0,317935,100,95,8.17
+6704,320,Langley/Fleetwood/Surrey Central Station,0,312933,100,95,8.17
+6704,320,Langley/Fleetwood/Surrey Central Station,1,317937,101,306,24.54
+6704,320,Langley/Fleetwood/Surrey Central Station,1,312937,101,306,24.54
+6704,320,Langley/Fleetwood/Surrey Central Station,1,312935,99,81,7.45
+6704,320,Langley/Fleetwood/Surrey Central Station,1,317939,99,81,7.45
+6704,320,Langley/Fleetwood/Surrey Central Station,1,312938,7,311,24.92
+6704,320,Langley/Fleetwood/Surrey Central Station,1,317936,7,311,24.92
+6704,320,Langley/Fleetwood/Surrey Central Station,1,312936,2,87,7.86
+6704,320,Langley/Fleetwood/Surrey Central Station,1,317938,2,87,7.86
+6705,321,King George Blvd,0,312945,231,307,22.99
+6705,321,King George Blvd,0,317942,231,307,22.99
+6705,321,King George Blvd,0,312944,25,372,26.49
+6705,321,King George Blvd,0,317943,25,372,26.49
+6705,321,King George Blvd,0,312940,23,320,24.24
+6705,321,King George Blvd,0,317947,23,320,24.24
+6705,321,King George Blvd,0,317946,16,372,26.49
+6705,321,King George Blvd,0,312941,16,372,26.49
+6705,321,King George Blvd,0,317945,6,384,27.74
+6705,321,King George Blvd,0,312942,6,384,27.74
+6705,321,King George Blvd,0,312946,5,86,7.24
+6705,321,King George Blvd,0,317941,5,86,7.24
+6705,321,King George Blvd,0,312939,2,306,22.52
+6705,321,King George Blvd,0,317948,2,306,22.52
+6705,321,King George Blvd,0,317940,1,468,30.98
+6705,321,King George Blvd,0,317944,1,369,26.39
+6705,321,King George Blvd,0,312947,1,468,30.98
+6705,321,King George Blvd,0,312943,1,369,26.39
+6705,321,King George Blvd,1,312952,232,312,21.54
+6705,321,King George Blvd,1,317952,232,312,21.54
+6705,321,King George Blvd,1,317955,44,384,25.47
+6705,321,King George Blvd,1,312949,44,384,25.47
+6705,321,King George Blvd,1,317953,30,380,26.05
+6705,321,King George Blvd,1,312951,30,380,26.05
+6705,321,King George Blvd,1,317949,4,212,14.42
+6705,321,King George Blvd,1,312954,4,102,7.22
+6705,321,King George Blvd,1,317950,4,102,7.22
+6705,321,King George Blvd,1,312955,4,212,14.42
+6705,321,King George Blvd,1,312948,1,451,29.95
+6705,321,King George Blvd,1,317954,1,279,18.8
+6705,321,King George Blvd,1,317956,1,451,29.95
+6705,321,King George Blvd,1,312950,1,279,18.8
+6705,321,King George Blvd,1,312953,1,490,29.86
+6705,321,King George Blvd,1,317951,1,490,29.86
+6706,323,128 Street,0,312960,270,106,10.86
+6706,323,128 Street,0,317959,270,106,10.86
+6706,323,128 Street,0,317961,31,100,10.42
+6706,323,128 Street,0,312958,31,100,10.42
+6706,323,128 Street,1,314713,276,130,10.94
+6706,323,128 Street,1,317963,270,130,10.94
+6706,323,128 Street,1,317964,31,124,10.54
+6706,323,128 Street,1,312963,25,124,10.54
+6707,324,132 Street,0,312966,130,145,10.96
+6707,324,132 Street,0,317967,130,145,10.96
+6707,324,132 Street,0,317969,18,139,10.52
+6707,324,132 Street,0,312964,17,139,10.52
+6707,324,132 Street,1,317970,123,143,11.08
+6707,324,132 Street,1,314715,123,143,11.08
+6707,324,132 Street,1,317971,22,137,10.68
+6707,324,132 Street,1,312967,22,137,10.68
+6708,325,140 Street,0,317972,113,108,8.23
+6708,325,140 Street,0,312971,112,108,8.23
+6708,325,140 Street,0,317974,17,103,7.88
+6708,325,140 Street,0,312969,16,103,7.88
+6708,325,140 Street,0,312968,1,93,6.25
+6708,325,140 Street,0,312970,1,103,7.77
+6708,325,140 Street,0,317973,1,103,7.77
+6708,325,140 Street,0,317975,1,93,6.25
+6708,325,140 Street,1,317976,123,118,8.34
+6708,325,140 Street,1,314716,123,118,8.34
+6708,325,140 Street,1,317977,9,112,7.95
+6708,325,140 Street,1,312972,9,112,7.95
+6709,326,Guildford/Surrey Central Station,0,312973,49,163,12.6
+6709,326,Guildford/Surrey Central Station,0,317979,49,163,12.6
+6709,326,Guildford/Surrey Central Station,1,317980,41,174,12.24
+6709,326,Guildford/Surrey Central Station,1,312976,40,174,12.24
+6709,326,Guildford/Surrey Central Station,1,312975,16,175,12.24
+6709,326,Guildford/Surrey Central Station,1,317981,16,175,12.24
+6710,329,Surrey Central Station/Scottsdale,0,317982,10,151,11.32
+6710,329,Surrey Central Station/Scottsdale,0,312979,10,151,11.32
+6710,329,Surrey Central Station/Scottsdale,0,317983,8,149,10.86
+6710,329,Surrey Central Station/Scottsdale,0,312978,8,149,10.86
+6710,329,Surrey Central Station/Scottsdale,0,317984,1,97,6.09
+6710,329,Surrey Central Station/Scottsdale,0,312977,1,97,6.09
+6710,329,Surrey Central Station/Scottsdale,1,317985,16,143,11.22
+6710,329,Surrey Central Station/Scottsdale,1,312981,16,143,11.22
+6710,329,Surrey Central Station/Scottsdale,1,317986,2,79,5.17
+6710,329,Surrey Central Station/Scottsdale,1,312980,2,79,5.17
+6712,335,Newton Exchange/Surrey Central Station,0,317988,217,202,18.96
+6712,335,Newton Exchange/Surrey Central Station,0,314717,213,202,18.96
+6712,335,Newton Exchange/Surrey Central Station,0,317989,43,214,18.56
+6712,335,Newton Exchange/Surrey Central Station,0,312984,42,214,18.56
+6712,335,Newton Exchange/Surrey Central Station,0,312983,6,66,5.98
+6712,335,Newton Exchange/Surrey Central Station,0,317990,6,66,5.98
+6712,335,Newton Exchange/Surrey Central Station,0,317987,3,219,20.56
+6712,335,Newton Exchange/Surrey Central Station,0,314718,3,219,20.56
+6712,335,Newton Exchange/Surrey Central Station,1,317992,209,214,18.85
+6712,335,Newton Exchange/Surrey Central Station,1,312991,209,214,18.85
+6712,335,Newton Exchange/Surrey Central Station,1,317994,27,209,18.51
+6712,335,Newton Exchange/Surrey Central Station,1,312989,25,209,18.51
+6712,335,Newton Exchange/Surrey Central Station,1,317996,6,66,5.55
+6712,335,Newton Exchange/Surrey Central Station,1,312987,6,66,5.55
+6712,335,Newton Exchange/Surrey Central Station,1,317998,3,223,19.19
+6712,335,Newton Exchange/Surrey Central Station,1,312985,3,223,19.19
+6712,335,Newton Exchange/Surrey Central Station,1,312986,2,218,18.85
+6712,335,Newton Exchange/Surrey Central Station,1,317997,2,218,18.85
+6712,335,Newton Exchange/Surrey Central Station,1,312988,2,216,17.86
+6712,335,Newton Exchange/Surrey Central Station,1,317995,2,216,17.86
+6712,335,Newton Exchange/Surrey Central Station,1,312990,1,131,10.58
+6712,335,Newton Exchange/Surrey Central Station,1,317993,1,131,10.58
+6713,340,Scottsdale/22nd St Station,0,318007,147,283,16.97
+6713,340,Scottsdale/22nd St Station,0,313000,147,283,16.97
+6713,340,Scottsdale/22nd St Station,1,318008,138,241,16.04
+6713,340,Scottsdale/22nd St Station,1,313001,138,241,16.04
+6714,345,152 Street,0,318022,54,249,21.21
+6714,345,152 Street,0,313010,53,249,21.21
+6714,345,152 Street,0,313011,1,219,19.24
+6714,345,152 Street,0,318021,1,219,19.24
+6714,345,152 Street,1,313014,35,203,19.77
+6714,345,152 Street,1,318023,35,203,19.77
+6714,345,152 Street,1,318024,18,210,20.17
+6714,345,152 Street,1,313013,18,210,20.17
+6715,351,White Rock Centre/Bridgeport Station,0,318028,194,375,38.96
+6715,351,White Rock Centre/Bridgeport Station,0,313019,194,375,38.96
+6715,351,White Rock Centre/Bridgeport Station,0,318029,24,375,38.96
+6715,351,White Rock Centre/Bridgeport Station,0,313018,24,375,38.96
+6715,351,White Rock Centre/Bridgeport Station,1,313021,207,305,37.42
+6715,351,White Rock Centre/Bridgeport Station,1,318030,207,305,37.42
+6715,351,White Rock Centre/Bridgeport Station,1,318031,18,305,37.42
+6715,351,White Rock Centre/Bridgeport Station,1,313020,18,305,37.42
+6716,352,White Rock Centre/Bridgeport Station,0,313022,11,401,43.91
+6716,352,White Rock Centre/Bridgeport Station,0,318032,11,401,43.91
+6716,352,White Rock Centre/Bridgeport Station,1,313023,11,342,43.27
+6716,352,White Rock Centre/Bridgeport Station,1,318033,11,342,43.27
+6717,354,White Rock South/Bridgeport Station,0,313024,9,466,45.77
+6717,354,White Rock South/Bridgeport Station,0,318034,9,466,45.77
+6717,354,White Rock South/Bridgeport Station,1,318035,10,409,45.15
+6717,354,White Rock South/Bridgeport Station,1,313026,8,409,45.15
+6718,391,116 Street,0,318067,7,154,10.4
+6718,391,116 Street,0,313057,6,154,10.4
+6718,391,116 Street,1,313058,5,185,10.87
+6718,391,116 Street,1,318068,5,185,10.87
+6719,393,128 Street,0,313059,4,111,13.39
+6719,393,128 Street,0,318070,4,111,13.39
+6719,393,128 Street,0,318069,3,118,13.86
+6719,393,128 Street,0,313060,3,118,13.86
+6719,393,128 Street,1,318071,4,141,13.89
+6719,393,128 Street,1,314722,4,141,13.89
+6719,393,128 Street,1,313061,1,133,13.36
+6719,393,128 Street,1,318072,1,133,13.36
+6720,394,White Rock Centre/King George Station,0,318073,16,293,20.56
+6720,394,White Rock Centre/King George Station,0,313062,15,293,20.56
+6720,394,White Rock Centre/King George Station,1,318074,14,338,21.92
+6720,394,White Rock Centre/King George Station,1,313063,14,338,21.92
+6721,395,Langley Centre/King George Station,0,318075,11,256,20.65
+6721,395,Langley Centre/King George Station,0,313064,11,256,20.65
+6721,395,Langley Centre/King George Station,1,318076,9,282,21.42
+6721,395,Langley Centre/King George Station,1,313065,9,282,21.42
+6722,401,Brighouse Station/One Road,0,318077,185,102,9.16
+6722,401,Brighouse Station/One Road,0,313066,184,102,9.16
+6722,401,Brighouse Station/One Road,1,313068,179,93,9.78
+6722,401,Brighouse Station/One Road,1,318078,179,93,9.78
+6722,401,Brighouse Station/One Road,1,313067,10,94,9.36
+6722,401,Brighouse Station/One Road,1,318079,10,94,9.36
+6723,402,Brighouse Station/Two Road,0,313069,126,81,8.43
+6723,402,Brighouse Station/Two Road,0,318080,126,81,8.43
+6723,402,Brighouse Station/Two Road,1,313070,80,114,10.53
+6723,402,Brighouse Station/Two Road,1,318082,80,114,10.53
+6723,402,Brighouse Station/Two Road,1,313071,44,89,8.47
+6723,402,Brighouse Station/Two Road,1,318081,44,89,8.47
+6724,403,Bridgeport Station/Three Road,0,313074,126,132,12.98
+6724,403,Bridgeport Station/Three Road,0,318084,96,132,12.98
+6724,403,Bridgeport Station/Three Road,0,318083,92,132,12.98
+6724,403,Bridgeport Station/Three Road,0,313073,62,132,12.98
+6724,403,Bridgeport Station/Three Road,0,318085,8,35,2.26
+6724,403,Bridgeport Station/Three Road,0,313072,8,35,2.26
+6724,403,Bridgeport Station/Three Road,1,318088,107,151,13.59
+6724,403,Bridgeport Station/Three Road,1,313077,94,160,13.55
+6724,403,Bridgeport Station/Three Road,1,313076,74,151,13.59
+6724,403,Bridgeport Station/Three Road,1,318087,61,160,13.55
+6724,403,Bridgeport Station/Three Road,1,318086,15,160,13.55
+6724,403,Bridgeport Station/Three Road,1,313078,15,160,13.55
+6725,404,Brighouse Station/Four Road,0,318093,62,121,9.67
+6725,404,Brighouse Station/Four Road,0,313079,62,121,9.67
+6725,404,Brighouse Station/Four Road,0,313081,36,121,9.67
+6725,404,Brighouse Station/Four Road,0,318091,36,121,9.67
+6725,404,Brighouse Station/Four Road,0,313082,8,121,9.67
+6725,404,Brighouse Station/Four Road,0,318090,8,121,9.67
+6725,404,Brighouse Station/Four Road,1,318096,58,110,9.28
+6725,404,Brighouse Station/Four Road,1,313084,58,110,9.28
+6725,404,Brighouse Station/Four Road,1,313086,44,110,9.28
+6725,404,Brighouse Station/Four Road,1,318094,44,110,9.28
+6725,404,Brighouse Station/Four Road,1,318095,7,79,7.17
+6725,404,Brighouse Station/Four Road,1,313085,7,79,7.17
+6725,404,Brighouse Station/Four Road,1,318097,2,35,2.26
+6725,404,Brighouse Station/Four Road,1,313083,2,35,2.26
+6726,405,Five Road/Cambie,0,313091,43,197,18.8
+6726,405,Five Road/Cambie,0,318098,43,197,18.8
+6726,405,Five Road/Cambie,0,318100,35,243,21.58
+6726,405,Five Road/Cambie,0,313089,35,243,21.58
+6726,405,Five Road/Cambie,0,313090,7,219,20.79
+6726,405,Five Road/Cambie,0,318099,7,219,20.79
+6726,405,Five Road/Cambie,0,313088,5,268,23.57
+6726,405,Five Road/Cambie,0,318101,5,268,23.57
+6726,405,Five Road/Cambie,0,318102,1,130,10.67
+6726,405,Five Road/Cambie,0,313087,1,130,10.67
+6726,405,Five Road/Cambie,1,318106,41,235,19.53
+6726,405,Five Road/Cambie,1,313094,41,235,19.53
+6726,405,Five Road/Cambie,1,318103,37,280,22.29
+6726,405,Five Road/Cambie,1,313097,37,280,22.29
+6726,405,Five Road/Cambie,1,313096,7,303,24.3
+6726,405,Five Road/Cambie,1,318104,7,303,24.3
+6726,405,Five Road/Cambie,1,313095,6,256,21.5
+6726,405,Five Road/Cambie,1,318105,6,256,21.5
+6726,405,Five Road/Cambie,1,318108,1,115,11.7
+6726,405,Five Road/Cambie,1,313092,1,115,11.7
+6727,407,Gilbert/Bridgeport,0,318112,93,279,20.39
+6727,407,Gilbert/Bridgeport,0,313106,92,279,20.39
+6727,407,Gilbert/Bridgeport,0,313105,14,279,21.34
+6727,407,Gilbert/Bridgeport,0,318113,14,279,21.34
+6727,407,Gilbert/Bridgeport,0,318116,7,311,24.14
+6727,407,Gilbert/Bridgeport,0,313102,7,311,24.14
+6727,407,Gilbert/Bridgeport,1,318119,48,274,19.44
+6727,407,Gilbert/Bridgeport,1,313115,48,274,19.44
+6727,407,Gilbert/Bridgeport,1,318118,44,273,19.86
+6727,407,Gilbert/Bridgeport,1,313116,44,273,19.86
+6727,407,Gilbert/Bridgeport,1,313113,12,302,21.47
+6727,407,Gilbert/Bridgeport,1,318121,12,302,21.47
+6727,407,Gilbert/Bridgeport,1,318127,4,336,24.26
+6727,407,Gilbert/Bridgeport,1,313107,4,336,24.26
+6727,407,Gilbert/Bridgeport,1,313114,3,301,21.89
+6727,407,Gilbert/Bridgeport,1,318120,3,301,21.89
+6727,407,Gilbert/Bridgeport,1,318125,2,164,10.77
+6727,407,Gilbert/Bridgeport,1,313109,2,164,10.77
+6727,407,Gilbert/Bridgeport,1,313108,1,335,24.68
+6727,407,Gilbert/Bridgeport,1,318124,1,102,8.16
+6727,407,Gilbert/Bridgeport,1,313110,1,102,8.16
+6727,407,Gilbert/Bridgeport,1,318126,1,335,24.68
+6728,410,Brighouse Station/22nd St Station,0,318137,199,275,21.48
+6728,410,Brighouse Station/22nd St Station,0,313126,199,275,21.48
+6728,410,Brighouse Station/22nd St Station,0,318138,54,268,22.28
+6728,410,Brighouse Station/22nd St Station,0,313125,54,268,22.28
+6728,410,Brighouse Station/22nd St Station,0,318135,3,52,3.1
+6728,410,Brighouse Station/22nd St Station,0,318136,3,214,18.02
+6728,410,Brighouse Station/22nd St Station,0,313127,3,214,18.02
+6728,410,Brighouse Station/22nd St Station,0,313128,3,52,3.1
+6728,410,Brighouse Station/22nd St Station,1,313131,195,301,22.24
+6728,410,Brighouse Station/22nd St Station,1,318139,195,301,22.24
+6728,410,Brighouse Station/22nd St Station,1,318140,52,325,23.34
+6728,410,Brighouse Station/22nd St Station,1,313130,51,325,23.34
+6728,410,Brighouse Station/22nd St Station,1,318141,10,190,17.91
+6728,410,Brighouse Station/22nd St Station,1,313129,10,190,17.91
+6730,430,Metrotown Station/Brighouse Station,0,318164,164,297,19.34
+6730,430,Metrotown Station/Brighouse Station,0,313155,163,297,19.34
+6730,430,Metrotown Station/Brighouse Station,1,318165,162,292,18.3
+6730,430,Metrotown Station/Brighouse Station,1,313158,162,292,18.3
+6737,501,Langley Centre/Surrey Central Station,0,318170,151,495,26.93
+6737,501,Langley Centre/Surrey Central Station,0,313160,148,495,26.93
+6737,501,Langley Centre/Surrey Central Station,0,318168,2,512,27.92
+6737,501,Langley Centre/Surrey Central Station,0,313162,2,512,27.92
+6737,501,Langley Centre/Surrey Central Station,1,318172,152,399,26.0
+6737,501,Langley Centre/Surrey Central Station,1,313164,149,399,26.0
+6737,501,Langley Centre/Surrey Central Station,1,318173,2,417,27.02
+6737,501,Langley Centre/Surrey Central Station,1,313163,2,417,27.02
+6738,502,Fraser Hwy,0,318174,241,216,18.8
+6738,502,Fraser Hwy,0,317228,241,216,18.8
+6738,502,Fraser Hwy,1,318177,237,219,18.38
+6738,502,Fraser Hwy,1,317229,237,219,18.38
+6738,502,Fraser Hwy,1,318178,6,77,6.02
+6738,502,Fraser Hwy,1,313168,6,77,6.02
+6739,509,Walnut Grove/Surrey Central Station,0,318192,10,351,25.08
+6739,509,Walnut Grove/Surrey Central Station,0,313178,8,351,25.08
+6739,509,Walnut Grove/Surrey Central Station,0,313180,3,346,21.15
+6739,509,Walnut Grove/Surrey Central Station,0,318190,3,346,21.15
+6739,509,Walnut Grove/Surrey Central Station,0,318191,1,179,15.97
+6739,509,Walnut Grove/Surrey Central Station,0,313179,1,179,15.97
+6739,509,Walnut Grove/Surrey Central Station,1,313182,6,347,24.69
+6739,509,Walnut Grove/Surrey Central Station,1,318196,6,347,24.69
+6739,509,Walnut Grove/Surrey Central Station,1,313184,4,331,20.65
+6739,509,Walnut Grove/Surrey Central Station,1,318194,4,331,20.65
+6739,509,Walnut Grove/Surrey Central Station,1,313183,1,217,11.96
+6739,509,Walnut Grove/Surrey Central Station,1,313185,1,352,25.17
+6739,509,Walnut Grove/Surrey Central Station,1,318193,1,352,25.17
+6739,509,Walnut Grove/Surrey Central Station,1,318195,1,217,11.96
+6741,601,Bridgeport Station/South Delta,0,318226,152,376,30.4
+6741,601,Bridgeport Station/South Delta,0,313221,152,376,30.4
+6741,601,Bridgeport Station/South Delta,0,313219,12,376,30.4
+6741,601,Bridgeport Station/South Delta,0,318228,12,376,30.4
+6741,601,Bridgeport Station/South Delta,0,313220,5,363,30.63
+6741,601,Bridgeport Station/South Delta,0,313218,5,186,15.8
+6741,601,Bridgeport Station/South Delta,0,318229,5,186,15.8
+6741,601,Bridgeport Station/South Delta,0,318227,5,363,30.63
+6741,601,Bridgeport Station/South Delta,0,313217,5,295,25.53
+6741,601,Bridgeport Station/South Delta,0,318230,5,295,25.53
+6741,601,Bridgeport Station/South Delta,0,318231,1,241,17.94
+6741,601,Bridgeport Station/South Delta,0,313216,1,241,17.94
+6741,601,Bridgeport Station/South Delta,1,313225,133,346,29.98
+6741,601,Bridgeport Station/South Delta,1,318235,133,346,29.98
+6741,601,Bridgeport Station/South Delta,1,318237,18,346,29.98
+6741,601,Bridgeport Station/South Delta,1,313223,18,346,29.98
+6741,601,Bridgeport Station/South Delta,1,313227,4,145,14.91
+6741,601,Bridgeport Station/South Delta,1,318236,4,331,29.8
+6741,601,Bridgeport Station/South Delta,1,318233,4,145,14.91
+6741,601,Bridgeport Station/South Delta,1,313224,4,331,29.8
+6741,601,Bridgeport Station/South Delta,1,318238,3,261,24.61
+6741,601,Bridgeport Station/South Delta,1,313222,3,261,24.61
+6741,601,Bridgeport Station/South Delta,1,313226,1,177,17.37
+6741,601,Bridgeport Station/South Delta,1,318234,1,177,17.37
+6742,602,Bridgeport Station/Tsawwassen Heights,0,313228,8,319,26.32
+6742,602,Bridgeport Station/Tsawwassen Heights,0,318239,8,319,26.32
+6742,602,Bridgeport Station/Tsawwassen Heights,1,318240,10,254,25.92
+6742,602,Bridgeport Station/Tsawwassen Heights,1,313229,10,254,25.92
+6743,603,Bridgeport Station/Beach Grove,0,313231,7,113,7.14
+6743,603,Bridgeport Station/Beach Grove,0,318242,7,113,7.14
+6743,603,Bridgeport Station/Beach Grove,0,313232,5,349,28.42
+6743,603,Bridgeport Station/Beach Grove,0,318241,5,349,28.42
+6743,603,Bridgeport Station/Beach Grove,0,313230,1,119,7.46
+6743,603,Bridgeport Station/Beach Grove,0,318243,1,119,7.46
+6743,603,Bridgeport Station/Beach Grove,1,313233,7,51,5.12
+6743,603,Bridgeport Station/Beach Grove,1,318245,7,51,5.12
+6743,603,Bridgeport Station/Beach Grove,1,318244,6,218,25.48
+6743,603,Bridgeport Station/Beach Grove,1,313234,6,218,25.48
+6744,604,Bridgeport Station/English Bluff,0,318247,7,49,5.12
+6744,604,Bridgeport Station/English Bluff,0,313235,7,49,5.12
+6744,604,Bridgeport Station/English Bluff,0,318246,5,285,26.4
+6744,604,Bridgeport Station/English Bluff,0,313236,5,285,26.4
+6744,604,Bridgeport Station/English Bluff,1,313238,7,114,7.15
+6744,604,Bridgeport Station/English Bluff,1,318248,7,114,7.15
+6744,604,Bridgeport Station/English Bluff,1,313237,5,280,27.51
+6744,604,Bridgeport Station/English Bluff,1,318249,5,280,27.51
+6745,606,Ladner Ring,0,318250,6,147,7.65
+6745,606,Ladner Ring,0,313239,6,147,7.65
+6745,606,Ladner Ring,1,318251,6,62,3.31
+6745,606,Ladner Ring,1,313240,6,62,3.31
+6746,608,Ladner Ring,0,318252,6,70,3.44
+6746,608,Ladner Ring,0,313241,6,70,3.44
+6746,608,Ladner Ring,1,318253,6,117,6.31
+6746,608,Ladner Ring,1,313242,6,117,6.31
+6747,620,Tsawwassen Ferry/Bridgeport Station Exp,0,318266,133,310,28.37
+6747,620,Tsawwassen Ferry/Bridgeport Station Exp,0,313255,133,310,28.37
+6747,620,Tsawwassen Ferry/Bridgeport Station Exp,1,313256,132,252,27.31
+6747,620,Tsawwassen Ferry/Bridgeport Station Exp,1,318267,132,252,27.31
+6748,640,River Road,0,318273,72,375,23.97
+6748,640,River Road,0,313261,72,375,23.97
+6748,640,River Road,0,318272,39,388,25.07
+6748,640,River Road,0,313262,39,388,25.07
+6748,640,River Road,0,318277,12,327,20.52
+6748,640,River Road,0,313257,12,327,20.52
+6748,640,River Road,0,318274,12,388,25.07
+6748,640,River Road,0,313260,12,388,25.07
+6748,640,River Road,0,318268,11,388,25.07
+6748,640,River Road,0,313266,11,388,25.07
+6748,640,River Road,0,313259,11,300,17.83
+6748,640,River Road,0,318275,11,300,17.83
+6748,640,River Road,0,313263,10,287,16.7
+6748,640,River Road,0,318271,10,287,16.7
+6748,640,River Road,0,318276,7,327,20.52
+6748,640,River Road,0,313258,7,327,20.52
+6748,640,River Road,0,318269,1,287,16.7
+6748,640,River Road,0,313265,1,287,16.7
+6748,640,River Road,1,318280,72,372,23.78
+6748,640,River Road,1,313268,72,372,23.78
+6748,640,River Road,1,313267,62,384,24.92
+6748,640,River Road,1,318281,62,384,24.92
+6748,640,River Road,1,318278,11,281,16.63
+6748,640,River Road,1,313270,11,281,16.63
+6748,640,River Road,1,318279,10,294,17.75
+6748,640,River Road,1,313269,10,294,17.75
+6749,701,Coquitlam Central Station/Haney Place/Maple Ridge E,0,318283,135,355,25.25
+6749,701,Coquitlam Central Station/Haney Place/Maple Ridge E,0,313275,134,355,25.25
+6749,701,Coquitlam Central Station/Haney Place/Maple Ridge E,0,318284,68,289,19.19
+6749,701,Coquitlam Central Station/Haney Place/Maple Ridge E,0,313274,68,289,19.19
+6749,701,Coquitlam Central Station/Haney Place/Maple Ridge E,0,313272,4,563,44.84
+6749,701,Coquitlam Central Station/Haney Place/Maple Ridge E,0,318286,4,563,44.84
+6749,701,Coquitlam Central Station/Haney Place/Maple Ridge E,0,313273,1,374,25.63
+6749,701,Coquitlam Central Station/Haney Place/Maple Ridge E,0,318287,1,176,11.82
+6749,701,Coquitlam Central Station/Haney Place/Maple Ridge E,0,313271,1,176,11.82
+6749,701,Coquitlam Central Station/Haney Place/Maple Ridge E,0,318285,1,374,25.63
+6749,701,Coquitlam Central Station/Haney Place/Maple Ridge E,0,313276,1,508,39.99
+6749,701,Coquitlam Central Station/Haney Place/Maple Ridge E,0,318282,1,508,39.99
+6749,701,Coquitlam Central Station/Haney Place/Maple Ridge E,1,318289,135,354,24.06
+6749,701,Coquitlam Central Station/Haney Place/Maple Ridge E,1,313279,134,354,24.06
+6749,701,Coquitlam Central Station/Haney Place/Maple Ridge E,1,318288,71,307,19.24
+6749,701,Coquitlam Central Station/Haney Place/Maple Ridge E,1,313281,70,307,19.24
+6749,701,Coquitlam Central Station/Haney Place/Maple Ridge E,1,313277,4,563,45.34
+6749,701,Coquitlam Central Station/Haney Place/Maple Ridge E,1,318291,4,563,45.34
+6749,701,Coquitlam Central Station/Haney Place/Maple Ridge E,1,318290,1,49,4.92
+6749,701,Coquitlam Central Station/Haney Place/Maple Ridge E,1,313278,1,49,4.92
+6754,855,Elgin Park School Special,0,318347,1,216,18.4
+6754,855,Elgin Park School Special,0,313336,1,216,18.4
+6754,855,Elgin Park School Special,1,318348,1,221,18.54
+6754,855,Elgin Park School Special,1,313337,1,221,18.54
+6761,880,Windsor School Special,1,318356,1,90,4.09
+6761,880,Windsor School Special,1,313344,1,90,4.09
+6762,881,Carson Graham School Special,0,318357,1,114,6.42
+6762,881,Carson Graham School Special,0,313345,1,114,6.42
+6762,881,Carson Graham School Special,1,313346,1,72,4.21
+6762,881,Carson Graham School Special,1,318358,1,72,4.21
+6770,WCE,West Coast Express,0,318416,7,1812,67.93
+6770,WCE,West Coast Express,0,313404,5,1812,67.93
+6770,WCE,West Coast Express,1,318417,7,1812,67.93
+6770,WCE,West Coast Express,1,313405,5,1812,67.93
+6771,,SeaBus,0,318418,242,25,3.2
+6771,,SeaBus,0,313406,206,25,3.2
+6771,,SeaBus,1,318419,242,25,3.2
+6771,,SeaBus,1,313407,206,25,3.2
+6776,131,Hastings @ Gilmore/Kootenay Loop,0,312603,52,63,4.28
+6776,131,Hastings @ Gilmore/Kootenay Loop,0,317603,52,63,4.28
+6776,131,Hastings @ Gilmore/Kootenay Loop,1,312604,52,73,4.7
+6776,131,Hastings @ Gilmore/Kootenay Loop,1,317604,52,73,4.7
+6777,280,Bluewater/Snug Cove,0,312892,19,346,15.59
+6777,280,Bluewater/Snug Cove,0,317891,19,346,15.59
+6777,280,Bluewater/Snug Cove,0,312891,3,321,14.77
+6777,280,Bluewater/Snug Cove,0,317892,3,321,14.77
+6777,280,Bluewater/Snug Cove,1,317893,16,195,9.43
+6777,280,Bluewater/Snug Cove,1,312894,16,195,9.43
+6777,280,Bluewater/Snug Cove,1,317894,6,170,8.6
+6777,280,Bluewater/Snug Cove,1,312893,6,170,8.6
+6778,281,Eagle Cliff/Snug Cove,0,312896,23,73,4.34
+6778,281,Eagle Cliff/Snug Cove,0,317895,23,73,4.34
+6778,281,Eagle Cliff/Snug Cove,1,317897,21,126,6.91
+6778,281,Eagle Cliff/Snug Cove,1,312898,21,126,6.91
+6779,262,Lions Bay/Caulfeild,0,317887,61,383,19.76
+6779,262,Lions Bay/Caulfeild,0,312888,41,383,19.76
+6779,262,Lions Bay/Caulfeild,0,312887,1,110,5.31
+6779,262,Lions Bay/Caulfeild,1,317890,61,382,19.42
+6779,262,Lions Bay/Caulfeild,1,312889,41,382,19.42
+6779,262,Lions Bay/Caulfeild,1,312890,1,131,5.18
+6780,215,Indian River/Phibbs Exchange,0,312765,98,161,7.16
+6780,215,Indian River/Phibbs Exchange,0,317765,98,161,7.16
+6780,215,Indian River/Phibbs Exchange,1,317767,90,142,6.65
+6780,215,Indian River/Phibbs Exchange,1,312766,90,142,6.65
+6780,215,Indian River/Phibbs Exchange,1,317766,10,142,6.65
+6780,215,Indian River/Phibbs Exchange,1,312767,10,142,6.65
+6790,103,New West Station/Quayside,0,312545,202,40,1.35
+6790,103,New West Station/Quayside,0,317545,202,40,1.35
+6790,103,New West Station/Quayside,1,317546,202,62,1.5
+6790,103,New West Station/Quayside,1,312546,202,62,1.5
+6796,105,New West Station/Uptown,0,312553,102,118,7.27
+6796,105,New West Station/Uptown,0,317553,102,118,7.27
+6796,105,New West Station/Uptown,1,317554,102,97,6.34
+6796,105,New West Station/Uptown,1,312554,102,97,6.34
+6799,743,Haney Place/Meadowtown,0,313299,50,228,12.32
+6799,743,Haney Place/Meadowtown,0,318309,50,228,12.32
+6799,743,Haney Place/Meadowtown,0,318308,2,227,12.24
+6799,743,Haney Place/Meadowtown,0,313300,2,227,12.24
+6799,743,Haney Place/Meadowtown,0,313298,1,127,6.02
+6799,743,Haney Place/Meadowtown,0,318310,1,127,6.02
+6799,743,Haney Place/Meadowtown,1,318311,50,211,11.72
+6799,743,Haney Place/Meadowtown,1,313301,50,211,11.72
+6800,744,Haney Place/Meadowtown,0,318313,49,177,11.34
+6800,744,Haney Place/Meadowtown,0,313302,49,177,11.34
+6800,744,Haney Place/Meadowtown,0,318312,1,175,11.25
+6800,744,Haney Place/Meadowtown,0,313303,1,175,11.25
+6800,744,Haney Place/Meadowtown,1,318314,52,187,11.57
+6800,744,Haney Place/Meadowtown,1,313304,52,187,11.57
+6804,748,Thornhill/Haney Place,0,313320,11,268,17.58
+6804,748,Thornhill/Haney Place,0,318329,11,268,17.58
+6804,748,Thornhill/Haney Place,0,313319,2,288,18.23
+6804,748,Thornhill/Haney Place,0,318330,2,288,18.23
+6804,748,Thornhill/Haney Place,1,318332,10,318,19.92
+6804,748,Thornhill/Haney Place,1,313322,10,318,19.92
+6804,748,Thornhill/Haney Place,1,313323,2,317,19.84
+6804,748,Thornhill/Haney Place,1,318331,2,317,19.84
+6804,748,Thornhill/Haney Place,1,313321,1,371,22.2
+6804,748,Thornhill/Haney Place,1,318333,1,371,22.2
+6805,749,Ruskin/Haney Place,0,318335,8,260,21.04
+6805,749,Ruskin/Haney Place,0,313324,8,260,21.04
+6805,749,Ruskin/Haney Place,0,318334,5,175,17.47
+6805,749,Ruskin/Haney Place,0,313325,5,175,17.47
+6805,749,Ruskin/Haney Place,1,318336,6,225,19.48
+6805,749,Ruskin/Haney Place,1,313330,6,225,19.48
+6805,749,Ruskin/Haney Place,1,318337,5,310,23.05
+6805,749,Ruskin/Haney Place,1,313329,5,310,23.05
+6805,749,Ruskin/Haney Place,1,318340,2,222,19.37
+6805,749,Ruskin/Haney Place,1,313326,2,222,19.37
+6805,749,Ruskin/Haney Place,1,318338,1,46,4.73
+6805,749,Ruskin/Haney Place,1,313328,1,46,4.73
+6806,148,Royal Oak Station/Edmonds Station,0,317634,119,102,6.26
+6806,148,Royal Oak Station/Edmonds Station,0,312634,119,102,6.26
+6806,148,Royal Oak Station/Edmonds Station,1,317635,118,107,6.4
+6806,148,Royal Oak Station/Edmonds Station,1,312635,118,107,6.4
+6811,146,Metrotown Station/Suncrest,0,312630,94,65,3.55
+6811,146,Metrotown Station/Suncrest,0,317630,94,65,3.55
+6811,146,Metrotown Station/Suncrest,1,312631,94,54,3.02
+6811,146,Metrotown Station/Suncrest,1,317631,94,54,3.02
+6814,562,Langley Centre/Walnut Grove,0,318209,92,340,21.32
+6814,562,Langley Centre/Walnut Grove,0,313200,92,340,21.32
+6814,562,Langley Centre/Walnut Grove,1,313203,92,389,22.24
+6814,562,Langley Centre/Walnut Grove,1,318212,92,389,22.24
+6815,563,Langley Centre/Fernridge,0,318215,52,208,13.02
+6815,563,Langley Centre/Fernridge,0,313206,52,208,13.02
+6815,563,Langley Centre/Fernridge,1,318218,46,200,12.4
+6815,563,Langley Centre/Fernridge,1,313207,46,200,12.4
+6816,564,Langley Centre/Willowbrook,0,318220,38,224,11.92
+6816,564,Langley Centre/Willowbrook,0,313208,38,224,11.92
+6816,564,Langley Centre/Willowbrook,1,313210,38,205,11.48
+6816,564,Langley Centre/Willowbrook,1,318221,38,205,11.48
+6817,147,Metrotown Station/Edmonds Station,0,312632,134,87,6.69
+6817,147,Metrotown Station/Edmonds Station,0,317632,134,87,6.69
+6817,147,Metrotown Station/Edmonds Station,1,317633,136,89,6.59
+6817,147,Metrotown Station/Edmonds Station,1,312633,135,89,6.59
+6818,371,Surrey Central Station/Scott Rd Station,0,313042,87,170,8.31
+6818,371,Surrey Central Station/Scott Rd Station,0,318052,87,170,8.31
+6818,371,Surrey Central Station/Scott Rd Station,1,318053,85,135,8.08
+6818,371,Surrey Central Station/Scott Rd Station,1,313043,85,135,8.08
+6819,373,Guildford/Surrey Central Station,0,313046,161,243,14.11
+6819,373,Guildford/Surrey Central Station,0,318058,161,243,14.11
+6819,373,Guildford/Surrey Central Station,0,313048,15,117,8.23
+6819,373,Guildford/Surrey Central Station,0,318056,15,117,8.23
+6819,373,Guildford/Surrey Central Station,0,313047,2,101,6.67
+6819,373,Guildford/Surrey Central Station,0,318057,2,101,6.67
+6819,373,Guildford/Surrey Central Station,1,313049,163,229,13.26
+6819,373,Guildford/Surrey Central Station,1,318061,163,229,13.26
+6819,373,Guildford/Surrey Central Station,1,318059,16,125,8.33
+6819,373,Guildford/Surrey Central Station,1,313051,16,125,8.33
+6819,373,Guildford/Surrey Central Station,1,318060,2,116,7.93
+6819,373,Guildford/Surrey Central Station,1,313050,2,116,7.93
+6821,322,Newton Exchange/Scottsdale,0,317957,198,193,13.93
+6821,322,Newton Exchange/Scottsdale,0,312956,198,193,13.93
+6821,322,Newton Exchange/Scottsdale,1,317958,199,202,15.44
+6821,322,Newton Exchange/Scottsdale,1,312957,199,202,15.44
+6822,310,Scottsdale/Ladner,0,317903,96,233,21.03
+6822,310,Scottsdale/Ladner,0,312905,96,233,21.03
+6822,310,Scottsdale/Ladner,0,317904,8,260,22.75
+6822,310,Scottsdale/Ladner,0,312904,8,260,22.75
+6822,310,Scottsdale/Ladner,0,312903,1,228,20.87
+6822,310,Scottsdale/Ladner,0,317905,1,228,20.87
+6822,310,Scottsdale/Ladner,1,317906,95,248,22.1
+6822,310,Scottsdale/Ladner,1,312907,95,248,22.1
+6822,310,Scottsdale/Ladner,1,312906,9,275,23.82
+6822,310,Scottsdale/Ladner,1,317907,9,275,23.82
+6823,616,Ladner South/Ladner Exchange,0,318258,60,80,4.32
+6823,616,Ladner South/Ladner Exchange,0,313247,60,80,4.32
+6823,616,Ladner South/Ladner Exchange,1,313248,60,62,3.31
+6823,616,Ladner South/Ladner Exchange,1,318259,60,62,3.31
+6825,618,Ladner North/Ladner Exchange,0,313250,37,59,3.99
+6825,618,Ladner North/Ladner Exchange,0,318260,37,59,3.99
+6825,618,Ladner North/Ladner Exchange,0,318261,21,93,4.63
+6825,618,Ladner North/Ladner Exchange,0,313249,21,93,4.63
+6825,618,Ladner North/Ladner Exchange,1,318262,37,90,4.55
+6825,618,Ladner North/Ladner Exchange,1,313252,37,90,4.55
+6825,618,Ladner North/Ladner Exchange,1,313251,21,57,3.9
+6825,618,Ladner North/Ladner Exchange,1,318263,21,57,3.9
+6827,412,Bridgeport Station/Sea Island South,0,313133,34,170,6.74
+6827,412,Bridgeport Station/Sea Island South,0,318143,34,170,6.74
+6827,412,Bridgeport Station/Sea Island South,0,318142,23,116,5.68
+6827,412,Bridgeport Station/Sea Island South,0,313134,23,116,5.68
+6827,412,Bridgeport Station/Sea Island South,1,318144,35,171,7.07
+6827,412,Bridgeport Station/Sea Island South,1,313136,34,171,7.07
+6827,412,Bridgeport Station/Sea Island South,1,313135,23,225,8.09
+6827,412,Bridgeport Station/Sea Island South,1,318145,23,225,8.09
+6828,413,Riverport/Steveston,0,313140,45,130,11.82
+6828,413,Riverport/Steveston,0,318146,45,130,11.82
+6828,413,Riverport/Steveston,0,318149,6,130,11.82
+6828,413,Riverport/Steveston,0,313137,6,130,11.82
+6828,413,Riverport/Steveston,0,318147,3,130,11.82
+6828,413,Riverport/Steveston,0,313139,2,130,11.82
+6828,413,Riverport/Steveston,0,318148,1,49,5.69
+6828,413,Riverport/Steveston,0,313138,1,49,5.69
+6828,413,Riverport/Steveston,1,318152,55,162,13.88
+6828,413,Riverport/Steveston,1,313141,55,162,13.88
+6828,413,Riverport/Steveston,1,313143,1,97,9.19
+6828,413,Riverport/Steveston,1,318150,1,97,9.19
+6829,416,East Cambie/Brighouse Station,0,318157,14,139,11.14
+6829,416,East Cambie/Brighouse Station,0,313148,14,139,11.14
+6829,416,East Cambie/Brighouse Station,1,313149,14,153,10.68
+6829,416,East Cambie/Brighouse Station,1,318158,14,153,10.68
+6830,N10,Granville-YVR,0,318422,18,435,24.12
+6830,N10,Granville-YVR,0,313409,18,435,24.12
+6830,N10,Granville-YVR,0,318420,2,139,6.41
+6830,N10,Granville-YVR,0,313411,2,139,6.41
+6830,N10,Granville-YVR,1,318425,18,472,25.53
+6830,N10,Granville-YVR,1,313412,18,472,25.53
+6831,N15,Cambie,0,318426,9,155,9.35
+6831,N15,Cambie,0,313414,9,155,9.35
+6831,N15,Cambie,1,318427,9,157,10.11
+6831,N15,Cambie,1,313415,9,157,10.11
+6833,N17,West Broadway,0,313416,10,147,11.07
+6833,N17,West Broadway,0,318428,10,147,11.07
+6833,N17,West Broadway,1,318429,11,164,12.31
+6833,N17,West Broadway,1,313417,11,164,12.31
+6834,N19,Kingsway,0,313419,40,518,29.62
+6834,N19,Kingsway,0,318430,40,518,29.62
+6834,N19,Kingsway,0,313418,7,359,21.58
+6834,N19,Kingsway,0,318431,7,359,21.58
+6834,N19,Kingsway,1,313420,10,524,29.96
+6834,N19,Kingsway,1,318432,10,524,29.96
+6835,N20,Victoria,0,318433,19,292,15.91
+6835,N20,Victoria,0,313421,19,292,15.91
+6835,N20,Victoria,1,313422,19,307,16.23
+6835,N20,Victoria,1,318434,19,307,16.23
+6836,N22,Macdonald,0,318435,9,193,10.14
+6836,N22,Macdonald,0,313423,9,193,10.14
+6836,N22,Macdonald,1,313424,9,223,11.56
+6836,N22,Macdonald,1,318436,9,223,11.56
+6837,N24,Downtown/Lynn Valley,0,313427,25,311,18.5
+6837,N24,Downtown/Lynn Valley,0,318438,25,311,18.5
+6837,N24,Downtown/Lynn Valley,0,318439,4,111,5.81
+6837,N24,Downtown/Lynn Valley,0,313426,4,111,5.81
+6837,N24,Downtown/Lynn Valley,0,313428,2,177,11.0
+6837,N24,Downtown/Lynn Valley,0,318437,2,177,11.0
+6837,N24,Downtown/Lynn Valley,0,318440,1,286,16.69
+6837,N24,Downtown/Lynn Valley,0,313425,1,286,16.69
+6837,N24,Downtown/Lynn Valley,1,313431,6,330,18.35
+6837,N24,Downtown/Lynn Valley,1,318442,6,330,18.35
+6837,N24,Downtown/Lynn Valley,1,318444,5,327,17.94
+6837,N24,Downtown/Lynn Valley,1,313429,5,327,17.94
+6837,N24,Downtown/Lynn Valley,1,318441,4,203,11.68
+6837,N24,Downtown/Lynn Valley,1,313432,4,203,11.68
+6837,N24,Downtown/Lynn Valley,1,318443,2,130,6.68
+6837,N24,Downtown/Lynn Valley,1,313430,2,130,6.68
+6838,N35,Hastings St,0,318445,23,251,17.57
+6838,N35,Hastings St,0,313433,23,251,17.57
+6838,N35,Hastings St,1,318446,27,290,17.77
+6838,N35,Hastings St,1,313434,27,290,17.77
+6840,N8,Fraser,0,313435,19,248,12.96
+6840,N8,Fraser,0,318447,19,248,12.96
+6840,N8,Fraser,1,318448,17,225,12.24
+6840,N8,Fraser,1,313436,17,225,12.24
+6841,N9,Broadway-Lougheed,0,318450,37,601,35.47
+6841,N9,Broadway-Lougheed,0,313437,37,601,35.47
+6841,N9,Broadway-Lougheed,0,318449,4,240,12.2
+6841,N9,Broadway-Lougheed,0,313438,4,240,12.2
+6841,N9,Broadway-Lougheed,1,313439,35,584,33.83
+6841,N9,Broadway-Lougheed,1,318451,35,584,33.83
+6843,614,English Bluff/South Delta Exchange,0,313245,36,131,7.98
+6843,614,English Bluff/South Delta Exchange,0,318256,36,131,7.98
+6843,614,English Bluff/South Delta Exchange,1,313246,36,58,5.33
+6843,614,English Bluff/South Delta Exchange,1,318257,36,58,5.33
+6844,619,South Delta Exchange/Boundary Bay,0,313253,38,79,5.52
+6844,619,South Delta Exchange/Boundary Bay,0,318264,38,79,5.52
+6844,619,South Delta Exchange/Boundary Bay,1,313254,38,79,5.57
+6844,619,South Delta Exchange/Boundary Bay,1,318265,38,79,5.57
+7224,791,Haney Place/Braid Station,0,313331,39,443,26.97
+7224,791,Haney Place/Braid Station,0,318342,39,443,26.97
+7224,791,Haney Place/Braid Station,0,318341,6,221,12.62
+7224,791,Haney Place/Braid Station,0,313332,5,221,12.62
+7224,791,Haney Place/Braid Station,1,318344,42,439,27.29
+7224,791,Haney Place/Braid Station,1,313333,41,439,27.29
+7224,791,Haney Place/Braid Station,1,318343,2,98,5.28
+7224,791,Haney Place/Braid Station,1,314711,2,98,5.28
+7321,375,152 Street,0,318062,114,235,21.9
+7321,375,152 Street,0,313052,114,235,21.9
+7321,375,152 Street,1,313053,117,247,23.68
+7321,375,152 Street,1,318063,117,247,23.68
+7322,132,Capitol Hill/Hastings @ Gilmore,0,317605,52,48,3.6
+7322,132,Capitol Hill/Hastings @ Gilmore,0,312605,52,48,3.6
+7322,132,Capitol Hill/Hastings @ Gilmore,1,312606,52,47,3.71
+7322,132,Capitol Hill/Hastings @ Gilmore,1,317606,52,47,3.71
+7509,150,Coquitlam Central Station/White Pine Beach,0,317636,91,305,11.62
+7509,150,Coquitlam Central Station/White Pine Beach,0,312636,34,305,11.62
+7509,150,Coquitlam Central Station/White Pine Beach,1,317637,91,271,10.75
+7509,150,Coquitlam Central Station/White Pine Beach,1,312637,34,271,10.75
+8286,370,Cloverdale/Willowbrook,0,313039,45,156,10.75
+8286,370,Cloverdale/Willowbrook,0,318048,45,156,10.75
+8286,370,Cloverdale/Willowbrook,1,313041,49,170,11.18
+8286,370,Cloverdale/Willowbrook,1,318050,49,170,11.18
+8289,865,Samuel Robertson School Special,1,313342,2,68,7.43
+8289,865,Samuel Robertson School Special,1,318354,2,68,7.43
+8290,341,Guildford/Newton Exchange,0,313004,102,128,10.66
+8290,341,Guildford/Newton Exchange,0,318009,101,128,10.66
+8290,341,Guildford/Newton Exchange,0,318010,4,123,10.32
+8290,341,Guildford/Newton Exchange,0,313003,3,123,10.32
+8290,341,Guildford/Newton Exchange,0,318011,1,95,8.32
+8290,341,Guildford/Newton Exchange,0,313002,1,95,8.32
+8290,341,Guildford/Newton Exchange,1,314719,99,127,10.53
+8290,341,Guildford/Newton Exchange,1,318013,97,127,10.53
+8290,341,Guildford/Newton Exchange,1,318015,12,121,10.14
+8290,341,Guildford/Newton Exchange,1,313005,10,121,10.14
+8290,341,Guildford/Newton Exchange,1,318012,1,100,8.34
+8290,341,Guildford/Newton Exchange,1,314720,1,100,8.34
+9745,418,Kingswood/22nd St Station,0,318160,28,177,12.25
+9745,418,Kingswood/22nd St Station,0,313150,28,177,12.25
+9745,418,Kingswood/22nd St Station,0,313151,2,63,3.07
+9745,418,Kingswood/22nd St Station,0,318159,2,63,3.07
+9745,418,Kingswood/22nd St Station,1,318162,26,217,14.8
+9745,418,Kingswood/22nd St Station,1,313153,25,217,14.8
+9745,418,Kingswood/22nd St Station,1,313152,3,111,10.74
+9745,418,Kingswood/22nd St Station,1,318163,3,111,10.74
+9745,418,Kingswood/22nd St Station,1,318161,2,102,3.7
+9745,418,Kingswood/22nd St Station,1,313154,2,102,3.7
+HD,HD,HandyDART,0,4484,2,1,0.0

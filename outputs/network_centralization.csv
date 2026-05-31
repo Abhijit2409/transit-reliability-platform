@@ -1,0 +1,6 @@
+metric,value
+Top 10% of routes share of activity (%),32.77
+Top 20% of routes share of activity (%),52.53
+Gini coefficient (route load),0.4915
+Total routes with telemetry,225.0
+Persistent routes (≥4 days),222.0

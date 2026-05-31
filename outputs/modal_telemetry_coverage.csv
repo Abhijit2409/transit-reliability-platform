@@ -1,0 +1,6 @@
+mode,routes_in_static,routes_in_telemetry,coverage_pct
+Bus,236,225,95.3
+SkyTrain,3,0,0.0
+HandyDART,1,0,0.0
+SeaBus,1,0,0.0
+West Coast Express,1,0,0.0

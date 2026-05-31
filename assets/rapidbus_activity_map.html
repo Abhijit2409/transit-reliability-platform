@@ -1,0 +1,2307 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3473e2310a6c1dba98f8193e348bfb88 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+    <div style="position: fixed; top: 10px; left: 50px; z-index: 9999;
+                background: white; padding: 8px 16px; border-radius: 6px;
+                box-shadow: 0 2px 6px rgba(0,0,0,0.18);
+                font-family: -apple-system, Segoe UI, sans-serif;
+                font-size: 14px; font-weight: 600;">
+      RapidBus Corridors (R1–R6) <span style="font-weight: 400; color: #666;">
+      (95 positions)</span>
+    </div>
+    
+    
+    <div style="position: fixed; bottom: 20px; right: 20px; z-index: 9999;
+                background: white; padding: 10px 14px; border-radius: 6px;
+                box-shadow: 0 2px 6px rgba(0,0,0,0.18);
+                font-family: -apple-system, Segoe UI, sans-serif;
+                font-size: 12px;">
+      <div style="font-weight: 600; margin-bottom: 4px;">Legend</div>
+      <div style="margin:3px 0;"><span style="display:inline-block;width:12px;height:12px;background:#e67e22;border-radius:2px;margin-right:6px;vertical-align:middle;"></span>R1</div><div style="margin:3px 0;"><span style="display:inline-block;width:12px;height:12px;background:#e67e22;border-radius:2px;margin-right:6px;vertical-align:middle;"></span>R2</div><div style="margin:3px 0;"><span style="display:inline-block;width:12px;height:12px;background:#e67e22;border-radius:2px;margin-right:6px;vertical-align:middle;"></span>R3</div><div style="margin:3px 0;"><span style="display:inline-block;width:12px;height:12px;background:#e67e22;border-radius:2px;margin-right:6px;vertical-align:middle;"></span>R4</div><div style="margin:3px 0;"><span style="display:inline-block;width:12px;height:12px;background:#e67e22;border-radius:2px;margin-right:6px;vertical-align:middle;"></span>R5</div><div style="margin:3px 0;"><span style="display:inline-block;width:12px;height:12px;background:#e67e22;border-radius:2px;margin-right:6px;vertical-align:middle;"></span>R6</div>
+    </div>
+    
+    
+            <div class="folium-map" id="map_3473e2310a6c1dba98f8193e348bfb88" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3473e2310a6c1dba98f8193e348bfb88 = L.map(
+                "map_3473e2310a6c1dba98f8193e348bfb88",
+                {
+                    center: [49.23963815789474, -122.99926444605777],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+            L.control.scale().addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+
+            
+
+        
+    
+            var tile_layer_819397f2fa57a7b610e40fc888a06001 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_819397f2fa57a7b610e40fc888a06001.addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+            var circle_marker_3021314ef627b46fd4213c1dae095a0e = L.circleMarker(
+                [49.23423385620117, -123.13435363769531],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_86ac6e48946a7fd4a64be9d1c3e2526b = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_af777e37db7e1fe01a7be83e5b853391 = $(`<div id="html_af777e37db7e1fe01a7be83e5b853391" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R4<br><b>Long name:</b> 41st Avenue<br><b>Vehicle:</b> 18063<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_86ac6e48946a7fd4a64be9d1c3e2526b.setContent(html_af777e37db7e1fe01a7be83e5b853391);
+            
+        
+
+        circle_marker_3021314ef627b46fd4213c1dae095a0e.bindPopup(popup_86ac6e48946a7fd4a64be9d1c3e2526b)
+        ;
+
+        
+    
+    
+            var circle_marker_bb146f4fd4c02db5ba23a6d174a961ed = L.circleMarker(
+                [49.233001708984375, -123.10166931152344],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_815ae7762dc07ef994b8a53ff6fe1077 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_d065cce793d0b59fa60f8782e98c6184 = $(`<div id="html_d065cce793d0b59fa60f8782e98c6184" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R4<br><b>Long name:</b> 41st Avenue<br><b>Vehicle:</b> 18044<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_815ae7762dc07ef994b8a53ff6fe1077.setContent(html_d065cce793d0b59fa60f8782e98c6184);
+            
+        
+
+        circle_marker_bb146f4fd4c02db5ba23a6d174a961ed.bindPopup(popup_815ae7762dc07ef994b8a53ff6fe1077)
+        ;
+
+        
+    
+    
+            var circle_marker_56313cc5dd07b182d9422bb49ddb6a15 = L.circleMarker(
+                [49.23301696777344, -123.10176849365234],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_9945f8bb75370e6732a345b4b94753fb = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_3088d5da4d3fdb687d4a1f94ffb22696 = $(`<div id="html_3088d5da4d3fdb687d4a1f94ffb22696" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R4<br><b>Long name:</b> 41st Avenue<br><b>Vehicle:</b> 18013<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_9945f8bb75370e6732a345b4b94753fb.setContent(html_3088d5da4d3fdb687d4a1f94ffb22696);
+            
+        
+
+        circle_marker_56313cc5dd07b182d9422bb49ddb6a15.bindPopup(popup_9945f8bb75370e6732a345b4b94753fb)
+        ;
+
+        
+    
+    
+            var circle_marker_83ccc936fad30816d4812af72edc5781 = L.circleMarker(
+                [49.232818603515625, -123.09168243408203],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_c664e9945e693ef30df465fe009fe360 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_56688ba6daf29ed40a27246e52e9131f = $(`<div id="html_56688ba6daf29ed40a27246e52e9131f" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R4<br><b>Long name:</b> 41st Avenue<br><b>Vehicle:</b> 16203<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_c664e9945e693ef30df465fe009fe360.setContent(html_56688ba6daf29ed40a27246e52e9131f);
+            
+        
+
+        circle_marker_83ccc936fad30816d4812af72edc5781.bindPopup(popup_c664e9945e693ef30df465fe009fe360)
+        ;
+
+        
+    
+    
+            var circle_marker_85240b9aa2764066fa663776b9300c2c = L.circleMarker(
+                [49.234615325927734, -123.15357971191406],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_164d4b29ad182108ec7c2739e5329d25 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_3f9b24272efe86ebb051eba2ba87cd1b = $(`<div id="html_3f9b24272efe86ebb051eba2ba87cd1b" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R4<br><b>Long name:</b> 41st Avenue<br><b>Vehicle:</b> 24009<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_164d4b29ad182108ec7c2739e5329d25.setContent(html_3f9b24272efe86ebb051eba2ba87cd1b);
+            
+        
+
+        circle_marker_85240b9aa2764066fa663776b9300c2c.bindPopup(popup_164d4b29ad182108ec7c2739e5329d25)
+        ;
+
+        
+    
+    
+            var circle_marker_17b3e873c6956b758135edcc3c34c130 = L.circleMarker(
+                [49.23481750488281, -123.18592071533203],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_1d119045ecf63830d6c6073fd1b7b131 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_5d1cddf3ef28e8981972c474a64946a9 = $(`<div id="html_5d1cddf3ef28e8981972c474a64946a9" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R4<br><b>Long name:</b> 41st Avenue<br><b>Vehicle:</b> 18027<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_1d119045ecf63830d6c6073fd1b7b131.setContent(html_5d1cddf3ef28e8981972c474a64946a9);
+            
+        
+
+        circle_marker_17b3e873c6956b758135edcc3c34c130.bindPopup(popup_1d119045ecf63830d6c6073fd1b7b131)
+        ;
+
+        
+    
+    
+            var circle_marker_a368447c23a216e467bfcd7a846b5bbb = L.circleMarker(
+                [49.23458480834961, -123.158203125],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_59dc58037851f9f71002e2cf9263c5f2 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_65be6b011b75315d923f189335d774eb = $(`<div id="html_65be6b011b75315d923f189335d774eb" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R4<br><b>Long name:</b> 41st Avenue<br><b>Vehicle:</b> 19004<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_59dc58037851f9f71002e2cf9263c5f2.setContent(html_65be6b011b75315d923f189335d774eb);
+            
+        
+
+        circle_marker_a368447c23a216e467bfcd7a846b5bbb.bindPopup(popup_59dc58037851f9f71002e2cf9263c5f2)
+        ;
+
+        
+    
+    
+            var circle_marker_5d1d9c7cb459dfab3577822537be255b = L.circleMarker(
+                [49.234615325927734, -123.1597671508789],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_6db237f112d9fae6397fd8015eb3d6f2 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_3ab321925ea0fb41b43ad89aace1f7aa = $(`<div id="html_3ab321925ea0fb41b43ad89aace1f7aa" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R4<br><b>Long name:</b> 41st Avenue<br><b>Vehicle:</b> 19003<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_6db237f112d9fae6397fd8015eb3d6f2.setContent(html_3ab321925ea0fb41b43ad89aace1f7aa);
+            
+        
+
+        circle_marker_5d1d9c7cb459dfab3577822537be255b.bindPopup(popup_6db237f112d9fae6397fd8015eb3d6f2)
+        ;
+
+        
+    
+    
+            var circle_marker_5d1f6e3072957e5a3da78bb66d3731f3 = L.circleMarker(
+                [49.23463439941406, -123.16183471679688],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_ef6d293d894fe9354d450a0d4c8fcc0c = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_fe4ebe91802fe932d0ce4370e2398ff6 = $(`<div id="html_fe4ebe91802fe932d0ce4370e2398ff6" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R4<br><b>Long name:</b> 41st Avenue<br><b>Vehicle:</b> 18052<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_ef6d293d894fe9354d450a0d4c8fcc0c.setContent(html_fe4ebe91802fe932d0ce4370e2398ff6);
+            
+        
+
+        circle_marker_5d1f6e3072957e5a3da78bb66d3731f3.bindPopup(popup_ef6d293d894fe9354d450a0d4c8fcc0c)
+        ;
+
+        
+    
+    
+            var circle_marker_26aa002ac8c2aeab44ca3ce6f7db539e = L.circleMarker(
+                [49.232582092285156, -123.06915283203125],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_9daa73d9c751f3314a98cecad9d5804d = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_edc27f0dc1ebe27cd806a9f332fdba1f = $(`<div id="html_edc27f0dc1ebe27cd806a9f332fdba1f" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R4<br><b>Long name:</b> 41st Avenue<br><b>Vehicle:</b> 19046<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_9daa73d9c751f3314a98cecad9d5804d.setContent(html_edc27f0dc1ebe27cd806a9f332fdba1f);
+            
+        
+
+        circle_marker_26aa002ac8c2aeab44ca3ce6f7db539e.bindPopup(popup_9daa73d9c751f3314a98cecad9d5804d)
+        ;
+
+        
+    
+    
+            var circle_marker_68138585c1652d0b9810393265393688 = L.circleMarker(
+                [49.23284912109375, -123.08191680908203],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_4453fc081b47f01c45b84644997ecd4f = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_f1104111fbe719e35b00aaec15dbc9a9 = $(`<div id="html_f1104111fbe719e35b00aaec15dbc9a9" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R4<br><b>Long name:</b> 41st Avenue<br><b>Vehicle:</b> 18030<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_4453fc081b47f01c45b84644997ecd4f.setContent(html_f1104111fbe719e35b00aaec15dbc9a9);
+            
+        
+
+        circle_marker_68138585c1652d0b9810393265393688.bindPopup(popup_4453fc081b47f01c45b84644997ecd4f)
+        ;
+
+        
+    
+    
+            var circle_marker_472a8881ce3ef63937d502f3081b02f0 = L.circleMarker(
+                [49.23301696777344, -123.09110260009766],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_58d8701b9bd5bf52e2a72dfd701ecdb5 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_635e4179c13df00e74954e95faff103c = $(`<div id="html_635e4179c13df00e74954e95faff103c" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R4<br><b>Long name:</b> 41st Avenue<br><b>Vehicle:</b> 18014<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_58d8701b9bd5bf52e2a72dfd701ecdb5.setContent(html_635e4179c13df00e74954e95faff103c);
+            
+        
+
+        circle_marker_472a8881ce3ef63937d502f3081b02f0.bindPopup(popup_58d8701b9bd5bf52e2a72dfd701ecdb5)
+        ;
+
+        
+    
+    
+            var circle_marker_66715996eb3dec9690b281bd3daa5dfa = L.circleMarker(
+                [49.28123474121094, -123.06424713134766],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_0b4392b419cd27f2eea4c43148be1b87 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_b841da1cfaa873cf54d8432670b6b36f = $(`<div id="html_b841da1cfaa873cf54d8432670b6b36f" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R5<br><b>Long name:</b> Hastings St<br><b>Vehicle:</b> 16218<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_0b4392b419cd27f2eea4c43148be1b87.setContent(html_b841da1cfaa873cf54d8432670b6b36f);
+            
+        
+
+        circle_marker_66715996eb3dec9690b281bd3daa5dfa.bindPopup(popup_0b4392b419cd27f2eea4c43148be1b87)
+        ;
+
+        
+    
+    
+            var circle_marker_ac7a06831a0f3fe5bf9477ddb950ac5b = L.circleMarker(
+                [49.23350143432617, -123.11693572998047],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_2d884ef7596efad5524e70e1b90f188e = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_269142e97d1b8d44a7f10ab13a6a3c07 = $(`<div id="html_269142e97d1b8d44a7f10ab13a6a3c07" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R4<br><b>Long name:</b> 41st Avenue<br><b>Vehicle:</b> 18039<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_2d884ef7596efad5524e70e1b90f188e.setContent(html_269142e97d1b8d44a7f10ab13a6a3c07);
+            
+        
+
+        circle_marker_ac7a06831a0f3fe5bf9477ddb950ac5b.bindPopup(popup_2d884ef7596efad5524e70e1b90f188e)
+        ;
+
+        
+    
+    
+            var circle_marker_868213e6fd433617182f25a8ad206b32 = L.circleMarker(
+                [49.23356628417969, -123.11830139160156],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_3d8f84f34f4c7c7584b00f73446a673e = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_e0d3be116dc88407211357bd74c2ecf9 = $(`<div id="html_e0d3be116dc88407211357bd74c2ecf9" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R4<br><b>Long name:</b> 41st Avenue<br><b>Vehicle:</b> 18038<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_3d8f84f34f4c7c7584b00f73446a673e.setContent(html_e0d3be116dc88407211357bd74c2ecf9);
+            
+        
+
+        circle_marker_868213e6fd433617182f25a8ad206b32.bindPopup(popup_3d8f84f34f4c7c7584b00f73446a673e)
+        ;
+
+        
+    
+    
+            var circle_marker_6e26141305a1cdf0e11e643fe3c9166e = L.circleMarker(
+                [49.28105163574219, -123.0382308959961],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_0b54e1a9807c0461782c220eae3c62d6 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_4354ac622fa38d7fe458b6b37e6ae0d8 = $(`<div id="html_4354ac622fa38d7fe458b6b37e6ae0d8" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R5<br><b>Long name:</b> Hastings St<br><b>Vehicle:</b> 22009<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_0b54e1a9807c0461782c220eae3c62d6.setContent(html_4354ac622fa38d7fe458b6b37e6ae0d8);
+            
+        
+
+        circle_marker_6e26141305a1cdf0e11e643fe3c9166e.bindPopup(popup_0b54e1a9807c0461782c220eae3c62d6)
+        ;
+
+        
+    
+    
+            var circle_marker_f32ec53bf7b476cbb88344b49632626f = L.circleMarker(
+                [49.28106689453125, -123.0302963256836],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_197d78241ec112d4abce31f5be5dc9d0 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_d0f938fde403c2ed5f8fc9f9d440adc4 = $(`<div id="html_d0f938fde403c2ed5f8fc9f9d440adc4" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R5<br><b>Long name:</b> Hastings St<br><b>Vehicle:</b> 19032<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_197d78241ec112d4abce31f5be5dc9d0.setContent(html_d0f938fde403c2ed5f8fc9f9d440adc4);
+            
+        
+
+        circle_marker_f32ec53bf7b476cbb88344b49632626f.bindPopup(popup_197d78241ec112d4abce31f5be5dc9d0)
+        ;
+
+        
+    
+    
+            var circle_marker_6d0bcb78ae84bdb72fe5b3e3c2aa75a0 = L.circleMarker(
+                [49.28118133544922, -123.05156707763672],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_6fd4f0875831123e30f0065a67f09ec7 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_163967f75441780310d5883ef9b162a5 = $(`<div id="html_163967f75441780310d5883ef9b162a5" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R5<br><b>Long name:</b> Hastings St<br><b>Vehicle:</b> 15019<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_6fd4f0875831123e30f0065a67f09ec7.setContent(html_163967f75441780310d5883ef9b162a5);
+            
+        
+
+        circle_marker_6d0bcb78ae84bdb72fe5b3e3c2aa75a0.bindPopup(popup_6fd4f0875831123e30f0065a67f09ec7)
+        ;
+
+        
+    
+    
+            var circle_marker_3adf1e55562d716ca6670b10acf9af95 = L.circleMarker(
+                [49.232933044433594, -123.061767578125],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_a8164cab387787e97618bdf28a803c50 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_8efc943001dfef9f625d17b7b6368b62 = $(`<div id="html_8efc943001dfef9f625d17b7b6368b62" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R4<br><b>Long name:</b> 41st Avenue<br><b>Vehicle:</b> 22010<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_a8164cab387787e97618bdf28a803c50.setContent(html_8efc943001dfef9f625d17b7b6368b62);
+            
+        
+
+        circle_marker_3adf1e55562d716ca6670b10acf9af95.bindPopup(popup_a8164cab387787e97618bdf28a803c50)
+        ;
+
+        
+    
+    
+            var circle_marker_15c9b7f95903b97472aaa7c268eb4e72 = L.circleMarker(
+                [49.2330322265625, -123.04373168945312],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_5b4e4b061f9cfd6248fe984fea39bfea = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_0afdc0cedfb403b580d9134662f4090e = $(`<div id="html_0afdc0cedfb403b580d9134662f4090e" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R4<br><b>Long name:</b> 41st Avenue<br><b>Vehicle:</b> 18025<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_5b4e4b061f9cfd6248fe984fea39bfea.setContent(html_0afdc0cedfb403b580d9134662f4090e);
+            
+        
+
+        circle_marker_15c9b7f95903b97472aaa7c268eb4e72.bindPopup(popup_5b4e4b061f9cfd6248fe984fea39bfea)
+        ;
+
+        
+    
+    
+            var circle_marker_9b539714c7e247922397b9394ef3e159 = L.circleMarker(
+                [49.23808288574219, -123.03196716308594],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_74f5a1d4655ecafdac55c29e66d276a8 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_8c3f7ff2e787d6bc5abb18696916f287 = $(`<div id="html_8c3f7ff2e787d6bc5abb18696916f287" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R4<br><b>Long name:</b> 41st Avenue<br><b>Vehicle:</b> 18023<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_74f5a1d4655ecafdac55c29e66d276a8.setContent(html_8c3f7ff2e787d6bc5abb18696916f287);
+            
+        
+
+        circle_marker_9b539714c7e247922397b9394ef3e159.bindPopup(popup_74f5a1d4655ecafdac55c29e66d276a8)
+        ;
+
+        
+    
+    
+            var circle_marker_1900cc109e819f21f2534fcfb5466ae2 = L.circleMarker(
+                [49.238250732421875, -123.03182983398438],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_8c03306a547078b47bcc459f6d02ee16 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_95b842eb85938961a857c2e9a9ba8fbe = $(`<div id="html_95b842eb85938961a857c2e9a9ba8fbe" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R4<br><b>Long name:</b> 41st Avenue<br><b>Vehicle:</b> 18058<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_8c03306a547078b47bcc459f6d02ee16.setContent(html_95b842eb85938961a857c2e9a9ba8fbe);
+            
+        
+
+        circle_marker_1900cc109e819f21f2534fcfb5466ae2.bindPopup(popup_8c03306a547078b47bcc459f6d02ee16)
+        ;
+
+        
+    
+    
+            var circle_marker_c0562839fd6dbc8fce5775f0cbd162e2 = L.circleMarker(
+                [49.23796844482422, -123.03128051757812],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_16a2d4552f95e363b731a31f9d0ff56f = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_bc422f988b62558a86bd1db1ed774893 = $(`<div id="html_bc422f988b62558a86bd1db1ed774893" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R4<br><b>Long name:</b> 41st Avenue<br><b>Vehicle:</b> 18001<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_16a2d4552f95e363b731a31f9d0ff56f.setContent(html_bc422f988b62558a86bd1db1ed774893);
+            
+        
+
+        circle_marker_c0562839fd6dbc8fce5775f0cbd162e2.bindPopup(popup_16a2d4552f95e363b731a31f9d0ff56f)
+        ;
+
+        
+    
+    
+            var circle_marker_36d597dccf27307777871da701d83315 = L.circleMarker(
+                [49.23809814453125, -123.03073120117188],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_746b6c2842187aa564f0801c10788122 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_1587581633ded0ba549dffa79acd7a39 = $(`<div id="html_1587581633ded0ba549dffa79acd7a39" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R4<br><b>Long name:</b> 41st Avenue<br><b>Vehicle:</b> 18018<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_746b6c2842187aa564f0801c10788122.setContent(html_1587581633ded0ba549dffa79acd7a39);
+            
+        
+
+        circle_marker_36d597dccf27307777871da701d83315.bindPopup(popup_746b6c2842187aa564f0801c10788122)
+        ;
+
+        
+    
+    
+            var circle_marker_7140b119564cb53053e21744d456862a = L.circleMarker(
+                [49.280250549316406, -122.98946380615234],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_7d11486d0db0ce3290c6a3978996779c = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_8aae0c2619578cee97ab1167743fb161 = $(`<div id="html_8aae0c2619578cee97ab1167743fb161" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R5<br><b>Long name:</b> Hastings St<br><b>Vehicle:</b> 19016<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_7d11486d0db0ce3290c6a3978996779c.setContent(html_8aae0c2619578cee97ab1167743fb161);
+            
+        
+
+        circle_marker_7140b119564cb53053e21744d456862a.bindPopup(popup_7d11486d0db0ce3290c6a3978996779c)
+        ;
+
+        
+    
+    
+            var circle_marker_1716fd08543ad14965a24145063a1d73 = L.circleMarker(
+                [49.27356719970703, -122.92597961425781],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_d6a3374e8d5e272256ac20c473a905cf = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_03ceadea0878b0f7335970e6c039a61c = $(`<div id="html_03ceadea0878b0f7335970e6c039a61c" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R5<br><b>Long name:</b> Hastings St<br><b>Vehicle:</b> 19033<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_d6a3374e8d5e272256ac20c473a905cf.setContent(html_03ceadea0878b0f7335970e6c039a61c);
+            
+        
+
+        circle_marker_1716fd08543ad14965a24145063a1d73.bindPopup(popup_d6a3374e8d5e272256ac20c473a905cf)
+        ;
+
+        
+    
+    
+            var circle_marker_e94056c1352ce907a443a431f8f1bd4d = L.circleMarker(
+                [49.279083251953125, -122.91224670410156],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_6c68a90cecff4e8dc4b06037216749b3 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_b8713c6018a04e0aefa8e4ff891bfe56 = $(`<div id="html_b8713c6018a04e0aefa8e4ff891bfe56" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R5<br><b>Long name:</b> Hastings St<br><b>Vehicle:</b> 23012<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_6c68a90cecff4e8dc4b06037216749b3.setContent(html_b8713c6018a04e0aefa8e4ff891bfe56);
+            
+        
+
+        circle_marker_e94056c1352ce907a443a431f8f1bd4d.bindPopup(popup_6c68a90cecff4e8dc4b06037216749b3)
+        ;
+
+        
+    
+    
+            var circle_marker_d0d5810e1f4e1b4236100019793f4197 = L.circleMarker(
+                [49.27983474731445, -122.91995239257812],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_bc0186488d3059e723b3f1dbd435cd08 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_eb24a3fa9e10ad3af82bdd6c927dfc81 = $(`<div id="html_eb24a3fa9e10ad3af82bdd6c927dfc81" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R5<br><b>Long name:</b> Hastings St<br><b>Vehicle:</b> 19031<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_bc0186488d3059e723b3f1dbd435cd08.setContent(html_eb24a3fa9e10ad3af82bdd6c927dfc81);
+            
+        
+
+        circle_marker_d0d5810e1f4e1b4236100019793f4197.bindPopup(popup_bc0186488d3059e723b3f1dbd435cd08)
+        ;
+
+        
+    
+    
+            var circle_marker_0293ce4ce82b25ee841292380bf6928e = L.circleMarker(
+                [49.280399322509766, -122.98722076416016],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_7991bcab940a31febdef996713ac8299 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_fd5d0bb536027442060ae1be00abf1b1 = $(`<div id="html_fd5d0bb536027442060ae1be00abf1b1" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R5<br><b>Long name:</b> Hastings St<br><b>Vehicle:</b> 22014<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_7991bcab940a31febdef996713ac8299.setContent(html_fd5d0bb536027442060ae1be00abf1b1);
+            
+        
+
+        circle_marker_0293ce4ce82b25ee841292380bf6928e.bindPopup(popup_7991bcab940a31febdef996713ac8299)
+        ;
+
+        
+    
+    
+            var circle_marker_c4e959afa66a6f9d7c640b9e0886d823 = L.circleMarker(
+                [49.23473358154297, -123.18721771240234],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_955dc53a75d7c8bcb92e1dfd3ab9eee3 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_e394f0af8c0a7f17e6985dec34632cbf = $(`<div id="html_e394f0af8c0a7f17e6985dec34632cbf" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R4<br><b>Long name:</b> 41st Avenue<br><b>Vehicle:</b> 18012<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_955dc53a75d7c8bcb92e1dfd3ab9eee3.setContent(html_e394f0af8c0a7f17e6985dec34632cbf);
+            
+        
+
+        circle_marker_c4e959afa66a6f9d7c640b9e0886d823.bindPopup(popup_955dc53a75d7c8bcb92e1dfd3ab9eee3)
+        ;
+
+        
+    
+    
+            var circle_marker_e22907c4121eb4cf0b8e90363d1fff2e = L.circleMarker(
+                [49.24656677246094, -123.23663330078125],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_73b294ae6b711c9b38e488496a559c25 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_1b27a638b62d164d9ed3e27af9a3ca8c = $(`<div id="html_1b27a638b62d164d9ed3e27af9a3ca8c" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R4<br><b>Long name:</b> 41st Avenue<br><b>Vehicle:</b> 19001<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_73b294ae6b711c9b38e488496a559c25.setContent(html_1b27a638b62d164d9ed3e27af9a3ca8c);
+            
+        
+
+        circle_marker_e22907c4121eb4cf0b8e90363d1fff2e.bindPopup(popup_73b294ae6b711c9b38e488496a559c25)
+        ;
+
+        
+    
+    
+            var circle_marker_c38fcbe2870e3d896d079eb3e0622fc6 = L.circleMarker(
+                [49.236915588378906, -123.20381927490234],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_7c3e340f8078675b67a1e82a57a3fc14 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_23cfa164f17d8e286748fb6eedf18aba = $(`<div id="html_23cfa164f17d8e286748fb6eedf18aba" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R4<br><b>Long name:</b> 41st Avenue<br><b>Vehicle:</b> 18016<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_7c3e340f8078675b67a1e82a57a3fc14.setContent(html_23cfa164f17d8e286748fb6eedf18aba);
+            
+        
+
+        circle_marker_c38fcbe2870e3d896d079eb3e0622fc6.bindPopup(popup_7c3e340f8078675b67a1e82a57a3fc14)
+        ;
+
+        
+    
+    
+            var circle_marker_af5828aa3e90fdcdb74cda5de0d5225d = L.circleMarker(
+                [49.28103256225586, -123.08522033691406],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_9ed944649038758a8c3c0fbf38625831 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_d14c9691b32e288da70718864c3b566a = $(`<div id="html_d14c9691b32e288da70718864c3b566a" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R5<br><b>Long name:</b> Hastings St<br><b>Vehicle:</b> 9625<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_9ed944649038758a8c3c0fbf38625831.setContent(html_d14c9691b32e288da70718864c3b566a);
+            
+        
+
+        circle_marker_af5828aa3e90fdcdb74cda5de0d5225d.bindPopup(popup_9ed944649038758a8c3c0fbf38625831)
+        ;
+
+        
+    
+    
+            var circle_marker_86e67890c975506dec46a075a437da48 = L.circleMarker(
+                [49.281131744384766, -123.06199645996094],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_a7ce3732bed5a6a31ec24c3a5809557e = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_be08ea07d667c4908542f7c9856cc7f8 = $(`<div id="html_be08ea07d667c4908542f7c9856cc7f8" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R5<br><b>Long name:</b> Hastings St<br><b>Vehicle:</b> 23007<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_a7ce3732bed5a6a31ec24c3a5809557e.setContent(html_be08ea07d667c4908542f7c9856cc7f8);
+            
+        
+
+        circle_marker_86e67890c975506dec46a075a437da48.bindPopup(popup_a7ce3732bed5a6a31ec24c3a5809557e)
+        ;
+
+        
+    
+    
+            var circle_marker_d90b536c094f052297961d809debdf05 = L.circleMarker(
+                [49.27043151855469, -122.7834701538086],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_3cd6c9f70ce9c2f5d4454cbdd0ab6311 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_d1efbf504760913ef115785cc921ad09 = $(`<div id="html_d1efbf504760913ef115785cc921ad09" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R3<br><b>Long name:</b> Lougheed Hwy<br><b>Vehicle:</b> 14032<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_3cd6c9f70ce9c2f5d4454cbdd0ab6311.setContent(html_d1efbf504760913ef115785cc921ad09);
+            
+        
+
+        circle_marker_d90b536c094f052297961d809debdf05.bindPopup(popup_3cd6c9f70ce9c2f5d4454cbdd0ab6311)
+        ;
+
+        
+    
+    
+            var circle_marker_9dd7d1d1c5679c110df678638a132273 = L.circleMarker(
+                [49.276634216308594, -122.91670227050781],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_8279595f31572eec822831c8af13bc8e = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_a5b2f2e4081534ad0e3c701f9e9df0d5 = $(`<div id="html_a5b2f2e4081534ad0e3c701f9e9df0d5" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R5<br><b>Long name:</b> Hastings St<br><b>Vehicle:</b> 23008<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_8279595f31572eec822831c8af13bc8e.setContent(html_a5b2f2e4081534ad0e3c701f9e9df0d5);
+            
+        
+
+        circle_marker_9dd7d1d1c5679c110df678638a132273.bindPopup(popup_8279595f31572eec822831c8af13bc8e)
+        ;
+
+        
+    
+    
+            var circle_marker_43834401a073e7a81b4db6aab7a56b90 = L.circleMarker(
+                [49.278499603271484, -122.91276550292969],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_b05ce63f428a4279ea5780302d9befbc = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_55a06538715901b47568c474a76894fa = $(`<div id="html_55a06538715901b47568c474a76894fa" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R5<br><b>Long name:</b> Hastings St<br><b>Vehicle:</b> 8151<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_b05ce63f428a4279ea5780302d9befbc.setContent(html_55a06538715901b47568c474a76894fa);
+            
+        
+
+        circle_marker_43834401a073e7a81b4db6aab7a56b90.bindPopup(popup_b05ce63f428a4279ea5780302d9befbc)
+        ;
+
+        
+    
+    
+            var circle_marker_617619910647dc1da8653529acbab6d4 = L.circleMarker(
+                [49.27658462524414, -122.91636657714844],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_41fd986c5e0e72493d171a95bb91f38c = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_7d6eaa19c4c6e430dbc8f85cff3cc4c9 = $(`<div id="html_7d6eaa19c4c6e430dbc8f85cff3cc4c9" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R5<br><b>Long name:</b> Hastings St<br><b>Vehicle:</b> 15012<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_41fd986c5e0e72493d171a95bb91f38c.setContent(html_7d6eaa19c4c6e430dbc8f85cff3cc4c9);
+            
+        
+
+        circle_marker_617619910647dc1da8653529acbab6d4.bindPopup(popup_41fd986c5e0e72493d171a95bb91f38c)
+        ;
+
+        
+    
+    
+            var circle_marker_319d8c1d79d1ef6e7036355f60dbfe88 = L.circleMarker(
+                [49.274600982666016, -122.79889678955078],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_f81eed1afe186c42028283ea93dde835 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_1c09ac7bd6fd76043491755927998cde = $(`<div id="html_1c09ac7bd6fd76043491755927998cde" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R3<br><b>Long name:</b> Lougheed Hwy<br><b>Vehicle:</b> 18165<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_f81eed1afe186c42028283ea93dde835.setContent(html_1c09ac7bd6fd76043491755927998cde);
+            
+        
+
+        circle_marker_319d8c1d79d1ef6e7036355f60dbfe88.bindPopup(popup_f81eed1afe186c42028283ea93dde835)
+        ;
+
+        
+    
+    
+            var circle_marker_2c20cd9c7ec2670db76a36a4ca2f92d4 = L.circleMarker(
+                [49.313167572021484, -123.07745361328125],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_f98df124088cb096dec9b09b758186bd = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_2a642cee49e1517540668969fcd154da = $(`<div id="html_2a642cee49e1517540668969fcd154da" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R2<br><b>Long name:</b> Marine Drive<br><b>Vehicle:</b> 16225<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_f98df124088cb096dec9b09b758186bd.setContent(html_2a642cee49e1517540668969fcd154da);
+            
+        
+
+        circle_marker_2c20cd9c7ec2670db76a36a4ca2f92d4.bindPopup(popup_f98df124088cb096dec9b09b758186bd)
+        ;
+
+        
+    
+    
+            var circle_marker_d1aec1f53781576f9d711f4e2e2bd41f = L.circleMarker(
+                [49.32061767578125, -123.09273529052734],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_f9b8c30d5d994a9dec5c023abf19e48f = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_b8f84c30ff9546511bc7a5dc935d9df1 = $(`<div id="html_b8f84c30ff9546511bc7a5dc935d9df1" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R2<br><b>Long name:</b> Marine Drive<br><b>Vehicle:</b> 24002<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_f9b8c30d5d994a9dec5c023abf19e48f.setContent(html_b8f84c30ff9546511bc7a5dc935d9df1);
+            
+        
+
+        circle_marker_d1aec1f53781576f9d711f4e2e2bd41f.bindPopup(popup_f9b8c30d5d994a9dec5c023abf19e48f)
+        ;
+
+        
+    
+    
+            var circle_marker_36caaafef7e79283791428667c03b433 = L.circleMarker(
+                [49.31148147583008, -123.08101654052734],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_042b577cbf8b7c9f59f8cbda3df7cb9e = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_5e8cfb2a9232be44164c8be8862c7e88 = $(`<div id="html_5e8cfb2a9232be44164c8be8862c7e88" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R2<br><b>Long name:</b> Marine Drive<br><b>Vehicle:</b> 23004<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_042b577cbf8b7c9f59f8cbda3df7cb9e.setContent(html_5e8cfb2a9232be44164c8be8862c7e88);
+            
+        
+
+        circle_marker_36caaafef7e79283791428667c03b433.bindPopup(popup_042b577cbf8b7c9f59f8cbda3df7cb9e)
+        ;
+
+        
+    
+    
+            var circle_marker_b893df0b1c9dda24b40aa2379b6fec89 = L.circleMarker(
+                [49.327049255371094, -123.13521575927734],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_37031040df8060a69663c3177d1415d5 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_47429642046ff747c8820c7cfdeaee5c = $(`<div id="html_47429642046ff747c8820c7cfdeaee5c" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R2<br><b>Long name:</b> Marine Drive<br><b>Vehicle:</b> 23005<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_37031040df8060a69663c3177d1415d5.setContent(html_47429642046ff747c8820c7cfdeaee5c);
+            
+        
+
+        circle_marker_b893df0b1c9dda24b40aa2379b6fec89.bindPopup(popup_37031040df8060a69663c3177d1415d5)
+        ;
+
+        
+    
+    
+            var circle_marker_6716aef7fde888507e426c0d87273a21 = L.circleMarker(
+                [49.316749572753906, -123.08573150634766],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_7e7a6c12aad3687a71063862ac304a52 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_0e30e48b800e7162502566f7f31c2916 = $(`<div id="html_0e30e48b800e7162502566f7f31c2916" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R2<br><b>Long name:</b> Marine Drive<br><b>Vehicle:</b> 8122<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_7e7a6c12aad3687a71063862ac304a52.setContent(html_0e30e48b800e7162502566f7f31c2916);
+            
+        
+
+        circle_marker_6716aef7fde888507e426c0d87273a21.bindPopup(popup_7e7a6c12aad3687a71063862ac304a52)
+        ;
+
+        
+    
+    
+            var circle_marker_6f244066ea9aae7b09d58e57f6c1a568 = L.circleMarker(
+                [49.20370101928711, -122.87586975097656],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_815e86908141c911fbd0710c642ba690 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_d9b033d18a6fc992a01e8f8379e61db7 = $(`<div id="html_d9b033d18a6fc992a01e8f8379e61db7" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R6<br><b>Long name:</b> Scott Road<br><b>Vehicle:</b> 18017<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_815e86908141c911fbd0710c642ba690.setContent(html_d9b033d18a6fc992a01e8f8379e61db7);
+            
+        
+
+        circle_marker_6f244066ea9aae7b09d58e57f6c1a568.bindPopup(popup_815e86908141c911fbd0710c642ba690)
+        ;
+
+        
+    
+    
+            var circle_marker_ee2f328e329a8e8dbbf2eaeb6b990da0 = L.circleMarker(
+                [49.17356872558594, -122.845947265625],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_2e64d85ec5dc816d87fb5a2368dd21b3 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_cbd1b2788bd375704f8cb016695991c6 = $(`<div id="html_cbd1b2788bd375704f8cb016695991c6" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R1<br><b>Long name:</b> King George Blvd<br><b>Vehicle:</b> 18010<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_2e64d85ec5dc816d87fb5a2368dd21b3.setContent(html_cbd1b2788bd375704f8cb016695991c6);
+            
+        
+
+        circle_marker_ee2f328e329a8e8dbbf2eaeb6b990da0.bindPopup(popup_2e64d85ec5dc816d87fb5a2368dd21b3)
+        ;
+
+        
+    
+    
+            var circle_marker_e1871706bbd2ba974c25d07a8a781044 = L.circleMarker(
+                [49.161067962646484, -122.89046478271484],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_0025507a7ee1071a2c82703098106ac8 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_2016f9207a18f1321f443182a1e87ece = $(`<div id="html_2016f9207a18f1321f443182a1e87ece" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R6<br><b>Long name:</b> Scott Road<br><b>Vehicle:</b> 18026<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_0025507a7ee1071a2c82703098106ac8.setContent(html_2016f9207a18f1321f443182a1e87ece);
+            
+        
+
+        circle_marker_e1871706bbd2ba974c25d07a8a781044.bindPopup(popup_0025507a7ee1071a2c82703098106ac8)
+        ;
+
+        
+    
+    
+            var circle_marker_b013b94227f0d79a0b44dfa76286ec8a = L.circleMarker(
+                [49.191566467285156, -122.81196594238281],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_20c7b9a21e8750c864c425080b2748fb = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_b072e4ab15d7f696e486793062e305b2 = $(`<div id="html_b072e4ab15d7f696e486793062e305b2" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R1<br><b>Long name:</b> King George Blvd<br><b>Vehicle:</b> 18034<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_20c7b9a21e8750c864c425080b2748fb.setContent(html_b072e4ab15d7f696e486793062e305b2);
+            
+        
+
+        circle_marker_b013b94227f0d79a0b44dfa76286ec8a.bindPopup(popup_20c7b9a21e8750c864c425080b2748fb)
+        ;
+
+        
+    
+    
+            var circle_marker_f41a1ec02b140ba0b37a61f9cf3fa16a = L.circleMarker(
+                [49.15650177001953, -122.89026641845703],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_9ef0657a3d1496ef7f86f1a7f0c87578 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_5e0187661d23b4d2bd16eb279b88e74b = $(`<div id="html_5e0187661d23b4d2bd16eb279b88e74b" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R6<br><b>Long name:</b> Scott Road<br><b>Vehicle:</b> 18006<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_9ef0657a3d1496ef7f86f1a7f0c87578.setContent(html_5e0187661d23b4d2bd16eb279b88e74b);
+            
+        
+
+        circle_marker_f41a1ec02b140ba0b37a61f9cf3fa16a.bindPopup(popup_9ef0657a3d1496ef7f86f1a7f0c87578)
+        ;
+
+        
+    
+    
+            var circle_marker_a69d844eb27e73c4588ebd668ab2884e = L.circleMarker(
+                [49.148799896240234, -122.89044952392578],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_d20a1457c58bd8e365e08151957265f0 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_340a3a985a475ec0a2ede235c30aaffb = $(`<div id="html_340a3a985a475ec0a2ede235c30aaffb" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R6<br><b>Long name:</b> Scott Road<br><b>Vehicle:</b> 18019<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_d20a1457c58bd8e365e08151957265f0.setContent(html_340a3a985a475ec0a2ede235c30aaffb);
+            
+        
+
+        circle_marker_a69d844eb27e73c4588ebd668ab2884e.bindPopup(popup_d20a1457c58bd8e365e08151957265f0)
+        ;
+
+        
+    
+    
+            var circle_marker_fcf5adbb97b9702770f72fa11ff6a99b = L.circleMarker(
+                [49.19150161743164, -122.8407974243164],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_ba2aaf0b0b36f852b02f9ab1444b631c = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_6b4534fea07f9ee97d7aadf52503f92f = $(`<div id="html_6b4534fea07f9ee97d7aadf52503f92f" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R1<br><b>Long name:</b> King George Blvd<br><b>Vehicle:</b> 19002<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_ba2aaf0b0b36f852b02f9ab1444b631c.setContent(html_6b4534fea07f9ee97d7aadf52503f92f);
+            
+        
+
+        circle_marker_fcf5adbb97b9702770f72fa11ff6a99b.bindPopup(popup_ba2aaf0b0b36f852b02f9ab1444b631c)
+        ;
+
+        
+    
+    
+            var circle_marker_74e14f225dbea403167a527811d0578e = L.circleMarker(
+                [49.15913391113281, -122.845703125],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_2f43b59572bc6ba9b2065d50009638f6 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_ac3911169b6307b5ee688da037b6b152 = $(`<div id="html_ac3911169b6307b5ee688da037b6b152" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R1<br><b>Long name:</b> King George Blvd<br><b>Vehicle:</b> 19008<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_2f43b59572bc6ba9b2065d50009638f6.setContent(html_ac3911169b6307b5ee688da037b6b152);
+            
+        
+
+        circle_marker_74e14f225dbea403167a527811d0578e.bindPopup(popup_2f43b59572bc6ba9b2065d50009638f6)
+        ;
+
+        
+    
+    
+            var circle_marker_1bf7090a871dde0f009e1613d0b42584 = L.circleMarker(
+                [49.13348388671875, -122.8436508178711],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_58c2f9641dc9406685e39a919259219e = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_c5d8af9da377726964dbfd8943c29308 = $(`<div id="html_c5d8af9da377726964dbfd8943c29308" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R1<br><b>Long name:</b> King George Blvd<br><b>Vehicle:</b> 18007<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_58c2f9641dc9406685e39a919259219e.setContent(html_c5d8af9da377726964dbfd8943c29308);
+            
+        
+
+        circle_marker_1bf7090a871dde0f009e1613d0b42584.bindPopup(popup_58c2f9641dc9406685e39a919259219e)
+        ;
+
+        
+    
+    
+            var circle_marker_c95fcdd56de566dc69ea6e33c440c130 = L.circleMarker(
+                [49.13636779785156, -122.84566497802734],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_242fda3ce8f88c3781f9d3a446014cca = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_d7e31538970892b7af9be8041ea6d2ca = $(`<div id="html_d7e31538970892b7af9be8041ea6d2ca" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R1<br><b>Long name:</b> King George Blvd<br><b>Vehicle:</b> 18041<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_242fda3ce8f88c3781f9d3a446014cca.setContent(html_d7e31538970892b7af9be8041ea6d2ca);
+            
+        
+
+        circle_marker_c95fcdd56de566dc69ea6e33c440c130.bindPopup(popup_242fda3ce8f88c3781f9d3a446014cca)
+        ;
+
+        
+    
+    
+            var circle_marker_11cc722f8231d70dd6d5b450014afc04 = L.circleMarker(
+                [49.13349914550781, -122.84329986572266],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_2e00a5d4a42ee4d6ef30f91e649cd645 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_5888ba183cc711a720148d809257400f = $(`<div id="html_5888ba183cc711a720148d809257400f" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R6<br><b>Long name:</b> Scott Road<br><b>Vehicle:</b> 18040<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_2e00a5d4a42ee4d6ef30f91e649cd645.setContent(html_5888ba183cc711a720148d809257400f);
+            
+        
+
+        circle_marker_11cc722f8231d70dd6d5b450014afc04.bindPopup(popup_2e00a5d4a42ee4d6ef30f91e649cd645)
+        ;
+
+        
+    
+    
+            var circle_marker_308a007551e7d65d5c7e9eb1c450eb49 = L.circleMarker(
+                [49.135833740234375, -122.89019775390625],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_8286cbf6c374cb4960bff1ea5b94ed25 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_b01bbbfe57eeb3333c9ec3c23a23be77 = $(`<div id="html_b01bbbfe57eeb3333c9ec3c23a23be77" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R6<br><b>Long name:</b> Scott Road<br><b>Vehicle:</b> 18028<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_8286cbf6c374cb4960bff1ea5b94ed25.setContent(html_b01bbbfe57eeb3333c9ec3c23a23be77);
+            
+        
+
+        circle_marker_308a007551e7d65d5c7e9eb1c450eb49.bindPopup(popup_8286cbf6c374cb4960bff1ea5b94ed25)
+        ;
+
+        
+    
+    
+            var circle_marker_167a696940f43cbfcf461b3872f37b30 = L.circleMarker(
+                [49.1336669921875, -122.8514175415039],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_c1ef55a87e11bd0a5613d67c145ba63e = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_6b425ec14f71610c22ac4dcadcacf00e = $(`<div id="html_6b425ec14f71610c22ac4dcadcacf00e" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R6<br><b>Long name:</b> Scott Road<br><b>Vehicle:</b> 18057<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_c1ef55a87e11bd0a5613d67c145ba63e.setContent(html_6b425ec14f71610c22ac4dcadcacf00e);
+            
+        
+
+        circle_marker_167a696940f43cbfcf461b3872f37b30.bindPopup(popup_c1ef55a87e11bd0a5613d67c145ba63e)
+        ;
+
+        
+    
+    
+            var circle_marker_6165bdad8bdad8c6c0805289379a3e6c = L.circleMarker(
+                [49.191551208496094, -122.83456420898438],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_1cbd4a41045c7aa689a01980b0a2d73c = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_355d639ce7b0cfe7236479813dbf8545 = $(`<div id="html_355d639ce7b0cfe7236479813dbf8545" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R1<br><b>Long name:</b> King George Blvd<br><b>Vehicle:</b> 18049<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_1cbd4a41045c7aa689a01980b0a2d73c.setContent(html_355d639ce7b0cfe7236479813dbf8545);
+            
+        
+
+        circle_marker_6165bdad8bdad8c6c0805289379a3e6c.bindPopup(popup_1cbd4a41045c7aa689a01980b0a2d73c)
+        ;
+
+        
+    
+    
+            var circle_marker_38419a1e6955e3d07f58dfcf91ebac72 = L.circleMarker(
+                [49.23685073852539, -122.70458221435547],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_6db1c6c47ab6d5be98c5e817900977a6 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_3c312b4e57ade86851922c8418877dc2 = $(`<div id="html_3c312b4e57ade86851922c8418877dc2" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R3<br><b>Long name:</b> Lougheed Hwy<br><b>Vehicle:</b> 18046<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_6db1c6c47ab6d5be98c5e817900977a6.setContent(html_3c312b4e57ade86851922c8418877dc2);
+            
+        
+
+        circle_marker_38419a1e6955e3d07f58dfcf91ebac72.bindPopup(popup_6db1c6c47ab6d5be98c5e817900977a6)
+        ;
+
+        
+    
+    
+            var circle_marker_6eddf0ae8a82500e23d7195ca73f4988 = L.circleMarker(
+                [49.24791717529297, -122.72940063476562],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_a58113ba92c1eb3b00afd09310cee50d = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_b3ef190199eec3bf8305812a8b0bc9ac = $(`<div id="html_b3ef190199eec3bf8305812a8b0bc9ac" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R3<br><b>Long name:</b> Lougheed Hwy<br><b>Vehicle:</b> 18047<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_a58113ba92c1eb3b00afd09310cee50d.setContent(html_b3ef190199eec3bf8305812a8b0bc9ac);
+            
+        
+
+        circle_marker_6eddf0ae8a82500e23d7195ca73f4988.bindPopup(popup_a58113ba92c1eb3b00afd09310cee50d)
+        ;
+
+        
+    
+    
+            var circle_marker_0f33bcd95ceb42aff85b93571a610bb1 = L.circleMarker(
+                [49.2671012878418, -122.775146484375],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_ce18148c6bb780e078282ff7ebc79ec6 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_e3eb241ac63426127ef61b012c8900e1 = $(`<div id="html_e3eb241ac63426127ef61b012c8900e1" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R3<br><b>Long name:</b> Lougheed Hwy<br><b>Vehicle:</b> 18056<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_ce18148c6bb780e078282ff7ebc79ec6.setContent(html_e3eb241ac63426127ef61b012c8900e1);
+            
+        
+
+        circle_marker_0f33bcd95ceb42aff85b93571a610bb1.bindPopup(popup_ce18148c6bb780e078282ff7ebc79ec6)
+        ;
+
+        
+    
+    
+            var circle_marker_0bbd9c06f8ee16c537e3de1ec3a80e1c = L.circleMarker(
+                [49.18965148925781, -122.84757995605469],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_b750d8ff82be93e5ad830d54e31ffd3c = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_a214440fb03e3877e63f3c996aa1297c = $(`<div id="html_a214440fb03e3877e63f3c996aa1297c" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R1<br><b>Long name:</b> King George Blvd<br><b>Vehicle:</b> 18033<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_b750d8ff82be93e5ad830d54e31ffd3c.setContent(html_a214440fb03e3877e63f3c996aa1297c);
+            
+        
+
+        circle_marker_0bbd9c06f8ee16c537e3de1ec3a80e1c.bindPopup(popup_b750d8ff82be93e5ad830d54e31ffd3c)
+        ;
+
+        
+    
+    
+            var circle_marker_0a916fdf7b4759ed0ba0218e97d1957a = L.circleMarker(
+                [49.216983795166016, -122.60749816894531],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_5c9deda114c7503275366745e0005955 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_acc712b311f7108f00000dbedeccc0a8 = $(`<div id="html_acc712b311f7108f00000dbedeccc0a8" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R3<br><b>Long name:</b> Lougheed Hwy<br><b>Vehicle:</b> 18050<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_5c9deda114c7503275366745e0005955.setContent(html_acc712b311f7108f00000dbedeccc0a8);
+            
+        
+
+        circle_marker_0a916fdf7b4759ed0ba0218e97d1957a.bindPopup(popup_5c9deda114c7503275366745e0005955)
+        ;
+
+        
+    
+    
+            var circle_marker_c97ba68385243c9d6f4ec1acbae23405 = L.circleMarker(
+                [49.21989822387695, -122.5987319946289],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_771d5ee5def977bbd7afb14dcbc0e51c = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_43252391d5b2807454f56b1ad2c4fe7d = $(`<div id="html_43252391d5b2807454f56b1ad2c4fe7d" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R3<br><b>Long name:</b> Lougheed Hwy<br><b>Vehicle:</b> 18053<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_771d5ee5def977bbd7afb14dcbc0e51c.setContent(html_43252391d5b2807454f56b1ad2c4fe7d);
+            
+        
+
+        circle_marker_c97ba68385243c9d6f4ec1acbae23405.bindPopup(popup_771d5ee5def977bbd7afb14dcbc0e51c)
+        ;
+
+        
+    
+    
+            var circle_marker_483db9f9d58a4845a9ed3e532b147d2b = L.circleMarker(
+                [49.21933364868164, -122.5970687866211],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_04032c92569628cc7308b4073b06aab4 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_f86001480daf122209e4e2baea882984 = $(`<div id="html_f86001480daf122209e4e2baea882984" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R3<br><b>Long name:</b> Lougheed Hwy<br><b>Vehicle:</b> 18059<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_04032c92569628cc7308b4073b06aab4.setContent(html_f86001480daf122209e4e2baea882984);
+            
+        
+
+        circle_marker_483db9f9d58a4845a9ed3e532b147d2b.bindPopup(popup_04032c92569628cc7308b4073b06aab4)
+        ;
+
+        
+    
+    
+            var circle_marker_b4f5d505df8523899e6197e81c1b16a5 = L.circleMarker(
+                [49.193031311035156, -122.8009033203125],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_28a0b7504c6653b47601185dc5947cc9 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_8cbe71430162fba044d8be0c8c3865ae = $(`<div id="html_8cbe71430162fba044d8be0c8c3865ae" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R1<br><b>Long name:</b> King George Blvd<br><b>Vehicle:</b> 18008<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_28a0b7504c6653b47601185dc5947cc9.setContent(html_8cbe71430162fba044d8be0c8c3865ae);
+            
+        
+
+        circle_marker_b4f5d505df8523899e6197e81c1b16a5.bindPopup(popup_28a0b7504c6653b47601185dc5947cc9)
+        ;
+
+        
+    
+    
+            var circle_marker_838a23ab89311f0cd7f83cd8398b366b = L.circleMarker(
+                [49.260284423828125, -123.24024963378906],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_d21451b997f9b09b4c4a6c2c285a2a5f = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_f987db920093decdfeb827686a38510c = $(`<div id="html_f987db920093decdfeb827686a38510c" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R4<br><b>Long name:</b> 41st Avenue<br><b>Vehicle:</b> 23010<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_d21451b997f9b09b4c4a6c2c285a2a5f.setContent(html_f987db920093decdfeb827686a38510c);
+            
+        
+
+        circle_marker_838a23ab89311f0cd7f83cd8398b366b.bindPopup(popup_d21451b997f9b09b4c4a6c2c285a2a5f)
+        ;
+
+        
+    
+    
+            var circle_marker_325059caa65d92d1d4b6b29aaf6733ed = L.circleMarker(
+                [49.284767150878906, -123.11681365966797],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_5632ce1d4de9c1f539a108e93e463ee6 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_a81ed649acb58b435a5181e9e8f556cb = $(`<div id="html_a81ed649acb58b435a5181e9e8f556cb" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R5<br><b>Long name:</b> Hastings St<br><b>Vehicle:</b> 23001<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_5632ce1d4de9c1f539a108e93e463ee6.setContent(html_a81ed649acb58b435a5181e9e8f556cb);
+            
+        
+
+        circle_marker_325059caa65d92d1d4b6b29aaf6733ed.bindPopup(popup_5632ce1d4de9c1f539a108e93e463ee6)
+        ;
+
+        
+    
+    
+            var circle_marker_3f173ab88ce57fa9818b1d2bde46fac5 = L.circleMarker(
+                [49.30780029296875, -123.04253387451172],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_ea425d90ecbdbba1d0a993157e6c65de = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_0e5d750fb40b33193a731432f97ba2a4 = $(`<div id="html_0e5d750fb40b33193a731432f97ba2a4" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R2<br><b>Long name:</b> Marine Drive<br><b>Vehicle:</b> 19014<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_ea425d90ecbdbba1d0a993157e6c65de.setContent(html_0e5d750fb40b33193a731432f97ba2a4);
+            
+        
+
+        circle_marker_3f173ab88ce57fa9818b1d2bde46fac5.bindPopup(popup_ea425d90ecbdbba1d0a993157e6c65de)
+        ;
+
+        
+    
+    
+            var circle_marker_5ba7f6e2d988656c63022fd17c46c402 = L.circleMarker(
+                [49.30481719970703, -123.03043365478516],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_9d99c160571052cbd6a8f527c3b0e4bf = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_8ad35cb66dddcf699fcd5fd5adab307e = $(`<div id="html_8ad35cb66dddcf699fcd5fd5adab307e" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R2<br><b>Long name:</b> Marine Drive<br><b>Vehicle:</b> 19037<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_9d99c160571052cbd6a8f527c3b0e4bf.setContent(html_8ad35cb66dddcf699fcd5fd5adab307e);
+            
+        
+
+        circle_marker_5ba7f6e2d988656c63022fd17c46c402.bindPopup(popup_9d99c160571052cbd6a8f527c3b0e4bf)
+        ;
+
+        
+    
+    
+            var circle_marker_aeebc85b14a3d4eb5206649f656dd1d3 = L.circleMarker(
+                [49.23365020751953, -123.11703491210938],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_299770d31a0177a7813e12e6f0e8e94b = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_5d1487c8689c347ca1de0fba9db0054a = $(`<div id="html_5d1487c8689c347ca1de0fba9db0054a" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R4<br><b>Long name:</b> 41st Avenue<br><b>Vehicle:</b> 19042<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_299770d31a0177a7813e12e6f0e8e94b.setContent(html_5d1487c8689c347ca1de0fba9db0054a);
+            
+        
+
+        circle_marker_aeebc85b14a3d4eb5206649f656dd1d3.bindPopup(popup_299770d31a0177a7813e12e6f0e8e94b)
+        ;
+
+        
+    
+    
+            var circle_marker_dd8c4d1ac706f75de8396a61f417afed = L.circleMarker(
+                [49.282501220703125, -123.10945129394531],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_2bd8ec766d82d74d4523a832b858405a = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_a25523119980547a03d348b330cba72e = $(`<div id="html_a25523119980547a03d348b330cba72e" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R5<br><b>Long name:</b> Hastings St<br><b>Vehicle:</b> 19024<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_2bd8ec766d82d74d4523a832b858405a.setContent(html_a25523119980547a03d348b330cba72e);
+            
+        
+
+        circle_marker_dd8c4d1ac706f75de8396a61f417afed.bindPopup(popup_2bd8ec766d82d74d4523a832b858405a)
+        ;
+
+        
+    
+    
+            var circle_marker_e4d21b783242c796a27aa1fd5deecfa8 = L.circleMarker(
+                [49.31155014038086, -123.08200073242188],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_39c6b0e15bc6d90dad749e24a2667fb9 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_4a9f6a806b2375c1af0178aa882c78df = $(`<div id="html_4a9f6a806b2375c1af0178aa882c78df" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R2<br><b>Long name:</b> Marine Drive<br><b>Vehicle:</b> 24010<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_39c6b0e15bc6d90dad749e24a2667fb9.setContent(html_4a9f6a806b2375c1af0178aa882c78df);
+            
+        
+
+        circle_marker_e4d21b783242c796a27aa1fd5deecfa8.bindPopup(popup_39c6b0e15bc6d90dad749e24a2667fb9)
+        ;
+
+        
+    
+    
+            var circle_marker_b869085bed8184d2f23d6b6138949470 = L.circleMarker(
+                [49.23283386230469, -123.09078216552734],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_bda86fc7b507d3577d77ccd0f9098c6f = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_631a75b73b429c512fd5a93b4376a4e3 = $(`<div id="html_631a75b73b429c512fd5a93b4376a4e3" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R4<br><b>Long name:</b> 41st Avenue<br><b>Vehicle:</b> 22001<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_bda86fc7b507d3577d77ccd0f9098c6f.setContent(html_631a75b73b429c512fd5a93b4376a4e3);
+            
+        
+
+        circle_marker_b869085bed8184d2f23d6b6138949470.bindPopup(popup_bda86fc7b507d3577d77ccd0f9098c6f)
+        ;
+
+        
+    
+    
+            var circle_marker_4acef40d5aa6e3e5d54e64bbc8baa6ab = L.circleMarker(
+                [49.2672004699707, -123.2477798461914],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_71cf8387f62e017398af413bbec135ad = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_cda3e8b0f67d395c28b958bc3b3f252a = $(`<div id="html_cda3e8b0f67d395c28b958bc3b3f252a" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R4<br><b>Long name:</b> 41st Avenue<br><b>Vehicle:</b> 18061<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_71cf8387f62e017398af413bbec135ad.setContent(html_cda3e8b0f67d395c28b958bc3b3f252a);
+            
+        
+
+        circle_marker_4acef40d5aa6e3e5d54e64bbc8baa6ab.bindPopup(popup_71cf8387f62e017398af413bbec135ad)
+        ;
+
+        
+    
+    
+            var circle_marker_804b3cde4c7062fefff8f1f0b95a2810 = L.circleMarker(
+                [49.193851470947266, -122.80500030517578],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_94b5a8bfad5f927d1251f19735902066 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_257ba8c23d2d8d5627bc511b797299bc = $(`<div id="html_257ba8c23d2d8d5627bc511b797299bc" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R1<br><b>Long name:</b> King George Blvd<br><b>Vehicle:</b> 18037<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_94b5a8bfad5f927d1251f19735902066.setContent(html_257ba8c23d2d8d5627bc511b797299bc);
+            
+        
+
+        circle_marker_804b3cde4c7062fefff8f1f0b95a2810.bindPopup(popup_94b5a8bfad5f927d1251f19735902066)
+        ;
+
+        
+    
+    
+            var circle_marker_0a9052a539b2d0dc2dda47273eb127b3 = L.circleMarker(
+                [49.23473358154297, -123.17713165283203],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_c267739e0af9da9c48e66b3bae565298 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_83d74157a6ed662643ca3899d0f77eb3 = $(`<div id="html_83d74157a6ed662643ca3899d0f77eb3" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R4<br><b>Long name:</b> 41st Avenue<br><b>Vehicle:</b> 24005<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_c267739e0af9da9c48e66b3bae565298.setContent(html_83d74157a6ed662643ca3899d0f77eb3);
+            
+        
+
+        circle_marker_0a9052a539b2d0dc2dda47273eb127b3.bindPopup(popup_c267739e0af9da9c48e66b3bae565298)
+        ;
+
+        
+    
+    
+            var circle_marker_23873428a2d771258fa71652ee5b70ac = L.circleMarker(
+                [49.234718322753906, -123.16251373291016],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_7c6c45278d14c7f711ae9296cf010064 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_9795b3ba1be7777170a59a857a30ab9f = $(`<div id="html_9795b3ba1be7777170a59a857a30ab9f" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R4<br><b>Long name:</b> 41st Avenue<br><b>Vehicle:</b> 18022<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_7c6c45278d14c7f711ae9296cf010064.setContent(html_9795b3ba1be7777170a59a857a30ab9f);
+            
+        
+
+        circle_marker_23873428a2d771258fa71652ee5b70ac.bindPopup(popup_7c6c45278d14c7f711ae9296cf010064)
+        ;
+
+        
+    
+    
+            var circle_marker_06e50abffa7838df24b79d5583877d09 = L.circleMarker(
+                [49.2200813293457, -122.66124725341797],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_fda01ccefdca6f196c4738b3a0002560 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_9b71ff3eb9ec89072fbd93316f225a7a = $(`<div id="html_9b71ff3eb9ec89072fbd93316f225a7a" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R3<br><b>Long name:</b> Lougheed Hwy<br><b>Vehicle:</b> 18032<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_fda01ccefdca6f196c4738b3a0002560.setContent(html_9b71ff3eb9ec89072fbd93316f225a7a);
+            
+        
+
+        circle_marker_06e50abffa7838df24b79d5583877d09.bindPopup(popup_fda01ccefdca6f196c4738b3a0002560)
+        ;
+
+        
+    
+    
+            var circle_marker_a8373053d7790eb4a0f9e4d9f874ee6d = L.circleMarker(
+                [49.219017028808594, -122.65571594238281],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_42ef3263266c0f25533a293f0c4da80a = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_1523b00293b738caff4f15280dd6d221 = $(`<div id="html_1523b00293b738caff4f15280dd6d221" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R3<br><b>Long name:</b> Lougheed Hwy<br><b>Vehicle:</b> 18042<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_42ef3263266c0f25533a293f0c4da80a.setContent(html_1523b00293b738caff4f15280dd6d221);
+            
+        
+
+        circle_marker_a8373053d7790eb4a0f9e4d9f874ee6d.bindPopup(popup_42ef3263266c0f25533a293f0c4da80a)
+        ;
+
+        
+    
+    
+            var circle_marker_1296786d10e63f518e56064f634d3d7e = L.circleMarker(
+                [49.25490188598633, -123.23916625976562],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_7f85c23be387ca61d5bc3435f7e02414 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_b9837ab949157a8331762d9ff9bb45b4 = $(`<div id="html_b9837ab949157a8331762d9ff9bb45b4" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R4<br><b>Long name:</b> 41st Avenue<br><b>Vehicle:</b> 18035<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_7f85c23be387ca61d5bc3435f7e02414.setContent(html_b9837ab949157a8331762d9ff9bb45b4);
+            
+        
+
+        circle_marker_1296786d10e63f518e56064f634d3d7e.bindPopup(popup_7f85c23be387ca61d5bc3435f7e02414)
+        ;
+
+        
+    
+    
+            var circle_marker_e7db0517c9d8301d65c211ee40c5c256 = L.circleMarker(
+                [49.258766174316406, -123.23915100097656],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_cc90dc320b41bf514b6d67a708feb763 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_648fe72d59749f67799d5f32e136d396 = $(`<div id="html_648fe72d59749f67799d5f32e136d396" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R4<br><b>Long name:</b> 41st Avenue<br><b>Vehicle:</b> 19011<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_cc90dc320b41bf514b6d67a708feb763.setContent(html_648fe72d59749f67799d5f32e136d396);
+            
+        
+
+        circle_marker_e7db0517c9d8301d65c211ee40c5c256.bindPopup(popup_cc90dc320b41bf514b6d67a708feb763)
+        ;
+
+        
+    
+    
+            var circle_marker_9dc69c711985a009e21094971ba87fbb = L.circleMarker(
+                [49.26883316040039, -123.24746704101562],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_1aee338e1bc0ac278469e2dfb4f03dba = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_f708878885ba886a0e8b7cfcdd68da6b = $(`<div id="html_f708878885ba886a0e8b7cfcdd68da6b" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R4<br><b>Long name:</b> 41st Avenue<br><b>Vehicle:</b> 18005<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_1aee338e1bc0ac278469e2dfb4f03dba.setContent(html_f708878885ba886a0e8b7cfcdd68da6b);
+            
+        
+
+        circle_marker_9dc69c711985a009e21094971ba87fbb.bindPopup(popup_1aee338e1bc0ac278469e2dfb4f03dba)
+        ;
+
+        
+    
+    
+            var circle_marker_47354c75e2a496987d2af53b7f950d7e = L.circleMarker(
+                [49.26649856567383, -123.24559783935547],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_d873ba50a344b2580b5b7d7a89c6d65b = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_e0392aa4afacb14ef4e85b966c4f602b = $(`<div id="html_e0392aa4afacb14ef4e85b966c4f602b" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R4<br><b>Long name:</b> 41st Avenue<br><b>Vehicle:</b> 18020<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_d873ba50a344b2580b5b7d7a89c6d65b.setContent(html_e0392aa4afacb14ef4e85b966c4f602b);
+            
+        
+
+        circle_marker_47354c75e2a496987d2af53b7f950d7e.bindPopup(popup_d873ba50a344b2580b5b7d7a89c6d65b)
+        ;
+
+        
+    
+    
+            var circle_marker_3ac1d1066ae54ad5d8d468f1cb98cf2f = L.circleMarker(
+                [49.26890182495117, -123.24745178222656],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_ffc5551efb59d340f1683ec0b571ea6d = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_2875c999770d17c8a1c9de34fb1d1718 = $(`<div id="html_2875c999770d17c8a1c9de34fb1d1718" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R4<br><b>Long name:</b> 41st Avenue<br><b>Vehicle:</b> 18051<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_ffc5551efb59d340f1683ec0b571ea6d.setContent(html_2875c999770d17c8a1c9de34fb1d1718);
+            
+        
+
+        circle_marker_3ac1d1066ae54ad5d8d468f1cb98cf2f.bindPopup(popup_ffc5551efb59d340f1683ec0b571ea6d)
+        ;
+
+        
+    
+    
+            var circle_marker_2aac8111c3e6489bc42c9ad421545d05 = L.circleMarker(
+                [49.28128433227539, -123.0915298461914],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_ffd6dcca5dad6ed8af938fe3b82537ca = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_77be65a0589bebfc0f0b920c2866e488 = $(`<div id="html_77be65a0589bebfc0f0b920c2866e488" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R5<br><b>Long name:</b> Hastings St<br><b>Vehicle:</b> 19018<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_ffd6dcca5dad6ed8af938fe3b82537ca.setContent(html_77be65a0589bebfc0f0b920c2866e488);
+            
+        
+
+        circle_marker_2aac8111c3e6489bc42c9ad421545d05.bindPopup(popup_ffd6dcca5dad6ed8af938fe3b82537ca)
+        ;
+
+        
+    
+    
+            var circle_marker_33183ffca2b43916bc9947eb66b8127e = L.circleMarker(
+                [49.28601837158203, -123.1182861328125],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_48d5d66c57d0ae9ce42cb0ba1135ccd7 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_f3cbaf8f835cda93f7545fd86570162c = $(`<div id="html_f3cbaf8f835cda93f7545fd86570162c" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R5<br><b>Long name:</b> Hastings St<br><b>Vehicle:</b> 23011<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_48d5d66c57d0ae9ce42cb0ba1135ccd7.setContent(html_f3cbaf8f835cda93f7545fd86570162c);
+            
+        
+
+        circle_marker_33183ffca2b43916bc9947eb66b8127e.bindPopup(popup_48d5d66c57d0ae9ce42cb0ba1135ccd7)
+        ;
+
+        
+    
+    
+            var circle_marker_3d58babdca1a7091542d00e4eaadef22 = L.circleMarker(
+                [49.28616714477539, -123.11483001708984],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_0ecfc39213f138115d3024782949bc0f = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_b0e7c0dd5566747202f1a750c4f46a18 = $(`<div id="html_b0e7c0dd5566747202f1a750c4f46a18" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R5<br><b>Long name:</b> Hastings St<br><b>Vehicle:</b> 22015<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_0ecfc39213f138115d3024782949bc0f.setContent(html_b0e7c0dd5566747202f1a750c4f46a18);
+            
+        
+
+        circle_marker_3d58babdca1a7091542d00e4eaadef22.bindPopup(popup_0ecfc39213f138115d3024782949bc0f)
+        ;
+
+        
+    
+    
+            var circle_marker_fd721f21ca0a30729c834bcad4ff6529 = L.circleMarker(
+                [49.28601837158203, -123.11858367919922],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_8d10631fac90d213ffd313da282a5fdb = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_f5fc7bfab7aadede1a8c205d9cb48019 = $(`<div id="html_f5fc7bfab7aadede1a8c205d9cb48019" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R5<br><b>Long name:</b> Hastings St<br><b>Vehicle:</b> 9747<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_8d10631fac90d213ffd313da282a5fdb.setContent(html_f5fc7bfab7aadede1a8c205d9cb48019);
+            
+        
+
+        circle_marker_fd721f21ca0a30729c834bcad4ff6529.bindPopup(popup_8d10631fac90d213ffd313da282a5fdb)
+        ;
+
+        
+    
+    
+            var circle_marker_69edbdeb929928410e7db0b2c63c1146 = L.circleMarker(
+                [49.32283401489258, -123.09956359863281],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_446a1f9ddc29ff6766de07c952c35f83 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_d2854409bf6bf146e9d77588503f9b99 = $(`<div id="html_d2854409bf6bf146e9d77588503f9b99" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R2<br><b>Long name:</b> Marine Drive<br><b>Vehicle:</b> 23003<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_446a1f9ddc29ff6766de07c952c35f83.setContent(html_d2854409bf6bf146e9d77588503f9b99);
+            
+        
+
+        circle_marker_69edbdeb929928410e7db0b2c63c1146.bindPopup(popup_446a1f9ddc29ff6766de07c952c35f83)
+        ;
+
+        
+    
+    
+            var circle_marker_52a9cdcded93f1d1cb00efeba68fcd1a = L.circleMarker(
+                [49.176231384277344, -122.8902816772461],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_947896dffba617cd3705a4cbcd95abb1 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_7bee0825409a0c6043b0baa28dc8473f = $(`<div id="html_7bee0825409a0c6043b0baa28dc8473f" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R6<br><b>Long name:</b> Scott Road<br><b>Vehicle:</b> 18024<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_947896dffba617cd3705a4cbcd95abb1.setContent(html_7bee0825409a0c6043b0baa28dc8473f);
+            
+        
+
+        circle_marker_52a9cdcded93f1d1cb00efeba68fcd1a.bindPopup(popup_947896dffba617cd3705a4cbcd95abb1)
+        ;
+
+        
+    
+    
+            var circle_marker_b9722918c2fb147edffa3a45e927da76 = L.circleMarker(
+                [49.17771530151367, -122.89005279541016],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_02ce438005068369084bb9484f7e2c8b = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_7677f62631cab43e30c0f5c0a0e593e3 = $(`<div id="html_7677f62631cab43e30c0f5c0a0e593e3" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R6<br><b>Long name:</b> Scott Road<br><b>Vehicle:</b> 19007<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_02ce438005068369084bb9484f7e2c8b.setContent(html_7677f62631cab43e30c0f5c0a0e593e3);
+            
+        
+
+        circle_marker_b9722918c2fb147edffa3a45e927da76.bindPopup(popup_02ce438005068369084bb9484f7e2c8b)
+        ;
+
+        
+    
+    
+            var circle_marker_bae667af2fdf15cfec3f85ffbbd21d0a = L.circleMarker(
+                [49.1336669921875, -122.85662078857422],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_316e8dd5b013eadf866076b4e0cd310b = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_7a093383c9dc29792cbbefdfae0792da = $(`<div id="html_7a093383c9dc29792cbbefdfae0792da" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R6<br><b>Long name:</b> Scott Road<br><b>Vehicle:</b> 19005<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_316e8dd5b013eadf866076b4e0cd310b.setContent(html_7a093383c9dc29792cbbefdfae0792da);
+            
+        
+
+        circle_marker_bae667af2fdf15cfec3f85ffbbd21d0a.bindPopup(popup_316e8dd5b013eadf866076b4e0cd310b)
+        ;
+
+        
+    
+    
+            var circle_marker_257dbe9fc85068bcbeecdd9e5c1fd78d = L.circleMarker(
+                [49.13368225097656, -122.85710144042969],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_2ccb52ccbb22c336027f366c85f1647a = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_12c202049ceac74785786eed56bc0492 = $(`<div id="html_12c202049ceac74785786eed56bc0492" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R6<br><b>Long name:</b> Scott Road<br><b>Vehicle:</b> 18009<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_2ccb52ccbb22c336027f366c85f1647a.setContent(html_12c202049ceac74785786eed56bc0492);
+            
+        
+
+        circle_marker_257dbe9fc85068bcbeecdd9e5c1fd78d.bindPopup(popup_2ccb52ccbb22c336027f366c85f1647a)
+        ;
+
+        
+    
+    
+            var circle_marker_0f56058cda240afbb16e8047b2f8e184 = L.circleMarker(
+                [49.28120040893555, -123.02263641357422],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e67e22", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 0.3}
+            ).addTo(map_3473e2310a6c1dba98f8193e348bfb88);
+        
+    
+        var popup_a33ba50dfe925096ca8bdb9c07d8bcd0 = L.popup({
+  "maxWidth": 280,
+});
+
+        
+            
+                var html_7a60993748ae0840c2a1f10069d9ac47 = $(`<div id="html_7a60993748ae0840c2a1f10069d9ac47" style="width: 100.0%; height: 100.0%;"><b>Route:</b> R5<br><b>Long name:</b> Hastings St<br><b>Vehicle:</b> 19029<br><b>Mode:</b> Bus<br><b>Sub-type:</b> RapidBus</div>`)[0];
+                popup_a33ba50dfe925096ca8bdb9c07d8bcd0.setContent(html_7a60993748ae0840c2a1f10069d9ac47);
+            
+        
+
+        circle_marker_0f56058cda240afbb16e8047b2f8e184.bindPopup(popup_a33ba50dfe925096ca8bdb9c07d8bcd0)
+        ;
+
+        
+    
+</script>
+</html>

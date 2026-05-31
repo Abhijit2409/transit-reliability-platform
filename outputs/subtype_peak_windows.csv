@@ -1,0 +1,6 @@
+bus_subtype,peak_window_local,peak_window_records,share_of_subtype_records_in_peak
+NightBus,02:00–05:00,50114,71.04
+B-Line,15:00–18:00,54915,25.62
+Express,15:00–18:00,120579,24.3
+RapidBus,15:00–18:00,142047,22.24
+Regular Bus,15:00–18:00,1761129,22.33

@@ -1,0 +1,949 @@
+route_id,route_short_name,route_long_name,route_type,direction_id,shape_id,route_segment_km,bunching_events,severe_events,high_events,moderate_events,avg_gap_km,median_gap_km,closest_gap_km,vehicles_involved,active_timestamps
+37810,R4,41st Avenue,RapidBus,0,313452,9.0,111,17,53,41,0.225,0.207,0.048,12,107
+6641,099,Broadway B-Line,B-Line,0,312527,9.5,92,13,57,22,0.197,0.181,0.0,12,85
+6641,099,Broadway B-Line,B-Line,1,312530,3.5,87,1,19,67,0.336,0.313,0.011,13,87
+37810,R4,41st Avenue,RapidBus,0,313452,9.5,86,4,36,46,0.256,0.253,0.02,12,82
+6641,099,Broadway B-Line,B-Line,0,312527,10.0,86,33,17,36,0.182,0.139,0.011,11,83
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,9.0,77,24,18,35,0.222,0.209,0.014,9,63
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,12.5,75,3,43,29,0.224,0.207,0.093,9,71
+6624,019,Kingsway,Regular Bus,1,312413,2.5,71,16,27,28,0.238,0.216,0.034,6,71
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,8.5,58,14,31,13,0.186,0.154,0.025,7,52
+6641,099,Broadway B-Line,B-Line,0,312527,9.0,57,0,18,39,0.341,0.312,0.172,13,57
+37810,R4,41st Avenue,RapidBus,1,313453,9.0,53,2,27,24,0.277,0.213,0.04,11,49
+37810,R4,41st Avenue,RapidBus,0,313452,11.5,48,9,8,31,0.274,0.253,0.053,12,47
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,8.0,46,7,16,23,0.238,0.25,0.047,5,39
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,10.0,46,0,20,26,0.306,0.34,0.113,9,46
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,18.0,45,10,18,17,0.222,0.187,0.019,9,45
+6641,099,Broadway B-Line,B-Line,1,312530,5.0,45,1,22,22,0.262,0.231,0.051,7,45
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,9.0,44,1,12,31,0.312,0.346,0.091,4,36
+6641,099,Broadway B-Line,B-Line,0,312527,7.0,44,5,23,16,0.215,0.175,0.003,11,44
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,7.0,44,4,33,7,0.21,0.164,0.086,4,32
+6624,019,Kingsway,Regular Bus,1,312413,8.5,43,5,14,24,0.246,0.26,0.055,9,41
+6641,099,Broadway B-Line,B-Line,0,312527,11.0,42,11,12,19,0.221,0.183,0.001,12,39
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,10.5,42,4,21,17,0.263,0.249,0.086,8,42
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,11.5,42,2,10,30,0.316,0.349,0.032,10,42
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,11.5,42,7,24,11,0.202,0.195,0.025,5,32
+6642,100,Marine Drive,Regular Bus,0,312532,6.0,41,11,20,10,0.2,0.184,0.016,3,32
+37810,R4,41st Avenue,RapidBus,0,313452,12.5,41,9,18,14,0.23,0.212,0.076,9,41
+6641,099,Broadway B-Line,B-Line,0,312527,8.0,40,4,23,13,0.217,0.231,0.0,12,40
+37810,R4,41st Avenue,RapidBus,0,313452,16.0,40,14,12,14,0.207,0.153,0.023,10,40
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,10.5,39,7,15,17,0.231,0.206,0.046,6,39
+37810,R4,41st Avenue,RapidBus,1,313453,2.5,39,17,6,16,0.193,0.18,0.003,8,38
+37810,R4,41st Avenue,RapidBus,1,313453,6.5,38,6,20,12,0.226,0.186,0.025,10,34
+37810,R4,41st Avenue,RapidBus,0,313452,15.0,38,6,15,17,0.234,0.203,0.051,11,38
+6624,019,Kingsway,Regular Bus,0,312403,11.5,37,3,11,23,0.295,0.323,0.081,6,37
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,7.5,37,2,15,20,0.283,0.256,0.079,7,37
+6624,019,Kingsway,Regular Bus,1,312413,10.0,37,6,9,22,0.269,0.274,0.029,6,34
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,11.0,37,0,24,13,0.252,0.174,0.163,6,33
+6624,019,Kingsway,Regular Bus,1,312413,11.0,37,8,19,10,0.199,0.187,0.046,6,31
+6624,019,Kingsway,Regular Bus,1,312413,12.0,37,10,17,10,0.18,0.157,0.046,8,34
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,13.0,36,4,9,23,0.253,0.27,0.059,6,33
+6624,019,Kingsway,Regular Bus,1,312414,4.0,35,5,14,16,0.232,0.226,0.034,6,35
+6624,019,Kingsway,Regular Bus,0,312403,11.0,35,5,20,10,0.212,0.185,0.041,6,35
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,11.0,35,2,11,22,0.281,0.288,0.075,9,35
+6641,099,Broadway B-Line,B-Line,1,312530,8.5,35,16,4,15,0.225,0.2,0.048,9,34
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,15.5,34,10,6,18,0.251,0.297,0.05,8,31
+6624,019,Kingsway,Regular Bus,1,312413,9.0,34,4,9,21,0.273,0.301,0.016,6,34
+37810,R4,41st Avenue,RapidBus,1,313453,5.0,34,10,10,14,0.208,0.181,0.048,12,30
+6641,099,Broadway B-Line,B-Line,0,312527,10.5,34,0,6,28,0.293,0.281,0.14,9,34
+37810,R4,41st Avenue,RapidBus,0,313452,17.5,33,4,20,9,0.186,0.164,0.052,10,33
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,17.0,33,4,19,10,0.209,0.198,0.023,6,32
+6641,099,Broadway B-Line,B-Line,0,312527,11.5,32,0,13,19,0.259,0.282,0.104,12,31
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,7.5,32,0,19,13,0.253,0.234,0.102,3,24
+6624,019,Kingsway,Regular Bus,0,312403,4.0,32,8,14,10,0.223,0.208,0.003,8,31
+37810,R4,41st Avenue,RapidBus,1,313453,8.0,32,15,7,10,0.192,0.132,0.055,9,32
+6624,019,Kingsway,Regular Bus,1,312413,3.0,32,6,11,15,0.251,0.248,0.068,5,32
+6641,099,Broadway B-Line,B-Line,1,312530,6.0,32,0,4,28,0.357,0.349,0.134,6,32
+37810,R4,41st Avenue,RapidBus,0,313452,12.0,31,2,7,22,0.339,0.431,0.029,11,31
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,10.0,31,0,18,13,0.265,0.174,0.163,6,30
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,11.0,31,0,14,17,0.278,0.337,0.163,5,23
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,13.0,30,2,10,18,0.278,0.348,0.052,4,30
+6624,019,Kingsway,Regular Bus,1,312414,4.5,30,0,9,21,0.274,0.255,0.126,3,30
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,7.0,29,0,13,16,0.266,0.343,0.171,6,24
+37810,R4,41st Avenue,RapidBus,0,313452,8.0,29,4,13,12,0.257,0.205,0.071,11,27
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,9.5,29,0,6,23,0.343,0.332,0.163,5,28
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,6.5,29,0,18,11,0.26,0.174,0.163,4,22
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,15.0,28,16,4,8,0.193,0.095,0.047,4,28
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,4.0,28,3,5,20,0.313,0.297,0.0,7,26
+6705,321,King George Blvd,Regular Bus,1,312952,7.0,28,3,16,9,0.255,0.233,0.032,7,28
+37810,R4,41st Avenue,RapidBus,0,313452,7.0,28,10,5,13,0.225,0.219,0.014,12,28
+6624,019,Kingsway,Regular Bus,1,312413,10.5,28,4,18,6,0.188,0.197,0.003,7,28
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,11.5,28,7,9,12,0.192,0.16,0.05,3,26
+6641,099,Broadway B-Line,B-Line,1,312530,3.0,28,1,2,25,0.412,0.478,0.0,12,28
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,12.0,27,0,8,19,0.305,0.287,0.127,6,27
+37810,R4,41st Avenue,RapidBus,0,313452,10.5,27,5,8,14,0.24,0.25,0.058,10,27
+6624,019,Kingsway,Regular Bus,1,312414,3.0,27,1,16,10,0.235,0.203,0.097,3,27
+6636,049,49th Avenue,Regular Bus,0,312498,12.0,27,8,2,17,0.23,0.311,0.0,6,27
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,16.5,27,0,19,8,0.25,0.195,0.191,10,27
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,10.5,27,2,9,16,0.254,0.28,0.053,4,20
+6627,025,King Edward,Regular Bus,1,312455,6.0,27,4,0,23,0.382,0.412,0.043,5,27
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,9.5,27,0,12,15,0.271,0.346,0.14,6,27
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,9.5,27,2,18,7,0.186,0.181,0.046,5,26
+37810,R4,41st Avenue,RapidBus,1,313453,3.5,27,12,4,11,0.224,0.198,0.099,9,26
+37810,R4,41st Avenue,RapidBus,0,313452,17.0,26,2,6,18,0.332,0.356,0.065,10,26
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,16.5,26,6,8,12,0.24,0.239,0.036,7,24
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,13.5,26,0,9,17,0.305,0.31,0.129,6,25
+6624,019,Kingsway,Regular Bus,1,312413,11.5,26,4,8,14,0.283,0.297,0.066,7,24
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,12.5,26,1,16,9,0.255,0.232,0.067,6,26
+6627,025,King Edward,Regular Bus,1,312455,5.5,26,2,9,15,0.334,0.443,0.009,9,26
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,16.0,26,1,13,12,0.275,0.237,0.094,6,26
+37810,R4,41st Avenue,RapidBus,0,313452,15.5,25,1,3,21,0.352,0.385,0.0,10,25
+37810,R4,41st Avenue,RapidBus,1,313453,1.0,25,0,9,16,0.273,0.31,0.103,8,25
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,10.0,25,7,6,12,0.213,0.198,0.014,2,18
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,4.5,25,5,8,12,0.239,0.187,0.0,4,22
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,11.5,25,3,11,11,0.245,0.21,0.053,5,23
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,8.0,25,1,7,17,0.28,0.297,0.042,4,24
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,13.5,25,0,10,15,0.284,0.271,0.108,7,25
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,6.0,25,0,12,13,0.263,0.262,0.102,4,21
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,10.0,25,3,17,5,0.178,0.181,0.046,4,18
+6624,019,Kingsway,Regular Bus,0,312403,9.0,24,4,12,8,0.212,0.177,0.0,5,24
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,10.0,24,0,17,7,0.224,0.176,0.172,6,24
+6705,321,King George Blvd,Regular Bus,0,312945,15.5,24,0,12,12,0.279,0.297,0.102,7,24
+37810,R4,41st Avenue,RapidBus,1,313453,9.5,24,2,11,11,0.239,0.225,0.056,9,23
+37810,R4,41st Avenue,RapidBus,1,313453,17.0,24,6,5,13,0.245,0.296,0.03,10,23
+6636,049,49th Avenue,Regular Bus,0,312498,17.5,24,4,4,16,0.256,0.314,0.059,5,23
+6624,019,Kingsway,Regular Bus,0,312403,9.5,24,4,9,11,0.247,0.215,0.0,4,24
+6636,049,49th Avenue,Regular Bus,0,312498,15.0,24,2,12,10,0.253,0.203,0.099,6,24
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,12.5,24,9,11,4,0.149,0.149,0.0,3,19
+6624,019,Kingsway,Regular Bus,0,312403,2.5,24,5,10,9,0.215,0.2,0.046,3,24
+6705,321,King George Blvd,Regular Bus,1,312952,6.5,23,0,4,19,0.336,0.321,0.117,5,23
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,7.0,23,1,12,10,0.233,0.205,0.051,4,23
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,12.0,23,8,13,2,0.144,0.109,0.052,3,20
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,3.0,23,10,8,5,0.183,0.192,0.048,4,20
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,1,312669,3.5,23,4,4,15,0.3,0.332,0.05,4,23
+6627,025,King Edward,Regular Bus,1,312455,6.5,23,15,5,3,0.126,0.088,0.014,4,23
+6625,020,Victoria,Regular Bus,1,312428,10.0,23,8,5,10,0.232,0.189,0.012,2,23
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,14.0,22,6,9,7,0.208,0.211,0.0,5,16
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,15.5,22,6,10,6,0.178,0.14,0.0,4,19
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,14.0,22,11,0,11,0.221,0.202,0.008,5,21
+6624,019,Kingsway,Regular Bus,0,312403,5.5,22,0,20,2,0.186,0.187,0.104,4,22
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,9.0,22,4,10,8,0.202,0.139,0.011,5,20
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,17.0,22,5,10,7,0.209,0.205,0.059,6,19
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,9.5,22,0,16,6,0.217,0.174,0.163,4,20
+37810,R4,41st Avenue,RapidBus,0,313452,16.5,22,5,4,13,0.285,0.362,0.0,10,22
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,12.0,22,6,8,8,0.211,0.203,0.011,6,21
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,1.5,22,0,7,15,0.322,0.375,0.108,6,20
+6728,410,Brighouse Station/22nd St Station,Regular Bus,0,313126,1.5,22,1,8,13,0.283,0.267,0.038,5,21
+37810,R4,41st Avenue,RapidBus,1,313453,2.0,22,3,7,12,0.264,0.302,0.04,8,21
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,6.5,22,0,8,14,0.301,0.339,0.113,6,22
+37810,R4,41st Avenue,RapidBus,1,313453,4.5,21,3,11,7,0.205,0.185,0.006,9,20
+6641,099,Broadway B-Line,B-Line,0,312527,7.5,21,0,6,15,0.341,0.344,0.171,8,21
+6641,099,Broadway B-Line,B-Line,0,312527,12.5,21,11,6,4,0.152,0.083,0.055,10,21
+6627,025,King Edward,Regular Bus,0,312450,17.5,21,7,2,12,0.258,0.35,0.052,2,21
+6641,099,Broadway B-Line,B-Line,0,312527,6.0,21,0,8,13,0.267,0.261,0.122,8,21
+6624,019,Kingsway,Regular Bus,1,312413,9.5,21,2,5,14,0.271,0.278,0.065,6,21
+6641,099,Broadway B-Line,B-Line,1,312530,7.5,21,1,9,11,0.253,0.261,0.059,5,21
+6687,250,Horseshoe Bay/Dundarave/Vancouver,Express / Regional,1,312849,8.0,20,1,6,13,0.276,0.286,0.098,3,20
+6641,099,Broadway B-Line,B-Line,1,312530,4.0,20,0,12,8,0.276,0.178,0.14,5,20
+6641,099,Broadway B-Line,B-Line,0,312527,4.5,20,2,5,13,0.278,0.251,0.051,6,20
+6624,019,Kingsway,Regular Bus,1,312413,13.0,20,1,6,13,0.259,0.266,0.0,6,18
+6624,019,Kingsway,Regular Bus,1,312413,5.5,20,4,3,13,0.259,0.302,0.06,5,20
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,9.0,20,3,6,11,0.259,0.276,0.054,4,17
+6636,049,49th Avenue,Regular Bus,0,312498,14.0,20,4,4,12,0.277,0.295,0.044,5,20
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,19.0,20,2,12,6,0.236,0.208,0.057,4,20
+6624,019,Kingsway,Regular Bus,1,312413,8.0,20,3,6,11,0.285,0.277,0.06,7,20
+6624,019,Kingsway,Regular Bus,1,312413,2.0,20,4,2,14,0.309,0.409,0.009,4,20
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,9.0,20,3,7,10,0.281,0.284,0.0,6,20
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,20.0,20,3,6,11,0.252,0.259,0.037,5,20
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,9.0,19,3,7,9,0.257,0.249,0.0,4,14
+6619,009,Broadway,Regular Bus,1,312305,8.0,19,1,7,11,0.273,0.301,0.0,4,19
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,14.0,19,1,1,17,0.37,0.423,0.0,7,19
+6728,410,Brighouse Station/22nd St Station,Regular Bus,0,313126,3.0,18,1,6,11,0.26,0.272,0.014,4,18
+6728,410,Brighouse Station/22nd St Station,Regular Bus,0,313126,17.5,18,8,1,9,0.231,0.267,0.0,5,18
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,11.5,18,3,7,8,0.225,0.245,0.05,4,13
+6728,410,Brighouse Station/22nd St Station,Regular Bus,0,313126,19.0,18,3,2,13,0.284,0.299,0.019,3,18
+6624,019,Kingsway,Regular Bus,0,312403,5.0,18,1,11,6,0.206,0.183,0.089,5,18
+37810,R4,41st Avenue,RapidBus,1,313453,6.0,18,0,5,13,0.325,0.333,0.102,9,18
+6687,250,Horseshoe Bay/Dundarave/Vancouver,Express / Regional,1,312849,7.0,18,3,9,6,0.184,0.136,0.051,6,18
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,5.5,18,0,6,12,0.285,0.342,0.171,3,16
+6728,410,Brighouse Station/22nd St Station,Regular Bus,0,313126,2.0,18,2,2,14,0.359,0.383,0.039,4,16
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,13.5,18,0,9,9,0.281,0.243,0.127,7,17
+6624,019,Kingsway,Regular Bus,0,312403,10.0,18,2,5,11,0.258,0.259,0.032,4,18
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,14.0,18,0,5,13,0.317,0.34,0.124,5,17
+37810,R4,41st Avenue,RapidBus,0,313452,14.0,18,5,4,9,0.226,0.252,0.0,9,18
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,11.0,18,2,7,9,0.258,0.266,0.032,4,15
+37810,R4,41st Avenue,RapidBus,0,313452,13.5,18,5,3,10,0.258,0.263,0.052,9,18
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,7.0,18,3,10,5,0.216,0.201,0.069,3,14
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,13.0,18,4,7,7,0.182,0.16,0.0,3,14
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,7.5,18,3,6,9,0.244,0.24,0.048,2,18
+6625,020,Victoria,Regular Bus,1,312428,8.0,18,2,7,9,0.267,0.261,0.028,3,18
+6705,321,King George Blvd,Regular Bus,0,312945,15.0,17,7,2,8,0.216,0.242,0.01,5,17
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,10.5,17,6,5,6,0.207,0.147,0.055,2,13
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,8.5,17,6,5,6,0.201,0.185,0.015,4,16
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,8.5,17,2,4,11,0.314,0.345,0.097,3,17
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,6.5,17,0,8,9,0.269,0.345,0.17,5,15
+6624,019,Kingsway,Regular Bus,1,312413,13.5,17,0,5,12,0.289,0.322,0.158,5,16
+6627,025,King Edward,Regular Bus,1,312455,18.0,17,3,9,5,0.223,0.152,0.054,4,17
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,17.0,17,5,9,3,0.167,0.174,0.053,4,14
+6624,019,Kingsway,Regular Bus,0,312403,6.0,17,1,4,12,0.311,0.37,0.021,4,17
+37810,R4,41st Avenue,RapidBus,1,313453,11.0,17,3,8,6,0.263,0.242,0.074,8,17
+6641,099,Broadway B-Line,B-Line,0,312527,8.5,17,1,5,11,0.274,0.344,0.0,10,17
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,15.0,17,0,9,8,0.267,0.192,0.143,6,17
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,19.5,17,1,7,9,0.268,0.292,0.038,5,17
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,6.0,17,1,1,15,0.335,0.349,0.1,3,17
+6624,019,Kingsway,Regular Bus,1,312413,6.5,17,4,6,7,0.208,0.166,0.008,4,17
+6641,099,Broadway B-Line,B-Line,1,312530,2.0,17,0,5,12,0.307,0.296,0.142,5,17
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,9.0,17,7,8,2,0.135,0.15,0.011,3,14
+6687,250,Horseshoe Bay/Dundarave/Vancouver,Express / Regional,1,312849,8.5,16,0,4,12,0.309,0.285,0.133,3,16
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,8.5,16,5,8,3,0.175,0.149,0.044,3,12
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,10.5,16,1,7,8,0.264,0.288,0.086,3,16
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,11.0,16,0,9,7,0.274,0.223,0.101,6,16
+6624,019,Kingsway,Regular Bus,0,312403,8.0,16,8,5,3,0.148,0.128,0.01,5,16
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,14.5,16,4,3,9,0.257,0.325,0.001,4,16
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,10.5,16,0,5,11,0.321,0.332,0.163,3,12
+6636,049,49th Avenue,Regular Bus,0,312498,16.5,16,2,6,8,0.249,0.222,0.078,7,15
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,20.5,16,3,7,6,0.186,0.156,0.001,5,16
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,14.5,16,1,7,8,0.263,0.246,0.07,7,16
+6624,019,Kingsway,Regular Bus,0,312403,3.0,16,4,5,7,0.224,0.242,0.0,3,16
+6641,099,Broadway B-Line,B-Line,1,312530,4.5,16,0,4,12,0.317,0.344,0.171,6,16
+6641,099,Broadway B-Line,B-Line,0,312527,12.0,16,1,2,13,0.331,0.35,0.079,10,16
+37810,R4,41st Avenue,RapidBus,0,313452,1.5,16,2,7,7,0.254,0.191,0.022,10,16
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,5.0,16,3,10,3,0.189,0.19,0.094,2,13
+6624,019,Kingsway,Regular Bus,0,312403,3.5,16,1,6,9,0.276,0.293,0.025,6,16
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,12.0,16,1,5,10,0.275,0.277,0.054,3,16
+6624,019,Kingsway,Regular Bus,1,312413,5.0,16,7,5,4,0.167,0.116,0.006,5,16
+6624,019,Kingsway,Regular Bus,1,312414,3.5,16,7,4,5,0.19,0.154,0.046,4,16
+6687,250,Horseshoe Bay/Dundarave/Vancouver,Express / Regional,0,312836,8.0,16,0,7,9,0.302,0.289,0.158,3,16
+37810,R4,41st Avenue,RapidBus,1,313453,4.0,16,3,2,11,0.292,0.291,0.1,8,16
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,7.5,16,0,9,7,0.249,0.175,0.172,4,12
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,8.5,16,1,10,5,0.211,0.182,0.067,2,12
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,17.5,15,0,7,8,0.294,0.308,0.108,5,15
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,10.0,15,2,11,2,0.185,0.159,0.048,3,11
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,7.5,15,3,10,2,0.173,0.15,0.011,3,12
+37810,R4,41st Avenue,RapidBus,1,313453,11.5,15,7,1,7,0.227,0.109,0.054,9,14
+6641,099,Broadway B-Line,B-Line,0,312527,5.5,15,1,5,9,0.283,0.28,0.085,6,15
+37810,R4,41st Avenue,RapidBus,0,313452,8.5,15,0,4,11,0.33,0.327,0.114,8,15
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,5.5,15,3,2,10,0.28,0.299,0.066,4,13
+37810,R4,41st Avenue,RapidBus,0,313452,11.0,15,0,2,13,0.357,0.38,0.196,11,15
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,13.0,15,4,3,8,0.243,0.293,0.048,3,15
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,6.0,15,2,4,9,0.306,0.377,0.054,4,13
+6619,009,Broadway,Regular Bus,0,312285,4.5,15,1,11,3,0.199,0.189,0.0,3,15
+6624,019,Kingsway,Regular Bus,0,312403,2.0,15,2,4,9,0.266,0.289,0.051,3,15
+37810,R4,41st Avenue,RapidBus,1,313453,7.0,15,2,4,9,0.297,0.388,0.002,7,15
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,17.5,15,4,4,7,0.259,0.234,0.035,5,15
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,0,312666,21.5,15,2,1,12,0.341,0.399,0.0,4,15
+6687,250,Horseshoe Bay/Dundarave/Vancouver,Express / Regional,0,312836,3.0,15,1,7,7,0.259,0.237,0.088,4,15
+37810,R4,41st Avenue,RapidBus,1,313453,3.0,15,1,6,8,0.255,0.304,0.011,9,15
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,5.5,15,0,3,12,0.376,0.425,0.139,4,13
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,1.5,15,0,11,4,0.24,0.195,0.19,4,15
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,15.0,15,0,7,8,0.308,0.351,0.153,6,14
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312271,8.0,15,0,11,4,0.17,0.1,0.1,1,15
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,7.0,15,0,9,6,0.268,0.235,0.105,3,15
+6636,049,49th Avenue,Regular Bus,0,312498,18.5,15,2,5,8,0.251,0.26,0.068,5,15
+6627,025,King Edward,Regular Bus,0,312450,14.5,15,1,3,11,0.286,0.282,0.09,2,13
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,9.5,14,0,9,5,0.26,0.249,0.163,3,14
+6624,019,Kingsway,Regular Bus,0,312403,0.5,14,5,1,8,0.267,0.311,0.034,3,14
+37810,R4,41st Avenue,RapidBus,1,313453,5.5,14,1,3,10,0.311,0.313,0.088,7,13
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,1.0,14,3,3,8,0.231,0.274,0.052,2,14
+6625,020,Victoria,Regular Bus,1,312428,10.5,14,5,7,2,0.161,0.125,0.0,3,14
+6619,009,Broadway,Regular Bus,0,312285,6.0,14,0,4,10,0.309,0.296,0.195,2,14
+6627,025,King Edward,Regular Bus,0,312450,21.5,14,5,5,4,0.192,0.187,0.057,3,14
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,21.0,14,3,9,2,0.127,0.127,0.0,4,14
+37810,R4,41st Avenue,RapidBus,1,313453,10.5,14,0,9,5,0.277,0.205,0.205,8,13
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,17.5,14,0,8,6,0.246,0.21,0.1,5,14
+6625,020,Victoria,Regular Bus,1,312428,6.5,14,2,3,9,0.302,0.386,0.037,3,14
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,2.0,14,4,7,3,0.181,0.151,0.018,4,13
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,9.5,14,0,8,6,0.248,0.176,0.174,3,12
+6636,049,49th Avenue,Regular Bus,0,312498,15.5,14,1,7,6,0.282,0.246,0.097,5,14
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,8.0,13,0,11,2,0.204,0.173,0.141,4,11
+37810,R4,41st Avenue,RapidBus,0,313452,1.0,13,1,3,9,0.309,0.37,0.085,8,13
+6619,009,Broadway,Regular Bus,1,312305,2.0,13,0,3,10,0.347,0.363,0.123,1,13
+37810,R4,41st Avenue,RapidBus,1,313453,16.5,13,6,1,6,0.232,0.213,0.017,6,11
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,11.5,13,0,1,12,0.35,0.361,0.114,5,13
+6641,099,Broadway B-Line,B-Line,1,312530,1.5,13,0,7,6,0.242,0.142,0.139,5,13
+6641,099,Broadway B-Line,B-Line,1,312530,10.5,13,0,5,8,0.355,0.421,0.219,6,13
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,7.0,13,0,3,10,0.332,0.332,0.169,5,13
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,3.0,13,4,8,1,0.157,0.154,0.067,3,9
+6636,049,49th Avenue,Regular Bus,0,312498,18.0,13,0,0,13,0.346,0.332,0.291,4,13
+6624,019,Kingsway,Regular Bus,0,312403,8.5,13,3,5,5,0.232,0.22,0.078,3,13
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,1,312991,12.0,13,2,3,8,0.268,0.3,0.062,5,13
+6627,025,King Edward,Regular Bus,0,312450,16.5,13,10,0,3,0.101,0.034,0.034,1,13
+6641,099,Broadway B-Line,B-Line,0,312527,6.5,13,0,8,5,0.237,0.173,0.171,7,13
+6641,099,Broadway B-Line,B-Line,1,312530,5.5,13,0,6,7,0.252,0.344,0.129,4,13
+6625,020,Victoria,Regular Bus,1,312428,2.0,13,0,9,4,0.191,0.162,0.106,2,13
+6636,049,49th Avenue,Regular Bus,0,312498,16.0,13,0,4,9,0.362,0.406,0.235,5,13
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,7.5,13,0,10,3,0.214,0.174,0.172,3,12
+6625,020,Victoria,Regular Bus,1,312428,11.0,13,2,9,2,0.186,0.208,0.028,2,13
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,15.0,13,0,3,10,0.276,0.277,0.101,4,12
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,14.5,12,1,6,5,0.266,0.237,0.094,4,12
+6627,025,King Edward,Regular Bus,1,312455,8.0,12,0,1,11,0.348,0.354,0.178,4,12
+6636,049,49th Avenue,Regular Bus,0,312498,14.5,12,0,7,5,0.264,0.228,0.198,6,12
+6624,019,Kingsway,Regular Bus,0,312405,1.5,12,0,9,3,0.184,0.126,0.117,3,11
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,6.5,12,1,2,9,0.303,0.342,0.049,7,12
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,4.5,12,4,3,5,0.231,0.214,0.099,4,9
+6624,019,Kingsway,Regular Bus,0,312403,12.0,12,0,2,10,0.312,0.327,0.131,2,12
+6627,025,King Edward,Regular Bus,0,312450,15.0,12,1,4,7,0.307,0.363,0.06,2,12
+6624,019,Kingsway,Regular Bus,0,312403,12.5,12,3,4,5,0.249,0.214,0.051,3,12
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,6.0,12,2,3,7,0.286,0.306,0.007,4,12
+6641,099,Broadway B-Line,B-Line,1,312530,1.0,12,0,6,6,0.272,0.247,0.141,5,12
+6627,025,King Edward,Regular Bus,1,312455,12.0,12,5,3,4,0.191,0.168,0.015,5,12
+6705,321,King George Blvd,Regular Bus,0,312945,21.0,12,2,5,5,0.224,0.207,0.074,5,12
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,5.5,12,1,3,8,0.277,0.266,0.049,2,12
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,8.0,12,1,10,1,0.184,0.174,0.032,3,9
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,5.5,12,1,3,8,0.319,0.362,0.053,3,12
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,5.0,12,1,8,3,0.18,0.142,0.099,3,8
+37810,R4,41st Avenue,RapidBus,1,313453,12.0,12,2,6,4,0.183,0.105,0.05,6,11
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,1,312991,13.0,12,2,5,5,0.264,0.245,0.013,3,12
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,10.0,12,4,2,6,0.236,0.223,0.015,2,8
+6624,019,Kingsway,Regular Bus,1,312413,4.5,12,1,2,9,0.273,0.302,0.043,3,12
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,16.5,12,1,1,10,0.327,0.334,0.053,5,12
+6624,019,Kingsway,Regular Bus,1,312413,0.5,12,6,4,2,0.153,0.114,0.038,6,12
+6624,019,Kingsway,Regular Bus,1,312413,7.0,12,2,4,6,0.26,0.26,0.045,4,12
+6627,025,King Edward,Regular Bus,1,312455,7.5,12,0,6,6,0.314,0.283,0.189,2,12
+6624,019,Kingsway,Regular Bus,1,312414,2.5,12,5,1,6,0.209,0.206,0.025,2,12
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,9.0,12,0,8,4,0.254,0.181,0.163,3,12
+6627,025,King Edward,Regular Bus,0,312450,16.0,11,3,4,4,0.21,0.191,0.006,2,11
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,8.5,11,3,5,3,0.214,0.244,0.007,4,8
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,7.5,11,0,7,4,0.213,0.143,0.127,2,9
+6624,019,Kingsway,Regular Bus,0,312403,1.0,11,2,3,6,0.27,0.355,0.0,3,11
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,13.5,11,0,8,3,0.201,0.158,0.111,5,9
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,16.0,11,5,3,3,0.192,0.199,0.027,3,11
+6627,025,King Edward,Regular Bus,0,312450,17.0,11,0,3,8,0.386,0.456,0.191,5,11
+6625,020,Victoria,Regular Bus,0,312419,9.5,11,0,3,8,0.339,0.312,0.16,2,11
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,6.0,11,0,10,1,0.189,0.172,0.172,2,8
+6641,099,Broadway B-Line,B-Line,0,312527,5.0,11,2,3,6,0.238,0.288,0.0,4,11
+6705,321,King George Blvd,Regular Bus,0,312945,21.5,11,0,6,5,0.282,0.237,0.13,6,11
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,7.0,11,0,7,4,0.234,0.172,0.171,3,9
+6625,020,Victoria,Regular Bus,0,312419,10.0,11,1,3,7,0.268,0.252,0.059,2,11
+6625,020,Victoria,Regular Bus,1,312428,7.5,11,4,1,6,0.231,0.263,0.0,3,11
+6625,020,Victoria,Regular Bus,1,312428,6.0,11,0,4,7,0.282,0.302,0.149,3,11
+6619,009,Broadway,Regular Bus,0,312285,5.0,11,0,6,5,0.246,0.248,0.107,3,11
+6625,020,Victoria,Regular Bus,1,312428,9.0,11,5,3,3,0.187,0.122,0.064,2,11
+6636,049,49th Avenue,Regular Bus,0,312498,17.0,11,0,7,4,0.265,0.224,0.11,5,11
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,18.5,11,0,2,9,0.327,0.356,0.1,5,11
+37810,R4,41st Avenue,RapidBus,0,313452,13.0,11,0,4,7,0.296,0.3,0.16,6,11
+6625,020,Victoria,Regular Bus,1,312428,9.5,10,2,6,2,0.146,0.125,0.046,2,10
+6627,025,King Edward,Regular Bus,1,312455,11.0,10,1,6,3,0.265,0.216,0.026,2,10
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,12.0,10,1,6,3,0.235,0.206,0.1,3,10
+6619,009,Broadway,Regular Bus,0,312285,5.5,10,0,3,7,0.291,0.282,0.193,2,10
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,6.5,10,0,0,10,0.32,0.307,0.272,3,8
+37810,R4,41st Avenue,RapidBus,1,313453,8.5,10,2,4,4,0.21,0.182,0.053,6,10
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,11.5,10,2,3,5,0.252,0.236,0.044,4,10
+6624,019,Kingsway,Regular Bus,1,312414,2.0,10,3,6,1,0.137,0.148,0.0,2,10
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,4.5,10,0,5,5,0.29,0.291,0.192,3,9
+6619,009,Broadway,Regular Bus,1,312305,8.5,10,0,8,2,0.206,0.172,0.171,3,10
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,7.5,10,1,1,8,0.313,0.315,0.068,4,10
+6705,321,King George Blvd,Regular Bus,0,312945,20.5,10,2,1,7,0.308,0.376,0.046,5,10
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,8.0,10,0,2,8,0.311,0.269,0.214,3,10
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,12.0,10,0,3,7,0.275,0.288,0.141,5,8
+6619,009,Broadway,Regular Bus,0,312285,2.5,10,0,4,6,0.29,0.344,0.174,2,10
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,5.0,10,1,4,5,0.269,0.243,0.046,4,7
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,15.5,10,1,4,5,0.238,0.245,0.089,3,10
+6636,049,49th Avenue,Regular Bus,0,312498,13.0,10,4,4,2,0.145,0.11,0.047,4,10
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,14.5,10,3,5,2,0.146,0.122,0.0,4,9
+6728,410,Brighouse Station/22nd St Station,Regular Bus,0,313126,2.5,10,2,3,5,0.208,0.215,0.055,3,10
+37810,R4,41st Avenue,RapidBus,1,313453,17.5,10,1,4,5,0.257,0.264,0.006,6,10
+6627,025,King Edward,Regular Bus,1,312455,4.5,10,2,7,1,0.151,0.166,0.051,3,10
+6624,019,Kingsway,Regular Bus,1,312413,6.0,10,5,1,4,0.183,0.103,0.017,4,10
+6641,099,Broadway B-Line,B-Line,1,312530,7.0,10,0,0,10,0.349,0.346,0.256,4,10
+6627,025,King Edward,Regular Bus,0,312450,15.5,9,1,6,2,0.208,0.177,0.0,1,9
+6624,019,Kingsway,Regular Bus,1,312413,4.0,9,1,3,5,0.229,0.254,0.079,2,9
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,18.5,9,2,0,7,0.258,0.317,0.066,4,9
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,16.5,9,0,2,7,0.312,0.301,0.101,6,9
+6625,020,Victoria,Regular Bus,1,312428,4.5,9,0,6,3,0.214,0.205,0.101,2,9
+37810,R4,41st Avenue,RapidBus,1,313453,7.5,9,2,2,5,0.27,0.394,0.052,7,9
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,3.0,9,0,3,6,0.27,0.304,0.11,2,9
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,15.5,9,3,3,3,0.195,0.171,0.048,2,9
+6625,020,Victoria,Regular Bus,1,312428,5.5,9,3,2,4,0.226,0.199,0.085,2,9
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,2.0,9,1,3,5,0.234,0.251,0.098,4,8
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,17.5,9,2,2,5,0.226,0.307,0.039,3,9
+6627,025,King Edward,Regular Bus,1,312455,9.0,9,3,3,3,0.209,0.205,0.044,3,9
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,2.5,9,5,3,1,0.145,0.099,0.044,3,6
+6625,020,Victoria,Regular Bus,1,312428,8.5,9,0,0,9,0.343,0.332,0.258,2,9
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,10.5,9,0,3,6,0.26,0.272,0.132,4,8
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,5.0,9,0,1,8,0.351,0.344,0.141,4,9
+37810,R4,41st Avenue,RapidBus,1,313453,18.0,9,2,5,2,0.169,0.178,0.007,7,8
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,12.5,9,1,3,5,0.272,0.287,0.0,4,9
+6625,020,Victoria,Regular Bus,1,312427,6.0,9,2,6,1,0.167,0.138,0.046,2,9
+37807,R5,Hastings St,RapidBus,1,313460,16.0,9,3,6,0,0.106,0.103,0.059,2,9
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,3.5,9,3,3,3,0.19,0.187,0.049,3,7
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,13.0,9,2,3,4,0.287,0.222,0.058,6,9
+37810,R4,41st Avenue,RapidBus,0,313452,2.0,8,1,3,4,0.261,0.241,0.029,8,8
+6624,019,Kingsway,Regular Bus,1,312413,7.5,8,0,5,3,0.245,0.216,0.131,5,8
+37810,R4,41st Avenue,RapidBus,0,313452,14.5,8,2,2,4,0.246,0.241,0.037,5,8
+6625,020,Victoria,Regular Bus,1,312428,1.5,8,0,4,4,0.301,0.295,0.182,2,8
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,10.0,8,0,5,3,0.236,0.172,0.171,3,7
+6624,019,Kingsway,Regular Bus,0,312403,7.0,8,3,1,4,0.196,0.218,0.038,2,8
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,3.5,8,2,4,2,0.18,0.182,0.019,2,8
+6625,020,Victoria,Regular Bus,1,312428,2.5,8,0,5,3,0.212,0.16,0.127,1,8
+37810,R4,41st Avenue,RapidBus,0,313452,6.5,8,2,1,5,0.25,0.319,0.023,7,8
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,4.0,8,3,3,2,0.152,0.139,0.013,3,6
+6625,020,Victoria,Regular Bus,0,312419,1.0,8,1,1,6,0.359,0.396,0.079,3,8
+6636,049,49th Avenue,Regular Bus,0,312498,11.5,8,1,3,4,0.252,0.213,0.081,5,8
+6624,019,Kingsway,Regular Bus,1,312413,12.5,8,2,1,5,0.303,0.404,0.051,3,8
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,17.5,8,1,5,2,0.178,0.185,0.054,4,8
+6624,019,Kingsway,Regular Bus,0,312403,6.5,8,0,4,4,0.271,0.252,0.111,3,8
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,17.0,8,6,1,1,0.121,0.093,0.022,4,8
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,1,312991,17.0,8,0,4,4,0.298,0.258,0.193,2,8
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,15.5,8,2,0,6,0.249,0.284,0.018,4,8
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,2.0,8,2,3,3,0.22,0.211,0.0,3,6
+6624,019,Kingsway,Regular Bus,0,312405,1.0,8,0,0,8,0.335,0.335,0.255,2,8
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,5.0,8,1,5,2,0.188,0.198,0.039,2,8
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,15.5,8,1,3,4,0.205,0.213,0.0,4,7
+6642,100,Marine Drive,Regular Bus,0,312532,8.5,8,4,0,4,0.232,0.202,0.023,4,8
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,1.5,8,1,4,3,0.194,0.142,0.0,3,6
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,13.5,8,2,4,2,0.158,0.149,0.0,4,6
+6619,009,Broadway,Regular Bus,1,312305,1.5,8,3,0,5,0.256,0.326,0.068,3,8
+6625,020,Victoria,Regular Bus,0,312419,2.0,8,4,1,3,0.235,0.172,0.012,2,8
+6625,020,Victoria,Regular Bus,1,312428,5.0,8,2,4,2,0.187,0.201,0.1,2,8
+6641,099,Broadway B-Line,B-Line,0,312527,2.5,8,0,1,7,0.391,0.436,0.236,3,8
+6624,019,Kingsway,Regular Bus,0,312403,10.5,8,0,0,8,0.389,0.411,0.329,2,8
+6642,100,Marine Drive,Regular Bus,1,312538,11.0,7,1,1,5,0.266,0.305,0.072,2,7
+6624,019,Kingsway,Regular Bus,0,312403,4.5,7,2,3,2,0.179,0.197,0.016,2,7
+6624,019,Kingsway,Regular Bus,0,312403,7.5,7,1,3,3,0.239,0.172,0.045,4,7
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,14.0,7,0,4,3,0.251,0.22,0.11,3,6
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,16.0,7,2,1,4,0.248,0.286,0.054,4,7
+6705,321,King George Blvd,Regular Bus,1,312952,19.0,7,2,1,4,0.259,0.371,0.008,3,7
+6625,020,Victoria,Regular Bus,0,312419,4.0,7,1,3,3,0.248,0.14,0.072,2,7
+6624,019,Kingsway,Regular Bus,1,312412,12.0,7,0,4,3,0.216,0.203,0.149,1,7
+6619,009,Broadway,Regular Bus,1,312305,7.5,7,0,0,7,0.344,0.344,0.344,3,7
+6627,025,King Edward,Regular Bus,1,312455,16.0,7,0,2,5,0.263,0.311,0.106,3,7
+6624,019,Kingsway,Regular Bus,0,312403,13.5,7,1,6,0,0.153,0.203,0.0,4,7
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,19.0,7,1,5,1,0.173,0.147,0.072,4,7
+6614,004,Powell/UBC Exchange,Regular Bus,0,312234,9.0,7,0,0,7,0.359,0.365,0.25,1,7
+6624,019,Kingsway,Regular Bus,0,312403,13.0,7,1,5,1,0.202,0.201,0.04,4,7
+6627,025,King Edward,Regular Bus,0,312450,9.5,7,4,1,2,0.169,0.052,0.052,1,7
+6636,049,49th Avenue,Regular Bus,0,312498,19.0,7,1,4,2,0.201,0.147,0.089,4,7
+6705,321,King George Blvd,Regular Bus,1,312952,20.0,7,2,5,0,0.16,0.183,0.025,2,7
+6627,025,King Edward,Regular Bus,0,312450,13.0,7,2,3,2,0.198,0.123,0.079,1,7
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,6.0,7,0,2,5,0.328,0.403,0.141,3,6
+6627,025,King Edward,Regular Bus,1,312455,22.0,7,0,2,5,0.362,0.378,0.134,6,7
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,11.5,7,0,0,7,0.393,0.433,0.282,3,7
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,2.5,7,0,3,4,0.229,0.254,0.108,2,7
+6625,020,Victoria,Regular Bus,1,312428,1.0,7,0,0,7,0.34,0.352,0.252,1,7
+6642,100,Marine Drive,Regular Bus,0,312532,12.0,7,1,1,5,0.251,0.259,0.096,2,6
+6625,020,Victoria,Regular Bus,0,312419,1.5,7,0,4,3,0.306,0.228,0.126,3,7
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,4.5,7,1,0,6,0.34,0.356,0.088,3,7
+6636,049,49th Avenue,Regular Bus,0,312498,8.5,7,0,3,4,0.246,0.26,0.11,3,7
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,318514,4.5,7,1,3,3,0.238,0.211,0.0,2,7
+6624,019,Kingsway,Regular Bus,0,312405,2.0,7,1,3,3,0.264,0.236,0.076,4,7
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,18.5,7,0,0,7,0.393,0.386,0.27,3,7
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,16.0,7,0,2,5,0.317,0.301,0.158,4,7
+6625,020,Victoria,Regular Bus,0,312419,3.5,7,1,6,0,0.194,0.23,0.05,2,7
+37810,R4,41st Avenue,RapidBus,0,313452,7.5,7,1,1,5,0.378,0.482,0.0,6,7
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,0,312666,15.0,7,2,4,1,0.179,0.181,0.02,2,7
+6641,099,Broadway B-Line,B-Line,1,312530,9.0,7,0,3,4,0.288,0.351,0.14,4,7
+37810,R4,41st Avenue,RapidBus,1,313453,1.5,7,1,1,5,0.329,0.38,0.043,5,7
+6642,100,Marine Drive,Regular Bus,0,312532,5.5,7,0,0,7,0.305,0.324,0.279,2,7
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,1.5,7,1,4,2,0.205,0.158,0.074,3,7
+6705,321,King George Blvd,Regular Bus,0,312945,19.0,7,4,1,2,0.128,0.049,0.012,3,7
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,8.0,7,0,2,5,0.333,0.315,0.213,3,7
+6728,410,Brighouse Station/22nd St Station,Regular Bus,0,313126,1.0,7,0,3,4,0.286,0.274,0.177,3,7
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,10.5,7,0,4,3,0.244,0.172,0.171,2,7
+6625,020,Victoria,Regular Bus,1,312428,3.5,7,1,4,2,0.194,0.217,0.07,1,7
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,2.5,7,0,3,4,0.252,0.265,0.103,2,5
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,8.5,7,0,0,7,0.418,0.452,0.26,4,5
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,1,312669,10.5,7,0,1,6,0.377,0.408,0.24,2,7
+6636,049,49th Avenue,Regular Bus,1,312507,5.0,7,0,2,5,0.337,0.372,0.234,3,7
+37810,R4,41st Avenue,RapidBus,1,313453,10.0,7,0,1,6,0.362,0.413,0.122,5,7
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,16.0,7,1,2,4,0.286,0.341,0.035,3,7
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,4.0,7,0,0,7,0.318,0.291,0.277,2,7
+6641,099,Broadway B-Line,B-Line,1,312530,0.5,7,4,0,3,0.227,0.083,0.055,6,7
+6642,100,Marine Drive,Regular Bus,1,312538,7.0,6,3,1,2,0.178,0.098,0.039,3,6
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,0.5,6,1,5,0,0.16,0.156,0.042,2,6
+6627,025,King Edward,Regular Bus,1,312455,10.5,6,0,2,4,0.274,0.35,0.112,2,6
+6624,019,Kingsway,Regular Bus,1,312413,3.5,6,0,3,3,0.213,0.206,0.117,1,6
+6728,410,Brighouse Station/22nd St Station,Regular Bus,0,313126,0.5,6,0,4,2,0.263,0.205,0.149,2,6
+6625,020,Victoria,Regular Bus,1,312428,4.0,6,2,3,1,0.153,0.158,0.057,1,6
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,2.0,6,0,0,6,0.327,0.311,0.305,2,6
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,5.5,6,1,1,4,0.295,0.353,0.0,2,5
+37810,R4,41st Avenue,RapidBus,0,313452,6.0,6,0,1,5,0.345,0.357,0.204,4,6
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,1,312991,12.5,6,0,0,6,0.403,0.401,0.401,3,6
+37810,R4,41st Avenue,RapidBus,0,313452,0.5,6,0,4,2,0.244,0.168,0.148,4,6
+6624,019,Kingsway,Regular Bus,1,312414,1.0,6,0,2,4,0.328,0.33,0.201,1,6
+6705,321,King George Blvd,Regular Bus,0,312945,17.5,6,1,2,3,0.24,0.243,0.092,3,6
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,1,312991,14.0,6,0,2,4,0.258,0.281,0.103,2,6
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,4.5,6,0,2,4,0.275,0.282,0.141,3,5
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,1,312991,16.5,6,0,4,2,0.252,0.226,0.158,4,6
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312348,1.5,6,1,0,5,0.288,0.299,0.0,3,6
+6627,025,King Edward,Regular Bus,1,312455,17.5,6,0,3,3,0.284,0.3,0.101,3,6
+6619,009,Broadway,Regular Bus,0,312285,6.5,6,0,1,5,0.344,0.352,0.139,2,6
+6627,025,King Edward,Regular Bus,1,312455,15.5,6,1,0,5,0.367,0.443,0.0,4,6
+6627,025,King Edward,Regular Bus,0,312450,18.5,6,0,3,3,0.242,0.243,0.109,2,6
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,1.0,6,0,2,4,0.34,0.397,0.171,2,6
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,0.5,6,2,3,1,0.154,0.138,0.057,2,6
+6624,019,Kingsway,Regular Bus,0,312405,4.0,6,0,0,6,0.428,0.413,0.402,1,6
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,15.5,6,2,1,3,0.263,0.288,0.044,3,6
+6738,502,Fraser Hwy,Express / Regional,0,317228,5.5,6,1,0,5,0.282,0.293,0.048,1,6
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,14.5,6,0,1,5,0.345,0.383,0.149,3,6
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,18.0,6,2,0,4,0.266,0.325,0.063,5,6
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,12.0,6,0,5,1,0.202,0.176,0.17,3,6
+6625,020,Victoria,Regular Bus,0,312419,7.5,6,0,0,6,0.382,0.372,0.257,2,6
+6705,321,King George Blvd,Regular Bus,0,312945,16.5,6,0,2,4,0.322,0.354,0.104,2,6
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,11.0,6,0,0,6,0.4,0.385,0.289,4,6
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,12.0,6,1,4,1,0.169,0.149,0.0,3,6
+6636,049,49th Avenue,Regular Bus,1,312507,13.5,6,0,1,5,0.352,0.345,0.239,2,6
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,4.0,6,0,2,4,0.345,0.36,0.22,4,6
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,1,312991,16.0,6,0,1,5,0.343,0.344,0.17,4,6
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,6.5,6,0,2,4,0.25,0.278,0.108,2,5
+6619,009,Broadway,Regular Bus,1,312305,3.0,5,3,1,1,0.133,0.034,0.034,1,5
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,17.0,5,0,0,5,0.378,0.378,0.378,4,5
+6705,321,King George Blvd,Regular Bus,1,312952,5.0,5,1,1,3,0.283,0.341,0.031,1,5
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,8.5,5,0,1,4,0.366,0.372,0.223,2,5
+6642,100,Marine Drive,Regular Bus,1,312538,12.5,5,0,2,3,0.306,0.293,0.209,1,5
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,13.0,5,1,2,2,0.252,0.231,0.085,4,4
+6642,100,Marine Drive,Regular Bus,1,312538,12.0,5,1,1,3,0.275,0.371,0.001,1,5
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,6.5,5,0,1,4,0.302,0.344,0.174,3,5
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,14.0,5,0,1,4,0.375,0.424,0.134,3,5
+37810,R4,41st Avenue,RapidBus,1,313453,14.5,5,2,1,2,0.219,0.223,0.0,5,5
+37807,R5,Hastings St,RapidBus,0,313454,7.5,5,0,4,1,0.201,0.171,0.154,3,5
+6705,321,King George Blvd,Regular Bus,0,312945,1.5,5,0,1,4,0.305,0.32,0.195,2,5
+6636,049,49th Avenue,Regular Bus,0,312498,20.0,5,4,1,0,0.087,0.071,0.02,3,5
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,0,312666,20.5,5,2,3,0,0.108,0.105,0.072,2,5
+6642,100,Marine Drive,Regular Bus,0,312532,7.0,5,1,0,4,0.303,0.381,0.074,2,5
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,16.0,5,2,1,2,0.192,0.107,0.051,4,5
+6641,099,Broadway B-Line,B-Line,0,312527,4.0,5,0,3,2,0.296,0.221,0.22,5,5
+6627,025,King Edward,Regular Bus,1,312455,17.0,5,1,1,3,0.251,0.318,0.047,2,5
+6619,009,Broadway,Regular Bus,1,312305,7.0,5,0,1,4,0.336,0.35,0.178,1,5
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,16.5,5,1,2,2,0.208,0.192,0.045,2,5
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,16.5,5,4,1,0,0.052,0.028,0.001,3,3
+6614,004,Powell/UBC Exchange,Regular Bus,0,312234,3.0,5,0,0,5,0.382,0.429,0.282,1,5
+6627,025,King Edward,Regular Bus,0,312450,12.0,5,2,2,1,0.152,0.161,0.043,1,5
+6636,049,49th Avenue,Regular Bus,0,312498,11.0,5,1,1,3,0.258,0.264,0.055,2,5
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,4.5,5,0,0,5,0.455,0.456,0.437,2,5
+6619,009,Broadway,Regular Bus,0,312285,4.0,5,0,2,3,0.334,0.35,0.172,2,5
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,13.0,5,1,0,4,0.337,0.342,0.052,3,5
+6627,025,King Edward,Regular Bus,1,312455,16.5,5,2,0,3,0.29,0.419,0.039,3,5
+6728,410,Brighouse Station/22nd St Station,Regular Bus,0,313126,4.5,5,1,2,2,0.23,0.209,0.072,3,5
+6687,250,Horseshoe Bay/Dundarave/Vancouver,Express / Regional,1,312849,9.0,5,2,1,2,0.211,0.136,0.0,2,5
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,18.0,5,0,2,3,0.274,0.342,0.139,2,5
+6636,049,49th Avenue,Regular Bus,1,312507,20.0,5,4,1,0,0.066,0.062,0.019,1,5
+6642,100,Marine Drive,Regular Bus,0,312532,6.5,5,1,2,2,0.253,0.235,0.085,2,5
+6619,009,Broadway,Regular Bus,0,312285,2.0,5,0,2,3,0.276,0.342,0.171,2,5
+6728,410,Brighouse Station/22nd St Station,Regular Bus,0,313126,4.0,5,0,3,2,0.265,0.194,0.103,3,5
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,11.0,5,0,1,4,0.363,0.403,0.203,2,5
+6614,004,Powell/UBC Exchange,Regular Bus,0,312234,3.5,5,0,3,2,0.245,0.203,0.141,1,5
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,4.5,5,0,3,2,0.239,0.222,0.101,3,4
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,11.0,5,0,4,1,0.182,0.166,0.141,2,5
+37807,R5,Hastings St,RapidBus,0,313454,7.0,5,0,3,2,0.276,0.175,0.172,2,5
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,7.0,5,0,4,1,0.217,0.172,0.164,2,5
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,5.0,5,0,0,5,0.464,0.465,0.429,2,5
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,2.0,5,0,2,3,0.322,0.341,0.234,1,5
+6627,025,King Edward,Regular Bus,0,312450,11.5,5,0,0,5,0.391,0.411,0.264,1,5
+6627,025,King Edward,Regular Bus,0,312450,19.0,5,1,0,4,0.298,0.333,0.06,2,5
+6624,019,Kingsway,Regular Bus,1,312413,1.0,5,3,1,1,0.154,0.086,0.059,2,5
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,14.5,5,1,3,1,0.221,0.157,0.1,3,5
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,1.0,5,0,2,3,0.305,0.333,0.192,2,4
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,1.0,5,0,0,5,0.386,0.386,0.386,2,5
+6728,410,Brighouse Station/22nd St Station,Regular Bus,0,313126,19.5,5,2,3,0,0.092,0.117,0.033,1,5
+6642,100,Marine Drive,Regular Bus,1,312538,8.5,5,0,0,5,0.35,0.354,0.282,2,5
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,2.5,5,1,1,3,0.284,0.351,0.082,2,5
+6625,020,Victoria,Regular Bus,1,312428,3.0,5,0,3,2,0.218,0.172,0.172,1,5
+6705,321,King George Blvd,Regular Bus,0,312945,14.5,5,2,3,0,0.154,0.17,0.031,4,5
+6642,100,Marine Drive,Regular Bus,0,312532,1.0,5,0,0,5,0.332,0.325,0.275,2,5
+6642,100,Marine Drive,Regular Bus,1,312538,10.5,5,1,1,3,0.282,0.417,0.001,2,5
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,5.5,5,0,3,2,0.202,0.148,0.141,3,3
+6627,025,King Edward,Regular Bus,1,312455,5.0,4,0,3,1,0.242,0.229,0.184,2,4
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,0,312666,22.0,4,0,1,3,0.371,0.451,0.115,3,4
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,2.5,4,1,2,1,0.15,0.127,0.048,2,4
+6705,321,King George Blvd,Regular Bus,0,312945,16.0,4,1,1,2,0.221,0.237,0.048,1,4
+6728,410,Brighouse Station/22nd St Station,Regular Bus,0,313126,18.0,4,2,0,2,0.182,0.17,0.049,1,4
+6705,321,King George Blvd,Regular Bus,0,312945,22.0,4,1,3,0,0.088,0.114,0.008,3,4
+6728,410,Brighouse Station/22nd St Station,Regular Bus,0,313126,5.0,4,0,1,3,0.311,0.341,0.137,1,4
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,13.0,4,1,1,2,0.209,0.202,0.014,3,4
+6636,049,49th Avenue,Regular Bus,0,312498,19.5,4,0,1,3,0.316,0.328,0.139,3,4
+6627,025,King Edward,Regular Bus,1,312455,4.0,4,1,0,3,0.368,0.466,0.065,2,4
+6636,049,49th Avenue,Regular Bus,0,312498,6.5,4,0,1,3,0.295,0.305,0.158,2,4
+6636,049,49th Avenue,Regular Bus,1,312507,9.5,4,1,0,3,0.292,0.351,0.072,1,4
+6636,049,49th Avenue,Regular Bus,0,312498,12.5,4,2,1,1,0.169,0.149,0.0,3,4
+6636,049,49th Avenue,Regular Bus,0,312498,13.5,4,0,0,4,0.302,0.277,0.25,3,4
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312366,13.0,4,0,1,3,0.379,0.407,0.217,1,4
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,16.5,4,2,0,2,0.164,0.157,0.018,2,4
+6627,025,King Edward,Regular Bus,0,312450,22.0,4,1,2,1,0.212,0.182,0.047,3,4
+6627,025,King Edward,Regular Bus,1,312455,18.5,4,1,1,2,0.24,0.24,0.091,3,4
+6619,009,Broadway,Regular Bus,0,312285,1.0,4,0,0,4,0.373,0.396,0.297,1,4
+6614,004,Powell/UBC Exchange,Regular Bus,0,312234,5.5,4,0,0,4,0.374,0.378,0.315,1,4
+6705,321,King George Blvd,Regular Bus,0,312945,17.0,4,0,1,3,0.332,0.381,0.186,2,4
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,9.5,4,1,1,2,0.175,0.216,0.005,2,4
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,9.0,4,3,0,1,0.121,0.057,0.027,2,4
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,6.5,4,0,0,4,0.398,0.425,0.283,1,4
+6627,025,King Edward,Regular Bus,0,312450,18.0,4,1,0,3,0.328,0.405,0.022,2,4
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,15.0,4,0,2,2,0.279,0.29,0.167,2,4
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,1,312991,11.5,4,1,0,3,0.279,0.359,0.037,2,4
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,12.5,4,2,1,1,0.143,0.086,0.0,3,4
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,5.0,4,0,3,1,0.243,0.21,0.113,2,4
+6627,025,King Edward,Regular Bus,0,312450,21.0,4,2,0,2,0.258,0.277,0.008,3,4
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,15.0,4,0,0,4,0.378,0.401,0.311,2,4
+37807,R5,Hastings St,RapidBus,1,313460,16.5,4,1,3,0,0.147,0.168,0.067,2,4
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,12.5,4,0,2,2,0.338,0.338,0.221,2,3
+6728,410,Brighouse Station/22nd St Station,Regular Bus,0,313126,3.5,4,0,0,4,0.421,0.421,0.421,3,4
+6642,100,Marine Drive,Regular Bus,0,312532,8.0,4,1,0,3,0.239,0.284,0.055,3,4
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,12.5,4,0,1,3,0.327,0.361,0.148,3,4
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,13.5,4,0,1,3,0.312,0.314,0.219,3,4
+6642,100,Marine Drive,Regular Bus,0,312532,13.0,4,0,0,4,0.285,0.277,0.26,2,3
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,3.5,4,0,1,3,0.312,0.337,0.127,3,4
+6627,025,King Edward,Regular Bus,0,312450,20.5,4,1,1,2,0.267,0.31,0.071,2,4
+37807,R5,Hastings St,RapidBus,1,313460,15.5,4,1,1,2,0.22,0.218,0.016,2,4
+6619,009,Broadway,Regular Bus,0,312285,3.0,4,0,1,3,0.313,0.331,0.231,2,4
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,4.0,4,0,2,2,0.219,0.221,0.138,2,3
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,9.5,4,0,3,1,0.261,0.2,0.2,2,4
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,1,312991,3.0,4,0,0,4,0.316,0.316,0.311,1,4
+6705,321,King George Blvd,Regular Bus,0,312945,14.0,4,0,1,3,0.31,0.266,0.221,3,4
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,3.0,4,0,1,3,0.277,0.31,0.114,1,4
+6641,099,Broadway B-Line,B-Line,1,312530,12.5,4,1,0,3,0.316,0.37,0.081,4,4
+6636,049,49th Avenue,Regular Bus,0,312498,8.0,4,1,1,2,0.21,0.242,0.028,2,4
+6636,049,49th Avenue,Regular Bus,0,312498,7.0,4,0,2,2,0.303,0.307,0.141,2,4
+6627,025,King Edward,Regular Bus,0,312450,12.5,4,2,0,2,0.231,0.196,0.044,1,4
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,17.0,4,3,0,1,0.12,0.029,0.012,2,4
+6705,321,King George Blvd,Regular Bus,0,312945,13.5,4,3,0,1,0.164,0.066,0.047,2,4
+6627,025,King Edward,Regular Bus,0,312450,13.5,4,0,0,4,0.269,0.267,0.255,1,4
+6642,100,Marine Drive,Regular Bus,0,312532,13.5,4,0,3,1,0.248,0.239,0.194,2,3
+6619,009,Broadway,Regular Bus,0,312285,10.5,4,0,2,2,0.272,0.242,0.183,3,4
+6641,099,Broadway B-Line,B-Line,0,312527,3.5,4,0,3,1,0.275,0.225,0.212,2,4
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,8.0,4,2,0,2,0.232,0.207,0.047,2,4
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,3.0,4,0,0,4,0.379,0.379,0.271,2,4
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,17.0,4,0,1,3,0.269,0.282,0.141,2,4
+6627,025,King Edward,Regular Bus,1,312455,20.0,4,0,1,3,0.386,0.441,0.222,3,4
+6636,049,49th Avenue,Regular Bus,0,312498,9.5,4,2,0,2,0.168,0.153,0.051,2,4
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,4.0,4,0,2,2,0.306,0.281,0.181,2,3
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,5.0,4,2,2,0,0.13,0.133,0.042,3,4
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,1.0,4,0,1,3,0.347,0.369,0.227,2,4
+37807,R5,Hastings St,RapidBus,1,313460,11.0,4,2,0,2,0.221,0.173,0.05,2,4
+6619,009,Broadway,Regular Bus,0,312285,8.0,4,1,3,0,0.128,0.14,0.086,1,4
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,2.5,4,1,1,2,0.232,0.269,0.018,2,3
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312348,3.0,4,2,1,1,0.153,0.131,0.025,2,4
+6624,019,Kingsway,Regular Bus,1,312414,1.5,4,0,2,2,0.265,0.244,0.12,2,4
+6624,019,Kingsway,Regular Bus,0,312403,1.5,4,1,2,1,0.15,0.145,0.034,2,4
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,12.5,4,0,3,1,0.215,0.173,0.172,1,4
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,0,312666,21.0,4,0,1,3,0.393,0.441,0.248,3,4
+6627,025,King Edward,Regular Bus,0,312450,19.5,4,1,1,2,0.264,0.252,0.06,2,4
+6687,250,Horseshoe Bay/Dundarave/Vancouver,Express / Regional,0,312836,8.5,4,0,0,4,0.47,0.488,0.418,3,4
+6619,009,Broadway,Regular Bus,0,312285,3.5,4,0,0,4,0.344,0.344,0.343,1,4
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312348,2.0,4,3,0,1,0.119,0.076,0.008,3,4
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,5.5,3,0,0,3,0.424,0.424,0.424,2,3
+6636,049,49th Avenue,Regular Bus,0,312498,9.0,3,0,3,0,0.169,0.185,0.102,1,3
+6738,502,Fraser Hwy,Express / Regional,0,317228,7.0,3,0,2,1,0.207,0.162,0.129,1,3
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,3.5,3,0,0,3,0.41,0.387,0.354,1,3
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,1,312991,13.5,3,0,1,2,0.317,0.383,0.168,1,3
+6642,100,Marine Drive,Regular Bus,1,312538,7.5,3,0,2,1,0.237,0.211,0.211,2,3
+6705,321,King George Blvd,Regular Bus,1,312952,17.5,3,0,1,2,0.28,0.285,0.112,2,3
+6705,321,King George Blvd,Regular Bus,1,312952,15.5,3,3,0,0,0.028,0.035,0.014,2,3
+6627,025,King Edward,Regular Bus,1,312455,3.5,3,0,0,3,0.34,0.278,0.278,1,3
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312366,14.0,3,1,1,1,0.187,0.198,0.082,1,3
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,12.5,3,1,1,1,0.184,0.105,0.1,2,3
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,6.0,3,0,2,1,0.2,0.157,0.103,2,3
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,2.5,3,1,2,0,0.136,0.114,0.075,1,3
+23384,503,Fraser Hwy Express,Express / Regional,0,313171,14.5,3,0,2,1,0.174,0.116,0.116,1,3
+6636,049,49th Avenue,Regular Bus,0,312498,7.5,3,0,1,2,0.282,0.323,0.147,2,3
+6642,100,Marine Drive,Regular Bus,0,312532,9.5,3,1,0,2,0.235,0.315,0.073,2,3
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,0,312666,4.5,3,0,1,2,0.241,0.307,0.11,1,3
+6642,100,Marine Drive,Regular Bus,0,312532,10.5,3,0,1,2,0.322,0.315,0.209,1,3
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,16.0,3,0,0,3,0.391,0.417,0.262,2,3
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,16.5,3,2,1,0,0.128,0.096,0.065,1,3
+6619,009,Broadway,Regular Bus,0,312285,8.5,3,2,1,0,0.061,0.012,0.011,1,3
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,3.5,3,0,3,0,0.174,0.174,0.174,2,3
+6624,019,Kingsway,Regular Bus,1,312414,5.0,3,1,0,2,0.211,0.299,0.0,2,3
+6627,025,King Edward,Regular Bus,1,312455,13.0,3,0,0,3,0.332,0.326,0.326,1,3
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,16.5,3,1,0,2,0.338,0.49,0.035,3,3
+6687,250,Horseshoe Bay/Dundarave/Vancouver,Express / Regional,1,312849,6.5,3,0,0,3,0.368,0.34,0.311,3,3
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,4.0,3,0,0,3,0.282,0.284,0.277,1,3
+6642,100,Marine Drive,Regular Bus,1,312538,9.0,3,1,0,2,0.327,0.459,0.056,1,3
+6627,025,King Edward,Regular Bus,1,312455,15.0,3,0,1,2,0.306,0.306,0.154,2,3
+6619,009,Broadway,Regular Bus,1,312305,5.5,3,0,0,3,0.321,0.335,0.291,1,3
+37810,R4,41st Avenue,RapidBus,1,313453,12.5,3,3,0,0,0.009,0.0,0.0,3,3
+6642,100,Marine Drive,Regular Bus,0,312532,1.5,3,0,1,2,0.325,0.415,0.133,2,3
+6687,250,Horseshoe Bay/Dundarave/Vancouver,Express / Regional,1,312851,16.0,3,0,0,3,0.396,0.385,0.368,2,3
+37807,R5,Hastings St,RapidBus,1,313460,7.5,3,0,0,3,0.4,0.401,0.3,1,3
+6705,321,King George Blvd,Regular Bus,1,312952,6.0,3,0,1,2,0.375,0.409,0.231,1,3
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,14.0,3,0,2,1,0.253,0.223,0.212,2,3
+6705,321,King George Blvd,Regular Bus,0,312945,13.0,3,2,0,1,0.212,0.099,0.067,3,3
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,15.0,3,0,0,3,0.309,0.311,0.282,2,3
+6625,020,Victoria,Regular Bus,1,312427,5.0,3,0,0,3,0.456,0.484,0.398,1,3
+6636,049,49th Avenue,Regular Bus,1,312507,19.5,3,3,0,0,0.041,0.032,0.018,1,3
+6627,025,King Edward,Regular Bus,0,312450,5.0,3,0,1,2,0.283,0.264,0.223,1,3
+6728,410,Brighouse Station/22nd St Station,Regular Bus,0,313126,5.5,3,1,0,2,0.305,0.457,0.0,1,3
+6641,099,Broadway B-Line,B-Line,1,312530,2.5,3,0,1,2,0.339,0.39,0.151,3,3
+6625,020,Victoria,Regular Bus,0,312419,4.5,3,0,1,2,0.34,0.331,0.209,1,3
+37807,R5,Hastings St,RapidBus,1,313460,17.0,3,2,1,0,0.07,0.054,0.054,2,3
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,4.0,3,1,0,2,0.293,0.341,0.066,2,3
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,0,312666,20.0,3,0,0,3,0.264,0.254,0.254,1,3
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,10.5,3,1,1,1,0.188,0.134,0.092,1,3
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,1,312991,15.5,3,0,0,3,0.408,0.413,0.397,2,3
+6642,100,Marine Drive,Regular Bus,1,312538,6.5,3,0,0,3,0.421,0.46,0.333,2,3
+6641,099,Broadway B-Line,B-Line,1,312530,10.0,3,0,2,1,0.298,0.224,0.224,3,3
+6624,019,Kingsway,Regular Bus,0,312397,4.5,3,0,0,3,0.39,0.4,0.356,1,3
+6627,025,King Edward,Regular Bus,1,312455,8.5,3,0,0,3,0.299,0.301,0.291,1,3
+6627,025,King Edward,Regular Bus,1,312455,19.0,3,0,1,2,0.338,0.442,0.131,2,3
+6627,025,King Edward,Regular Bus,0,312450,6.0,3,0,0,3,0.421,0.447,0.32,1,3
+6627,025,King Edward,Regular Bus,0,312450,14.0,3,0,0,3,0.414,0.418,0.344,1,3
+6627,025,King Edward,Regular Bus,1,312455,11.5,3,0,1,2,0.329,0.342,0.241,3,3
+6636,049,49th Avenue,Regular Bus,0,312498,10.5,3,0,1,2,0.254,0.258,0.16,2,3
+6619,009,Broadway,Regular Bus,0,312285,9.5,3,0,2,1,0.251,0.191,0.123,1,3
+6642,100,Marine Drive,Regular Bus,0,312532,7.5,3,0,1,2,0.268,0.253,0.108,2,3
+6624,019,Kingsway,Regular Bus,0,312397,5.0,3,0,3,0,0.189,0.211,0.145,1,3
+6728,410,Brighouse Station/22nd St Station,Regular Bus,0,313126,18.5,3,1,1,1,0.22,0.193,0.099,2,3
+37807,R5,Hastings St,RapidBus,0,313454,8.0,3,0,3,0,0.202,0.202,0.202,2,3
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,1,312991,10.5,3,2,0,1,0.164,0.097,0.036,1,3
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,11.0,3,3,0,0,0.052,0.055,0.048,1,3
+6642,100,Marine Drive,Regular Bus,0,312532,12.5,3,1,0,2,0.228,0.264,0.078,2,3
+6642,100,Marine Drive,Regular Bus,0,312532,11.5,3,0,0,3,0.358,0.344,0.321,1,3
+6636,049,49th Avenue,Regular Bus,1,312507,8.5,3,0,1,2,0.259,0.333,0.109,1,3
+6627,025,King Edward,Regular Bus,0,312450,20.0,3,0,0,3,0.37,0.401,0.257,2,3
+6738,502,Fraser Hwy,Express / Regional,0,317228,13.5,3,0,0,3,0.368,0.351,0.279,1,3
+37810,R4,41st Avenue,RapidBus,1,313453,15.5,3,1,1,1,0.215,0.24,0.074,3,3
+6738,502,Fraser Hwy,Express / Regional,0,317228,9.0,3,0,1,2,0.29,0.316,0.108,1,3
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,1,312669,6.5,3,1,1,1,0.187,0.216,0.029,2,3
+6705,321,King George Blvd,Regular Bus,1,312952,19.5,3,0,0,3,0.359,0.379,0.292,2,3
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,1,312669,23.5,3,0,2,1,0.265,0.205,0.184,2,3
+6614,004,Powell/UBC Exchange,Regular Bus,0,312234,8.5,3,0,0,3,0.409,0.444,0.34,1,3
+6619,009,Broadway,Regular Bus,1,312305,6.5,3,0,0,3,0.313,0.313,0.313,1,3
+6619,009,Broadway,Regular Bus,0,312285,7.0,3,0,1,2,0.235,0.282,0.142,1,3
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,3.0,3,0,2,1,0.285,0.222,0.222,2,2
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,1,312669,20.5,3,0,0,3,0.414,0.431,0.334,1,3
+6627,025,King Edward,Regular Bus,1,312455,21.5,3,0,0,3,0.375,0.317,0.317,2,3
+6636,049,49th Avenue,Regular Bus,1,312507,9.0,3,0,0,3,0.36,0.342,0.324,2,3
+6641,099,Broadway B-Line,B-Line,1,312530,8.0,3,0,2,1,0.258,0.148,0.139,2,3
+6625,020,Victoria,Regular Bus,1,312428,7.0,3,0,1,2,0.338,0.429,0.151,1,3
+6619,009,Broadway,Regular Bus,0,312285,10.0,3,1,1,1,0.211,0.199,0.055,1,3
+6627,025,King Edward,Regular Bus,1,312455,19.5,3,1,0,2,0.296,0.444,0.001,2,3
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,6.0,3,0,2,1,0.17,0.106,0.101,1,3
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,0,312666,17.0,3,0,2,1,0.227,0.197,0.139,1,3
+6705,321,King George Blvd,Regular Bus,1,312952,20.5,3,3,0,0,0.038,0.025,0.016,2,3
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,8.5,3,0,2,1,0.213,0.117,0.106,2,3
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,5.5,3,0,1,2,0.316,0.39,0.169,2,3
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312348,0.5,3,0,2,1,0.234,0.182,0.182,1,3
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312366,17.0,3,0,0,3,0.411,0.409,0.409,1,3
+6636,049,49th Avenue,Regular Bus,0,312498,10.0,3,1,1,1,0.157,0.117,0.051,2,3
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312366,17.5,3,0,2,1,0.212,0.11,0.11,1,3
+6738,502,Fraser Hwy,Express / Regional,0,317228,13.0,3,0,1,2,0.37,0.484,0.138,1,3
+37810,R4,41st Avenue,RapidBus,0,313452,4.0,3,0,1,2,0.348,0.306,0.25,3,3
+37807,R5,Hastings St,RapidBus,1,313460,15.0,3,0,0,3,0.331,0.336,0.314,2,3
+37807,R5,Hastings St,RapidBus,0,313454,8.5,3,0,3,0,0.202,0.202,0.202,1,3
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,1,312669,24.0,2,0,1,1,0.328,0.328,0.227,1,2
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,17.5,2,0,2,0,0.193,0.193,0.193,2,2
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,13.5,2,0,2,0,0.194,0.194,0.194,2,2
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312348,1.0,2,0,2,0,0.165,0.165,0.164,1,2
+6705,321,King George Blvd,Regular Bus,1,312952,16.0,2,0,1,1,0.246,0.246,0.106,1,2
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312366,16.5,2,0,1,1,0.263,0.263,0.103,1,2
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,0,312666,16.5,2,0,0,2,0.279,0.279,0.251,1,2
+6642,100,Marine Drive,Regular Bus,1,312538,11.5,2,0,2,0,0.196,0.196,0.196,1,2
+6728,410,Brighouse Station/22nd St Station,Regular Bus,0,313126,8.0,2,1,0,1,0.206,0.206,0.085,1,2
+6687,250,Horseshoe Bay/Dundarave/Vancouver,Express / Regional,1,312849,9.5,2,0,1,1,0.313,0.313,0.237,1,2
+6642,100,Marine Drive,Regular Bus,0,312532,10.0,2,0,0,2,0.363,0.363,0.341,2,2
+6642,100,Marine Drive,Regular Bus,1,312538,8.0,2,1,1,0,0.12,0.12,0.078,1,2
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,1,312669,21.0,2,0,0,2,0.392,0.392,0.367,1,2
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,8.0,2,1,0,1,0.14,0.14,0.025,2,2
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,2.5,2,0,0,2,0.325,0.325,0.317,1,2
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,6.5,2,0,1,1,0.268,0.268,0.227,1,2
+6624,019,Kingsway,Regular Bus,0,312405,3.5,2,0,0,2,0.449,0.449,0.443,1,2
+37807,R5,Hastings St,RapidBus,1,313460,14.0,2,0,0,2,0.484,0.484,0.48,1,2
+6636,049,49th Avenue,Regular Bus,1,312507,20.5,2,2,0,0,0.035,0.035,0.0,2,2
+6738,502,Fraser Hwy,Express / Regional,0,317228,6.0,2,0,0,2,0.363,0.363,0.344,2,2
+6624,019,Kingsway,Regular Bus,0,312397,4.0,2,0,0,2,0.375,0.375,0.348,1,2
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,0,312666,14.0,2,0,1,1,0.223,0.223,0.143,1,2
+6619,009,Broadway,Regular Bus,0,312285,9.0,2,2,0,0,0.023,0.023,0.02,2,2
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,3.5,2,0,0,2,0.429,0.429,0.364,1,2
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,5.0,2,0,1,1,0.313,0.313,0.148,2,2
+6619,009,Broadway,Regular Bus,0,312285,7.5,2,0,2,0,0.21,0.21,0.195,1,2
+6641,099,Broadway B-Line,B-Line,0,312527,1.0,2,0,0,2,0.305,0.305,0.27,1,2
+6738,502,Fraser Hwy,Express / Regional,0,317228,3.0,2,0,1,1,0.33,0.33,0.219,1,2
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,16.0,2,1,0,1,0.197,0.197,0.0,1,2
+6636,049,49th Avenue,Regular Bus,1,312507,18.5,2,0,0,2,0.375,0.375,0.371,1,2
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,3.0,2,0,2,0,0.219,0.219,0.213,1,2
+6728,410,Brighouse Station/22nd St Station,Regular Bus,0,313126,6.0,2,0,0,2,0.36,0.36,0.36,1,2
+6614,004,Powell/UBC Exchange,Regular Bus,0,312234,2.0,2,0,0,2,0.363,0.363,0.363,1,2
+6642,100,Marine Drive,Regular Bus,0,312532,11.0,2,0,1,1,0.193,0.193,0.123,2,2
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,10.0,2,0,2,0,0.168,0.168,0.168,2,2
+37810,R4,41st Avenue,RapidBus,1,313453,14.0,2,0,1,1,0.325,0.325,0.157,2,2
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,15.0,2,2,0,0,0.092,0.092,0.09,2,2
+6687,250,Horseshoe Bay/Dundarave/Vancouver,Express / Regional,1,312849,1.0,2,0,0,2,0.414,0.414,0.383,1,2
+6614,004,Powell/UBC Exchange,Regular Bus,1,312238,1.5,2,0,0,2,0.492,0.492,0.492,1,2
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,1,312669,8.0,2,0,0,2,0.29,0.29,0.272,1,2
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,1,312669,24.5,2,0,0,2,0.377,0.377,0.354,1,2
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,14.0,2,0,2,0,0.17,0.17,0.141,1,2
+6641,099,Broadway B-Line,B-Line,1,312530,9.5,2,0,1,1,0.334,0.334,0.228,2,2
+6641,099,Broadway B-Line,B-Line,0,312527,0.5,2,0,1,1,0.239,0.239,0.117,2,2
+6738,502,Fraser Hwy,Express / Regional,0,317228,2.5,2,0,0,2,0.418,0.418,0.385,1,2
+37810,R4,41st Avenue,RapidBus,0,313452,2.5,2,2,0,0,0.016,0.016,0.012,2,2
+6627,025,King Edward,Regular Bus,0,312450,11.0,2,0,0,2,0.391,0.391,0.285,1,2
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312348,2.5,2,2,0,0,0.091,0.091,0.087,1,2
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,14.0,2,0,0,2,0.407,0.407,0.339,2,2
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,15.0,2,0,1,1,0.247,0.247,0.161,1,2
+6705,321,King George Blvd,Regular Bus,0,312945,11.0,2,1,1,0,0.102,0.102,0.078,1,2
+6627,025,King Edward,Regular Bus,0,312450,8.0,2,0,0,2,0.313,0.313,0.264,1,2
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312366,14.5,2,0,2,0,0.143,0.143,0.143,1,2
+6705,321,King George Blvd,Regular Bus,0,312945,7.0,2,1,1,0,0.165,0.165,0.099,2,2
+37810,R4,41st Avenue,RapidBus,0,313452,5.5,2,0,0,2,0.442,0.442,0.435,2,2
+6636,049,49th Avenue,Regular Bus,1,312507,5.5,2,0,0,2,0.443,0.443,0.395,1,2
+6636,049,49th Avenue,Regular Bus,1,312507,15.0,2,0,1,1,0.312,0.312,0.217,1,2
+6627,025,King Edward,Regular Bus,0,312450,6.5,2,0,0,2,0.422,0.422,0.417,1,2
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,1,312669,8.5,2,0,0,2,0.375,0.375,0.318,1,2
+6642,100,Marine Drive,Regular Bus,1,312538,6.0,2,0,0,2,0.373,0.373,0.373,2,2
+6738,502,Fraser Hwy,Express / Regional,0,317228,16.0,2,0,1,1,0.291,0.291,0.201,1,2
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,1.5,2,2,0,0,0.054,0.054,0.018,2,2
+37807,R5,Hastings St,RapidBus,1,313460,13.0,2,0,2,0,0.19,0.19,0.143,2,2
+6705,321,King George Blvd,Regular Bus,0,312945,6.0,2,2,0,0,0.097,0.097,0.097,1,2
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,2.5,2,1,0,1,0.238,0.238,0.063,1,2
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,2.0,2,0,0,2,0.376,0.376,0.291,2,2
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,0.5,2,0,0,2,0.455,0.455,0.427,2,2
+6627,025,King Edward,Regular Bus,1,312455,12.5,2,0,2,0,0.189,0.189,0.175,1,2
+6627,025,King Edward,Regular Bus,0,312450,7.5,2,1,0,1,0.206,0.206,0.051,1,2
+6641,099,Broadway B-Line,B-Line,1,312530,6.5,2,0,0,2,0.342,0.342,0.342,2,2
+6642,100,Marine Drive,Regular Bus,0,312532,9.0,2,2,0,0,0.077,0.077,0.076,2,2
+6705,321,King George Blvd,Regular Bus,0,312945,11.5,2,2,0,0,0.07,0.07,0.066,1,2
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,12.0,2,0,1,1,0.308,0.308,0.15,1,2
+6619,009,Broadway,Regular Bus,0,312285,1.5,2,0,1,1,0.255,0.255,0.162,1,2
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,14.5,2,0,0,2,0.302,0.302,0.302,2,2
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,14.5,2,0,0,2,0.391,0.391,0.29,2,2
+6642,100,Marine Drive,Regular Bus,1,312538,15.0,2,0,0,2,0.428,0.428,0.379,1,2
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,1.0,2,0,0,2,0.352,0.352,0.27,1,2
+6738,502,Fraser Hwy,Express / Regional,0,317228,16.5,2,0,1,1,0.29,0.29,0.188,1,2
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,1,312669,10.0,2,0,0,2,0.415,0.415,0.358,1,2
+6627,025,King Edward,Regular Bus,1,312455,14.0,2,0,2,0,0.213,0.213,0.196,1,2
+6619,009,Broadway,Regular Bus,0,312285,11.0,2,2,0,0,0.045,0.045,0.02,2,2
+37810,R4,41st Avenue,RapidBus,0,313452,10.0,2,2,0,0,0.054,0.054,0.047,2,2
+37810,R4,41st Avenue,RapidBus,1,313453,13.0,2,1,0,1,0.144,0.144,0.0,2,2
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,7.0,2,2,0,0,0.0,0.0,0.0,1,2
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,3.5,2,0,0,2,0.444,0.444,0.422,2,2
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,0,312666,13.5,2,0,2,0,0.213,0.213,0.179,1,2
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,0,312666,11.5,2,1,1,0,0.098,0.098,0.014,1,2
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,0.5,2,0,0,2,0.303,0.303,0.303,1,2
+6627,025,King Edward,Regular Bus,1,312455,22.5,2,0,1,1,0.205,0.205,0.159,1,2
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,8.0,2,0,1,1,0.267,0.267,0.227,1,2
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,0.5,2,0,0,2,0.341,0.341,0.315,1,2
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,1,312991,11.0,2,0,0,2,0.372,0.372,0.331,2,2
+6627,025,King Edward,Regular Bus,0,312450,4.5,2,2,0,0,0.021,0.021,0.0,2,2
+6625,020,Victoria,Regular Bus,0,312419,0.5,2,0,0,2,0.298,0.298,0.251,1,2
+6625,020,Victoria,Regular Bus,0,312419,3.0,2,1,1,0,0.117,0.117,0.072,2,2
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,6.0,2,0,1,1,0.212,0.212,0.154,2,2
+6614,004,Powell/UBC Exchange,Regular Bus,0,312234,2.5,2,0,0,2,0.435,0.435,0.435,1,2
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,6.5,2,1,0,1,0.18,0.18,0.0,1,2
+6705,321,King George Blvd,Regular Bus,1,312952,16.5,2,0,0,2,0.398,0.398,0.32,1,2
+6641,099,Broadway B-Line,B-Line,1,312530,12.0,2,0,0,2,0.308,0.308,0.291,2,2
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,19.0,2,0,1,1,0.281,0.281,0.217,2,2
+6636,049,49th Avenue,Regular Bus,1,312507,8.0,2,1,0,1,0.186,0.186,0.074,1,2
+6625,020,Victoria,Regular Bus,1,312428,0.5,2,0,0,2,0.263,0.263,0.263,1,2
+6627,025,King Edward,Regular Bus,1,312455,14.5,2,1,1,0,0.128,0.128,0.037,2,2
+6642,100,Marine Drive,Regular Bus,1,312538,13.0,1,0,0,1,0.305,0.305,0.305,1,1
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,1,312991,14.5,1,0,0,1,0.358,0.358,0.358,1,1
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,0,312666,10.5,1,0,1,0,0.106,0.106,0.106,1,1
+6642,100,Marine Drive,Regular Bus,1,312538,5.0,1,0,0,1,0.421,0.421,0.421,1,1
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,1,312669,3.0,1,1,0,0,0.003,0.003,0.003,1,1
+23384,503,Fraser Hwy Express,Express / Regional,1,313175,17.5,1,0,0,1,0.278,0.278,0.278,1,1
+23384,503,Fraser Hwy Express,Express / Regional,1,313175,18.0,1,0,0,1,0.484,0.484,0.484,1,1
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,0,312666,1.5,1,0,0,1,0.496,0.496,0.496,1,1
+6614,004,Powell/UBC Exchange,Regular Bus,0,312234,7.5,1,0,0,1,0.413,0.413,0.413,1,1
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312335,9.0,1,0,0,1,0.472,0.472,0.472,1,1
+6738,502,Fraser Hwy,Express / Regional,0,317228,6.5,1,0,0,1,0.425,0.425,0.425,1,1
+6636,049,49th Avenue,Regular Bus,1,312507,14.0,1,0,0,1,0.462,0.462,0.462,1,1
+6705,321,King George Blvd,Regular Bus,1,312952,18.0,1,0,1,0,0.244,0.244,0.244,1,1
+6705,321,King George Blvd,Regular Bus,1,312952,17.0,1,0,0,1,0.468,0.468,0.468,1,1
+6624,019,Kingsway,Regular Bus,0,312397,3.5,1,0,0,1,0.488,0.488,0.488,1,1
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,11.5,1,1,0,0,0.009,0.009,0.009,1,1
+6627,025,King Edward,Regular Bus,1,312455,7.0,1,0,0,1,0.427,0.427,0.427,1,1
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,16.5,1,0,1,0,0.131,0.131,0.131,1,1
+6728,410,Brighouse Station/22nd St Station,Regular Bus,0,313126,7.0,1,0,0,1,0.302,0.302,0.302,1,1
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,1.5,1,0,0,1,0.386,0.386,0.386,1,1
+6738,502,Fraser Hwy,Express / Regional,0,317228,8.5,1,0,1,0,0.137,0.137,0.137,1,1
+6624,019,Kingsway,Regular Bus,0,312405,2.5,1,0,1,0,0.103,0.103,0.103,1,1
+37807,R5,Hastings St,RapidBus,1,313460,14.5,1,0,0,1,0.404,0.404,0.404,1,1
+6728,410,Brighouse Station/22nd St Station,Regular Bus,0,313126,6.5,1,0,0,1,0.362,0.362,0.362,1,1
+37810,R4,41st Avenue,RapidBus,0,313452,18.0,1,0,1,0,0.191,0.191,0.191,1,1
+6627,025,King Edward,Regular Bus,1,312455,1.5,1,0,0,1,0.454,0.454,0.454,1,1
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,0,312666,4.0,1,0,1,0,0.17,0.17,0.17,1,1
+6636,049,49th Avenue,Regular Bus,1,312507,13.0,1,0,0,1,0.377,0.377,0.377,1,1
+6738,502,Fraser Hwy,Express / Regional,0,317228,15.5,1,0,0,1,0.466,0.466,0.466,1,1
+6738,502,Fraser Hwy,Express / Regional,0,317228,5.0,1,0,0,1,0.309,0.309,0.309,1,1
+6738,502,Fraser Hwy,Express / Regional,0,317228,8.0,1,0,0,1,0.308,0.308,0.308,1,1
+6738,502,Fraser Hwy,Express / Regional,0,317228,11.0,1,0,1,0,0.211,0.211,0.211,1,1
+6738,502,Fraser Hwy,Express / Regional,0,317228,12.0,1,0,1,0,0.21,0.21,0.21,1,1
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,14.0,1,0,0,1,0.459,0.459,0.459,1,1
+6636,049,49th Avenue,Regular Bus,0,312498,5.5,1,0,0,1,0.459,0.459,0.459,1,1
+6642,100,Marine Drive,Regular Bus,1,312538,14.5,1,0,0,1,0.319,0.319,0.319,1,1
+6705,321,King George Blvd,Regular Bus,0,312945,10.5,1,1,0,0,0.057,0.057,0.057,1,1
+6687,250,Horseshoe Bay/Dundarave/Vancouver,Express / Regional,0,312836,7.5,1,0,0,1,0.347,0.347,0.347,1,1
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,1,312669,22.0,1,0,0,1,0.394,0.394,0.394,1,1
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,1,312669,7.5,1,0,0,1,0.427,0.427,0.427,1,1
+6636,049,49th Avenue,Regular Bus,1,312507,16.5,1,0,0,1,0.458,0.458,0.458,1,1
+6641,099,Broadway B-Line,B-Line,0,312527,3.0,1,0,0,1,0.445,0.445,0.445,1,1
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,3.5,1,0,0,1,0.358,0.358,0.358,1,1
+6627,025,King Edward,Regular Bus,0,312450,0.5,1,0,0,1,0.292,0.292,0.292,1,1
+6642,100,Marine Drive,Regular Bus,0,312532,5.0,1,0,0,1,0.466,0.466,0.466,1,1
+6625,020,Victoria,Regular Bus,0,312419,10.5,1,0,1,0,0.185,0.185,0.185,1,1
+6728,410,Brighouse Station/22nd St Station,Regular Bus,0,313126,20.0,1,0,0,1,0.418,0.418,0.418,1,1
+6705,321,King George Blvd,Regular Bus,0,312945,18.5,1,0,0,1,0.445,0.445,0.445,1,1
+6738,502,Fraser Hwy,Express / Regional,0,317228,4.5,1,0,0,1,0.47,0.47,0.47,1,1
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,0,312666,14.5,1,0,1,0,0.166,0.166,0.166,1,1
+6687,250,Horseshoe Bay/Dundarave/Vancouver,Express / Regional,0,312836,9.0,1,0,0,1,0.382,0.382,0.382,1,1
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,13.5,1,0,0,1,0.351,0.351,0.351,1,1
+6705,321,King George Blvd,Regular Bus,0,312945,8.0,1,0,0,1,0.478,0.478,0.478,1,1
+6627,025,King Edward,Regular Bus,0,312450,4.0,1,0,0,1,0.48,0.48,0.48,1,1
+6627,025,King Edward,Regular Bus,0,312450,7.0,1,0,0,1,0.357,0.357,0.357,1,1
+6728,410,Brighouse Station/22nd St Station,Regular Bus,0,313126,7.5,1,0,1,0,0.136,0.136,0.136,1,1
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,7.5,1,0,0,1,0.405,0.405,0.405,1,1
+6619,009,Broadway,Regular Bus,1,312305,5.0,1,0,0,1,0.298,0.298,0.298,1,1
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,16.0,1,0,0,1,0.47,0.47,0.47,1,1
+6627,025,King Edward,Regular Bus,1,312455,3.0,1,0,0,1,0.304,0.304,0.304,1,1
+6738,502,Fraser Hwy,Express / Regional,0,317228,10.5,1,0,0,1,0.347,0.347,0.347,1,1
+6627,025,King Edward,Regular Bus,1,312455,21.0,1,0,0,1,0.478,0.478,0.478,1,1
+6642,100,Marine Drive,Regular Bus,1,312538,15.5,1,0,0,1,0.31,0.31,0.31,1,1
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,1,312669,23.0,1,0,1,0,0.212,0.212,0.212,1,1
+6705,321,King George Blvd,Regular Bus,1,312952,5.5,1,0,1,0,0.206,0.206,0.206,1,1
+23384,503,Fraser Hwy Express,Express / Regional,1,313175,8.0,1,0,1,0,0.166,0.166,0.166,1,1
+6625,020,Victoria,Regular Bus,0,312419,2.5,1,0,0,1,0.397,0.397,0.397,1,1
+6614,004,Powell/UBC Exchange,Regular Bus,0,312234,6.0,1,0,0,1,0.495,0.495,0.495,1,1
+6705,321,King George Blvd,Regular Bus,0,312945,6.5,1,0,1,0,0.102,0.102,0.102,1,1
+6625,020,Victoria,Regular Bus,0,312419,9.0,1,0,0,1,0.284,0.284,0.284,1,1
+6636,049,49th Avenue,Regular Bus,1,312507,7.5,1,0,0,1,0.498,0.498,0.498,1,1
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,13.0,1,0,0,1,0.342,0.342,0.342,1,1
+6705,321,King George Blvd,Regular Bus,1,312952,4.5,1,0,1,0,0.149,0.149,0.149,1,1
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,17.0,1,0,0,1,0.424,0.424,0.424,1,1
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,0,312666,16.0,1,0,1,0,0.137,0.137,0.137,1,1
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312366,16.0,1,1,0,0,0.048,0.048,0.048,1,1
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312366,15.0,1,0,0,1,0.382,0.382,0.382,1,1
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,18.0,1,1,0,0,0.0,0.0,0.0,1,1
+6614,004,Powell/UBC Exchange,Regular Bus,0,312234,6.5,1,0,1,0,0.245,0.245,0.245,1,1
+37807,R5,Hastings St,RapidBus,0,313454,4.5,1,0,0,1,0.333,0.333,0.333,1,1
+6624,019,Kingsway,Regular Bus,0,312397,3.0,1,0,0,1,0.431,0.431,0.431,1,1
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,0,312666,6.0,1,0,1,0,0.219,0.219,0.219,1,1
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,0,312666,6.5,1,1,0,0,0.0,0.0,0.0,1,1
+6705,321,King George Blvd,Regular Bus,1,312952,18.5,1,0,0,1,0.27,0.27,0.27,1,1
+6705,321,King George Blvd,Regular Bus,1,312952,4.0,1,0,0,1,0.406,0.406,0.406,1,1
+6705,321,King George Blvd,Regular Bus,0,312945,7.5,1,0,1,0,0.237,0.237,0.237,1,1
+6705,321,King George Blvd,Regular Bus,0,312945,20.0,1,1,0,0,0.03,0.03,0.03,1,1
+6625,020,Victoria,Regular Bus,0,312419,6.5,1,0,0,1,0.386,0.386,0.386,1,1
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,1.0,1,0,0,1,0.433,0.433,0.433,1,1
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,0.5,1,0,1,0,0.145,0.145,0.145,1,1
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,7.0,1,1,0,0,0.042,0.042,0.042,1,1
+37807,R5,Hastings St,RapidBus,0,313454,5.0,1,0,0,1,0.386,0.386,0.386,1,1
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,3.0,1,0,0,1,0.354,0.354,0.354,1,1
+6705,321,King George Blvd,Regular Bus,0,312945,12.5,1,0,0,1,0.468,0.468,0.468,1,1
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,4.5,1,0,0,1,0.495,0.495,0.495,1,1
+6738,502,Fraser Hwy,Express / Regional,0,317228,14.0,1,1,0,0,0.036,0.036,0.036,1,1
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,15.5,1,1,0,0,0.075,0.075,0.075,1,1
+6636,049,49th Avenue,Regular Bus,1,312507,19.0,1,1,0,0,0.039,0.039,0.039,1,1
+6627,025,King Edward,Regular Bus,0,312450,9.0,1,0,1,0,0.146,0.146,0.146,1,1
+6614,004,Powell/UBC Exchange,Regular Bus,0,312234,10.0,1,0,0,1,0.487,0.487,0.487,1,1
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,0.5,1,0,0,1,0.419,0.419,0.419,1,1
+6624,019,Kingsway,Regular Bus,1,312412,11.5,1,0,0,1,0.299,0.299,0.299,1,1
+6624,019,Kingsway,Regular Bus,1,312413,1.5,1,1,0,0,0.086,0.086,0.086,1,1
+6627,025,King Edward,Regular Bus,1,312455,20.5,1,0,0,1,0.474,0.474,0.474,1,1
+6738,502,Fraser Hwy,Express / Regional,0,317228,12.5,1,1,0,0,0.048,0.048,0.048,1,1
+6738,502,Fraser Hwy,Express / Regional,0,317228,11.5,1,0,1,0,0.196,0.196,0.196,1,1
+6687,250,Horseshoe Bay/Dundarave/Vancouver,Express / Regional,1,312849,7.5,1,1,0,0,0.078,0.078,0.078,1,1
+37807,R5,Hastings St,RapidBus,1,313460,8.0,1,0,1,0,0.111,0.111,0.111,1,1
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,1,312669,21.5,1,1,0,0,0.088,0.088,0.088,1,1
+6627,025,King Edward,Regular Bus,0,312450,8.5,1,0,0,1,0.416,0.416,0.416,1,1
+6625,020,Victoria,Regular Bus,0,312419,5.5,1,0,0,1,0.359,0.359,0.359,1,1
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,0,312666,12.5,1,1,0,0,0.041,0.041,0.041,1,1
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,19.5,1,1,0,0,0.095,0.095,0.095,1,1
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,14.5,1,0,1,0,0.224,0.224,0.224,1,1
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,5.0,1,0,0,1,0.492,0.492,0.492,1,1
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,8.0,1,0,0,1,0.456,0.456,0.456,1,1
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,0.5,1,0,0,1,0.323,0.323,0.323,1,1
+37810,R4,41st Avenue,RapidBus,0,313452,3.5,1,0,1,0,0.139,0.139,0.139,1,1
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,1,312669,9.5,1,0,0,1,0.477,0.477,0.477,1,1
+6636,049,49th Avenue,Regular Bus,1,312507,15.5,1,0,1,0,0.25,0.25,0.25,1,1
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,7.5,1,0,1,0,0.199,0.199,0.199,1,1
+6642,100,Marine Drive,Regular Bus,1,312538,9.5,1,0,1,0,0.105,0.105,0.105,1,1
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,0,312666,5.0,1,0,0,1,0.469,0.469,0.469,1,1
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,0,312666,8.0,1,0,0,1,0.458,0.458,0.458,1,1
+6625,020,Victoria,Regular Bus,0,312419,7.0,1,0,0,1,0.475,0.475,0.475,1,1
+6636,049,49th Avenue,Regular Bus,1,312507,12.0,1,0,0,1,0.472,0.472,0.472,1,1
+37807,R5,Hastings St,RapidBus,0,313454,6.5,1,0,0,1,0.343,0.343,0.343,1,1
+6641,099,Broadway B-Line,B-Line,1,312530,11.0,1,1,0,0,0.089,0.089,0.089,1,1
+6614,004,Powell/UBC Exchange,Regular Bus,0,312234,9.5,1,0,0,1,0.48,0.48,0.48,1,1
+6625,020,Victoria,Regular Bus,0,312419,5.0,1,0,0,1,0.472,0.472,0.472,1,1
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,13.5,1,0,0,1,0.318,0.318,0.318,1,1
+37810,R4,41st Avenue,RapidBus,1,313453,15.0,1,1,0,0,0.074,0.074,0.074,1,1
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,1,312991,10.0,1,0,1,0,0.187,0.187,0.187,1,1

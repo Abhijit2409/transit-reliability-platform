@@ -1,0 +1,7 @@
+route_id,route_short_name,route_long_name,bus_subtype,mean_daily_records,cv_daily_records,days_active
+6641,099,Broadway B-Line,B-Line,42874.0,0.171,5
+6636,049,49th Avenue,Regular Bus,39148.4,0.1948,5
+37810,R4,41st Avenue,RapidBus,37778.2,0.1702,5
+6748,640,River Road,Regular Bus,15365.6,0.2462,5
+11201,033,16 & 33rd Avenue,Regular Bus,14251.6,0.1804,5
+6657,144,SFU Exchange/Metrotown Station,Regular Bus,13209.4,0.1824,5

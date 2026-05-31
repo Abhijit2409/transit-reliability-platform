@@ -1,0 +1,191 @@
+service_date,route_id,route_short_name,route_long_name,route_type,hour_of_day,peak_period,bunching_events,severe_events,high_events,moderate_events,avg_gap_km,median_gap_km
+2026-05-23 00:00:00,6614,004,Powell/UBC Exchange,Regular Bus,8,AM Peak,21,0,4,17,0.351,0.375
+2026-05-23 00:00:00,6614,004,Powell/UBC Exchange,Regular Bus,9,AM Peak,12,0,0,12,0.392,0.418
+2026-05-23 00:00:00,6614,004,Powell/UBC Exchange,Regular Bus,10,Off Peak,2,0,0,2,0.399,0.399
+2026-05-23 00:00:00,6614,004,Powell/UBC Exchange,Regular Bus,13,Off Peak,129,6,77,46,0.241,0.213
+2026-05-23 00:00:00,6614,004,Powell/UBC Exchange,Regular Bus,14,Off Peak,82,7,40,35,0.237,0.228
+2026-05-23 00:00:00,6614,004,Powell/UBC Exchange,Regular Bus,15,PM Peak,203,32,102,69,0.21,0.181
+2026-05-23 00:00:00,6614,004,Powell/UBC Exchange,Regular Bus,16,PM Peak,197,34,73,90,0.241,0.214
+2026-05-23 00:00:00,6614,004,Powell/UBC Exchange,Regular Bus,17,PM Peak,83,6,32,45,0.267,0.272
+2026-05-23 00:00:00,6614,004,Powell/UBC Exchange,Regular Bus,18,PM Peak,45,13,20,12,0.17,0.156
+2026-05-23 00:00:00,6614,004,Powell/UBC Exchange,Regular Bus,22,Off Peak,2,0,0,2,0.492,0.492
+2026-05-23 00:00:00,6617,007,Nanaimo Station/Dunbar,Regular Bus,9,AM Peak,13,0,6,7,0.287,0.342
+2026-05-23 00:00:00,6617,007,Nanaimo Station/Dunbar,Regular Bus,10,Off Peak,22,13,2,7,0.196,0.095
+2026-05-23 00:00:00,6617,007,Nanaimo Station/Dunbar,Regular Bus,11,Off Peak,16,1,5,10,0.254,0.293
+2026-05-23 00:00:00,6617,007,Nanaimo Station/Dunbar,Regular Bus,12,Off Peak,7,0,1,6,0.326,0.342
+2026-05-23 00:00:00,6617,007,Nanaimo Station/Dunbar,Regular Bus,13,Off Peak,111,23,52,36,0.21,0.174
+2026-05-23 00:00:00,6617,007,Nanaimo Station/Dunbar,Regular Bus,14,Off Peak,91,25,43,23,0.184,0.174
+2026-05-23 00:00:00,6617,007,Nanaimo Station/Dunbar,Regular Bus,15,PM Peak,207,29,111,67,0.209,0.174
+2026-05-23 00:00:00,6617,007,Nanaimo Station/Dunbar,Regular Bus,16,PM Peak,88,15,31,42,0.253,0.224
+2026-05-23 00:00:00,6617,007,Nanaimo Station/Dunbar,Regular Bus,17,PM Peak,105,7,28,70,0.311,0.328
+2026-05-23 00:00:00,6617,007,Nanaimo Station/Dunbar,Regular Bus,18,PM Peak,61,17,14,30,0.234,0.236
+2026-05-23 00:00:00,6617,007,Nanaimo Station/Dunbar,Regular Bus,21,Off Peak,15,0,11,4,0.17,0.1
+2026-05-23 00:00:00,6619,009,Broadway,Regular Bus,8,AM Peak,4,0,0,4,0.315,0.316
+2026-05-23 00:00:00,6619,009,Broadway,Regular Bus,9,AM Peak,15,0,4,11,0.339,0.335
+2026-05-23 00:00:00,6619,009,Broadway,Regular Bus,10,Off Peak,3,1,1,1,0.224,0.232
+2026-05-23 00:00:00,6619,009,Broadway,Regular Bus,11,Off Peak,14,0,6,8,0.284,0.321
+2026-05-23 00:00:00,6619,009,Broadway,Regular Bus,15,PM Peak,67,9,32,26,0.225,0.195
+2026-05-23 00:00:00,6619,009,Broadway,Regular Bus,16,PM Peak,19,0,8,11,0.273,0.301
+2026-05-23 00:00:00,6619,009,Broadway,Regular Bus,17,PM Peak,42,0,12,30,0.292,0.313
+2026-05-23 00:00:00,6619,009,Broadway,Regular Bus,18,PM Peak,26,6,4,16,0.278,0.363
+2026-05-23 00:00:00,16718,014,Hastings/UBC Exchange,Regular Bus,1,Off Peak,15,7,5,3,0.149,0.164
+2026-05-23 00:00:00,16718,014,Hastings/UBC Exchange,Regular Bus,7,AM Peak,2,0,1,1,0.288,0.288
+2026-05-23 00:00:00,16718,014,Hastings/UBC Exchange,Regular Bus,9,AM Peak,21,4,8,9,0.225,0.184
+2026-05-23 00:00:00,16718,014,Hastings/UBC Exchange,Regular Bus,10,Off Peak,2,0,2,0,0.175,0.175
+2026-05-23 00:00:00,16718,014,Hastings/UBC Exchange,Regular Bus,11,Off Peak,69,2,18,49,0.324,0.34
+2026-05-23 00:00:00,16718,014,Hastings/UBC Exchange,Regular Bus,12,Off Peak,42,5,19,18,0.24,0.191
+2026-05-23 00:00:00,16718,014,Hastings/UBC Exchange,Regular Bus,13,Off Peak,150,14,67,69,0.247,0.231
+2026-05-23 00:00:00,16718,014,Hastings/UBC Exchange,Regular Bus,14,Off Peak,102,22,39,41,0.224,0.202
+2026-05-23 00:00:00,16718,014,Hastings/UBC Exchange,Regular Bus,15,PM Peak,248,16,114,118,0.263,0.23
+2026-05-23 00:00:00,16718,014,Hastings/UBC Exchange,Regular Bus,16,PM Peak,127,7,36,84,0.303,0.341
+2026-05-23 00:00:00,16718,014,Hastings/UBC Exchange,Regular Bus,17,PM Peak,75,9,28,38,0.275,0.277
+2026-05-23 00:00:00,16718,014,Hastings/UBC Exchange,Regular Bus,18,PM Peak,19,0,7,12,0.287,0.312
+2026-05-23 00:00:00,16718,014,Hastings/UBC Exchange,Regular Bus,21,Off Peak,7,1,0,6,0.324,0.316
+2026-05-23 00:00:00,6622,016,29th Avenue Station/Arbutus,Regular Bus,0,Off Peak,19,2,7,10,0.273,0.282
+2026-05-23 00:00:00,6622,016,29th Avenue Station/Arbutus,Regular Bus,9,AM Peak,6,2,1,3,0.215,0.221
+2026-05-23 00:00:00,6622,016,29th Avenue Station/Arbutus,Regular Bus,10,Off Peak,93,1,18,74,0.334,0.34
+2026-05-23 00:00:00,6622,016,29th Avenue Station/Arbutus,Regular Bus,11,Off Peak,116,7,46,63,0.269,0.259
+2026-05-23 00:00:00,6622,016,29th Avenue Station/Arbutus,Regular Bus,12,Off Peak,90,17,32,41,0.231,0.209
+2026-05-23 00:00:00,6622,016,29th Avenue Station/Arbutus,Regular Bus,13,Off Peak,144,9,63,72,0.267,0.253
+2026-05-23 00:00:00,6622,016,29th Avenue Station/Arbutus,Regular Bus,14,Off Peak,183,16,72,95,0.263,0.265
+2026-05-23 00:00:00,6622,016,29th Avenue Station/Arbutus,Regular Bus,15,PM Peak,326,45,144,137,0.234,0.195
+2026-05-23 00:00:00,6622,016,29th Avenue Station/Arbutus,Regular Bus,16,PM Peak,115,5,38,72,0.298,0.311
+2026-05-23 00:00:00,6622,016,29th Avenue Station/Arbutus,Regular Bus,17,PM Peak,106,24,30,52,0.247,0.236
+2026-05-23 00:00:00,6622,016,29th Avenue Station/Arbutus,Regular Bus,18,PM Peak,44,2,16,26,0.283,0.275
+2026-05-23 00:00:00,6622,016,29th Avenue Station/Arbutus,Regular Bus,19,Off Peak,17,0,4,13,0.354,0.386
+2026-05-23 00:00:00,6622,016,29th Avenue Station/Arbutus,Regular Bus,20,Off Peak,4,1,0,3,0.265,0.323
+2026-05-23 00:00:00,6624,019,Kingsway,Regular Bus,0,Off Peak,4,1,2,1,0.203,0.211
+2026-05-23 00:00:00,6624,019,Kingsway,Regular Bus,7,AM Peak,5,0,2,3,0.261,0.26
+2026-05-23 00:00:00,6624,019,Kingsway,Regular Bus,9,AM Peak,74,22,35,17,0.18,0.154
+2026-05-23 00:00:00,6624,019,Kingsway,Regular Bus,10,Off Peak,148,21,60,67,0.242,0.22
+2026-05-23 00:00:00,6624,019,Kingsway,Regular Bus,11,Off Peak,137,22,49,66,0.242,0.246
+2026-05-23 00:00:00,6624,019,Kingsway,Regular Bus,12,Off Peak,81,8,31,42,0.272,0.257
+2026-05-23 00:00:00,6624,019,Kingsway,Regular Bus,13,Off Peak,94,24,22,48,0.242,0.262
+2026-05-23 00:00:00,6624,019,Kingsway,Regular Bus,14,Off Peak,226,27,88,111,0.245,0.243
+2026-05-23 00:00:00,6624,019,Kingsway,Regular Bus,15,PM Peak,155,20,52,83,0.262,0.255
+2026-05-23 00:00:00,6624,019,Kingsway,Regular Bus,16,PM Peak,61,14,18,29,0.221,0.216
+2026-05-23 00:00:00,6624,019,Kingsway,Regular Bus,17,PM Peak,91,21,39,31,0.204,0.189
+2026-05-23 00:00:00,6624,019,Kingsway,Regular Bus,18,PM Peak,86,16,27,43,0.259,0.254
+2026-05-23 00:00:00,6624,019,Kingsway,Regular Bus,19,Off Peak,38,6,14,18,0.253,0.242
+2026-05-23 00:00:00,6624,019,Kingsway,Regular Bus,20,Off Peak,8,0,4,4,0.227,0.227
+2026-05-23 00:00:00,6625,020,Victoria,Regular Bus,10,Off Peak,17,3,4,10,0.284,0.324
+2026-05-23 00:00:00,6625,020,Victoria,Regular Bus,11,Off Peak,2,0,0,2,0.478,0.478
+2026-05-23 00:00:00,6625,020,Victoria,Regular Bus,12,Off Peak,22,1,12,9,0.241,0.23
+2026-05-23 00:00:00,6625,020,Victoria,Regular Bus,13,Off Peak,7,0,4,3,0.26,0.247
+2026-05-23 00:00:00,6625,020,Victoria,Regular Bus,14,Off Peak,41,11,17,13,0.208,0.224
+2026-05-23 00:00:00,6625,020,Victoria,Regular Bus,15,PM Peak,10,0,1,9,0.383,0.399
+2026-05-23 00:00:00,6625,020,Victoria,Regular Bus,16,PM Peak,101,15,45,41,0.215,0.205
+2026-05-23 00:00:00,6625,020,Victoria,Regular Bus,17,PM Peak,55,13,17,25,0.244,0.23
+2026-05-23 00:00:00,6625,020,Victoria,Regular Bus,18,PM Peak,10,0,1,9,0.39,0.396
+2026-05-23 00:00:00,6625,020,Victoria,Regular Bus,20,Off Peak,31,4,8,19,0.291,0.31
+2026-05-23 00:00:00,6625,020,Victoria,Regular Bus,22,Off Peak,11,2,6,3,0.224,0.206
+2026-05-23 00:00:00,6625,020,Victoria,Regular Bus,23,Off Peak,3,0,1,2,0.337,0.405
+2026-05-23 00:00:00,6627,025,King Edward,Regular Bus,10,Off Peak,39,9,10,20,0.261,0.278
+2026-05-23 00:00:00,6627,025,King Edward,Regular Bus,11,Off Peak,24,3,5,16,0.308,0.379
+2026-05-23 00:00:00,6627,025,King Edward,Regular Bus,12,Off Peak,53,11,20,22,0.24,0.201
+2026-05-23 00:00:00,6627,025,King Edward,Regular Bus,13,Off Peak,41,12,10,19,0.243,0.234
+2026-05-23 00:00:00,6627,025,King Edward,Regular Bus,14,Off Peak,30,3,5,22,0.37,0.443
+2026-05-23 00:00:00,6627,025,King Edward,Regular Bus,15,PM Peak,47,6,16,25,0.282,0.339
+2026-05-23 00:00:00,6627,025,King Edward,Regular Bus,16,PM Peak,18,1,3,14,0.367,0.407
+2026-05-23 00:00:00,6627,025,King Edward,Regular Bus,17,PM Peak,87,19,23,45,0.253,0.267
+2026-05-23 00:00:00,6627,025,King Edward,Regular Bus,18,PM Peak,17,7,4,6,0.207,0.222
+2026-05-23 00:00:00,6627,025,King Edward,Regular Bus,19,Off Peak,25,5,7,13,0.249,0.292
+2026-05-23 00:00:00,6627,025,King Edward,Regular Bus,20,Off Peak,68,15,12,41,0.269,0.29
+2026-05-23 00:00:00,6636,049,49th Avenue,Regular Bus,10,Off Peak,1,0,0,1,0.414,0.414
+2026-05-23 00:00:00,6636,049,49th Avenue,Regular Bus,11,Off Peak,3,0,1,2,0.271,0.274
+2026-05-23 00:00:00,6636,049,49th Avenue,Regular Bus,13,Off Peak,1,0,0,1,0.468,0.468
+2026-05-23 00:00:00,6636,049,49th Avenue,Regular Bus,15,PM Peak,4,0,0,4,0.426,0.415
+2026-05-23 00:00:00,6636,049,49th Avenue,Regular Bus,16,PM Peak,47,12,11,24,0.25,0.298
+2026-05-23 00:00:00,6636,049,49th Avenue,Regular Bus,17,PM Peak,99,23,41,35,0.213,0.217
+2026-05-23 00:00:00,6636,049,49th Avenue,Regular Bus,18,PM Peak,90,11,26,53,0.263,0.278
+2026-05-23 00:00:00,6636,049,49th Avenue,Regular Bus,19,Off Peak,75,6,14,55,0.302,0.328
+2026-05-23 00:00:00,6641,099,Broadway B-Line,B-Line,9,AM Peak,24,1,6,17,0.289,0.313
+2026-05-23 00:00:00,6641,099,Broadway B-Line,B-Line,10,Off Peak,35,3,18,14,0.237,0.212
+2026-05-23 00:00:00,6641,099,Broadway B-Line,B-Line,11,Off Peak,56,11,24,21,0.218,0.179
+2026-05-23 00:00:00,6641,099,Broadway B-Line,B-Line,12,Off Peak,84,3,31,50,0.297,0.293
+2026-05-23 00:00:00,6641,099,Broadway B-Line,B-Line,13,Off Peak,150,11,49,90,0.29,0.311
+2026-05-23 00:00:00,6641,099,Broadway B-Line,B-Line,14,Off Peak,114,19,31,64,0.272,0.301
+2026-05-23 00:00:00,6641,099,Broadway B-Line,B-Line,15,PM Peak,231,15,93,123,0.258,0.256
+2026-05-23 00:00:00,6641,099,Broadway B-Line,B-Line,16,PM Peak,164,30,48,86,0.251,0.279
+2026-05-23 00:00:00,6641,099,Broadway B-Line,B-Line,17,PM Peak,84,12,27,45,0.265,0.279
+2026-05-23 00:00:00,6641,099,Broadway B-Line,B-Line,18,PM Peak,31,5,9,17,0.246,0.25
+2026-05-23 00:00:00,6641,099,Broadway B-Line,B-Line,19,Off Peak,6,0,1,5,0.373,0.406
+2026-05-23 00:00:00,6641,099,Broadway B-Line,B-Line,20,Off Peak,12,0,1,11,0.396,0.4
+2026-05-23 00:00:00,6641,099,Broadway B-Line,B-Line,22,Off Peak,9,0,1,8,0.366,0.373
+2026-05-23 00:00:00,6642,100,Marine Drive,Regular Bus,12,Off Peak,11,0,0,11,0.383,0.38
+2026-05-23 00:00:00,6642,100,Marine Drive,Regular Bus,15,PM Peak,34,8,15,11,0.196,0.197
+2026-05-23 00:00:00,6642,100,Marine Drive,Regular Bus,16,PM Peak,91,16,22,53,0.267,0.277
+2026-05-23 00:00:00,6642,100,Marine Drive,Regular Bus,17,PM Peak,9,1,2,6,0.292,0.325
+2026-05-23 00:00:00,6642,100,Marine Drive,Regular Bus,18,PM Peak,14,4,3,7,0.208,0.234
+2026-05-23 00:00:00,6642,100,Marine Drive,Regular Bus,19,Off Peak,4,1,0,3,0.309,0.366
+2026-05-23 00:00:00,6642,100,Marine Drive,Regular Bus,21,Off Peak,7,1,0,6,0.307,0.316
+2026-05-23 00:00:00,6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,9,AM Peak,3,1,1,1,0.187,0.216
+2026-05-23 00:00:00,6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,11,Off Peak,18,4,4,10,0.259,0.283
+2026-05-23 00:00:00,6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,12,Off Peak,1,0,0,1,0.441,0.441
+2026-05-23 00:00:00,6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,14,Off Peak,6,0,0,6,0.447,0.447
+2026-05-23 00:00:00,6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,15,PM Peak,4,1,0,3,0.307,0.365
+2026-05-23 00:00:00,6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,16,PM Peak,13,0,4,9,0.342,0.359
+2026-05-23 00:00:00,6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,17,PM Peak,51,8,20,23,0.241,0.197
+2026-05-23 00:00:00,6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,18,PM Peak,7,1,0,6,0.32,0.318
+2026-05-23 00:00:00,6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,19,Off Peak,16,1,3,12,0.348,0.396
+2026-05-23 00:00:00,6687,250,Horseshoe Bay/Dundarave/Vancouver,Express / Regional,10,Off Peak,6,1,3,2,0.197,0.111
+2026-05-23 00:00:00,6687,250,Horseshoe Bay/Dundarave/Vancouver,Express / Regional,13,Off Peak,5,0,2,3,0.256,0.321
+2026-05-23 00:00:00,6687,250,Horseshoe Bay/Dundarave/Vancouver,Express / Regional,14,Off Peak,22,2,10,10,0.227,0.221
+2026-05-23 00:00:00,6687,250,Horseshoe Bay/Dundarave/Vancouver,Express / Regional,15,PM Peak,34,1,6,27,0.334,0.339
+2026-05-23 00:00:00,6687,250,Horseshoe Bay/Dundarave/Vancouver,Express / Regional,16,PM Peak,25,3,9,13,0.261,0.255
+2026-05-23 00:00:00,6687,250,Horseshoe Bay/Dundarave/Vancouver,Express / Regional,17,PM Peak,9,0,4,5,0.312,0.275
+2026-05-23 00:00:00,6687,250,Horseshoe Bay/Dundarave/Vancouver,Express / Regional,18,PM Peak,5,1,1,3,0.298,0.368
+2026-05-23 00:00:00,6687,250,Horseshoe Bay/Dundarave/Vancouver,Express / Regional,19,Off Peak,1,0,0,1,0.356,0.356
+2026-05-23 00:00:00,6705,321,King George Blvd,Regular Bus,5,Off Peak,12,1,1,10,0.319,0.335
+2026-05-23 00:00:00,6705,321,King George Blvd,Regular Bus,6,Off Peak,14,0,5,9,0.301,0.32
+2026-05-23 00:00:00,6705,321,King George Blvd,Regular Bus,10,Off Peak,20,6,5,9,0.206,0.244
+2026-05-23 00:00:00,6705,321,King George Blvd,Regular Bus,12,Off Peak,35,3,15,17,0.257,0.234
+2026-05-23 00:00:00,6705,321,King George Blvd,Regular Bus,13,Off Peak,24,4,8,12,0.288,0.277
+2026-05-23 00:00:00,6705,321,King George Blvd,Regular Bus,14,Off Peak,63,22,20,21,0.202,0.17
+2026-05-23 00:00:00,6705,321,King George Blvd,Regular Bus,15,PM Peak,6,0,2,4,0.362,0.395
+2026-05-23 00:00:00,6705,321,King George Blvd,Regular Bus,16,PM Peak,4,0,0,4,0.476,0.479
+2026-05-23 00:00:00,6705,321,King George Blvd,Regular Bus,17,PM Peak,26,8,8,10,0.227,0.216
+2026-05-23 00:00:00,6705,321,King George Blvd,Regular Bus,18,PM Peak,14,3,7,4,0.204,0.216
+2026-05-23 00:00:00,6705,321,King George Blvd,Regular Bus,19,Off Peak,18,0,7,11,0.303,0.318
+2026-05-23 00:00:00,6712,335,Newton Exchange/Surrey Central Station,Regular Bus,9,AM Peak,2,0,0,2,0.345,0.345
+2026-05-23 00:00:00,6712,335,Newton Exchange/Surrey Central Station,Regular Bus,11,Off Peak,6,0,3,3,0.217,0.207
+2026-05-23 00:00:00,6712,335,Newton Exchange/Surrey Central Station,Regular Bus,12,Off Peak,33,6,8,19,0.256,0.284
+2026-05-23 00:00:00,6712,335,Newton Exchange/Surrey Central Station,Regular Bus,13,Off Peak,8,0,3,5,0.286,0.311
+2026-05-23 00:00:00,6712,335,Newton Exchange/Surrey Central Station,Regular Bus,15,PM Peak,12,3,2,7,0.219,0.278
+2026-05-23 00:00:00,6712,335,Newton Exchange/Surrey Central Station,Regular Bus,17,PM Peak,48,11,12,25,0.252,0.255
+2026-05-23 00:00:00,6712,335,Newton Exchange/Surrey Central Station,Regular Bus,18,PM Peak,10,0,3,7,0.353,0.406
+2026-05-23 00:00:00,6712,335,Newton Exchange/Surrey Central Station,Regular Bus,19,Off Peak,2,0,1,1,0.328,0.328
+2026-05-23 00:00:00,6712,335,Newton Exchange/Surrey Central Station,Regular Bus,20,Off Peak,42,11,15,16,0.203,0.189
+2026-05-23 00:00:00,6712,335,Newton Exchange/Surrey Central Station,Regular Bus,21,Off Peak,26,3,6,17,0.288,0.335
+2026-05-23 00:00:00,6712,335,Newton Exchange/Surrey Central Station,Regular Bus,23,Off Peak,3,0,0,3,0.451,0.451
+2026-05-23 00:00:00,6728,410,Brighouse Station/22nd St Station,Regular Bus,12,Off Peak,4,0,2,2,0.257,0.241
+2026-05-23 00:00:00,6728,410,Brighouse Station/22nd St Station,Regular Bus,13,Off Peak,74,12,31,31,0.22,0.215
+2026-05-23 00:00:00,6728,410,Brighouse Station/22nd St Station,Regular Bus,14,Off Peak,61,9,14,38,0.292,0.338
+2026-05-23 00:00:00,6728,410,Brighouse Station/22nd St Station,Regular Bus,15,PM Peak,72,12,25,35,0.249,0.232
+2026-05-23 00:00:00,6728,410,Brighouse Station/22nd St Station,Regular Bus,16,PM Peak,50,4,13,33,0.29,0.312
+2026-05-23 00:00:00,6728,410,Brighouse Station/22nd St Station,Regular Bus,17,PM Peak,36,7,6,23,0.261,0.274
+2026-05-23 00:00:00,6728,410,Brighouse Station/22nd St Station,Regular Bus,18,PM Peak,2,1,1,0,0.139,0.139
+2026-05-23 00:00:00,6738,502,Fraser Hwy,Express / Regional,18,PM Peak,15,1,1,13,0.343,0.383
+2026-05-23 00:00:00,6738,502,Fraser Hwy,Express / Regional,19,Off Peak,25,2,10,13,0.272,0.279
+2026-05-23 00:00:00,23384,503,Fraser Hwy Express,Express / Regional,12,Off Peak,1,0,0,1,0.278,0.278
+2026-05-23 00:00:00,23384,503,Fraser Hwy Express,Express / Regional,14,Off Peak,1,0,1,0,0.166,0.166
+2026-05-23 00:00:00,23384,503,Fraser Hwy Express,Express / Regional,15,PM Peak,1,0,0,1,0.484,0.484
+2026-05-23 00:00:00,23384,503,Fraser Hwy Express,Express / Regional,17,PM Peak,3,0,2,1,0.174,0.116
+2026-05-23 00:00:00,37810,R4,41st Avenue,RapidBus,8,AM Peak,22,1,9,12,0.277,0.257
+2026-05-23 00:00:00,37810,R4,41st Avenue,RapidBus,9,AM Peak,45,14,9,22,0.217,0.236
+2026-05-23 00:00:00,37810,R4,41st Avenue,RapidBus,10,Off Peak,88,14,24,50,0.273,0.306
+2026-05-23 00:00:00,37810,R4,41st Avenue,RapidBus,11,Off Peak,89,13,23,53,0.281,0.287
+2026-05-23 00:00:00,37810,R4,41st Avenue,RapidBus,12,Off Peak,166,28,52,86,0.254,0.252
+2026-05-23 00:00:00,37810,R4,41st Avenue,RapidBus,13,Off Peak,227,57,78,92,0.223,0.205
+2026-05-23 00:00:00,37810,R4,41st Avenue,RapidBus,14,Off Peak,192,46,64,82,0.234,0.212
+2026-05-23 00:00:00,37810,R4,41st Avenue,RapidBus,15,PM Peak,95,8,44,43,0.267,0.216
+2026-05-23 00:00:00,37810,R4,41st Avenue,RapidBus,16,PM Peak,114,11,47,56,0.259,0.241
+2026-05-23 00:00:00,37810,R4,41st Avenue,RapidBus,17,PM Peak,141,26,42,73,0.259,0.253
+2026-05-23 00:00:00,37810,R4,41st Avenue,RapidBus,18,PM Peak,63,9,29,25,0.227,0.205
+2026-05-23 00:00:00,37810,R4,41st Avenue,RapidBus,19,Off Peak,26,0,5,21,0.358,0.389
+2026-05-23 00:00:00,37810,R4,41st Avenue,RapidBus,20,Off Peak,33,5,6,22,0.298,0.38
+2026-05-23 00:00:00,37807,R5,Hastings St,RapidBus,14,Off Peak,4,0,1,3,0.328,0.35
+2026-05-23 00:00:00,37807,R5,Hastings St,RapidBus,18,PM Peak,17,2,13,2,0.197,0.202
+2026-05-23 00:00:00,37807,R5,Hastings St,RapidBus,20,Off Peak,8,0,2,6,0.322,0.338
+2026-05-23 00:00:00,37807,R5,Hastings St,RapidBus,21,Off Peak,14,3,6,5,0.215,0.15
+2026-05-23 00:00:00,37807,R5,Hastings St,RapidBus,22,Off Peak,12,4,5,3,0.166,0.122

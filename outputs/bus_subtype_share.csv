@@ -1,0 +1,6 @@
+bus_subtype,routes,total_records,unique_vehicles,pct_of_bus_records
+Regular Bus,199,7887721,11276,84.75
+RapidBus,6,638726,380,6.86
+Express,9,496159,538,5.33
+B-Line,1,214370,87,2.3
+NightBus,10,70540,258,0.76

@@ -19,7 +19,7 @@ Why observability matters:
 Usage (from project root):
     python src/pipeline_health_report.py
     python src/pipeline_health_report.py --data-dir data/raw
-    python src/pipeline_health_report.py --date 2026-05-09
+    python src/pipeline_health_report.py --date 2026-05-23
 """
 
 import argparse

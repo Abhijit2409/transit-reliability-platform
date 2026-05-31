@@ -1,0 +1,1483 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4a308a234545f34abaffa03dbf35c58b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+    <div style="
+        position: fixed; top: 10px; left: 50px; z-index: 9999;
+        background: rgba(255,255,255,0.92); padding: 8px 14px;
+        border: 1px solid #888; border-radius: 4px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        font-size: 14px; font-weight: 600; color: #222;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
+        Route 99 B-Line — Broadway Corridor
+    </div>
+    
+    
+    <div style="
+        position: fixed; bottom: 20px; right: 20px; z-index: 9999;
+        background: rgba(255,255,255,0.94); padding: 10px 12px;
+        border: 1px solid #888; border-radius: 4px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.15);">
+        <div style="font-size:12px; font-weight:700; color:#222; margin-bottom:4px;">Route 99 B-Line</div>
+        <div style="display:flex; align-items:center; margin:2px 0;"><span style="display:inline-block; width:18px; height:8px; background:#d04110; margin-right:8px; border-radius:1px;"></span><span style="font-size:12px; color:#222;">Broadway B-Line corridor</span></div><div style="display:flex; align-items:center; margin:2px 0;"><span style="display:inline-block; width:18px; height:8px; background:#d04110; margin-right:8px; border-radius:1px;"></span><span style="font-size:12px; color:#222;">40 stops along corridor</span></div>
+    </div>
+    
+    
+            <div class="folium-map" id="map_4a308a234545f34abaffa03dbf35c58b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4a308a234545f34abaffa03dbf35c58b = L.map(
+                "map_4a308a234545f34abaffa03dbf35c58b",
+                {
+                    center: [49.246, -123.041],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+            L.control.scale().addTo(map_4a308a234545f34abaffa03dbf35c58b);
+
+            
+
+        
+    
+            var tile_layer_db872fe52dc5db9d1d01cc5068353ae4 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_db872fe52dc5db9d1d01cc5068353ae4.addTo(map_4a308a234545f34abaffa03dbf35c58b);
+        
+    
+            var poly_line_a0c1329bcf09702a887328b2c2eba1c0 = L.polyline(
+                [[49.265326, -123.024926], [49.265151, -123.02545], [49.264986, -123.025916], [49.264943, -123.026031], [49.264894, -123.026165], [49.264894, -123.026166], [49.264719, -123.02657], [49.264718, -123.02657], [49.264626, -123.026665], [49.264585, -123.026707], [49.264526, -123.026802], [49.264412, -123.026986], [49.263485, -123.028483], [49.26335, -123.028688], [49.262489, -123.029999], [49.262152, -123.03084], [49.262113, -123.031026], [49.262114, -123.031026], [49.261942, -123.031871], [49.261941, -123.031871], [49.261895, -123.033055], [49.261884, -123.033328], [49.261899, -123.033646], [49.261898, -123.033645], [49.261898, -123.033769], [49.261898, -123.033821], [49.261898, -123.034003], [49.261898, -123.035143], [49.261897, -123.036518], [49.261895, -123.037891], [49.261899, -123.039083], [49.261901, -123.04013], [49.261924, -123.041578], [49.261924, -123.041577], [49.261941, -123.043555], [49.261948, -123.044314], [49.261963, -123.045068], [49.262002, -123.04704], [49.262002, -123.047041], [49.262007, -123.049586], [49.262006, -123.049586], [49.262006, -123.050523], [49.262006, -123.05221], [49.262007, -123.05221], [49.262007, -123.053007], [49.262018, -123.054705], [49.262017, -123.054705], [49.262022, -123.055513], [49.262024, -123.055846], [49.262026, -123.05586], [49.262131, -123.056591], [49.262132, -123.056591], [49.262218, -123.057073], [49.262217, -123.057073], [49.262224, -123.05735], [49.262226, -123.057441], [49.262242, -123.058157], [49.262243, -123.058275], [49.26226, -123.06203], [49.262273, -123.063824], [49.262303, -123.063868], [49.26231, -123.063969], [49.262339, -123.065914], [49.262345, -123.066291], [49.262346, -123.066645], [49.262346, -123.066878], [49.262359, -123.067928], [49.262365, -123.068568], [49.262314, -123.068788], [49.262318, -123.068957], [49.262319, -123.069106], [49.262322, -123.06933], [49.262326, -123.069794], [49.262343, -123.071787], [49.262359, -123.073646], [49.26237, -123.074831], [49.262376, -123.075584], [49.262386, -123.076726], [49.262392, -123.07748], [49.262393, -123.077623], [49.262415, -123.080307], [49.262425, -123.08139], [49.262441, -123.083322], [49.262456, -123.085265], [49.26247, -123.087187], [49.262482, -123.089135], [49.26249, -123.091044], [49.262506, -123.093], [49.262509, -123.093529], [49.262519, -123.094952], [49.262519, -123.094953], [49.26255, -123.095594], [49.262639, -123.096], [49.262775, -123.096704], [49.262785, -123.097018], [49.262785, -123.097017], [49.262852, -123.098984], [49.26287, -123.099518], [49.262872, -123.099526], [49.262891, -123.100285], [49.262908, -123.100888], [49.262916, -123.101045], [49.262967, -123.102961], [49.263015, -123.104886], [49.263014, -123.104885], [49.263048, -123.106831], [49.263119, -123.109484], [49.26312, -123.109484], [49.263146, -123.110953], [49.26318, -123.112892], [49.263204, -123.114779], [49.263204, -123.114778], [49.263205, -123.114849], [49.263207, -123.114925], [49.26325, -123.11752], [49.26325, -123.117521], [49.263295, -123.119895], [49.263317, -123.121819], [49.263368, -123.124176], [49.263406, -123.126619], [49.263444, -123.129003], [49.263484, -123.131368], [49.26352, -123.13372], [49.26356, -123.136089], [49.26356, -123.136088], [49.263581, -123.137859], [49.263589, -123.138562], [49.263596, -123.139257], [49.263614, -123.141026], [49.263614, -123.141027], [49.263662, -123.143414], [49.263702, -123.145757], [49.263742, -123.148142], [49.263782, -123.150544], [49.263782, -123.150543], [49.263811, -123.152346], [49.263812, -123.152389], [49.263821, -123.152938], [49.263861, -123.155299], [49.2639, -123.157641], [49.26394, -123.160013], [49.263983, -123.16241], [49.264041, -123.164639], [49.26405, -123.166486], [49.26408, -123.16816], [49.264094, -123.170073], [49.264127, -123.171242], [49.264141, -123.172058], [49.264174, -123.173993], [49.264173, -123.173993], [49.264203, -123.1759], [49.264235, -123.177798], [49.264269, -123.179826], [49.26427, -123.179827], [49.264304, -123.181857], [49.264336, -123.183785], [49.26437, -123.185879], [49.263939, -123.185888], [49.263481, -123.185898], [49.263533, -123.187814], [49.263578, -123.19084], [49.263579, -123.190841], [49.263624, -123.193913], [49.263624, -123.193912], [49.263637, -123.195656], [49.263647, -123.19697], [49.263699, -123.200082], [49.263699, -123.200081], [49.263699, -123.200095], [49.263743, -123.203011], [49.263744, -123.203012], [49.263791, -123.20609], [49.263836, -123.209121], [49.26388, -123.212129], [49.263889, -123.212699], [49.263905, -123.213689], [49.263925, -123.214904], [49.263997, -123.215075], [49.263999, -123.21524], [49.263983, -123.215902], [49.263636, -123.229947], [49.263628, -123.230277], [49.263616, -123.230749], [49.263617, -123.230749], [49.263704, -123.231392], [49.263703, -123.231392], [49.263755, -123.231646], [49.263851, -123.232122], [49.263852, -123.232122], [49.264232, -123.233137], [49.264894, -123.234103], [49.264894, -123.234102], [49.265636, -123.235319], [49.265755, -123.235514], [49.265756, -123.235515], [49.266338, -123.236764], [49.266544, -123.237298], [49.266784, -123.238119], [49.266784, -123.238118], [49.26691, -123.238712], [49.266945, -123.238949], [49.266945, -123.23895], [49.266974, -123.239195], [49.267073, -123.240132], [49.267076, -123.241089], [49.267036, -123.241733], [49.267036, -123.241732], [49.266947, -123.242452], [49.266945, -123.242466], [49.266679, -123.244132], [49.266463, -123.245443], [49.267209, -123.24609], [49.267391, -123.246299], [49.267621, -123.246512], [49.267842, -123.246717], [49.268139, -123.246947], [49.268458, -123.247151], [49.26871, -123.247295], [49.268918, -123.247384], [49.268911, -123.247475], [49.268898, -123.247583], [49.268759, -123.248007], [49.268649, -123.248316], [49.268624, -123.248341], [49.26859, -123.248349], [49.268559, -123.248345], [49.267531, -123.247481]],
+                {"bubblingMouseEvents": true, "color": "#d04110", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#d04110", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 6}
+            ).addTo(map_4a308a234545f34abaffa03dbf35c58b);
+        
+    
+        var popup_a544d273b41b8c8368b42b717cae8bfc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0d38b00ceb4b26d69c7f587e9ea19d0f = $(`<div id="html_0d38b00ceb4b26d69c7f587e9ea19d0f" style="width: 100.0%; height: 100.0%;"><b>Route 99</b> — Broadway B-Line<br/><i>B-Line</i></div>`)[0];
+                popup_a544d273b41b8c8368b42b717cae8bfc.setContent(html_0d38b00ceb4b26d69c7f587e9ea19d0f);
+            
+        
+
+        poly_line_a0c1329bcf09702a887328b2c2eba1c0.bindPopup(popup_a544d273b41b8c8368b42b717cae8bfc)
+        ;
+
+        
+    
+    
+            poly_line_a0c1329bcf09702a887328b2c2eba1c0.bindTooltip(
+                `<div>
+                     Route 99 — Broadway B-Line
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ef5168a6d001558b0b91ab17a8a46dfc = L.circleMarker(
+                [49.266827, -123.241849],
+                {"bubblingMouseEvents": true, "color": "#d04110", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d04110", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1}
+            ).addTo(map_4a308a234545f34abaffa03dbf35c58b);
+        
+    
+        var popup_b369240f0bb4add489947ca5c646409e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e1272284eeeb41d241e07b6e17db08e1 = $(`<div id="html_e1272284eeeb41d241e07b6e17db08e1" style="width: 100.0%; height: 100.0%;"><b>Eastbound University Blvd @ Allison Rd</b><br/>Stop ID: 271</div>`)[0];
+                popup_b369240f0bb4add489947ca5c646409e.setContent(html_e1272284eeeb41d241e07b6e17db08e1);
+            
+        
+
+        circle_marker_ef5168a6d001558b0b91ab17a8a46dfc.bindPopup(popup_b369240f0bb4add489947ca5c646409e)
+        ;
+
+        
+    
+    
+            circle_marker_ef5168a6d001558b0b91ab17a8a46dfc.bindTooltip(
+                `<div>
+                     Eastbound University Blvd @ Allison Rd
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0f06acffb2e678cb5d5e0e843a84ba4e = L.circleMarker(
+                [49.265243, -123.21585],
+                {"bubblingMouseEvents": true, "color": "#d04110", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d04110", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1}
+            ).addTo(map_4a308a234545f34abaffa03dbf35c58b);
+        
+    
+        var popup_6de41cd6b054ce6b7e8257f977247084 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5267df905180a443ec0ab8597382fa26 = $(`<div id="html_5267df905180a443ec0ab8597382fa26" style="width: 100.0%; height: 100.0%;"><b>Blanca Loop @ Bay 1</b><br/>Stop ID: 276</div>`)[0];
+                popup_6de41cd6b054ce6b7e8257f977247084.setContent(html_5267df905180a443ec0ab8597382fa26);
+            
+        
+
+        circle_marker_0f06acffb2e678cb5d5e0e843a84ba4e.bindPopup(popup_6de41cd6b054ce6b7e8257f977247084)
+        ;
+
+        
+    
+    
+            circle_marker_0f06acffb2e678cb5d5e0e843a84ba4e.bindTooltip(
+                `<div>
+                     Blanca Loop @ Bay 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3408ac8bce97d92dd748ff3d78de3864 = L.circleMarker(
+                [49.263764, -123.208525],
+                {"bubblingMouseEvents": true, "color": "#d04110", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d04110", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1}
+            ).addTo(map_4a308a234545f34abaffa03dbf35c58b);
+        
+    
+        var popup_555d62436845fa9754f96c24f56b5e74 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9ecb50135604942796f1d912b97e9c61 = $(`<div id="html_9ecb50135604942796f1d912b97e9c61" style="width: 100.0%; height: 100.0%;"><b>Eastbound W 10 Ave @ Sasamat St</b><br/>Stop ID: 279</div>`)[0];
+                popup_555d62436845fa9754f96c24f56b5e74.setContent(html_9ecb50135604942796f1d912b97e9c61);
+            
+        
+
+        circle_marker_3408ac8bce97d92dd748ff3d78de3864.bindPopup(popup_555d62436845fa9754f96c24f56b5e74)
+        ;
+
+        
+    
+    
+            circle_marker_3408ac8bce97d92dd748ff3d78de3864.bindTooltip(
+                `<div>
+                     Eastbound W 10 Ave @ Sasamat St
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7e68f124d1f31cad95df80b050aebbce = L.circleMarker(
+                [49.264156, -123.167544],
+                {"bubblingMouseEvents": true, "color": "#d04110", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d04110", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1}
+            ).addTo(map_4a308a234545f34abaffa03dbf35c58b);
+        
+    
+        var popup_5dc0dd056b013fb4d3ebd07f93bfd27d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3cf49f71ebc2824e8c8783d74a17cef9 = $(`<div id="html_3cf49f71ebc2824e8c8783d74a17cef9" style="width: 100.0%; height: 100.0%;"><b>Westbound W Broadway @ Macdonald St</b><br/>Stop ID: 11113</div>`)[0];
+                popup_5dc0dd056b013fb4d3ebd07f93bfd27d.setContent(html_3cf49f71ebc2824e8c8783d74a17cef9);
+            
+        
+
+        circle_marker_7e68f124d1f31cad95df80b050aebbce.bindPopup(popup_5dc0dd056b013fb4d3ebd07f93bfd27d)
+        ;
+
+        
+    
+    
+            circle_marker_7e68f124d1f31cad95df80b050aebbce.bindTooltip(
+                `<div>
+                     Westbound W Broadway @ Macdonald St
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ecb6219a3211fef4640e8dd6a6d3b519 = L.circleMarker(
+                [49.26367, -123.186028],
+                {"bubblingMouseEvents": true, "color": "#d04110", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d04110", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1}
+            ).addTo(map_4a308a234545f34abaffa03dbf35c58b);
+        
+    
+        var popup_4181fe1be349550b3ea2ec448248842b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e7bf0160165bd0e21825ea4452e0118b = $(`<div id="html_e7bf0160165bd0e21825ea4452e0118b" style="width: 100.0%; height: 100.0%;"><b>Southbound Alma St @ W 10 Ave</b><br/>Stop ID: 361</div>`)[0];
+                popup_4181fe1be349550b3ea2ec448248842b.setContent(html_e7bf0160165bd0e21825ea4452e0118b);
+            
+        
+
+        circle_marker_ecb6219a3211fef4640e8dd6a6d3b519.bindPopup(popup_4181fe1be349550b3ea2ec448248842b)
+        ;
+
+        
+    
+    
+            circle_marker_ecb6219a3211fef4640e8dd6a6d3b519.bindTooltip(
+                `<div>
+                     Southbound Alma St @ W 10 Ave
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7afc95d12fb9191602c38007da0c1127 = L.circleMarker(
+                [49.267419, -123.246831],
+                {"bubblingMouseEvents": true, "color": "#d04110", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d04110", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1}
+            ).addTo(map_4a308a234545f34abaffa03dbf35c58b);
+        
+    
+        var popup_7a84f4cfbc357c2cb3445c0d945d610a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a261176ed956af1cdb19b9d25b33cde2 = $(`<div id="html_a261176ed956af1cdb19b9d25b33cde2" style="width: 100.0%; height: 100.0%;"><b>UBC Exchange @ Bay 7</b><br/>Stop ID: 12057</div>`)[0];
+                popup_7a84f4cfbc357c2cb3445c0d945d610a.setContent(html_a261176ed956af1cdb19b9d25b33cde2);
+            
+        
+
+        circle_marker_7afc95d12fb9191602c38007da0c1127.bindPopup(popup_7a84f4cfbc357c2cb3445c0d945d610a)
+        ;
+
+        
+    
+    
+            circle_marker_7afc95d12fb9191602c38007da0c1127.bindTooltip(
+                `<div>
+                     UBC Exchange @ Bay 7
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_116613f27e9b7720bfb3669783172c4c = L.circleMarker(
+                [49.263433, -123.122318],
+                {"bubblingMouseEvents": true, "color": "#d04110", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d04110", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1}
+            ).addTo(map_4a308a234545f34abaffa03dbf35c58b);
+        
+    
+        var popup_6cc0f029d3878aca2e9f8a93221cb37c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_20d678159ffe638d3e7b4df0f60b75df = $(`<div id="html_20d678159ffe638d3e7b4df0f60b75df" style="width: 100.0%; height: 100.0%;"><b>Westbound W Broadway @ Willow St</b><br/>Stop ID: 934</div>`)[0];
+                popup_6cc0f029d3878aca2e9f8a93221cb37c.setContent(html_20d678159ffe638d3e7b4df0f60b75df);
+            
+        
+
+        circle_marker_116613f27e9b7720bfb3669783172c4c.bindPopup(popup_6cc0f029d3878aca2e9f8a93221cb37c)
+        ;
+
+        
+    
+    
+            circle_marker_116613f27e9b7720bfb3669783172c4c.bindTooltip(
+                `<div>
+                     Westbound W Broadway @ Willow St
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_02dd7cd5384e323cd7bd5faac02a318f = L.circleMarker(
+                [49.26604, -123.023373],
+                {"bubblingMouseEvents": true, "color": "#d04110", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d04110", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1}
+            ).addTo(map_4a308a234545f34abaffa03dbf35c58b);
+        
+    
+        var popup_b6c0fa5cde131599e87c268c78be5875 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0e62798064b9ed644375d5ed43ff58cf = $(`<div id="html_0e62798064b9ed644375d5ed43ff58cf" style="width: 100.0%; height: 100.0%;"><b>Northbound Boundary Rd @ Lougheed Hwy</b><br/>Stop ID: 1754</div>`)[0];
+                popup_b6c0fa5cde131599e87c268c78be5875.setContent(html_0e62798064b9ed644375d5ed43ff58cf);
+            
+        
+
+        circle_marker_02dd7cd5384e323cd7bd5faac02a318f.bindPopup(popup_b6c0fa5cde131599e87c268c78be5875)
+        ;
+
+        
+    
+    
+            circle_marker_02dd7cd5384e323cd7bd5faac02a318f.bindTooltip(
+                `<div>
+                     Northbound Boundary Rd @ Lougheed Hwy
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_028487ff2f9ce2344d702dd9c90aedbf = L.circleMarker(
+                [49.26234, -123.057336],
+                {"bubblingMouseEvents": true, "color": "#d04110", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d04110", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1}
+            ).addTo(map_4a308a234545f34abaffa03dbf35c58b);
+        
+    
+        var popup_5b9afeffd5de4091c2656f6c8d056b1d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5a2e64cde7bb7305d988897f99aa7eb3 = $(`<div id="html_5a2e64cde7bb7305d988897f99aa7eb3" style="width: 100.0%; height: 100.0%;"><b>Westbound E Broadway @ Nanaimo St</b><br/>Stop ID: 689</div>`)[0];
+                popup_5b9afeffd5de4091c2656f6c8d056b1d.setContent(html_5a2e64cde7bb7305d988897f99aa7eb3);
+            
+        
+
+        circle_marker_028487ff2f9ce2344d702dd9c90aedbf.bindPopup(popup_5b9afeffd5de4091c2656f6c8d056b1d)
+        ;
+
+        
+    
+    
+            circle_marker_028487ff2f9ce2344d702dd9c90aedbf.bindTooltip(
+                `<div>
+                     Westbound E Broadway @ Nanaimo St
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6e5ef684876280a138fc879109c49591 = L.circleMarker(
+                [49.262097, -123.044962],
+                {"bubblingMouseEvents": true, "color": "#d04110", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d04110", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1}
+            ).addTo(map_4a308a234545f34abaffa03dbf35c58b);
+        
+    
+        var popup_d542f3e9534f4b9a31701fa891f1914a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_94ce0584efff1987a047c93f910d0904 = $(`<div id="html_94ce0584efff1987a047c93f910d0904" style="width: 100.0%; height: 100.0%;"><b>Westbound E Broadway @ Renfrew St</b><br/>Stop ID: 915</div>`)[0];
+                popup_d542f3e9534f4b9a31701fa891f1914a.setContent(html_94ce0584efff1987a047c93f910d0904);
+            
+        
+
+        circle_marker_6e5ef684876280a138fc879109c49591.bindPopup(popup_d542f3e9534f4b9a31701fa891f1914a)
+        ;
+
+        
+    
+    
+            circle_marker_6e5ef684876280a138fc879109c49591.bindTooltip(
+                `<div>
+                     Westbound E Broadway @ Renfrew St
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_03f6458c242394d2010102845c29d9ce = L.circleMarker(
+                [49.262111, -123.051889],
+                {"bubblingMouseEvents": true, "color": "#d04110", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d04110", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1}
+            ).addTo(map_4a308a234545f34abaffa03dbf35c58b);
+        
+    
+        var popup_a796c1ad7869f8dd010fe2f8623f2334 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f06a379c04120c3701222a67be46234e = $(`<div id="html_f06a379c04120c3701222a67be46234e" style="width: 100.0%; height: 100.0%;"><b>Westbound E Broadway @ Penticton St</b><br/>Stop ID: 917</div>`)[0];
+                popup_a796c1ad7869f8dd010fe2f8623f2334.setContent(html_f06a379c04120c3701222a67be46234e);
+            
+        
+
+        circle_marker_03f6458c242394d2010102845c29d9ce.bindPopup(popup_a796c1ad7869f8dd010fe2f8623f2334)
+        ;
+
+        
+    
+    
+            circle_marker_03f6458c242394d2010102845c29d9ce.bindTooltip(
+                `<div>
+                     Westbound E Broadway @ Penticton St
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2e0ce0416caab14406c499298916e127 = L.circleMarker(
+                [49.262009, -123.034312],
+                {"bubblingMouseEvents": true, "color": "#d04110", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d04110", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1}
+            ).addTo(map_4a308a234545f34abaffa03dbf35c58b);
+        
+    
+        var popup_b7a00d872ff2dfd3833dbdf811783cbb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_76b8a4c9b60260953dd22d0d6b865d9b = $(`<div id="html_76b8a4c9b60260953dd22d0d6b865d9b" style="width: 100.0%; height: 100.0%;"><b>Westbound E Broadway @ Rupert St</b><br/>Stop ID: 911</div>`)[0];
+                popup_b7a00d872ff2dfd3833dbdf811783cbb.setContent(html_76b8a4c9b60260953dd22d0d6b865d9b);
+            
+        
+
+        circle_marker_2e0ce0416caab14406c499298916e127.bindPopup(popup_b7a00d872ff2dfd3833dbdf811783cbb)
+        ;
+
+        
+    
+    
+            circle_marker_2e0ce0416caab14406c499298916e127.bindTooltip(
+                `<div>
+                     Westbound E Broadway @ Rupert St
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a8b939b31a69b36817b7ae1c5bd3a3ed = L.circleMarker(
+                [49.263095, -123.104676],
+                {"bubblingMouseEvents": true, "color": "#d04110", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d04110", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1}
+            ).addTo(map_4a308a234545f34abaffa03dbf35c58b);
+        
+    
+        var popup_5a563e20a2cdb30c79e7ebc98007f188 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8fa6c300ce5b76a7a0e597718af5e0bd = $(`<div id="html_8fa6c300ce5b76a7a0e597718af5e0bd" style="width: 100.0%; height: 100.0%;"><b>Westbound E Broadway @ Ontario St</b><br/>Stop ID: 12822</div>`)[0];
+                popup_5a563e20a2cdb30c79e7ebc98007f188.setContent(html_8fa6c300ce5b76a7a0e597718af5e0bd);
+            
+        
+
+        circle_marker_a8b939b31a69b36817b7ae1c5bd3a3ed.bindPopup(popup_5a563e20a2cdb30c79e7ebc98007f188)
+        ;
+
+        
+    
+    
+            circle_marker_a8b939b31a69b36817b7ae1c5bd3a3ed.bindTooltip(
+                `<div>
+                     Westbound E Broadway @ Ontario St
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7c872d85cc672d0c1011c313aff421c9 = L.circleMarker(
+                [49.262416, -123.06875],
+                {"bubblingMouseEvents": true, "color": "#d04110", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d04110", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1}
+            ).addTo(map_4a308a234545f34abaffa03dbf35c58b);
+        
+    
+        var popup_93c131beebcc189b7384e4c4b29615b5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ccd09dee2159ca3f28a2987a09fe3f9a = $(`<div id="html_ccd09dee2159ca3f28a2987a09fe3f9a" style="width: 100.0%; height: 100.0%;"><b>Commercial-Broadway Station @ Bay 5</b><br/>Stop ID: 11606</div>`)[0];
+                popup_93c131beebcc189b7384e4c4b29615b5.setContent(html_ccd09dee2159ca3f28a2987a09fe3f9a);
+            
+        
+
+        circle_marker_7c872d85cc672d0c1011c313aff421c9.bindPopup(popup_93c131beebcc189b7384e4c4b29615b5)
+        ;
+
+        
+    
+    
+            circle_marker_7c872d85cc672d0c1011c313aff421c9.bindTooltip(
+                `<div>
+                     Commercial-Broadway Station @ Bay 5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3ff7a29ba096bc13dd7399fafeb249d7 = L.circleMarker(
+                [49.26236, -123.088379],
+                {"bubblingMouseEvents": true, "color": "#d04110", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d04110", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1}
+            ).addTo(map_4a308a234545f34abaffa03dbf35c58b);
+        
+    
+        var popup_72934a323c69de9f83b46be8312fd888 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4aaa2780d6e917a368e9c8dc68a892b8 = $(`<div id="html_4aaa2780d6e917a368e9c8dc68a892b8" style="width: 100.0%; height: 100.0%;"><b>Eastbound E Broadway  @ Fraser St</b><br/>Stop ID: 10620</div>`)[0];
+                popup_72934a323c69de9f83b46be8312fd888.setContent(html_4aaa2780d6e917a368e9c8dc68a892b8);
+            
+        
+
+        circle_marker_3ff7a29ba096bc13dd7399fafeb249d7.bindPopup(popup_72934a323c69de9f83b46be8312fd888)
+        ;
+
+        
+    
+    
+            circle_marker_3ff7a29ba096bc13dd7399fafeb249d7.bindTooltip(
+                `<div>
+                     Eastbound E Broadway  @ Fraser St
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_cbde23bc89f5874d9b36f053a89566ac = L.circleMarker(
+                [49.266634, -123.244736],
+                {"bubblingMouseEvents": true, "color": "#d04110", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d04110", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1}
+            ).addTo(map_4a308a234545f34abaffa03dbf35c58b);
+        
+    
+        var popup_21378ed02117c57ea0494a047b7b9bee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f1f200f6b0da8424c5f99464dd785028 = $(`<div id="html_f1f200f6b0da8424c5f99464dd785028" style="width: 100.0%; height: 100.0%;"><b>Westbound University Blvd @ Western Parkway</b><br/>Stop ID: 12483</div>`)[0];
+                popup_21378ed02117c57ea0494a047b7b9bee.setContent(html_f1f200f6b0da8424c5f99464dd785028);
+            
+        
+
+        circle_marker_cbde23bc89f5874d9b36f053a89566ac.bindPopup(popup_21378ed02117c57ea0494a047b7b9bee)
+        ;
+
+        
+    
+    
+            circle_marker_cbde23bc89f5874d9b36f053a89566ac.bindTooltip(
+                `<div>
+                     Westbound University Blvd @ Western Parkway
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c5875cba97526faf9873cce04d39997c = L.circleMarker(
+                [49.262593, -123.09009],
+                {"bubblingMouseEvents": true, "color": "#d04110", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d04110", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1}
+            ).addTo(map_4a308a234545f34abaffa03dbf35c58b);
+        
+    
+        var popup_bf3704014a948705db555ee4692dac69 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0548da2711edecc524e6ace56dab0745 = $(`<div id="html_0548da2711edecc524e6ace56dab0745" style="width: 100.0%; height: 100.0%;"><b>Westbound E Broadway @ Fraser St</b><br/>Stop ID: 10619</div>`)[0];
+                popup_bf3704014a948705db555ee4692dac69.setContent(html_0548da2711edecc524e6ace56dab0745);
+            
+        
+
+        circle_marker_c5875cba97526faf9873cce04d39997c.bindPopup(popup_bf3704014a948705db555ee4692dac69)
+        ;
+
+        
+    
+    
+            circle_marker_c5875cba97526faf9873cce04d39997c.bindTooltip(
+                `<div>
+                     Westbound E Broadway @ Fraser St
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6c169ba1eb9af425f5229af5aaed2d25 = L.circleMarker(
+                [49.263172, -123.068542],
+                {"bubblingMouseEvents": true, "color": "#d04110", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d04110", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1}
+            ).addTo(map_4a308a234545f34abaffa03dbf35c58b);
+        
+    
+        var popup_d2b2f7fe509b9896d6b9ea7e5ac95229 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_70945fb6755b9341bba79af1ee377cef = $(`<div id="html_70945fb6755b9341bba79af1ee377cef" style="width: 100.0%; height: 100.0%;"><b>N Grandview Hwy @ Commercial Dr</b><br/>Stop ID: 8649</div>`)[0];
+                popup_d2b2f7fe509b9896d6b9ea7e5ac95229.setContent(html_70945fb6755b9341bba79af1ee377cef);
+            
+        
+
+        circle_marker_6c169ba1eb9af425f5229af5aaed2d25.bindPopup(popup_d2b2f7fe509b9896d6b9ea7e5ac95229)
+        ;
+
+        
+    
+    
+            circle_marker_6c169ba1eb9af425f5229af5aaed2d25.bindTooltip(
+                `<div>
+                     N Grandview Hwy @ Commercial Dr
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_01369ed6b57c72dd3ff8b70cfaf01d53 = L.circleMarker(
+                [49.263212, -123.120173],
+                {"bubblingMouseEvents": true, "color": "#d04110", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d04110", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1}
+            ).addTo(map_4a308a234545f34abaffa03dbf35c58b);
+        
+    
+        var popup_dd02d8b5e7a5425dfb5bac0b634ebf3f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4614c6ac72964c731d968b2e6d04cffc = $(`<div id="html_4614c6ac72964c731d968b2e6d04cffc" style="width: 100.0%; height: 100.0%;"><b>Eastbound W Broadway @ Heather St</b><br/>Stop ID: 2118</div>`)[0];
+                popup_dd02d8b5e7a5425dfb5bac0b634ebf3f.setContent(html_4614c6ac72964c731d968b2e6d04cffc);
+            
+        
+
+        circle_marker_01369ed6b57c72dd3ff8b70cfaf01d53.bindPopup(popup_dd02d8b5e7a5425dfb5bac0b634ebf3f)
+        ;
+
+        
+    
+    
+            circle_marker_01369ed6b57c72dd3ff8b70cfaf01d53.bindTooltip(
+                `<div>
+                     Eastbound W Broadway @ Heather St
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2e7147eccf2653ebc9ad1e68cd760cd5 = L.circleMarker(
+                [49.265243, -123.02541],
+                {"bubblingMouseEvents": true, "color": "#d04110", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d04110", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1}
+            ).addTo(map_4a308a234545f34abaffa03dbf35c58b);
+        
+    
+        var popup_9517d1df691dc9c090b0026d9aeac4cc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e64bcb68f0669555e786a57cb4b48a1c = $(`<div id="html_e64bcb68f0669555e786a57cb4b48a1c" style="width: 100.0%; height: 100.0%;"><b>Westbound Lougheed Hwy @ Boundary Loop</b><br/>Stop ID: 2110</div>`)[0];
+                popup_9517d1df691dc9c090b0026d9aeac4cc.setContent(html_e64bcb68f0669555e786a57cb4b48a1c);
+            
+        
+
+        circle_marker_2e7147eccf2653ebc9ad1e68cd760cd5.bindPopup(popup_9517d1df691dc9c090b0026d9aeac4cc)
+        ;
+
+        
+    
+    
+            circle_marker_2e7147eccf2653ebc9ad1e68cd760cd5.bindTooltip(
+                `<div>
+                     Westbound Lougheed Hwy @ Boundary Loop
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4229ee4d9a82884ff9ca2095fd115ae7 = L.circleMarker(
+                [49.262778, -123.099816],
+                {"bubblingMouseEvents": true, "color": "#d04110", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d04110", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1}
+            ).addTo(map_4a308a234545f34abaffa03dbf35c58b);
+        
+    
+        var popup_ce13a0342f2cc83ba75d2c001ad5f9ed = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c3fe9bf22e6ab6dadf9b9fc0c9f02304 = $(`<div id="html_c3fe9bf22e6ab6dadf9b9fc0c9f02304" style="width: 100.0%; height: 100.0%;"><b>Eastbound E Broadway @ Kingsway</b><br/>Stop ID: 887</div>`)[0];
+                popup_ce13a0342f2cc83ba75d2c001ad5f9ed.setContent(html_c3fe9bf22e6ab6dadf9b9fc0c9f02304);
+            
+        
+
+        circle_marker_4229ee4d9a82884ff9ca2095fd115ae7.bindPopup(popup_ce13a0342f2cc83ba75d2c001ad5f9ed)
+        ;
+
+        
+    
+    
+            circle_marker_4229ee4d9a82884ff9ca2095fd115ae7.bindTooltip(
+                `<div>
+                     Eastbound E Broadway @ Kingsway
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6817fa674ff79ca91a2b8d9c7a485e58 = L.circleMarker(
+                [49.263761, -123.154831],
+                {"bubblingMouseEvents": true, "color": "#d04110", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d04110", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1}
+            ).addTo(map_4a308a234545f34abaffa03dbf35c58b);
+        
+    
+        var popup_38a1eeb8478562c0f01733eb1841648a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_35f1b7a01948f699a50929d56fdacc99 = $(`<div id="html_35f1b7a01948f699a50929d56fdacc99" style="width: 100.0%; height: 100.0%;"><b>Eastbound W Broadway @ Yew St</b><br/>Stop ID: 11724</div>`)[0];
+                popup_38a1eeb8478562c0f01733eb1841648a.setContent(html_35f1b7a01948f699a50929d56fdacc99);
+            
+        
+
+        circle_marker_6817fa674ff79ca91a2b8d9c7a485e58.bindPopup(popup_38a1eeb8478562c0f01733eb1841648a)
+        ;
+
+        
+    
+    
+            circle_marker_6817fa674ff79ca91a2b8d9c7a485e58.bindTooltip(
+                `<div>
+                     Eastbound W Broadway @ Yew St
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d0c1937123bf6434b4e872b0342fa467 = L.circleMarker(
+                [49.264263, -123.184623],
+                {"bubblingMouseEvents": true, "color": "#d04110", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d04110", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1}
+            ).addTo(map_4a308a234545f34abaffa03dbf35c58b);
+        
+    
+        var popup_c6b365d75e897aa4cdac5007a1649f70 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_17be1962492f34b358860c6169b946e4 = $(`<div id="html_17be1962492f34b358860c6169b946e4" style="width: 100.0%; height: 100.0%;"><b>Eastbound W Broadway @ Alma St</b><br/>Stop ID: 9530</div>`)[0];
+                popup_c6b365d75e897aa4cdac5007a1649f70.setContent(html_17be1962492f34b358860c6169b946e4);
+            
+        
+
+        circle_marker_d0c1937123bf6434b4e872b0342fa467.bindPopup(popup_c6b365d75e897aa4cdac5007a1649f70)
+        ;
+
+        
+    
+    
+            circle_marker_d0c1937123bf6434b4e872b0342fa467.bindTooltip(
+                `<div>
+                     Eastbound W Broadway @ Alma St
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fefe89450a74aea56a8f2561d629a4ea = L.circleMarker(
+                [49.262499, -123.078554],
+                {"bubblingMouseEvents": true, "color": "#d04110", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d04110", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1}
+            ).addTo(map_4a308a234545f34abaffa03dbf35c58b);
+        
+    
+        var popup_a48607efb61f6c82202a602ec260df34 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a6a011310bedffa93d249446dc709581 = $(`<div id="html_a6a011310bedffa93d249446dc709581" style="width: 100.0%; height: 100.0%;"><b>Westbound E Broadway @ Clark Dr</b><br/>Stop ID: 924</div>`)[0];
+                popup_a48607efb61f6c82202a602ec260df34.setContent(html_a6a011310bedffa93d249446dc709581);
+            
+        
+
+        circle_marker_fefe89450a74aea56a8f2561d629a4ea.bindPopup(popup_a48607efb61f6c82202a602ec260df34)
+        ;
+
+        
+    
+    
+            circle_marker_fefe89450a74aea56a8f2561d629a4ea.bindTooltip(
+                `<div>
+                     Westbound E Broadway @ Clark Dr
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_889ffdd11f66b1f4074711f5f5445a3b = L.circleMarker(
+                [49.262916, -123.097845],
+                {"bubblingMouseEvents": true, "color": "#d04110", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d04110", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1}
+            ).addTo(map_4a308a234545f34abaffa03dbf35c58b);
+        
+    
+        var popup_93cee6d6cf219a3cf167d58adf3d11ca = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bdc706f3aaa644c3f1756c8b330b7e87 = $(`<div id="html_bdc706f3aaa644c3f1756c8b330b7e87" style="width: 100.0%; height: 100.0%;"><b>Westbound E Broadway @ Brunswick St</b><br/>Stop ID: 13121</div>`)[0];
+                popup_93cee6d6cf219a3cf167d58adf3d11ca.setContent(html_bdc706f3aaa644c3f1756c8b330b7e87);
+            
+        
+
+        circle_marker_889ffdd11f66b1f4074711f5f5445a3b.bindPopup(popup_93cee6d6cf219a3cf167d58adf3d11ca)
+        ;
+
+        
+    
+    
+            circle_marker_889ffdd11f66b1f4074711f5f5445a3b.bindTooltip(
+                `<div>
+                     Westbound E Broadway @ Brunswick St
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e1bc35f3dc8cd68e3f0b9e4a9b885c22 = L.circleMarker(
+                [49.261812, -123.043749],
+                {"bubblingMouseEvents": true, "color": "#d04110", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d04110", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1}
+            ).addTo(map_4a308a234545f34abaffa03dbf35c58b);
+        
+    
+        var popup_a0163e95cb9ef7cb87a89b764e06d21c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4198f0b1bda16213d8705477c7c87c46 = $(`<div id="html_4198f0b1bda16213d8705477c7c87c46" style="width: 100.0%; height: 100.0%;"><b>Eastbound E Broadway @ Renfrew St</b><br/>Stop ID: 902</div>`)[0];
+                popup_a0163e95cb9ef7cb87a89b764e06d21c.setContent(html_4198f0b1bda16213d8705477c7c87c46);
+            
+        
+
+        circle_marker_e1bc35f3dc8cd68e3f0b9e4a9b885c22.bindPopup(popup_a0163e95cb9ef7cb87a89b764e06d21c)
+        ;
+
+        
+    
+    
+            circle_marker_e1bc35f3dc8cd68e3f0b9e4a9b885c22.bindTooltip(
+                `<div>
+                     Eastbound E Broadway @ Renfrew St
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_79dacd3022c10f31de6d6a014283e551 = L.circleMarker(
+                [49.261781, -123.033192],
+                {"bubblingMouseEvents": true, "color": "#d04110", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d04110", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1}
+            ).addTo(map_4a308a234545f34abaffa03dbf35c58b);
+        
+    
+        var popup_fa3cbb60495a14434f995cdb8121a904 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c4947165f24f18f04984e5faf729245b = $(`<div id="html_c4947165f24f18f04984e5faf729245b" style="width: 100.0%; height: 100.0%;"><b>Eastbound E Broadway @ Rupert St</b><br/>Stop ID: 906</div>`)[0];
+                popup_fa3cbb60495a14434f995cdb8121a904.setContent(html_c4947165f24f18f04984e5faf729245b);
+            
+        
+
+        circle_marker_79dacd3022c10f31de6d6a014283e551.bindPopup(popup_fa3cbb60495a14434f995cdb8121a904)
+        ;
+
+        
+    
+    
+            circle_marker_79dacd3022c10f31de6d6a014283e551.bindTooltip(
+                `<div>
+                     Eastbound E Broadway @ Rupert St
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1b61b5d0859f38d528e6429a3fa8c926 = L.circleMarker(
+                [49.263948, -123.154464],
+                {"bubblingMouseEvents": true, "color": "#d04110", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d04110", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1}
+            ).addTo(map_4a308a234545f34abaffa03dbf35c58b);
+        
+    
+        var popup_e408618f2674a0ddd69b822eb784d437 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_56a266f56db68c68af108437bd500030 = $(`<div id="html_56a266f56db68c68af108437bd500030" style="width: 100.0%; height: 100.0%;"><b>Westbound W Broadway @ Arbutus St</b><br/>Stop ID: 11422</div>`)[0];
+                popup_e408618f2674a0ddd69b822eb784d437.setContent(html_56a266f56db68c68af108437bd500030);
+            
+        
+
+        circle_marker_1b61b5d0859f38d528e6429a3fa8c926.bindPopup(popup_e408618f2674a0ddd69b822eb784d437)
+        ;
+
+        
+    
+    
+            circle_marker_1b61b5d0859f38d528e6429a3fa8c926.bindTooltip(
+                `<div>
+                     Westbound W Broadway @ Arbutus St
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_95a3748016ba1abb7ab08e3c00398540 = L.circleMarker(
+                [49.26342, -123.069582],
+                {"bubblingMouseEvents": true, "color": "#d04110", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d04110", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1}
+            ).addTo(map_4a308a234545f34abaffa03dbf35c58b);
+        
+    
+        var popup_c432ab8f52fa3ac167ae305a93e54805 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f32720b0d2999444ff275868803e5a8c = $(`<div id="html_f32720b0d2999444ff275868803e5a8c" style="width: 100.0%; height: 100.0%;"><b>Northbound Commercial Dr @ N Grandview Hwy</b><br/>Stop ID: 8916</div>`)[0];
+                popup_c432ab8f52fa3ac167ae305a93e54805.setContent(html_f32720b0d2999444ff275868803e5a8c);
+            
+        
+
+        circle_marker_95a3748016ba1abb7ab08e3c00398540.bindPopup(popup_c432ab8f52fa3ac167ae305a93e54805)
+        ;
+
+        
+    
+    
+            circle_marker_95a3748016ba1abb7ab08e3c00398540.bindTooltip(
+                `<div>
+                     Northbound Commercial Dr @ N Grandview Hwy
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_daba6d1d498768e4ffc6ef8d6198772d = L.circleMarker(
+                [49.263905, -123.209694],
+                {"bubblingMouseEvents": true, "color": "#d04110", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d04110", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1}
+            ).addTo(map_4a308a234545f34abaffa03dbf35c58b);
+        
+    
+        var popup_160c26e217e7153b647a62d362c84cc1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8c4c455a8d7db73cf79cd0808e83b979 = $(`<div id="html_8c4c455a8d7db73cf79cd0808e83b979" style="width: 100.0%; height: 100.0%;"><b>Westbound W 10 Ave @ Sasamat St</b><br/>Stop ID: 582</div>`)[0];
+                popup_160c26e217e7153b647a62d362c84cc1.setContent(html_8c4c455a8d7db73cf79cd0808e83b979);
+            
+        
+
+        circle_marker_daba6d1d498768e4ffc6ef8d6198772d.bindPopup(popup_160c26e217e7153b647a62d362c84cc1)
+        ;
+
+        
+    
+    
+            circle_marker_daba6d1d498768e4ffc6ef8d6198772d.bindTooltip(
+                `<div>
+                     Westbound W 10 Ave @ Sasamat St
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0a193693694303773e8e171842ff8913 = L.circleMarker(
+                [49.263995, -123.167357],
+                {"bubblingMouseEvents": true, "color": "#d04110", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d04110", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1}
+            ).addTo(map_4a308a234545f34abaffa03dbf35c58b);
+        
+    
+        var popup_f4388dfbc6bba349598b8e09d4b57822 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9c51cb7b5d4a19b36e30fa7bb85524df = $(`<div id="html_9c51cb7b5d4a19b36e30fa7bb85524df" style="width: 100.0%; height: 100.0%;"><b>Eastbound W Broadway @ Macdonald St</b><br/>Stop ID: 322</div>`)[0];
+                popup_f4388dfbc6bba349598b8e09d4b57822.setContent(html_9c51cb7b5d4a19b36e30fa7bb85524df);
+            
+        
+
+        circle_marker_0a193693694303773e8e171842ff8913.bindPopup(popup_f4388dfbc6bba349598b8e09d4b57822)
+        ;
+
+        
+    
+    
+            circle_marker_0a193693694303773e8e171842ff8913.bindTooltip(
+                `<div>
+                     Eastbound W Broadway @ Macdonald St
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e6874671f8fdbb6b9988b332e06373ea = L.circleMarker(
+                [49.263505, -123.139857],
+                {"bubblingMouseEvents": true, "color": "#d04110", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d04110", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1}
+            ).addTo(map_4a308a234545f34abaffa03dbf35c58b);
+        
+    
+        var popup_92f21609ac0e279676e64201f1e4902d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_72bb83a885a80553c9ba0edb67339ac5 = $(`<div id="html_72bb83a885a80553c9ba0edb67339ac5" style="width: 100.0%; height: 100.0%;"><b>Eastbound W Broadway @ Granville St</b><br/>Stop ID: 12721</div>`)[0];
+                popup_92f21609ac0e279676e64201f1e4902d.setContent(html_72bb83a885a80553c9ba0edb67339ac5);
+            
+        
+
+        circle_marker_e6874671f8fdbb6b9988b332e06373ea.bindPopup(popup_92f21609ac0e279676e64201f1e4902d)
+        ;
+
+        
+    
+    
+            circle_marker_e6874671f8fdbb6b9988b332e06373ea.bindTooltip(
+                `<div>
+                     Eastbound W Broadway @ Granville St
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0f6c3918ff6829e931aca5f63eccd2e8 = L.circleMarker(
+                [49.263351, -123.11645],
+                {"bubblingMouseEvents": true, "color": "#d04110", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d04110", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1}
+            ).addTo(map_4a308a234545f34abaffa03dbf35c58b);
+        
+    
+        var popup_988a59c1791be99a7ae248c8dceb1578 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b36baa4e3761e30585b088cb0edd58cd = $(`<div id="html_b36baa4e3761e30585b088cb0edd58cd" style="width: 100.0%; height: 100.0%;"><b>Broadway-City Hall Station @ Bay 4</b><br/>Stop ID: 11088</div>`)[0];
+                popup_988a59c1791be99a7ae248c8dceb1578.setContent(html_b36baa4e3761e30585b088cb0edd58cd);
+            
+        
+
+        circle_marker_0f6c3918ff6829e931aca5f63eccd2e8.bindPopup(popup_988a59c1791be99a7ae248c8dceb1578)
+        ;
+
+        
+    
+    
+            circle_marker_0f6c3918ff6829e931aca5f63eccd2e8.bindTooltip(
+                `<div>
+                     Broadway-City Hall Station @ Bay 4
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a0f42fff637860c4ccac3c3f22ddc633 = L.circleMarker(
+                [49.263732, -123.140158],
+                {"bubblingMouseEvents": true, "color": "#d04110", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d04110", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1}
+            ).addTo(map_4a308a234545f34abaffa03dbf35c58b);
+        
+    
+        var popup_c43b7af193976ffab9014d85b4af0386 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fe71af041754869f9226d84d8d00933b = $(`<div id="html_fe71af041754869f9226d84d8d00933b" style="width: 100.0%; height: 100.0%;"><b>Westbound W Broadway @ Granville St</b><br/>Stop ID: 545</div>`)[0];
+                popup_c43b7af193976ffab9014d85b4af0386.setContent(html_fe71af041754869f9226d84d8d00933b);
+            
+        
+
+        circle_marker_a0f42fff637860c4ccac3c3f22ddc633.bindPopup(popup_c43b7af193976ffab9014d85b4af0386)
+        ;
+
+        
+    
+    
+            circle_marker_a0f42fff637860c4ccac3c3f22ddc633.bindTooltip(
+                `<div>
+                     Westbound W Broadway @ Granville St
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e4f8128c7a898db8f754087603d43182 = L.circleMarker(
+                [49.262213, -123.068963],
+                {"bubblingMouseEvents": true, "color": "#d04110", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d04110", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1}
+            ).addTo(map_4a308a234545f34abaffa03dbf35c58b);
+        
+    
+        var popup_0a4881cb26d8f0d27a249e3a9f7cd29a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_684c917ff9fe5bea0f799b48a70876ec = $(`<div id="html_684c917ff9fe5bea0f799b48a70876ec" style="width: 100.0%; height: 100.0%;"><b>Commercial-Broadway Station @ Bay 1</b><br/>Stop ID: 11588</div>`)[0];
+                popup_0a4881cb26d8f0d27a249e3a9f7cd29a.setContent(html_684c917ff9fe5bea0f799b48a70876ec);
+            
+        
+
+        circle_marker_e4f8128c7a898db8f754087603d43182.bindPopup(popup_0a4881cb26d8f0d27a249e3a9f7cd29a)
+        ;
+
+        
+    
+    
+            circle_marker_e4f8128c7a898db8f754087603d43182.bindTooltip(
+                `<div>
+                     Commercial-Broadway Station @ Bay 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_726cdd799d0387baaf106a7d2954b4e1 = L.circleMarker(
+                [49.263107, -123.114283],
+                {"bubblingMouseEvents": true, "color": "#d04110", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d04110", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1}
+            ).addTo(map_4a308a234545f34abaffa03dbf35c58b);
+        
+    
+        var popup_791bb87461e34f849cddbab843036c01 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_db419e5737e8c42abad56576e845bb97 = $(`<div id="html_db419e5737e8c42abad56576e845bb97" style="width: 100.0%; height: 100.0%;"><b>Broadway-City Hall Station @ Bay 1</b><br/>Stop ID: 11357</div>`)[0];
+                popup_791bb87461e34f849cddbab843036c01.setContent(html_db419e5737e8c42abad56576e845bb97);
+            
+        
+
+        circle_marker_726cdd799d0387baaf106a7d2954b4e1.bindPopup(popup_791bb87461e34f849cddbab843036c01)
+        ;
+
+        
+    
+    
+            circle_marker_726cdd799d0387baaf106a7d2954b4e1.bindTooltip(
+                `<div>
+                     Broadway-City Hall Station @ Bay 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b76e60289006cc80e9882f700d479459 = L.circleMarker(
+                [49.267674, -123.247621],
+                {"bubblingMouseEvents": true, "color": "#d04110", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d04110", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1}
+            ).addTo(map_4a308a234545f34abaffa03dbf35c58b);
+        
+    
+        var popup_4622ea6bca9bbadd7e586216abe97a3f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f1ccae7677585926d8d19894bd8f625c = $(`<div id="html_f1ccae7677585926d8d19894bd8f625c" style="width: 100.0%; height: 100.0%;"><b>UBC Exchange @ Unloading Only</b><br/>Stop ID: 12600</div>`)[0];
+                popup_4622ea6bca9bbadd7e586216abe97a3f.setContent(html_f1ccae7677585926d8d19894bd8f625c);
+            
+        
+
+        circle_marker_b76e60289006cc80e9882f700d479459.bindPopup(popup_4622ea6bca9bbadd7e586216abe97a3f)
+        ;
+
+        
+    
+    
+            circle_marker_b76e60289006cc80e9882f700d479459.bindTooltip(
+                `<div>
+                     UBC Exchange @ Unloading Only
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_efb8f8a38a127fb2cb3e698d0d2f7cb2 = L.circleMarker(
+                [49.262263, -123.076191],
+                {"bubblingMouseEvents": true, "color": "#d04110", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d04110", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1}
+            ).addTo(map_4a308a234545f34abaffa03dbf35c58b);
+        
+    
+        var popup_33e8621102726f7b7ef075c859b7f6ef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a3c2cb16dc328540a827bfb6936c2fde = $(`<div id="html_a3c2cb16dc328540a827bfb6936c2fde" style="width: 100.0%; height: 100.0%;"><b>Eastbound E Broadway @ Clark Dr</b><br/>Stop ID: 9051</div>`)[0];
+                popup_33e8621102726f7b7ef075c859b7f6ef.setContent(html_a3c2cb16dc328540a827bfb6936c2fde);
+            
+        
+
+        circle_marker_efb8f8a38a127fb2cb3e698d0d2f7cb2.bindPopup(popup_33e8621102726f7b7ef075c859b7f6ef)
+        ;
+
+        
+    
+    
+            circle_marker_efb8f8a38a127fb2cb3e698d0d2f7cb2.bindTooltip(
+                `<div>
+                     Eastbound E Broadway @ Clark Dr
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e5647a9d91a5b0a6c08ec2f06e69397c = L.circleMarker(
+                [49.261889, -123.055558],
+                {"bubblingMouseEvents": true, "color": "#d04110", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d04110", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1}
+            ).addTo(map_4a308a234545f34abaffa03dbf35c58b);
+        
+    
+        var popup_9636b82e72fe621bdd0fd957c1a45e5d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a6698a7fe638730693c71f64b36006d2 = $(`<div id="html_a6698a7fe638730693c71f64b36006d2" style="width: 100.0%; height: 100.0%;"><b>Eastbound E Broadway @ Nanaimo St</b><br/>Stop ID: 898</div>`)[0];
+                popup_9636b82e72fe621bdd0fd957c1a45e5d.setContent(html_a6698a7fe638730693c71f64b36006d2);
+            
+        
+
+        circle_marker_e5647a9d91a5b0a6c08ec2f06e69397c.bindPopup(popup_9636b82e72fe621bdd0fd957c1a45e5d)
+        ;
+
+        
+    
+    
+            circle_marker_e5647a9d91a5b0a6c08ec2f06e69397c.bindTooltip(
+                `<div>
+                     Eastbound E Broadway @ Nanaimo St
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d450a75fdbdb7e3074bef59e9b15af17 = L.circleMarker(
+                [49.261916, -123.051333],
+                {"bubblingMouseEvents": true, "color": "#d04110", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d04110", "fillOpacity": 0.9, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1}
+            ).addTo(map_4a308a234545f34abaffa03dbf35c58b);
+        
+    
+        var popup_49579960630c5c04dc3fa2abf293218a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0afa97cd53a0da0c30049676a9747ec3 = $(`<div id="html_0afa97cd53a0da0c30049676a9747ec3" style="width: 100.0%; height: 100.0%;"><b>Eastbound E Broadway @ Penticton St</b><br/>Stop ID: 899</div>`)[0];
+                popup_49579960630c5c04dc3fa2abf293218a.setContent(html_0afa97cd53a0da0c30049676a9747ec3);
+            
+        
+
+        circle_marker_d450a75fdbdb7e3074bef59e9b15af17.bindPopup(popup_49579960630c5c04dc3fa2abf293218a)
+        ;
+
+        
+    
+    
+            circle_marker_d450a75fdbdb7e3074bef59e9b15af17.bindTooltip(
+                `<div>
+                     Eastbound E Broadway @ Penticton St
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            map_4a308a234545f34abaffa03dbf35c58b.fitBounds(
+                [[49.261884, -123.248349], [49.268918, -123.024926]],
+                {}
+            );
+        
+</script>
+</html>

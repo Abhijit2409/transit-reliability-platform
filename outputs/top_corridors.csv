@@ -1,0 +1,21 @@
+route_id,route_short_name,route_long_name,mode,bus_subtype,total_records,unique_vehicles,days_active
+6641,099,Broadway B-Line,Bus,B-Line,214370,87,5
+6636,049,49th Avenue,Bus,Regular Bus,195742,41,5
+37810,R4,41st Avenue,Bus,RapidBus,188891,100,5
+6622,016,29th Avenue Station/Arbutus,Bus,Regular Bus,174343,109,5
+6705,321,King George Blvd,Bus,Regular Bus,160426,176,5
+23384,503,Fraser Hwy Express,Bus,Express,159264,131,5
+6627,025,King Edward,Bus,Regular Bus,147605,72,5
+6624,019,Kingsway,Bus,Regular Bus,144713,96,5
+16718,014,Hastings/UBC Exchange,Bus,Regular Bus,128954,93,5
+6712,335,Newton Exchange/Surrey Central Station,Bus,Regular Bus,126594,185,5
+37807,R5,Hastings St,Bus,RapidBus,125588,117,5
+6617,007,Nanaimo Station/Dunbar,Bus,Regular Bus,120717,84,5
+6728,410,Brighouse Station/22nd St Station,Bus,Regular Bus,120234,107,5
+6619,009,Broadway,Bus,Regular Bus,114524,63,5
+6687,250,Horseshoe Bay/Dundarave/Vancouver,Bus,Regular Bus,114131,37,5
+6642,100,Marine Drive,Bus,Regular Bus,109016,39,5
+6738,502,Fraser Hwy,Bus,Regular Bus,108640,121,5
+6667,160,Port Coquitlam Station/Kootenay Loop,Bus,Regular Bus,102690,71,5
+6625,020,Victoria,Bus,Regular Bus,101660,45,5
+6614,004,Powell/UBC Exchange,Bus,Regular Bus,100376,69,5
