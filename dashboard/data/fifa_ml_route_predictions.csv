@@ -1,0 +1,21 @@
+route_short_name,route_type,fifa_stress_score,fifa_high_risk,fifa_risk_band,rf_prob_high,rf_pred_high,agreement
+R4,RapidBus,100.0,1,Critical,0.983,1,agree
+004,Regular Bus,86.03,1,Critical,0.993,1,agree
+007,Regular Bus,74.33,1,Critical,0.983,1,agree
+099,B-Line,69.94,1,Critical,0.99,1,agree
+019,Regular Bus,67.09,1,Critical,0.997,1,agree
+014,Regular Bus,60.28,1,High,0.97,1,agree
+016,Regular Bus,55.17,1,High,0.983,1,agree
+100,Regular Bus,55.05,1,High,0.823,1,agree
+009,Regular Bus,38.0,0,Medium,0.1,0,agree
+049,Regular Bus,26.64,0,Medium,0.037,0,agree
+020,Regular Bus,23.36,0,Low,0.013,0,agree
+410,Regular Bus,22.62,0,Low,0.017,0,agree
+025,Regular Bus,17.6,0,Low,0.1,0,agree
+250,Express / Regional,15.32,0,Low,0.0,0,agree
+160,Express / Regional,13.35,0,Low,0.0,0,agree
+335,Regular Bus,11.24,0,Low,0.0,0,agree
+503,Express / Regional,5.33,0,Low,0.0,0,agree
+321,Regular Bus,3.92,0,Low,0.0,0,agree
+R5,RapidBus,1.98,0,Low,0.013,0,agree
+502,Express / Regional,0.0,0,Low,0.0,0,agree

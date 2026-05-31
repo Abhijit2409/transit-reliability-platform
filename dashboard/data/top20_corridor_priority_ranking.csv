@@ -1,0 +1,21 @@
+route_id,route_short_name,route_long_name,route_type,total_spacing_rows,total_bunching_events,severe_events,bunching_rate_pct,severe_bunching_rate_pct,peak_bunching_share_pct,reliability_score,reliability_band,hotspot_segments,worst_segment_events,worst_segment_severe_events,intervention_priority_score
+37810,R4,41st Avenue,RapidBus,10816,1301,232,12.03,2.14,36.89,77.6,Watch,66,111,17,52.42
+6614,004,Powell/UBC Exchange,Regular Bus,10419,776,98,7.45,0.94,72.29,81.95,Watch,75,58,14,34.94
+6641,099,Broadway B-Line,B-Line,13579,1000,110,7.36,0.81,53.4,84.21,Watch,47,92,33,33.86
+6624,019,Kingsway,Regular Bus,17340,1208,202,6.97,1.16,39.07,85.41,Reliable,76,71,16,32.08
+6622,016,29th Avenue Station/Arbutus,Regular Bus,19778,1263,131,6.39,0.66,47.27,86.29,Reliable,82,75,11,29.02
+6617,007,Nanaimo Station/Dunbar,Regular Bus,13079,736,130,5.63,0.99,64.4,84.82,Watch,63,42,16,28.7
+16718,014,Hastings/UBC Exchange,Regular Bus,15111,879,87,5.82,0.58,55.97,86.26,Reliable,69,77,24,28.06
+6642,100,Marine Drive,Regular Bus,5096,170,31,3.34,0.61,87.06,86.07,Reliable,38,41,11,22.82
+6728,410,Brighouse Station/22nd St Station,Regular Bus,8277,299,45,3.61,0.54,53.51,89.24,Reliable,49,22,8,18.9
+6625,020,Victoria,Regular Bus,9303,310,49,3.33,0.53,56.77,89.27,Reliable,42,23,8,18.47
+6627,025,King Edward,Regular Bus,12807,449,91,3.51,0.71,37.64,90.6,Reliable,73,27,15,18.15
+6636,049,49th Avenue,Regular Bus,13694,320,52,2.34,0.38,75.0,88.93,Reliable,48,27,8,17.07
+6619,009,Broadway,Regular Bus,10744,190,16,1.77,0.15,91.05,88.47,Reliable,31,19,3,15.59
+6687,250,Horseshoe Bay/Dundarave/Vancouver,Express / Regional,5851,107,8,1.83,0.14,68.22,90.7,Reliable,14,20,3,13.46
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,9004,192,34,2.13,0.38,37.5,92.93,Reliable,47,13,3,12.05
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,10414,119,16,1.14,0.15,65.55,91.78,Reliable,39,23,4,11.53
+6705,321,King George Blvd,Regular Bus,14274,236,47,1.65,0.33,21.19,95.24,Reliable,45,28,7,9.63
+23384,503,Fraser Hwy Express,Express / Regional,9492,6,0,0.06,0.0,66.67,93.26,Reliable,4,3,0,6.98
+37807,R5,Hastings St,RapidBus,8622,55,9,0.64,0.1,30.91,95.94,Reliable,18,9,3,5.77
+6738,502,Fraser Hwy,Express / Regional,8107,40,3,0.49,0.04,37.5,95.58,Reliable,22,6,1,5.58

@@ -1,0 +1,4 @@
+model,task,cv,accuracy,notes
+LogisticRegression,classify high-risk,LOOCV,0.9,explainability / coefficient direction
+RandomForestClassifier,classify high-risk,LOOCV,0.95,feature importance
+RandomForestRegressor,estimate stress score,LOOCV,0.897,"R2; sensitivity only, NOT real forecast"

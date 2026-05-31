@@ -1,0 +1,21 @@
+fifa_priority_rank,route_short_name,route_long_name,route_type,reliability_score,fifa_adjusted_reliability,reliability_drop,fifa_stress_score,fifa_risk_band,has_extra_service
+1,R4,41st Avenue,RapidBus,77.6,52.6,25.0,100.0,Critical,0
+2,004,Powell/UBC Exchange,Regular Bus,81.95,60.44,21.51,86.03,Critical,0
+3,007,Nanaimo Station/Dunbar,Regular Bus,84.82,66.24,18.58,74.33,Critical,0
+4,099,Broadway B-Line,B-Line,84.21,66.72,17.49,69.94,Critical,0
+5,019,Kingsway,Regular Bus,85.41,68.64,16.77,67.09,Critical,0
+6,014,Hastings/UBC Exchange,Regular Bus,86.26,71.19,15.07,60.28,High,1
+7,016,29th Avenue Station/Arbutus,Regular Bus,86.29,72.5,13.79,55.17,High,0
+8,100,Marine Drive,Regular Bus,86.07,72.31,13.76,55.05,High,0
+9,009,Broadway,Regular Bus,88.47,78.97,9.5,38.0,Medium,0
+10,049,49th Avenue,Regular Bus,88.93,82.27,6.66,26.64,Medium,0
+11,020,Victoria,Regular Bus,89.27,83.43,5.84,23.36,Low,0
+12,410,Brighouse Station/22nd St Station,Regular Bus,89.24,83.58,5.66,22.62,Low,0
+13,025,King Edward,Regular Bus,90.6,86.2,4.4,17.6,Low,0
+14,250,Horseshoe Bay/Dundarave/Vancouver,Express / Regional,90.7,86.87,3.83,15.32,Low,0
+15,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,91.78,88.44,3.34,13.35,Low,0
+16,335,Newton Exchange/Surrey Central Station,Regular Bus,92.93,90.12,2.81,11.24,Low,0
+17,503,Fraser Hwy Express,Express / Regional,93.26,91.93,1.33,5.33,Low,0
+18,321,King George Blvd,Regular Bus,95.24,94.26,0.98,3.92,Low,0
+19,R5,Hastings St,RapidBus,95.94,95.44,0.5,1.98,Low,1
+20,502,Fraser Hwy,Express / Regional,95.58,95.58,0.0,0.0,Low,0

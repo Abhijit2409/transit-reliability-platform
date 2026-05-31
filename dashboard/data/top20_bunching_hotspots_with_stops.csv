@@ -1,0 +1,949 @@
+route_id,route_short_name,route_long_name,route_type,direction_id,shape_id,route_segment_km,segment_start_km,segment_end_km,stop_before_id,stop_before_name,stop_before_dist_km,stop_after_id,stop_after_name,stop_after_dist_km,bunching_events,severe_events,high_events,moderate_events,avg_gap_km,median_gap_km,closest_gap_km,vehicles_involved,active_timestamps
+37810,R4,41st Avenue,RapidBus,0,313452,9.0,9.0,9.5,381,Eastbound W 41 Ave @ Carnarvon St,8.49,13151,Eastbound W 41 Ave @ Maple St,9.97,111,17,53,41,0.225,0.207,0.048,12,107
+6641,099,Broadway B-Line,B-Line,0,312527,9.5,9.5,10.0,12721,Eastbound W Broadway @ Granville St,8.22,11357,Broadway-City Hall Station @ Bay 1,10.09,92,13,57,22,0.197,0.181,0.0,12,85
+6641,099,Broadway B-Line,B-Line,1,312530,3.5,3.5,4.0,12822,Westbound E Broadway @ Ontario St,2.95,934,Westbound W Broadway @ Willow St,4.26,87,1,19,67,0.336,0.313,0.011,13,87
+37810,R4,41st Avenue,RapidBus,0,313452,9.5,9.5,10.0,381,Eastbound W 41 Ave @ Carnarvon St,8.49,199,Eastbound W 41 Ave @ Granville St,11.0,86,4,36,46,0.256,0.253,0.02,12,82
+6641,099,Broadway B-Line,B-Line,0,312527,10.0,10.0,10.5,2118,Eastbound W Broadway @ Heather St,9.66,887,Eastbound E Broadway @ Kingsway,11.16,86,33,17,36,0.182,0.139,0.011,11,83
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,9.0,9.0,9.5,11475,Southbound Granville St @ Drake St,8.12,584,Westbound W 4th Ave @ Fir St,9.71,77,24,18,35,0.222,0.209,0.014,9,63
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,12.5,12.5,13.0,4887,Southbound Granville St @ W 5th Ave,12.42,13004,Westbound W 12 Ave @ Granville St,13.1,75,3,43,29,0.224,0.207,0.093,9,71
+6624,019,Kingsway,Regular Bus,1,312413,2.5,2.5,3.0,1181,Westbound Kingsway @ Boundary Rd,2.35,1185,Westbound Kingsway @ Wessex St,3.11,71,16,27,28,0.238,0.216,0.034,6,71
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,8.5,8.5,9.0,11475,Southbound Granville St @ Drake St,7.59,584,Westbound W 4th Ave @ Fir St,9.19,58,14,31,13,0.186,0.154,0.025,7,52
+6641,099,Broadway B-Line,B-Line,0,312527,9.0,9.0,9.5,12721,Eastbound W Broadway @ Granville St,8.22,2118,Eastbound W Broadway @ Heather St,9.66,57,0,18,39,0.341,0.312,0.172,13,57
+37810,R4,41st Avenue,RapidBus,1,313453,9.0,9.0,9.5,287,Westbound W 41 Ave @ Granville St,8.4,297,Westbound W 41 Ave @ Carnarvon St,10.86,53,2,27,24,0.277,0.213,0.04,11,49
+37810,R4,41st Avenue,RapidBus,0,313452,11.5,11.5,12.0,199,Eastbound W 41 Ave @ Granville St,11.0,12586,Oakridge-41st Ave Station @ Bay 3,12.76,48,9,8,31,0.274,0.253,0.053,12,47
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,8.0,8.0,8.5,509,Westbound E Hastings St @ Princess Ave,7.87,186,Westbound W Hastings St @ Carrall St,8.86,46,7,16,23,0.238,0.25,0.047,5,39
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,10.0,10.0,10.5,11532,Northbound Granville St @ Smithe St,9.93,11616,Northbound Granville St @ W Pender St,10.5,46,0,20,26,0.306,0.34,0.113,9,46
+6641,099,Broadway B-Line,B-Line,1,312530,5.0,5.0,5.5,934,Westbound W Broadway @ Willow St,4.26,545,Westbound W Broadway @ Granville St,5.57,45,1,22,22,0.262,0.231,0.051,7,45
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,18.0,18.0,18.5,1054,Southbound Renfrew St @ E 8th Ave,17.96,1058,Southbound Renfrew St @ E 15 Ave,18.69,45,10,18,17,0.222,0.187,0.019,9,45
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,9.0,9.0,9.5,542,Westbound W 5th Ave Offramp @ Granville St,8.95,585,Westbound W 4th Ave @ Burrard St,9.52,44,1,12,31,0.312,0.346,0.091,4,36
+6641,099,Broadway B-Line,B-Line,0,312527,7.0,7.0,7.5,322,Eastbound W Broadway @ Macdonald St,6.18,12721,Eastbound W Broadway @ Granville St,8.22,44,5,23,16,0.215,0.175,0.003,11,44
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,7.0,7.0,7.5,11522,Southbound Granville St @ Robson St,6.67,11475,Southbound Granville St @ Drake St,7.59,44,4,33,7,0.21,0.164,0.086,4,32
+6624,019,Kingsway,Regular Bus,1,312413,8.5,8.5,9.0,1207,Westbound Kingsway @ St. George St,8.36,8622,Westbound Kingsway @ E Broadway,9.09,43,5,14,24,0.246,0.26,0.055,9,41
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,10.5,10.5,11.0,11522,Southbound Granville St @ Robson St,10.19,11475,Southbound Granville St @ Drake St,11.12,42,4,21,17,0.263,0.249,0.086,8,42
+6641,099,Broadway B-Line,B-Line,0,312527,11.0,11.0,11.5,11357,Broadway-City Hall Station @ Bay 1,10.09,10620,Eastbound E Broadway  @ Fraser St,12.01,42,11,12,19,0.221,0.183,0.001,12,39
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,11.5,11.5,12.0,11475,Southbound Granville St @ Drake St,10.26,585,Westbound W 4th Ave @ Burrard St,12.18,42,7,24,11,0.202,0.195,0.025,5,32
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,11.5,11.5,12.0,2936,Eastbound W Hastings St @ Carrall St,11.44,12860,Eastbound E Hastings St @ Dunlevy Ave,12.17,42,2,10,30,0.316,0.349,0.032,10,42
+6642,100,Marine Drive,Regular Bus,0,312532,6.0,6.0,6.5,1846,Eastbound SE Marine Dr @ Victoria Dr,5.97,1849,Eastbound SE Marine Dr @ Elliott St,6.71,41,11,20,10,0.2,0.184,0.016,3,32
+37810,R4,41st Avenue,RapidBus,0,313452,12.5,12.5,13.0,811,Eastbound W 41 Ave @ Oak St,11.86,255,Eastbound E 41 Ave @ Main St,13.7,41,9,18,14,0.23,0.212,0.076,9,41
+6641,099,Broadway B-Line,B-Line,0,312527,8.0,8.0,8.5,11724,Eastbound W Broadway @ Yew St,7.1,2118,Eastbound W Broadway @ Heather St,9.66,40,4,23,13,0.217,0.231,0.0,12,40
+37810,R4,41st Avenue,RapidBus,0,313452,16.0,16.0,16.5,655,Eastbound E 41 Ave @ Knight St,15.59,1133,Eastbound E 41 Ave @ Clarendon St,17.19,40,14,12,14,0.207,0.153,0.023,10,40
+37810,R4,41st Avenue,RapidBus,1,313453,2.5,2.5,3.0,1076,Westbound E 41 Ave @ Clarendon St,2.14,713,Westbound E 41 Ave @ Knight St,3.76,39,17,6,16,0.193,0.18,0.003,8,38
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,10.5,10.5,11.0,11525,Northbound Granville St @ Dunsmuir St,10.34,12489,Eastbound W Hastings St @ Abbott St,11.29,39,7,15,17,0.231,0.206,0.046,6,39
+37810,R4,41st Avenue,RapidBus,0,313452,15.0,15.0,15.5,12134,Eastbound E 41 Ave @ Fraser St,14.51,655,Eastbound E 41 Ave @ Knight St,15.59,38,6,15,17,0.234,0.203,0.051,11,38
+37810,R4,41st Avenue,RapidBus,1,313453,6.5,6.5,7.0,11632,Westbound E 41 Ave @ Main St,5.56,195,Westbound W 41 Ave @ Oak St,7.52,38,6,20,12,0.226,0.186,0.025,10,34
+6624,019,Kingsway,Regular Bus,0,312403,11.5,11.5,12.0,1158,Eastbound Kingsway @ Rupert St,11.29,1162,Eastbound Kingsway @ Tyne St,12.18,37,3,11,23,0.295,0.323,0.081,6,37
+6624,019,Kingsway,Regular Bus,1,312413,11.0,11.0,11.5,184,Northbound Main St @ E Georgia St,10.85,93,Westbound W Pender St @ Abbott St,11.64,37,8,19,10,0.199,0.187,0.046,6,31
+6624,019,Kingsway,Regular Bus,1,312413,12.0,12.0,12.5,11638,Westbound W Pender St @ Hamilton St,11.92,9307,Westbound W Pender St @ Burrard St,12.61,37,10,17,10,0.18,0.157,0.046,8,34
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,11.0,11.0,11.5,11429,Northbound Granville St @ Davie St,10.8,11523,Northbound Granville St @ W Georgia St,11.53,37,0,24,13,0.252,0.174,0.163,6,33
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,7.5,7.5,8.0,11522,Southbound Granville St @ Robson St,7.19,11475,Southbound Granville St @ Drake St,8.12,37,2,15,20,0.283,0.256,0.079,7,37
+6624,019,Kingsway,Regular Bus,1,312413,10.0,10.0,10.5,179,Northbound Main St @ E 2nd Ave,9.79,184,Northbound Main St @ E Georgia St,10.85,37,6,9,22,0.269,0.274,0.029,6,34
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,13.0,13.0,13.5,2936,Eastbound W Hastings St @ Carrall St,12.81,12860,Eastbound E Hastings St @ Dunlevy Ave,13.54,36,4,9,23,0.253,0.27,0.059,6,33
+6624,019,Kingsway,Regular Bus,1,312414,4.0,4.0,4.5,9307,Westbound W Pender St @ Burrard St,3.74,11643,Westbound W Pender St @ Broughton St,4.52,35,5,14,16,0.232,0.226,0.034,6,35
+6624,019,Kingsway,Regular Bus,0,312403,11.0,11.0,11.5,1156,Eastbound Kingsway @ Earles St,10.79,1159,Eastbound Kingsway @ McKinnon St,11.65,35,5,20,10,0.212,0.185,0.041,6,35
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,11.0,11.0,11.5,11427,Southbound Granville St @ Davie St,10.97,4887,Southbound Granville St @ W 5th Ave,12.42,35,2,11,22,0.281,0.288,0.075,9,35
+6641,099,Broadway B-Line,B-Line,1,312530,8.5,8.5,9.0,11113,Westbound W Broadway @ Macdonald St,7.6,361,Southbound Alma St @ W 10 Ave,9.03,35,16,4,15,0.225,0.2,0.048,9,34
+6641,099,Broadway B-Line,B-Line,0,312527,10.5,10.5,11.0,11357,Broadway-City Hall Station @ Bay 1,10.09,887,Eastbound E Broadway @ Kingsway,11.16,34,0,6,28,0.293,0.281,0.14,9,34
+6624,019,Kingsway,Regular Bus,1,312413,9.0,9.0,9.5,1208,Westbound Kingsway @ E 12 Ave,8.68,179,Northbound Main St @ E 2nd Ave,9.79,34,4,9,21,0.273,0.301,0.016,6,34
+37810,R4,41st Avenue,RapidBus,1,313453,5.0,5.0,5.5,718,Westbound E 41 Ave @ Fraser St,4.76,11632,Westbound E 41 Ave @ Main St,5.56,34,10,10,14,0.208,0.181,0.048,12,30
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,15.5,15.5,16.0,956,Eastbound E Hastings St @ Kamloops St,15.19,1047,Southbound Renfrew St @ E Georgia St,16.28,34,10,6,18,0.251,0.297,0.05,8,31
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,17.0,17.0,17.5,1050,Southbound Renfrew St @ Kitchener St,16.93,1052,Southbound Renfrew St @ E 4th Ave,17.54,33,4,19,10,0.209,0.198,0.023,6,32
+37810,R4,41st Avenue,RapidBus,0,313452,17.5,17.5,18.0,1133,Eastbound E 41 Ave @ Clarendon St,17.19,1137,Eastbound E 41 Ave @ Rupert St,18.1,33,4,20,9,0.186,0.164,0.052,10,33
+6624,019,Kingsway,Regular Bus,0,312403,4.0,4.0,4.5,21,Eastbound E Pender St @ Carrall St,3.76,234,Southbound Main St @ National Ave,4.72,32,8,14,10,0.223,0.208,0.003,8,31
+6641,099,Broadway B-Line,B-Line,1,312530,6.0,6.0,6.5,545,Westbound W Broadway @ Granville St,5.57,11422,Westbound W Broadway @ Arbutus St,6.62,32,0,4,28,0.357,0.349,0.134,6,32
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,7.5,7.5,8.0,11427,Southbound Granville St @ Davie St,7.44,542,Westbound W 5th Ave Offramp @ Granville St,8.95,32,0,19,13,0.253,0.234,0.102,3,24
+6624,019,Kingsway,Regular Bus,1,312413,3.0,3.0,3.5,13125,Westbound Kingsway @ Aberdeen St,2.69,1195,Westbound Kingsway @ Rupert St,3.87,32,6,11,15,0.251,0.248,0.068,5,32
+37810,R4,41st Avenue,RapidBus,1,313453,8.0,8.0,8.5,195,Westbound W 41 Ave @ Oak St,7.52,12632,Westbound W 41 Ave @ East Blvd,9.46,32,15,7,10,0.192,0.132,0.055,9,32
+6641,099,Broadway B-Line,B-Line,0,312527,11.5,11.5,12.0,887,Eastbound E Broadway @ Kingsway,11.16,10620,Eastbound E Broadway  @ Fraser St,12.01,32,0,13,19,0.259,0.282,0.104,12,31
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,11.0,11.0,11.5,11429,Northbound Granville St @ Davie St,10.74,11525,Northbound Granville St @ Dunsmuir St,11.66,31,0,14,17,0.278,0.337,0.163,5,23
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,10.0,10.0,10.5,11526,Southbound Granville St @ W Pender St,9.84,11474,Southbound Granville St @ Nelson St,10.64,31,0,18,13,0.265,0.174,0.163,6,30
+37810,R4,41st Avenue,RapidBus,0,313452,12.0,12.0,12.5,811,Eastbound W 41 Ave @ Oak St,11.86,12586,Oakridge-41st Ave Station @ Bay 3,12.76,31,2,7,22,0.339,0.431,0.029,11,31
+6624,019,Kingsway,Regular Bus,1,312414,4.5,4.5,5.0,1484,Westbound W Pender St @ Bute St,4.19,1487,Westbound W Georgia St @ Denman St,5.11,30,0,9,21,0.274,0.255,0.126,3,30
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,13.0,13.0,13.5,9136,Southbound Granville St @ W Broadway,12.82,12705,Westbound W 12th Ave @ Cypress St,13.83,30,2,10,18,0.278,0.348,0.052,4,30
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,7.0,7.0,7.5,398,Eastbound W 4th Ave @ Trafalgar St,6.91,12813,Eastbound W 4th Ave @ Yew St,7.61,29,0,13,16,0.266,0.343,0.171,6,24
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,6.5,6.5,7.0,11526,Southbound Granville St @ W Pender St,6.31,11474,Southbound Granville St @ Nelson St,7.12,29,0,18,11,0.26,0.174,0.163,4,22
+37810,R4,41st Avenue,RapidBus,0,313452,8.0,8.0,8.5,12625,Dunbar Loop @ Bay 7,7.62,13151,Eastbound W 41 Ave @ Maple St,9.97,29,4,13,12,0.257,0.205,0.071,11,27
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,9.5,9.5,10.0,11429,Northbound Granville St @ Davie St,9.43,11523,Northbound Granville St @ W Georgia St,10.16,29,0,6,23,0.343,0.332,0.163,5,28
+6624,019,Kingsway,Regular Bus,1,312413,10.5,10.5,11.0,182,Northbound Main St @ National Ave,10.45,11529,Westbound E Pender St @ Main St,11.05,28,4,18,6,0.188,0.197,0.003,7,28
+6641,099,Broadway B-Line,B-Line,1,312530,3.0,3.0,3.5,12822,Westbound E Broadway @ Ontario St,2.95,11088,Broadway-City Hall Station @ Bay 4,3.77,28,1,2,25,0.412,0.478,0.0,12,28
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,15.0,15.0,15.5,11046,Westbound W 4th Ave @ Collingwood St,14.84,12816,Southbound Alma St @ W 10 Ave,15.7,28,16,4,8,0.193,0.095,0.047,4,28
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,11.5,11.5,12.0,11523,Northbound Granville St @ W Georgia St,11.48,35,Waterfront Station @ Bay 3,12.23,28,7,9,12,0.192,0.16,0.05,3,26
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,4.0,4.0,4.5,1099,Northbound Renfrew St @ Venables St,3.79,969,Westbound E Hastings St @ Kaslo St,4.58,28,3,5,20,0.313,0.297,0.0,7,26
+6705,321,King George Blvd,Regular Bus,1,312952,7.0,7.0,7.5,5507,Eastbound 72 Ave @ King George Blvd,6.88,5511,Southbound 138 St @ 7100 Block,7.53,28,3,16,9,0.255,0.233,0.032,7,28
+37810,R4,41st Avenue,RapidBus,0,313452,7.0,7.0,7.5,1896,Westbound W 16 Ave @ Wesbrook Mall,1.76,12625,Dunbar Loop @ Bay 7,7.62,28,10,5,13,0.225,0.219,0.014,12,28
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,12.0,12.0,12.5,942,Eastbound E Hastings St @ Main St,11.86,946,Eastbound E Hastings St @ Hawks Ave,12.78,27,0,8,19,0.305,0.287,0.127,6,27
+37810,R4,41st Avenue,RapidBus,0,313452,10.5,10.5,11.0,13151,Eastbound W 41 Ave @ Maple St,9.97,811,Eastbound W 41 Ave @ Oak St,11.86,27,5,8,14,0.24,0.25,0.058,10,27
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,9.5,9.5,10.0,859,Westbound W Hastings St @ Richards St,9.48,11524,Southbound Granville St @ W Georgia St,10.05,27,2,18,7,0.186,0.181,0.046,5,26
+37810,R4,41st Avenue,RapidBus,1,313453,3.5,3.5,4.0,709,Westbound E 41 Ave @ Victoria Dr,2.9,718,Westbound E 41 Ave @ Fraser St,4.76,27,12,4,11,0.224,0.198,0.099,9,26
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,10.5,10.5,11.0,11616,Northbound Granville St @ W Pender St,10.46,36,Eastbound W Cordova St @ Homer St,11.03,27,2,9,16,0.254,0.28,0.053,4,20
+6636,049,49th Avenue,Regular Bus,0,312498,12.0,12.0,12.5,1980,Eastbound W 49 Ave @ Oak St,11.57,1985,Eastbound W 49 Ave @ Alberta St,12.7,27,8,2,17,0.23,0.311,0.0,6,27
+6624,019,Kingsway,Regular Bus,1,312414,3.0,3.0,3.5,93,Westbound W Pender St @ Abbott St,2.78,9307,Westbound W Pender St @ Burrard St,3.74,27,1,16,10,0.235,0.203,0.097,3,27
+6627,025,King Edward,Regular Bus,1,312455,6.0,6.0,6.5,672,Westbound E 22 Ave @ Slocan St,5.97,1572,Nanaimo Station @ Bay 2,6.68,27,4,0,23,0.382,0.412,0.043,5,27
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,9.5,9.5,10.0,542,Westbound W 5th Ave Offramp @ Granville St,9.47,585,Westbound W 4th Ave @ Burrard St,10.04,27,0,12,15,0.271,0.346,0.14,6,27
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,16.5,16.5,17.0,955,Eastbound E Hastings St @ Nanaimo St,16.43,958,Eastbound E Hastings St @ Kaslo St,17.13,27,0,19,8,0.25,0.195,0.191,10,27
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,12.5,12.5,13.0,939,Eastbound W Hastings St @ Homer St,12.34,942,Eastbound E Hastings St @ Main St,13.23,26,1,16,9,0.255,0.232,0.067,6,26
+6624,019,Kingsway,Regular Bus,1,312413,11.5,11.5,12.0,91,Westbound W Pender St @ Carrall St,11.4,95,Westbound W Pender St @ Seymour St,12.13,26,4,8,14,0.283,0.297,0.066,7,24
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,16.5,16.5,17.0,1113,Southbound Arbutus St @ W 35 Ave,16.48,1116,Southbound West Blvd @ W 41 Ave,17.11,26,6,8,12,0.24,0.239,0.036,7,24
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,13.5,13.5,14.0,12707,Westbound W 12th Ave @ Pine St,13.45,1103,Southbound Arbutus St @ W 12 Ave,14.17,26,0,9,17,0.305,0.31,0.129,6,25
+6627,025,King Edward,Regular Bus,1,312455,5.5,5.5,6.0,1570,Westbound E 22 Ave @ Renfrew St,5.47,694,Southbound Nanaimo St @ E 22 Ave,6.47,26,2,9,15,0.334,0.443,0.009,9,26
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,16.0,16.0,16.5,952,Eastbound E Hastings St @ Victoria Dr,15.75,956,Eastbound E Hastings St @ Kamloops St,16.56,26,1,13,12,0.275,0.237,0.094,6,26
+37810,R4,41st Avenue,RapidBus,0,313452,17.0,17.0,17.5,1130,Eastbound E 41 Ave @ Victoria Dr,16.43,1137,Eastbound E 41 Ave @ Rupert St,18.1,26,2,6,18,0.332,0.356,0.065,10,26
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,4.5,4.5,5.0,519,Westbound Powell St @ Jackson Ave,4.2,696,Westbound E Pender St @ Main St,5.01,25,5,8,12,0.239,0.187,0.0,4,22
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,11.5,11.5,12.0,11532,Northbound Granville St @ Smithe St,11.3,938,Eastbound W Hastings St @ Seymour St,12.14,25,3,11,11,0.245,0.21,0.053,5,23
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,8.0,8.0,8.5,11427,Southbound Granville St @ Davie St,7.97,542,Westbound W 5th Ave Offramp @ Granville St,9.47,25,1,7,17,0.28,0.297,0.042,4,24
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,10.0,10.0,10.5,11474,Southbound Granville St @ Nelson St,9.78,542,Westbound W 5th Ave Offramp @ Granville St,11.61,25,7,6,12,0.213,0.198,0.014,2,18
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,6.0,6.0,6.5,11638,Westbound W Pender St @ Hamilton St,5.85,11524,Southbound Granville St @ W Georgia St,6.52,25,0,12,13,0.263,0.262,0.102,4,21
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,13.5,13.5,14.0,948,Eastbound E Hastings St @ Glen Dr,13.2,951,Eastbound E Hastings St @ Commercial Dr,14.03,25,0,10,15,0.284,0.271,0.108,7,25
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,10.0,10.0,10.5,11532,Northbound Granville St @ Smithe St,9.89,11527,Northbound Granville St @ W Hastings St,10.63,25,3,17,5,0.178,0.181,0.046,4,18
+37810,R4,41st Avenue,RapidBus,1,313453,1.0,1.0,1.5,1187,Southbound Joyce St @ Kingsway,0.65,1076,Westbound E 41 Ave @ Clarendon St,2.14,25,0,9,16,0.273,0.31,0.103,8,25
+37810,R4,41st Avenue,RapidBus,0,313452,15.5,15.5,16.0,12134,Eastbound E 41 Ave @ Fraser St,14.51,1130,Eastbound E 41 Ave @ Victoria Dr,16.43,25,1,3,21,0.352,0.385,0.0,10,25
+6624,019,Kingsway,Regular Bus,0,312403,9.0,9.0,9.5,1154,Eastbound Kingsway @ Miller St,9.0,12110,Eastbound Kingsway @ Gladstone St,9.63,24,4,12,8,0.212,0.177,0.0,5,24
+6705,321,King George Blvd,Regular Bus,0,312945,15.5,15.5,16.0,5463,Westbound 72 Ave @ 138 St,15.45,5465,Northbound King George Blvd @ 72 Ave,16.05,24,0,12,12,0.279,0.297,0.102,7,24
+37810,R4,41st Avenue,RapidBus,1,313453,17.0,17.0,17.5,1907,Dunbar Loop @ Bay 5,11.76,12653,Northbound Wesbrook Mall @ Agronomy Rd,18.5,24,6,5,13,0.245,0.296,0.03,10,23
+37810,R4,41st Avenue,RapidBus,1,313453,9.5,9.5,10.0,12632,Westbound W 41 Ave @ East Blvd,9.46,297,Westbound W 41 Ave @ Carnarvon St,10.86,24,2,11,11,0.239,0.225,0.056,9,23
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,10.0,10.0,10.5,584,Westbound W 4th Ave @ Fir St,9.71,12815,Westbound W 4th Ave @ Yew St,10.74,24,0,17,7,0.224,0.176,0.172,6,24
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,12.5,12.5,13.0,36,Eastbound W Cordova St @ Homer St,12.38,429,Eastbound E Cordova St @ Main St,13.21,24,9,11,4,0.149,0.149,0.0,3,19
+6624,019,Kingsway,Regular Bus,0,312403,2.5,2.5,3.0,410,Eastbound W Pender St @ Thurlow St,2.32,80,Eastbound W Pender St @ Hamilton St,3.24,24,5,10,9,0.215,0.2,0.046,3,24
+6624,019,Kingsway,Regular Bus,0,312403,9.5,9.5,10.0,666,Eastbound Kingsway @ Victoria Dr,9.33,668,Eastbound Kingsway @ Slocan St,10.32,24,4,9,11,0.247,0.215,0.0,4,24
+6636,049,49th Avenue,Regular Bus,0,312498,17.5,17.5,18.0,2005,Eastbound E 49 Ave @ Vivian St,17.33,9987,Eastbound E 49 Ave @ Kerr St,18.02,24,4,4,16,0.256,0.314,0.059,5,23
+6636,049,49th Avenue,Regular Bus,0,312498,15.0,15.0,15.5,1994,Eastbound E 49 Ave @ Windsor St,14.75,1997,Eastbound E 49 Ave @ Dumfries St,15.54,24,2,12,10,0.253,0.203,0.099,6,24
+6625,020,Victoria,Regular Bus,1,312428,10.0,10.0,10.5,1254,Southbound Victoria Dr @ E 41 Ave,9.96,1256,Southbound Victoria Dr @ Waverley Ave,10.57,23,8,5,10,0.232,0.189,0.012,2,23
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,7.0,7.0,7.5,12706,Eastbound W 12 Ave @ Pine St,6.87,218,Northbound Granville St @ W 7th Ave,7.73,23,1,12,10,0.233,0.205,0.051,4,23
+6705,321,King George Blvd,Regular Bus,1,312952,6.5,6.5,7.0,5506,Southbound King George Blvd @ 73A Ave,6.42,5633,Newton Exchange @ Bay 6,7.05,23,0,4,19,0.336,0.321,0.117,5,23
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,3.0,3.0,3.5,315,Northbound Dunbar Diversion @ W 14 Ave,2.93,675,Northbound Alma St @ W 7th Ave,3.66,23,10,8,5,0.183,0.192,0.048,4,20
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,1,312669,3.5,3.5,4.0,3066,Westbound Lougheed Hwy @ Westwood St,2.91,3780,Northbound Pinetree Way @ Anson Ave,4.68,23,4,4,15,0.3,0.332,0.05,4,23
+6627,025,King Edward,Regular Bus,1,312455,6.5,6.5,7.0,694,Southbound Nanaimo St @ E 22 Ave,6.47,1573,Southbound Nanaimo St @ E 28 Ave,7.22,23,15,5,3,0.126,0.088,0.014,4,23
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,12.0,12.0,12.5,11527,Northbound Granville St @ W Hastings St,11.99,12720,Eastbound W Cordova St @ Carrall St,12.79,23,8,13,2,0.144,0.109,0.052,3,20
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,1.5,1.5,2.0,1088,Northbound Renfrew St @ E 17 Ave,1.42,1092,Northbound Renfrew St @ E Broadway,2.25,22,0,7,15,0.322,0.375,0.108,6,20
+37810,R4,41st Avenue,RapidBus,1,313453,2.0,2.0,2.5,1190,Westbound E 41 Ave @ Rupert St,1.24,709,Westbound E 41 Ave @ Victoria Dr,2.9,22,3,7,12,0.264,0.302,0.04,8,21
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,9.0,9.0,9.5,405,Eastbound W 4th Ave @ Fir St,8.68,11426,Northbound Granville St @ Drake St,10.62,22,4,10,8,0.202,0.139,0.011,5,20
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,9.5,9.5,10.0,11429,Northbound Granville St @ Davie St,9.39,11523,Northbound Granville St @ W Georgia St,10.12,22,0,16,6,0.217,0.174,0.163,4,20
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,12.0,12.0,12.5,11475,Southbound Granville St @ Drake St,11.12,544,Southbound Granville St @ W 7th Ave,12.6,22,6,8,8,0.211,0.203,0.011,6,21
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,15.5,15.5,16.0,951,Eastbound E Hastings St @ Commercial Dr,15.4,954,Eastbound E Hastings St @ Templeton Dr,16.17,22,6,10,6,0.178,0.14,0.0,4,19
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,14.0,14.0,14.5,435,Eastbound Powell St @ Clark Dr,13.52,440,Eastbound Dundas St @ Lakewood Dr,14.68,22,6,9,7,0.208,0.211,0.0,5,16
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,17.0,17.0,17.5,1115,Southbound West Blvd @ W 39 Ave,16.91,12787,Southbound West Blvd @ W 46th Ave,17.62,22,5,10,7,0.209,0.205,0.059,6,19
+6624,019,Kingsway,Regular Bus,0,312403,5.5,5.5,6.0,10814,Southbound Main St @ E 2nd Ave,5.37,1143,Eastbound Kingsway @ E Broadway,6.07,22,0,20,2,0.186,0.187,0.104,4,22
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,6.5,6.5,7.0,859,Westbound W Hastings St @ Richards St,6.48,11524,Southbound Granville St @ W Georgia St,7.05,22,0,8,14,0.301,0.339,0.113,6,22
+6728,410,Brighouse Station/22nd St Station,Regular Bus,0,313126,1.5,1.5,2.0,11388,Lansdowne Station @ Bay 1,1.34,8604,Aberdeen Station @ Bay 1,2.38,22,1,8,13,0.283,0.267,0.038,5,21
+37810,R4,41st Avenue,RapidBus,0,313452,16.5,16.5,17.0,1130,Eastbound E 41 Ave @ Victoria Dr,16.43,1133,Eastbound E 41 Ave @ Clarendon St,17.19,22,5,4,13,0.285,0.362,0.0,10,22
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,14.0,14.0,14.5,12705,Westbound W 12th Ave @ Cypress St,13.83,1105,Southbound Arbutus St @ W 16 Ave,14.58,22,11,0,11,0.221,0.202,0.008,5,21
+37810,R4,41st Avenue,RapidBus,1,313453,4.5,4.5,5.0,713,Westbound E 41 Ave @ Knight St,3.76,11632,Westbound E 41 Ave @ Main St,5.56,21,3,11,7,0.205,0.185,0.006,9,20
+6641,099,Broadway B-Line,B-Line,0,312527,6.0,6.0,6.5,9530,Eastbound W Broadway @ Alma St,4.9,11724,Eastbound W Broadway @ Yew St,7.1,21,0,8,13,0.267,0.261,0.122,8,21
+6627,025,King Edward,Regular Bus,0,312450,17.5,17.5,18.0,697,Eastbound E 22 Ave @ Nanaimo St,17.2,1544,Eastbound E 22 Ave @ Boyd Diversion,18.12,21,7,2,12,0.258,0.35,0.052,2,21
+6641,099,Broadway B-Line,B-Line,0,312527,7.5,7.5,8.0,11724,Eastbound W Broadway @ Yew St,7.1,12721,Eastbound W Broadway @ Granville St,8.22,21,0,6,15,0.341,0.344,0.171,8,21
+6641,099,Broadway B-Line,B-Line,1,312530,7.5,7.5,8.0,11422,Westbound W Broadway @ Arbutus St,6.62,361,Southbound Alma St @ W 10 Ave,9.03,21,1,9,11,0.253,0.261,0.059,5,21
+6624,019,Kingsway,Regular Bus,1,312413,9.5,9.5,10.0,178,Northbound Main St @ E 5th Ave,9.49,181,Main Street-Science World Station @ Bay 2,10.23,21,2,5,14,0.271,0.278,0.065,6,21
+6641,099,Broadway B-Line,B-Line,0,312527,12.5,12.5,13.0,10620,Eastbound E Broadway  @ Fraser St,12.01,8916,Northbound Commercial Dr @ N Grandview Hwy,13.5,21,11,6,4,0.152,0.083,0.055,10,21
+6624,019,Kingsway,Regular Bus,1,312413,8.0,8.0,8.5,1204,Westbound Kingsway @ Windsor St,7.52,1208,Westbound Kingsway @ E 12 Ave,8.68,20,3,6,11,0.285,0.277,0.06,7,20
+6687,250,Horseshoe Bay/Dundarave/Vancouver,Express / Regional,1,312849,8.0,8.0,8.5,4662,Westbound Marine Dr @ 11 St,7.95,4664,Westbound Marine Dr @ 15 St,8.68,20,1,6,13,0.276,0.286,0.098,3,20
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,20.0,20.0,20.5,11644,Southbound No. 3 Rd @ Browngate Rd,19.82,12080,Lansdowne Station @ Bay 3,20.63,20,3,6,11,0.252,0.259,0.037,5,20
+6624,019,Kingsway,Regular Bus,1,312413,2.0,2.0,2.5,1178,Westbound Kingsway @ Inman Ave,1.76,13125,Westbound Kingsway @ Aberdeen St,2.69,20,4,2,14,0.309,0.409,0.009,4,20
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,19.0,19.0,19.5,6623,Westbound Cambie Rd @ Sexsmith Rd,18.99,8800,Aberdeen Station @ Bay 2,19.65,20,2,12,6,0.236,0.208,0.057,4,20
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,9.0,9.0,9.5,186,Westbound W Hastings St @ Carrall St,8.86,11526,Southbound Granville St @ W Pender St,9.84,20,3,6,11,0.259,0.276,0.054,4,17
+6641,099,Broadway B-Line,B-Line,1,312530,4.0,4.0,4.5,11088,Broadway-City Hall Station @ Bay 4,3.77,545,Westbound W Broadway @ Granville St,5.57,20,0,12,8,0.276,0.178,0.14,5,20
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,9.0,9.0,9.5,4879,Northbound Granville St @ W 5th Ave,7.92,11532,Northbound Granville St @ Smithe St,9.93,20,3,7,10,0.281,0.284,0.0,6,20
+6624,019,Kingsway,Regular Bus,1,312413,13.0,13.0,13.5,9307,Westbound W Pender St @ Burrard St,12.61,8643,Westbound W Georgia St @ Cardero St,13.66,20,1,6,13,0.259,0.266,0.0,6,18
+6641,099,Broadway B-Line,B-Line,0,312527,4.5,4.5,5.0,279,Eastbound W 10 Ave @ Sasamat St,3.04,322,Eastbound W Broadway @ Macdonald St,6.18,20,2,5,13,0.278,0.251,0.051,6,20
+6624,019,Kingsway,Regular Bus,1,312413,5.5,5.5,6.0,702,Westbound Kingsway @ Nanaimo St,5.22,1199,Westbound Kingsway @ Miller St,6.19,20,4,3,13,0.259,0.302,0.06,5,20
+6636,049,49th Avenue,Regular Bus,0,312498,14.0,14.0,14.5,1989,Eastbound E 49 Ave @ Prince Edward St,13.84,1993,Eastbound E 49 Ave @ Prince Albert St,14.54,20,4,4,12,0.277,0.295,0.044,5,20
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,14.0,14.0,14.5,950,Eastbound E Hastings St @ McLean Dr,13.75,954,Eastbound E Hastings St @ Templeton Dr,14.8,19,1,1,17,0.37,0.423,0.0,7,19
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,9.0,9.0,9.5,407,Westbound W 5th Ave @ Granville St,7.77,11532,Northbound Granville St @ Smithe St,9.89,19,3,7,9,0.257,0.249,0.0,4,14
+6619,009,Broadway,Regular Bus,1,312305,8.0,8.0,8.5,468,Westbound W Broadway @ Spruce St,7.86,545,Westbound W Broadway @ Granville St,8.66,19,1,7,11,0.273,0.301,0.0,4,19
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,7.5,7.5,8.0,10976,Southbound Main St @ Powell St,7.34,93,Westbound W Pender St @ Abbott St,8.24,18,3,6,9,0.244,0.24,0.048,2,18
+6687,250,Horseshoe Bay/Dundarave/Vancouver,Express / Regional,1,312849,7.0,7.0,7.5,4659,Westbound Marine Dr @ Capilano River,6.64,4661,Westbound Marine Dr @ Main St,7.66,18,3,9,6,0.184,0.136,0.051,6,18
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,5.5,5.5,6.0,398,Eastbound W 4th Ave @ Trafalgar St,5.5,12813,Eastbound W 4th Ave @ Yew St,6.2,18,0,6,12,0.285,0.342,0.171,3,16
+6728,410,Brighouse Station/22nd St Station,Regular Bus,0,313126,3.0,3.0,3.5,6615,Eastbound Cambie Rd @ Brown Rd,2.91,6950,Eastbound Cambie Rd @ Stolberg St,3.74,18,1,6,11,0.26,0.272,0.014,4,18
+6728,410,Brighouse Station/22nd St Station,Regular Bus,0,313126,17.5,17.5,18.0,6975,Eastbound Westminster Hwy @ Willett Ave,17.19,6976,Eastbound Ewen Ave @ Hume St,18.44,18,8,1,9,0.231,0.267,0.0,5,18
+6728,410,Brighouse Station/22nd St Station,Regular Bus,0,313126,2.0,2.0,2.5,11381,Northbound No. 3 Rd @ Leslie Rd,1.96,11411,Eastbound Cambie Rd @ Hazelbridge Way,2.68,18,2,2,14,0.359,0.383,0.039,4,16
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,13.5,13.5,14.0,942,Eastbound E Hastings St @ Main St,13.23,946,Eastbound E Hastings St @ Hawks Ave,14.15,18,0,9,9,0.281,0.243,0.127,7,17
+6624,019,Kingsway,Regular Bus,0,312403,5.0,5.0,5.5,235,Main Street-Science World Station @ Bay 1,4.88,9067,Southbound Main St @ E 5th Ave,5.65,18,1,11,6,0.206,0.183,0.089,5,18
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,14.0,14.0,14.5,945,Eastbound E Hastings St @ Princess Ave,13.83,948,Eastbound E Hastings St @ Glen Dr,14.57,18,0,5,13,0.317,0.34,0.124,5,17
+6624,019,Kingsway,Regular Bus,0,312403,10.0,10.0,10.5,667,Eastbound Kingsway @ Nanaimo St,9.94,1080,Eastbound Kingsway @ Wales St,10.52,18,2,5,11,0.258,0.259,0.032,4,18
+37810,R4,41st Avenue,RapidBus,0,313452,14.0,14.0,14.5,255,Eastbound E 41 Ave @ Main St,13.7,12134,Eastbound E 41 Ave @ Fraser St,14.51,18,5,4,9,0.226,0.252,0.0,9,18
+6625,020,Victoria,Regular Bus,1,312428,8.0,8.0,8.5,977,Southbound Victoria Dr @ Victoria Diversion,7.69,704,Southbound Victoria Dr @ Kingsway,8.58,18,2,7,9,0.267,0.261,0.028,3,18
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,11.5,11.5,12.0,12720,Eastbound W Cordova St @ Carrall St,11.43,430,Eastbound E Cordova St @ Dunlevy Ave,12.15,18,3,7,8,0.225,0.245,0.05,4,13
+37810,R4,41st Avenue,RapidBus,0,313452,13.5,13.5,14.0,12586,Oakridge-41st Ave Station @ Bay 3,12.76,12134,Eastbound E 41 Ave @ Fraser St,14.51,18,5,3,10,0.258,0.263,0.052,9,18
+37810,R4,41st Avenue,RapidBus,1,313453,6.0,6.0,6.5,11632,Westbound E 41 Ave @ Main St,5.56,11354,Oakridge-41st Ave Station  @ Bay 4,6.7,18,0,5,13,0.325,0.333,0.102,9,18
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,11.0,11.0,11.5,35,Waterfront Station @ Bay 3,10.87,429,Eastbound E Cordova St @ Main St,11.85,18,2,7,9,0.258,0.266,0.032,4,15
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,7.0,7.0,7.5,404,Eastbound W 4th Ave @ Burrard St,6.91,407,Westbound W 5th Ave @ Granville St,7.77,18,3,10,5,0.216,0.201,0.069,3,14
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,13.0,13.0,13.5,12720,Eastbound W Cordova St @ Carrall St,12.79,430,Eastbound E Cordova St @ Dunlevy Ave,13.51,18,4,7,7,0.182,0.16,0.0,3,14
+6728,410,Brighouse Station/22nd St Station,Regular Bus,0,313126,19.0,19.0,19.5,6978,Eastbound Ewen Ave @ Gifford St,18.73,10929,22nd Street Station @ Unloading Only,21.45,18,3,2,13,0.284,0.299,0.019,3,18
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,15.0,15.0,15.5,954,Eastbound E Hastings St @ Templeton Dr,14.8,957,Eastbound E Hastings St @ Slocan St,15.58,17,0,9,8,0.267,0.192,0.143,6,17
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,8.5,8.5,9.0,404,Eastbound W 4th Ave @ Burrard St,8.32,407,Westbound W 5th Ave @ Granville St,9.18,17,6,5,6,0.201,0.185,0.015,4,16
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,10.5,10.5,11.0,11475,Southbound Granville St @ Drake St,10.26,542,Westbound W 5th Ave Offramp @ Granville St,11.61,17,6,5,6,0.207,0.147,0.055,2,13
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,6.5,6.5,7.0,12813,Eastbound W 4th Ave @ Yew St,6.2,405,Eastbound W 4th Ave @ Fir St,7.27,17,0,8,9,0.269,0.345,0.17,5,15
+6641,099,Broadway B-Line,B-Line,1,312530,2.0,2.0,2.5,10619,Westbound E Broadway @ Fraser St,1.87,12822,Westbound E Broadway @ Ontario St,2.95,17,0,5,12,0.307,0.296,0.142,5,17
+6624,019,Kingsway,Regular Bus,1,312413,13.5,13.5,14.0,11643,Westbound W Pender St @ Broughton St,13.39,9105,Westbound Stanley Park Dr @ Pipeline Rd,14.52,17,0,5,12,0.289,0.322,0.158,5,16
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,17.0,17.0,17.5,368,Southbound Dunbar St @ W 21 Ave,16.9,371,Southbound Dunbar St @ W 27 Ave,17.52,17,5,9,3,0.167,0.174,0.053,4,14
+6627,025,King Edward,Regular Bus,1,312455,18.0,18.0,18.5,311,Northbound Dunbar St @ W 22 Ave,17.82,1605,Westbound W 16 Ave @ Wallace St,18.82,17,3,9,5,0.223,0.152,0.054,4,17
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,9.0,9.0,9.5,405,Eastbound W 4th Ave @ Fir St,8.63,11426,Northbound Granville St @ Drake St,10.57,17,7,8,2,0.135,0.15,0.011,3,14
+6705,321,King George Blvd,Regular Bus,0,312945,15.0,15.0,15.5,5460,Northbound 138 St @ 68 Ave,14.74,5700,Newton Exchange @ Bay 2,15.7,17,7,2,8,0.216,0.242,0.01,5,17
+37810,R4,41st Avenue,RapidBus,1,313453,11.0,11.0,11.5,297,Westbound W 41 Ave @ Carnarvon St,10.86,1907,Dunbar Loop @ Bay 5,11.76,17,3,8,6,0.263,0.242,0.074,8,17
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,8.5,8.5,9.0,93,Westbound W Pender St @ Abbott St,8.24,11524,Southbound Granville St @ W Georgia St,9.18,17,2,4,11,0.314,0.345,0.097,3,17
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,6.0,6.0,6.5,186,Westbound W Hastings St @ Carrall St,5.86,11526,Southbound Granville St @ W Pender St,6.83,17,1,1,15,0.335,0.349,0.1,3,17
+6624,019,Kingsway,Regular Bus,0,312403,6.0,6.0,6.5,778,Eastbound Kingsway @ Main St,5.91,1145,Eastbound Kingsway @ E 13 Ave,6.57,17,1,4,12,0.311,0.37,0.021,4,17
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,19.5,19.5,20.0,6624,Westbound Cambie Rd @ Hazelbridge Way,19.31,8588,Southbound No. 3 Rd @ Leslie Rd,20.18,17,1,7,9,0.268,0.292,0.038,5,17
+6641,099,Broadway B-Line,B-Line,0,312527,8.5,8.5,9.0,12721,Eastbound W Broadway @ Granville St,8.22,2118,Eastbound W Broadway @ Heather St,9.66,17,1,5,11,0.274,0.344,0.0,10,17
+6624,019,Kingsway,Regular Bus,1,312413,6.5,6.5,7.0,1199,Westbound Kingsway @ Miller St,6.19,1203,Westbound Kingsway @ Inverness St,7.18,17,4,6,7,0.208,0.166,0.008,4,17
+37810,R4,41st Avenue,RapidBus,0,313452,1.5,1.5,2.0,12652,Southbound Wesbrook Mall @ Agronomy Rd,0.6,12625,Dunbar Loop @ Bay 7,7.62,16,2,7,7,0.254,0.191,0.022,10,16
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,11.0,11.0,11.5,939,Eastbound W Hastings St @ Homer St,10.97,942,Eastbound E Hastings St @ Main St,11.86,16,0,9,7,0.274,0.223,0.101,6,16
+6624,019,Kingsway,Regular Bus,1,312413,5.0,5.0,5.5,701,Westbound Kingsway @ Slocan St,4.85,703,Westbound Kingsway @ Gladstone St,5.53,16,7,5,4,0.167,0.116,0.006,5,16
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,10.5,10.5,11.0,407,Westbound W 5th Ave @ Granville St,9.13,11532,Northbound Granville St @ Smithe St,11.24,16,1,7,8,0.264,0.288,0.086,3,16
+6641,099,Broadway B-Line,B-Line,0,312527,12.0,12.0,12.5,887,Eastbound E Broadway @ Kingsway,11.16,9051,Eastbound E Broadway @ Clark Dr,12.91,16,1,2,13,0.331,0.35,0.079,10,16
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,12.0,12.0,12.5,109,Southbound Macdonald St @ W 6th Ave,11.91,571,Westbound W Broadway @ Balaclava St,12.62,16,1,5,10,0.275,0.277,0.054,3,16
+6624,019,Kingsway,Regular Bus,0,312403,8.0,8.0,8.5,1149,Eastbound Kingsway @ Glen Dr,7.82,1152,Eastbound Kingsway @ Dumfries St,8.58,16,8,5,3,0.148,0.128,0.01,5,16
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,5.0,5.0,5.5,13011,Westbound E Hastings St @ Penticton St,4.87,738,Westbound E Hastings St @ Templeton Dr,5.52,16,3,10,3,0.189,0.19,0.094,2,13
+6624,019,Kingsway,Regular Bus,0,312403,3.5,3.5,4.0,80,Eastbound W Pender St @ Hamilton St,3.24,524,Eastbound E Pender St @ Main St,4.04,16,1,6,9,0.276,0.293,0.025,6,16
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,20.5,20.5,21.0,10612,Southbound No. 3 Rd @ Alderbridge Way,20.43,11470,Southbound No. 3 Rd @ Westminster Hwy,21.21,16,3,7,6,0.186,0.156,0.001,5,16
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,7.5,7.5,8.0,400,Eastbound W 4th Ave @ Balsam St,7.28,404,Eastbound W 4th Ave @ Burrard St,8.32,16,0,9,7,0.249,0.175,0.172,4,12
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,10.5,10.5,11.0,407,Westbound W 5th Ave @ Granville St,9.18,11532,Northbound Granville St @ Smithe St,11.3,16,0,5,11,0.321,0.332,0.163,3,12
+6641,099,Broadway B-Line,B-Line,1,312530,4.5,4.5,5.0,934,Westbound W Broadway @ Willow St,4.26,545,Westbound W Broadway @ Granville St,5.57,16,0,4,12,0.317,0.344,0.171,6,16
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,8.5,8.5,9.0,404,Eastbound W 4th Ave @ Burrard St,8.26,407,Westbound W 5th Ave @ Granville St,9.13,16,5,8,3,0.175,0.149,0.044,3,12
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,14.5,14.5,15.0,947,Eastbound E Hastings St @ Campbell Ave,14.33,950,Eastbound E Hastings St @ McLean Dr,15.12,16,1,7,8,0.263,0.246,0.07,7,16
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,8.5,8.5,9.0,185,Westbound E Hastings St @ Main St,8.42,3429,Westbound W Hastings St @ Abbott St,9.07,16,1,10,5,0.211,0.182,0.067,2,12
+6624,019,Kingsway,Regular Bus,1,312414,3.5,3.5,4.0,13126,Westbound W Pender St @ Howe St,3.49,1484,Westbound W Pender St @ Bute St,4.19,16,7,4,5,0.19,0.154,0.046,4,16
+6624,019,Kingsway,Regular Bus,0,312403,3.0,3.0,3.5,78,Eastbound W Pender St @ Seymour St,2.93,9063,Eastbound W Pender St @ Abbott St,3.52,16,4,5,7,0.224,0.242,0.0,3,16
+6687,250,Horseshoe Bay/Dundarave/Vancouver,Express / Regional,0,312836,8.0,8.0,8.5,11673,Eastbound Marine Dr Offramp @ Lions Gate Bridge,4.14,981,Eastbound W Georgia St @ Denman St,8.52,16,0,7,9,0.302,0.289,0.158,3,16
+6687,250,Horseshoe Bay/Dundarave/Vancouver,Express / Regional,1,312849,8.5,8.5,9.0,4832,Westbound Marine Dr @ 14 St,8.49,4666,Westbound Marine Dr @ 18 St,9.08,16,0,4,12,0.309,0.285,0.133,3,16
+37810,R4,41st Avenue,RapidBus,1,313453,4.0,4.0,4.5,713,Westbound E 41 Ave @ Knight St,3.76,718,Westbound E 41 Ave @ Fraser St,4.76,16,3,2,11,0.292,0.291,0.1,8,16
+6636,049,49th Avenue,Regular Bus,0,312498,16.5,16.5,17.0,2001,Eastbound E 49 Ave @ Gladstone St,16.44,2005,Eastbound E 49 Ave @ Vivian St,17.33,16,2,6,8,0.249,0.222,0.078,7,15
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,14.5,14.5,15.0,439,Eastbound Powell St @ Victoria Dr,14.4,676,Southbound Nanaimo St @ Dundas St,15.07,16,4,3,9,0.257,0.325,0.001,4,16
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,7.5,7.5,8.0,405,Eastbound W 4th Ave @ Fir St,7.27,11426,Northbound Granville St @ Drake St,9.21,15,3,10,2,0.173,0.15,0.011,3,12
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,0,312666,21.5,21.5,22.0,12280,Lincoln Station @ Bay 1,20.78,3054,Eastbound Lougheed Hwy @ Westwood St,22.78,15,2,1,12,0.341,0.399,0.0,4,15
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,13.0,13.0,13.5,572,Westbound W Broadway @ Blenheim St,12.9,361,Southbound Alma St @ W 10 Ave,13.54,15,4,3,8,0.243,0.293,0.048,3,15
+6641,099,Broadway B-Line,B-Line,0,312527,5.5,5.5,6.0,9530,Eastbound W Broadway @ Alma St,4.9,322,Eastbound W Broadway @ Macdonald St,6.18,15,1,5,9,0.283,0.28,0.085,6,15
+37810,R4,41st Avenue,RapidBus,1,313453,3.0,3.0,3.5,709,Westbound E 41 Ave @ Victoria Dr,2.9,713,Westbound E 41 Ave @ Knight St,3.76,15,1,6,8,0.255,0.304,0.011,9,15
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,5.5,5.5,6.0,91,Westbound W Pender St @ Carrall St,5.33,95,Westbound W Pender St @ Seymour St,6.07,15,3,2,10,0.28,0.299,0.066,4,13
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,17.5,17.5,18.0,687,Southbound Nanaimo St @ E 5th Ave,17.14,8838,Southbound Nanaimo St @ Grandview Hwy,18.04,15,4,4,7,0.259,0.234,0.035,5,15
+37810,R4,41st Avenue,RapidBus,1,313453,11.5,11.5,12.0,297,Westbound W 41 Ave @ Carnarvon St,10.86,10960,Eastbound W 16 Ave @ Wesbrook Mall,17.45,15,7,1,7,0.227,0.109,0.054,9,14
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,1.5,1.5,2.0,2743,Westbound E Hastings St @ Renfrew St,1.28,737,Westbound E Hastings St @ Nanaimo St,2.3,15,0,11,4,0.24,0.195,0.19,4,15
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,5.5,5.5,6.0,10651,Eastbound W Broadway @ Blenheim St,5.45,60,Northbound Macdonald St @ W Broadway,6.17,15,0,3,12,0.376,0.425,0.139,4,13
+37810,R4,41st Avenue,RapidBus,1,313453,7.0,7.0,7.5,11354,Oakridge-41st Ave Station  @ Bay 4,6.7,195,Westbound W 41 Ave @ Oak St,7.52,15,2,4,9,0.297,0.388,0.002,7,15
+37810,R4,41st Avenue,RapidBus,0,313452,8.5,8.5,9.0,381,Eastbound W 41 Ave @ Carnarvon St,8.49,13151,Eastbound W 41 Ave @ Maple St,9.97,15,0,4,11,0.33,0.327,0.114,8,15
+6636,049,49th Avenue,Regular Bus,0,312498,18.5,18.5,19.0,12187,Eastbound E 49 Ave @ Doman St,18.33,1660,Eastbound E 49 Ave @ Arlington St,19.0,15,2,5,8,0.251,0.26,0.068,5,15
+6627,025,King Edward,Regular Bus,0,312450,14.5,14.5,15.0,1535,Eastbound E King Edward Ave @ Glen Dr,14.2,1153,Eastbound Kingsway @ Perry St,15.01,15,1,3,11,0.286,0.282,0.09,2,13
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,10.0,10.0,10.5,407,Westbound W 5th Ave @ Granville St,9.13,11426,Northbound Granville St @ Drake St,10.57,15,2,11,2,0.185,0.159,0.048,3,11
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,6.0,6.0,6.5,10655,Eastbound W Broadway @ Bayswater St,5.94,397,Eastbound W 4th Ave @ Macdonald St,6.63,15,2,4,9,0.306,0.377,0.054,4,13
+6624,019,Kingsway,Regular Bus,0,312403,2.0,2.0,2.5,11220,Eastbound W Pender St @ Jervis St,1.89,76,Eastbound W Pender St @ Burrard St,2.56,15,2,4,9,0.266,0.289,0.051,3,15
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,7.0,7.0,7.5,519,Westbound Powell St @ Jackson Ave,6.86,231,Southbound Main St @ E Hastings St,7.55,15,0,9,6,0.268,0.235,0.105,3,15
+6619,009,Broadway,Regular Bus,0,312285,4.5,4.5,5.0,12789,Eastbound W Broadway @ Spruce St,4.2,12764,Eastbound W Broadway @ Ash St,5.13,15,1,11,3,0.199,0.189,0.0,3,15
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312271,8.0,8.0,8.5,11529,Westbound E Pender St @ Main St,7.66,11638,Westbound W Pender St @ Hamilton St,8.54,15,0,11,4,0.17,0.1,0.1,1,15
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,17.5,17.5,18.0,1051,Southbound Renfrew St @ E 1st Ave,17.24,8907,Renfrew Station @ Bay 1,18.35,15,0,7,8,0.294,0.308,0.108,5,15
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,15.0,15.0,15.5,949,Eastbound E Hastings St @ Clark Dr,14.91,952,Eastbound E Hastings St @ Victoria Dr,15.75,15,0,7,8,0.308,0.351,0.153,6,14
+6687,250,Horseshoe Bay/Dundarave/Vancouver,Express / Regional,0,312836,3.0,3.0,3.5,4655,Eastbound Marine Dr @ 11 St,2.81,11673,Eastbound Marine Dr Offramp @ Lions Gate Bridge,4.14,15,1,7,7,0.259,0.237,0.088,4,15
+37810,R4,41st Avenue,RapidBus,0,313452,11.0,11.0,11.5,199,Eastbound W 41 Ave @ Granville St,11.0,811,Eastbound W 41 Ave @ Oak St,11.86,15,0,2,13,0.357,0.38,0.196,11,15
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,9.5,9.5,10.0,11522,Southbound Granville St @ Robson St,9.33,11427,Southbound Granville St @ Davie St,10.11,14,0,9,5,0.26,0.249,0.163,3,14
+37810,R4,41st Avenue,RapidBus,1,313453,5.5,5.5,6.0,718,Westbound E 41 Ave @ Fraser St,4.76,11354,Oakridge-41st Ave Station  @ Bay 4,6.7,14,1,3,10,0.311,0.313,0.088,7,13
+37810,R4,41st Avenue,RapidBus,1,313453,10.5,10.5,11.0,12632,Westbound W 41 Ave @ East Blvd,9.46,1907,Dunbar Loop @ Bay 5,11.76,14,0,9,5,0.277,0.205,0.205,8,13
+6627,025,King Edward,Regular Bus,0,312450,21.5,21.5,22.0,1553,Eastbound Sanderson Way @ Mathissi Place,21.2,1555,Northbound Willingdon Ave @ Canada Way,22.01,14,5,5,4,0.192,0.187,0.057,3,14
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,17.5,17.5,18.0,1117,Southbound West Blvd @ W 43 Ave,17.31,1121,Eastbound W 51 Ave @ Arbutus St,18.18,14,0,8,6,0.246,0.21,0.1,5,14
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,9.5,9.5,10.0,584,Westbound W 4th Ave @ Fir St,9.19,12815,Westbound W 4th Ave @ Yew St,10.22,14,0,8,6,0.248,0.176,0.174,3,12
+6625,020,Victoria,Regular Bus,1,312428,10.5,10.5,11.0,1255,Southbound Victoria Dr @ E 43 Ave,10.18,1260,Southbound Victoria Dr @ E 53 Ave,11.14,14,5,7,2,0.161,0.125,0.0,3,14
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,2.0,2.0,2.5,1091,Renfrew Station @ Bay 3,1.95,1094,Northbound Renfrew St @ E 5th Ave,2.67,14,4,7,3,0.181,0.151,0.018,4,13
+6624,019,Kingsway,Regular Bus,0,312403,0.5,0.5,1.0,,,,981,Eastbound W Georgia St @ Denman St,1.18,14,5,1,8,0.267,0.311,0.034,3,14
+6619,009,Broadway,Regular Bus,0,312285,6.0,6.0,6.5,12101,Eastbound W Broadway @ Columbia St,5.62,780,Eastbound E Broadway @ Prince Edward St,6.63,14,0,4,10,0.309,0.296,0.195,2,14
+6636,049,49th Avenue,Regular Bus,0,312498,15.5,15.5,16.0,1996,Eastbound E 49 Ave @ Knight St,15.34,2000,Eastbound E 49 Ave @ Victoria Dr,16.19,14,1,7,6,0.282,0.246,0.097,5,14
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,21.0,21.0,21.5,6630,Lansdowne Station @ Bay 4,20.87,6610,Southbound No. 3 Rd @ Cook Rd,21.65,14,3,9,2,0.127,0.127,0.0,4,14
+6625,020,Victoria,Regular Bus,1,312428,6.5,6.5,7.0,8913,Southbound Commercial Dr @ N Grandview Hwy,6.45,974,Southbound Commercial Dr @ E 14 Ave,7.08,14,2,3,9,0.302,0.386,0.037,3,14
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,1.0,1.0,1.5,305,Northbound Dunbar St @ W 34 Ave,0.82,310,Northbound Dunbar St @ W King Edward Ave,1.78,14,3,3,8,0.231,0.274,0.052,2,14
+6641,099,Broadway B-Line,B-Line,0,312527,6.5,6.5,7.0,322,Eastbound W Broadway @ Macdonald St,6.18,11724,Eastbound W Broadway @ Yew St,7.1,13,0,8,5,0.237,0.173,0.171,7,13
+6627,025,King Edward,Regular Bus,0,312450,16.5,16.5,17.0,1539,Northbound Nanaimo St @ Brock St,16.44,697,Eastbound E 22 Ave @ Nanaimo St,17.2,13,10,0,3,0.101,0.034,0.034,1,13
+6625,020,Victoria,Regular Bus,1,312428,2.0,2.0,2.5,2936,Eastbound W Hastings St @ Carrall St,1.9,12860,Eastbound E Hastings St @ Dunlevy Ave,2.63,13,0,9,4,0.191,0.162,0.106,2,13
+37810,R4,41st Avenue,RapidBus,1,313453,16.5,16.5,17.0,1907,Dunbar Loop @ Bay 5,11.76,10960,Eastbound W 16 Ave @ Wesbrook Mall,17.45,13,6,1,6,0.232,0.213,0.017,6,11
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,7.5,7.5,8.0,400,Eastbound W 4th Ave @ Balsam St,7.22,404,Eastbound W 4th Ave @ Burrard St,8.26,13,0,10,3,0.214,0.174,0.172,3,12
+6641,099,Broadway B-Line,B-Line,1,312530,1.5,1.5,2.0,924,Westbound E Broadway @ Clark Dr,1.02,13121,Westbound E Broadway @ Brunswick St,2.39,13,0,7,6,0.242,0.142,0.139,5,13
+6641,099,Broadway B-Line,B-Line,1,312530,10.5,10.5,11.0,361,Southbound Alma St @ W 10 Ave,9.03,12483,Westbound University Blvd @ Western Parkway,13.51,13,0,5,8,0.355,0.421,0.219,6,13
+6624,019,Kingsway,Regular Bus,0,312403,8.5,8.5,9.0,1151,Eastbound Kingsway @ Knight St,8.36,666,Eastbound Kingsway @ Victoria Dr,9.33,13,3,5,5,0.232,0.22,0.078,3,13
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,1,312991,12.0,12.0,12.5,5812,Northbound 156 St @ 102 Ave,11.89,5814,Westbound 104 Ave @ 154 St,12.71,13,2,3,8,0.268,0.3,0.062,5,13
+6641,099,Broadway B-Line,B-Line,1,312530,5.5,5.5,6.0,934,Westbound W Broadway @ Willow St,4.26,11422,Westbound W Broadway @ Arbutus St,6.62,13,0,6,7,0.252,0.344,0.129,4,13
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,3.0,3.0,3.5,1095,Northbound Renfrew St @ E 3rd Ave,2.88,1098,Northbound Renfrew St @ Charles St,3.5,13,4,8,1,0.157,0.154,0.067,3,9
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,8.0,8.0,8.5,12814,Eastbound W 4th Ave @ Maple St,7.95,405,Eastbound W 4th Ave @ Fir St,8.68,13,0,11,2,0.204,0.173,0.141,4,11
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,7.0,7.0,7.5,11526,Southbound Granville St @ W Pender St,6.83,11474,Southbound Granville St @ Nelson St,7.64,13,0,3,10,0.332,0.332,0.169,5,13
+6619,009,Broadway,Regular Bus,1,312305,2.0,2.0,2.5,916,Westbound E Broadway @ Slocan St,2.0,689,Westbound E Broadway @ Nanaimo St,2.54,13,0,3,10,0.347,0.363,0.123,1,13
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,15.0,15.0,15.5,441,Eastbound Dundas St @ Templeton Dr,14.82,680,Southbound Nanaimo St @ Adanac St,15.86,13,0,3,10,0.276,0.277,0.101,4,12
+6625,020,Victoria,Regular Bus,1,312428,11.0,11.0,11.5,1259,Southbound Victoria Dr @ E 51 Ave,10.96,1262,Southbound Victoria Dr @ Upland Dr,11.55,13,2,9,2,0.186,0.208,0.028,2,13
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,11.5,11.5,12.0,11475,Southbound Granville St @ Drake St,11.12,4887,Southbound Granville St @ W 5th Ave,12.42,13,0,1,12,0.35,0.361,0.114,5,13
+6636,049,49th Avenue,Regular Bus,0,312498,18.0,18.0,18.5,2006,Eastbound E 49 Ave @ Killarney St,17.67,1659,Eastbound E 49 Ave @ Tyne St,18.67,13,0,0,13,0.346,0.332,0.291,4,13
+6636,049,49th Avenue,Regular Bus,0,312498,16.0,16.0,16.5,1999,Eastbound E 49 Ave @ Commercial St,15.95,2002,Eastbound E 49 Ave @ Nanaimo St,16.67,13,0,4,9,0.362,0.406,0.235,5,13
+37810,R4,41st Avenue,RapidBus,0,313452,1.0,1.0,1.5,12652,Southbound Wesbrook Mall @ Agronomy Rd,0.6,1896,Westbound W 16 Ave @ Wesbrook Mall,1.76,13,1,3,9,0.309,0.37,0.085,8,13
+6624,019,Kingsway,Regular Bus,0,312405,1.5,1.5,2.0,981,Eastbound W Georgia St @ Denman St,1.18,410,Eastbound W Pender St @ Thurlow St,2.32,12,0,9,3,0.184,0.126,0.117,3,11
+6705,321,King George Blvd,Regular Bus,0,312945,21.0,21.0,21.5,5040,Northbound King George Blvd @ 96 Ave,20.81,9089,Northbound King George Blvd @ 100 Ave,21.57,12,2,5,5,0.224,0.207,0.074,5,12
+6624,019,Kingsway,Regular Bus,0,312403,12.5,12.5,13.0,13124,Eastbound Kingsway @ Aberdeen St,12.47,1166,Eastbound Kingsway @ Smith Ave,13.16,12,3,4,5,0.249,0.214,0.051,3,12
+6624,019,Kingsway,Regular Bus,1,312413,7.0,7.0,7.5,1202,Westbound Kingsway @ Knight St,6.84,1204,Westbound Kingsway @ Windsor St,7.52,12,2,4,6,0.26,0.26,0.045,4,12
+6624,019,Kingsway,Regular Bus,1,312413,0.5,0.5,1.0,,,,1176,Westbound Kingsway @ Wilson Ave,1.14,12,6,4,2,0.153,0.114,0.038,6,12
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,14.5,14.5,15.0,952,Eastbound E Hastings St @ Victoria Dr,14.38,955,Eastbound E Hastings St @ Nanaimo St,15.06,12,1,6,5,0.266,0.237,0.094,4,12
+6624,019,Kingsway,Regular Bus,0,312403,12.0,12.0,12.5,1161,Eastbound Kingsway @ Wessex St,11.99,1165,Eastbound Kingsway @ Boundary Rd,12.87,12,0,2,10,0.312,0.327,0.131,2,12
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,6.0,6.0,6.5,1042,Northbound Arbutus St @ W 16 Ave,5.76,12704,Eastbound W 12th Ave @ Cypress St,6.52,12,2,3,7,0.286,0.306,0.007,4,12
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,1,312991,13.0,13.0,13.5,5814,Westbound 104 Ave @ 154 St,12.71,5275,Northbound 150 St @ 105 Ave,13.61,12,2,5,5,0.264,0.245,0.013,3,12
+6636,049,49th Avenue,Regular Bus,0,312498,14.5,14.5,15.0,1992,Eastbound E 49 Ave @ Fraser St,14.34,1995,Eastbound E 49 Ave @ Sherbrooke St,15.03,12,0,7,5,0.264,0.228,0.198,6,12
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,4.5,4.5,5.0,285,Eastbound W 10 Ave @ Wallace St,4.37,320,Eastbound W Broadway @ Collingwood St,5.15,12,4,3,5,0.231,0.214,0.099,4,9
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,5.5,5.5,6.0,1041,Northbound Arbutus St @ W 20 Ave,5.45,12703,Eastbound W 12th Ave @ Arbutus St,6.2,12,1,3,8,0.319,0.362,0.053,3,12
+6641,099,Broadway B-Line,B-Line,1,312530,1.0,1.0,1.5,11606,Commercial-Broadway Station @ Bay 5,0.3,10619,Westbound E Broadway @ Fraser St,1.87,12,0,6,6,0.272,0.247,0.141,5,12
+6627,025,King Edward,Regular Bus,0,312450,15.0,15.0,15.5,1537,Eastbound E King Edward Ave @ Knight St,14.63,666,Eastbound Kingsway @ Victoria Dr,15.58,12,1,4,7,0.307,0.363,0.06,2,12
+37810,R4,41st Avenue,RapidBus,1,313453,12.0,12.0,12.5,1907,Dunbar Loop @ Bay 5,11.76,10960,Eastbound W 16 Ave @ Wesbrook Mall,17.45,12,2,6,4,0.183,0.105,0.05,6,11
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,9.0,9.0,9.5,11526,Southbound Granville St @ W Pender St,8.97,11474,Southbound Granville St @ Nelson St,9.78,12,0,8,4,0.254,0.181,0.163,3,12
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,16.5,16.5,17.0,1048,Southbound Renfrew St @ Venables St,16.48,1051,Southbound Renfrew St @ E 1st Ave,17.24,12,1,1,10,0.327,0.334,0.053,5,12
+6624,019,Kingsway,Regular Bus,1,312414,2.5,2.5,3.0,696,Westbound E Pender St @ Main St,2.21,11638,Westbound W Pender St @ Hamilton St,3.06,12,5,1,6,0.209,0.206,0.025,2,12
+6624,019,Kingsway,Regular Bus,1,312413,4.5,4.5,5.0,1071,Westbound Kingsway @ Earles St,4.38,702,Westbound Kingsway @ Nanaimo St,5.22,12,1,2,9,0.273,0.302,0.043,3,12
+6627,025,King Edward,Regular Bus,1,312455,12.0,12.0,12.5,1585,Westbound W King Edward Ave @ Columbia St,11.74,1587,Westbound W King Edward Ave @ Heather St,12.5,12,5,3,4,0.191,0.168,0.015,5,12
+6627,025,King Edward,Regular Bus,1,312455,8.0,8.0,8.5,703,Westbound Kingsway @ Gladstone St,8.0,1199,Westbound Kingsway @ Miller St,8.65,12,0,1,11,0.348,0.354,0.178,4,12
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,6.5,6.5,7.0,61,Northbound Macdonald St @ W 7th Ave,6.35,400,Eastbound W 4th Ave @ Balsam St,7.28,12,1,2,9,0.303,0.342,0.049,7,12
+6627,025,King Edward,Regular Bus,1,312455,7.5,7.5,8.0,1574,Southbound Nanaimo St @ Brock St,7.41,1198,Westbound Kingsway @ Victoria Dr,8.33,12,0,6,6,0.314,0.283,0.189,2,12
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,8.0,8.0,8.5,12814,Eastbound W 4th Ave @ Maple St,7.9,405,Eastbound W 4th Ave @ Fir St,8.63,12,1,10,1,0.184,0.174,0.032,3,9
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,5.0,5.0,5.5,356,Eastbound W 4th Ave @ Wallace St,4.93,393,Eastbound W 4th Ave @ Collingwood St,5.59,12,1,8,3,0.18,0.142,0.099,3,8
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,5.5,5.5,6.0,5274,Eastbound 104 Ave @ 150 St,5.33,5817,Eastbound 104 Ave @ 154 St,6.16,12,1,3,8,0.277,0.266,0.049,2,12
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,10.0,10.0,10.5,407,Westbound W 5th Ave @ Granville St,9.18,11426,Northbound Granville St @ Drake St,10.62,12,4,2,6,0.236,0.223,0.015,2,8
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,6.0,6.0,6.5,400,Eastbound W 4th Ave @ Balsam St,5.87,12814,Eastbound W 4th Ave @ Maple St,6.54,11,0,10,1,0.189,0.172,0.172,2,8
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,7.5,7.5,8.0,507,Westbound E Hastings St @ Campbell Ave,7.37,510,Westbound E Hastings St @ Jackson Ave,8.01,11,0,7,4,0.213,0.143,0.127,2,9
+6627,025,King Edward,Regular Bus,0,312450,17.0,17.0,17.5,12556,Nanaimo Station @ Bay 1,16.86,1542,Eastbound E 22 Ave @ Slocan St,17.71,11,0,3,8,0.386,0.456,0.191,5,11
+6641,099,Broadway B-Line,B-Line,0,312527,5.0,5.0,5.5,9530,Eastbound W Broadway @ Alma St,4.9,322,Eastbound W Broadway @ Macdonald St,6.18,11,2,3,6,0.238,0.288,0.0,4,11
+6625,020,Victoria,Regular Bus,1,312428,7.5,7.5,8.0,974,Southbound Commercial Dr @ E 14 Ave,7.08,8537,Southbound Victoria Dr @ E 22 Ave,8.02,11,4,1,6,0.231,0.263,0.0,3,11
+6705,321,King George Blvd,Regular Bus,0,312945,21.5,21.5,22.0,12155,King George Station @ Bay 4,21.36,10880,Surrey Central Station @ Bay 12,22.74,11,0,6,5,0.282,0.237,0.13,6,11
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,18.5,18.5,19.0,1057,Southbound Renfrew St @ Grandview Hwy,18.48,1060,Southbound Renfrew St @ E 20 Ave,19.12,11,0,2,9,0.327,0.356,0.1,5,11
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,16.0,16.0,16.5,363,Southbound Alma St @ W 12 Ave,15.9,366,Southbound Dunbar St @ W 17 Ave,16.51,11,5,3,3,0.192,0.199,0.027,3,11
+6625,020,Victoria,Regular Bus,0,312419,10.0,10.0,10.5,511,Westbound E Hastings St @ Dunlevy Ave,9.79,3429,Westbound W Hastings St @ Abbott St,10.7,11,1,3,7,0.268,0.252,0.059,2,11
+6625,020,Victoria,Regular Bus,0,312419,9.5,9.5,10.0,508,Westbound E Hastings St @ Hawks Ave,9.19,185,Westbound E Hastings St @ Main St,10.05,11,0,3,8,0.339,0.312,0.16,2,11
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,13.5,13.5,14.0,433,Eastbound Powell St @ Glen Dr,13.14,437,Eastbound Powell St @ Commercial Dr,14.03,11,0,8,3,0.201,0.158,0.111,5,9
+37810,R4,41st Avenue,RapidBus,0,313452,13.0,13.0,13.5,12586,Oakridge-41st Ave Station @ Bay 3,12.76,255,Eastbound E 41 Ave @ Main St,13.7,11,0,4,7,0.296,0.3,0.16,6,11
+6627,025,King Edward,Regular Bus,0,312450,16.0,16.0,16.5,12110,Eastbound Kingsway @ Gladstone St,15.88,12556,Nanaimo Station @ Bay 1,16.86,11,3,4,4,0.21,0.191,0.006,2,11
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,8.5,8.5,9.0,407,Westbound W 5th Ave @ Granville St,7.77,11426,Northbound Granville St @ Drake St,9.21,11,3,5,3,0.214,0.244,0.007,4,8
+6636,049,49th Avenue,Regular Bus,0,312498,17.0,17.0,17.5,2004,Eastbound E 49 Ave @ Elliott St,17.0,2006,Eastbound E 49 Ave @ Killarney St,17.67,11,0,7,4,0.265,0.224,0.11,5,11
+6625,020,Victoria,Regular Bus,1,312428,9.0,9.0,9.5,705,Southbound Victoria Dr @ E 31 Ave,8.83,9094,Southbound Victoria Dr @ E 38 Ave,9.61,11,5,3,3,0.187,0.122,0.064,2,11
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,7.0,7.0,7.5,398,Eastbound W 4th Ave @ Trafalgar St,6.86,12813,Eastbound W 4th Ave @ Yew St,7.56,11,0,7,4,0.234,0.172,0.171,3,9
+6619,009,Broadway,Regular Bus,0,312285,5.0,5.0,5.5,880,Eastbound W Broadway @ Willow St,4.72,12101,Eastbound W Broadway @ Columbia St,5.62,11,0,6,5,0.246,0.248,0.107,3,11
+6624,019,Kingsway,Regular Bus,0,312403,1.0,1.0,1.5,9487,Eastbound W Georgia St @ Gilford St,0.95,1382,Eastbound W Pender St @ Nicola St,1.6,11,2,3,6,0.27,0.355,0.0,3,11
+6625,020,Victoria,Regular Bus,1,312428,6.0,6.0,6.5,12919,Southbound Commercial Dr @ E 3rd Ave,5.93,972,Commercial-Broadway Station @ Bay 2,6.59,11,0,4,7,0.282,0.302,0.149,3,11
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,11.5,11.5,12.0,590,Westbound W 4th Ave @ Trafalgar St,11.44,569,Westbound W Broadway @ Macdonald St,12.21,10,2,3,5,0.252,0.236,0.044,4,10
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,6.5,6.5,7.0,12812,Eastbound W 4th Ave @ Balaclava St,6.18,400,Eastbound W 4th Ave @ Balsam St,7.22,10,0,0,10,0.32,0.307,0.272,3,8
+6619,009,Broadway,Regular Bus,1,312305,8.5,8.5,9.0,12791,Westbound W Broadway @ Hemlock St,8.27,563,Westbound W Broadway @ Burrard St,9.11,10,0,8,2,0.206,0.172,0.171,3,10
+37810,R4,41st Avenue,RapidBus,1,313453,17.5,17.5,18.0,10960,Eastbound W 16 Ave @ Wesbrook Mall,17.45,12653,Northbound Wesbrook Mall @ Agronomy Rd,18.5,10,1,4,5,0.257,0.264,0.006,6,10
+6641,099,Broadway B-Line,B-Line,1,312530,7.0,7.0,7.5,11422,Westbound W Broadway @ Arbutus St,6.62,11113,Westbound W Broadway @ Macdonald St,7.6,10,0,0,10,0.349,0.346,0.256,4,10
+6625,020,Victoria,Regular Bus,1,312428,9.5,9.5,10.0,707,Southbound Victoria Dr @ E 36 Ave,9.41,1255,Southbound Victoria Dr @ E 43 Ave,10.18,10,2,6,2,0.146,0.125,0.046,2,10
+6627,025,King Edward,Regular Bus,1,312455,4.5,4.5,5.0,1565,Westbound E 22 Ave @ Boundary Rd,4.04,1570,Westbound E 22 Ave @ Renfrew St,5.47,10,2,7,1,0.151,0.166,0.051,3,10
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,12.0,12.0,12.5,11616,Northbound Granville St @ W Pender St,11.87,12489,Eastbound W Hastings St @ Abbott St,12.66,10,1,6,3,0.235,0.206,0.1,3,10
+6624,019,Kingsway,Regular Bus,1,312414,2.0,2.0,2.5,184,Northbound Main St @ E Georgia St,1.98,91,Westbound W Pender St @ Carrall St,2.53,10,3,6,1,0.137,0.148,0.0,2,10
+37810,R4,41st Avenue,RapidBus,1,313453,8.5,8.5,9.0,287,Westbound W 41 Ave @ Granville St,8.4,12632,Westbound W 41 Ave @ East Blvd,9.46,10,2,4,4,0.21,0.182,0.053,6,10
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,7.5,7.5,8.0,11403,Northbound Granville St @ W 10 Ave,7.45,11426,Northbound Granville St @ Drake St,9.25,10,1,1,8,0.313,0.315,0.068,4,10
+6636,049,49th Avenue,Regular Bus,0,312498,13.0,13.0,13.5,1985,Eastbound W 49 Ave @ Alberta St,12.7,1988,Eastbound E 49 Ave @ Main St,13.54,10,4,4,2,0.145,0.11,0.047,4,10
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,8.0,8.0,8.5,11475,Southbound Granville St @ Drake St,7.59,542,Westbound W 5th Ave Offramp @ Granville St,8.95,10,0,2,8,0.311,0.269,0.214,3,10
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,12.0,12.0,12.5,594,Westbound W 4th Ave @ Blenheim St,11.88,597,Westbound W 4th Ave @ Wallace St,12.84,10,0,3,7,0.275,0.288,0.141,5,8
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,5.0,5.0,5.5,231,Southbound Main St @ E Hastings St,4.89,93,Westbound W Pender St @ Abbott St,5.58,10,1,4,5,0.269,0.243,0.046,4,7
+6705,321,King George Blvd,Regular Bus,0,312945,20.5,20.5,21.0,5477,Northbound King George Blvd @ 9300 Block,20.27,5041,Northbound King George Blvd @ Fraser Hwy,21.19,10,2,1,7,0.308,0.376,0.046,5,10
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,4.5,4.5,5.0,12867,Northbound Renfrew St @ E Pender St,4.21,737,Westbound E Hastings St @ Nanaimo St,5.3,10,0,5,5,0.29,0.291,0.192,3,9
+6627,025,King Edward,Regular Bus,1,312455,11.0,11.0,11.5,12987,Westbound E King Edward Ave @ Prince Edward St,10.71,1585,Westbound W King Edward Ave @ Columbia St,11.74,10,1,6,3,0.265,0.216,0.026,2,10
+6619,009,Broadway,Regular Bus,0,312285,5.5,5.5,6.0,12764,Eastbound W Broadway @ Ash St,5.13,2120,Eastbound E Broadway @ Main St,6.26,10,0,3,7,0.291,0.282,0.193,2,10
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,15.5,15.5,16.0,11905,Westbound 72 Ave @ 152 St,15.45,11910,Westbound 72 Ave @ 148 St,16.24,10,1,4,5,0.238,0.245,0.089,3,10
+6728,410,Brighouse Station/22nd St Station,Regular Bus,0,313126,2.5,2.5,3.0,8604,Aberdeen Station @ Bay 1,2.38,6948,Eastbound Cambie Rd @ Odlin Cres,3.2,10,2,3,5,0.208,0.215,0.055,3,10
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,14.5,14.5,15.0,602,Westbound W 4th Ave @ Sasamat St,14.22,606,Blanca Loop @ Bay 2,15.07,10,3,5,2,0.146,0.122,0.0,4,9
+6619,009,Broadway,Regular Bus,0,312285,2.5,2.5,3.0,326,Eastbound W Broadway @ Arbutus St,2.29,329,Eastbound W Broadway @ Fir St,3.3,10,0,4,6,0.29,0.344,0.174,2,10
+6624,019,Kingsway,Regular Bus,1,312413,6.0,6.0,6.5,1198,Westbound Kingsway @ Victoria Dr,5.87,1201,Westbound Kingsway @ Dumfries St,6.51,10,5,1,4,0.183,0.103,0.017,4,10
+6627,025,King Edward,Regular Bus,1,312455,9.0,9.0,9.5,1575,Westbound E King Edward Ave @ Kingsway,8.98,1577,Westbound E King Edward Ave @ Inverness St,9.52,9,3,3,3,0.209,0.205,0.044,3,9
+6625,020,Victoria,Regular Bus,1,312428,4.5,4.5,5.0,1244,Southbound Commercial Dr @ E Hastings St,4.5,1247,Southbound Commercial Dr @ Parker St,5.1,9,0,6,3,0.214,0.205,0.101,2,9
+6625,020,Victoria,Regular Bus,1,312427,6.0,6.0,6.5,12919,Southbound Commercial Dr @ E 3rd Ave,5.72,973,Southbound Commercial Dr @ E 12 Ave,6.68,9,2,6,1,0.167,0.138,0.046,2,9
+6627,025,King Edward,Regular Bus,0,312450,15.5,15.5,16.0,1154,Eastbound Kingsway @ Miller St,15.24,1538,Northbound Nanaimo St @ Galt St,16.22,9,1,6,2,0.208,0.177,0.0,1,9
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,2.5,2.5,3.0,313,Northbound Dunbar St @ W 18 Ave,2.47,316,Northbound Alma St @ W 12 Ave,3.17,9,5,3,1,0.145,0.099,0.044,3,6
+37810,R4,41st Avenue,RapidBus,1,313453,18.0,18.0,18.5,10960,Eastbound W 16 Ave @ Wesbrook Mall,17.45,12600,UBC Exchange @ Unloading Only,19.47,9,2,5,2,0.169,0.178,0.007,7,8
+6625,020,Victoria,Regular Bus,1,312428,5.5,5.5,6.0,1249,Southbound Commercial Dr @ Kitchener St,5.5,1253,Southbound Commercial Dr @ E 6th Ave,6.27,9,3,2,4,0.226,0.199,0.085,2,9
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,13.0,13.0,13.5,947,Eastbound E Hastings St @ Campbell Ave,12.96,949,Eastbound E Hastings St @ Clark Dr,13.53,9,2,3,4,0.287,0.222,0.058,6,9
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,15.5,15.5,16.0,360,Southbound Alma St @ W 6th Ave,15.33,364,Southbound Dunbar Diversion @ W 14 Ave,16.09,9,3,3,3,0.195,0.171,0.048,2,9
+37810,R4,41st Avenue,RapidBus,1,313453,7.5,7.5,8.0,11354,Oakridge-41st Ave Station  @ Bay 4,6.7,287,Westbound W 41 Ave @ Granville St,8.4,9,2,2,5,0.27,0.394,0.052,7,9
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,16.5,16.5,17.0,365,Southbound Dunbar St @ W 15 Ave,16.25,370,Southbound Dunbar St @ W King Edward Ave,17.32,9,0,2,7,0.312,0.301,0.101,6,9
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,10.5,10.5,11.0,12815,Westbound W 4th Ave @ Yew St,10.22,591,Westbound W 4th Ave @ Macdonald St,11.2,9,0,3,6,0.26,0.272,0.132,4,8
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,2.0,2.0,2.5,310,Northbound Dunbar St @ W King Edward Ave,1.78,315,Northbound Dunbar Diversion @ W 14 Ave,2.93,9,1,3,5,0.234,0.251,0.098,4,8
+37807,R5,Hastings St,RapidBus,1,313460,16.0,16.0,16.5,503,Westbound E Hastings St @ Commercial Dr,14.43,185,Westbound E Hastings St @ Main St,16.51,9,3,6,0,0.106,0.103,0.059,2,9
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,3.5,3.5,4.0,317,Northbound Alma St @ W 10 Ave,3.39,393,Eastbound W 4th Ave @ Collingwood St,4.24,9,3,3,3,0.19,0.187,0.049,3,7
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,12.5,12.5,13.0,945,Eastbound E Hastings St @ Princess Ave,12.46,948,Eastbound E Hastings St @ Glen Dr,13.2,9,1,3,5,0.272,0.287,0.0,4,9
+6624,019,Kingsway,Regular Bus,1,312413,4.0,4.0,4.5,1195,Westbound Kingsway @ Rupert St,3.87,701,Westbound Kingsway @ Slocan St,4.85,9,1,3,5,0.229,0.254,0.079,2,9
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,17.5,17.5,18.0,5936,Westbound 72 Ave @ 142 St,17.48,5463,Westbound 72 Ave @ 138 St,18.2,9,2,2,5,0.226,0.307,0.039,3,9
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,18.5,18.5,19.0,1121,Eastbound W 51 Ave @ Arbutus St,18.18,1124,Southbound West Blvd @ W 60 Ave,19.21,9,2,0,7,0.258,0.317,0.066,4,9
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,3.0,3.0,3.5,1029,Northbound West Blvd @ W 45 Ave,2.81,1033,Northbound West Blvd @ W 37 Ave,3.63,9,0,3,6,0.27,0.304,0.11,2,9
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,5.0,5.0,5.5,12812,Eastbound W 4th Ave @ Balaclava St,4.82,400,Eastbound W 4th Ave @ Balsam St,5.87,9,0,1,8,0.351,0.344,0.141,4,9
+6625,020,Victoria,Regular Bus,1,312428,8.5,8.5,9.0,980,Southbound Victoria Dr @ E 26 Ave,8.31,706,Southbound Victoria Dr @ E 33 Ave,9.15,9,0,0,9,0.343,0.332,0.258,2,9
+6641,099,Broadway B-Line,B-Line,0,312527,2.5,2.5,3.0,271,Eastbound University Blvd @ Allison Rd,0.47,279,Eastbound W 10 Ave @ Sasamat St,3.04,8,0,1,7,0.391,0.436,0.236,3,8
+37810,R4,41st Avenue,RapidBus,0,313452,6.5,6.5,7.0,1896,Westbound W 16 Ave @ Wesbrook Mall,1.76,12625,Dunbar Loop @ Bay 7,7.62,8,2,1,5,0.25,0.319,0.023,7,8
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,5.0,5.0,5.5,5179,Southbound 150 St @ 10600 Block,4.9,5180,Guildford Exchange @ Bay 1,5.51,8,1,5,2,0.188,0.198,0.039,2,8
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,10.0,10.0,10.5,586,Westbound W 4th Ave @ Maple St,9.86,589,Westbound W 4th Ave @ Balsam St,10.56,8,0,5,3,0.236,0.172,0.171,3,7
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,2.0,2.0,2.5,499,Westbound Dundas St @ Wall St,1.92,12071,Westbound Powell St @ Clark Dr,2.91,8,2,3,3,0.22,0.211,0.0,3,6
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,15.5,15.5,16.0,437,Eastbound Powell St @ Commercial Dr,15.38,440,Eastbound Dundas St @ Lakewood Dr,16.03,8,1,3,4,0.205,0.213,0.0,4,7
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,17.0,17.0,17.5,685,Southbound Nanaimo St @ E 1st Ave,16.74,690,Southbound Nanaimo St @ E Broadway,17.54,8,6,1,1,0.121,0.093,0.022,4,8
+6624,019,Kingsway,Regular Bus,0,312403,7.0,7.0,7.5,1146,Eastbound Kingsway @ Carolina St,6.85,1149,Eastbound Kingsway @ Glen Dr,7.82,8,3,1,4,0.196,0.218,0.038,2,8
+6624,019,Kingsway,Regular Bus,1,312413,12.5,12.5,13.0,13126,Westbound W Pender St @ Howe St,12.36,1484,Westbound W Pender St @ Bute St,13.06,8,2,1,5,0.303,0.404,0.051,3,8
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,15.5,15.5,16.0,1108,Southbound Arbutus St @ W King Edward Ave,15.21,1112,Southbound Arbutus St @ W 32 Ave,16.14,8,2,0,6,0.249,0.284,0.018,4,8
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,17.5,17.5,18.0,370,Southbound Dunbar St @ W King Edward Ave,17.32,374,Southbound Dunbar St @ W 33 Ave,18.15,8,1,5,2,0.178,0.185,0.054,4,8
+6625,020,Victoria,Regular Bus,1,312428,1.5,1.5,2.0,939,Eastbound W Hastings St @ Homer St,1.44,942,Eastbound E Hastings St @ Main St,2.33,8,0,4,4,0.301,0.295,0.182,2,8
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,1.5,1.5,2.0,497,Westbound Dundas St @ N Garden Dr,1.48,500,Westbound Powell St @ Victoria Dr,2.11,8,1,4,3,0.194,0.142,0.0,3,6
+6625,020,Victoria,Regular Bus,1,312428,2.5,2.5,3.0,942,Eastbound E Hastings St @ Main St,2.33,946,Eastbound E Hastings St @ Hawks Ave,3.24,8,0,5,3,0.212,0.16,0.127,1,8
+6625,020,Victoria,Regular Bus,1,312428,5.0,5.0,5.5,1246,Southbound Commercial Diversion @ Adanac St,4.89,1250,Southbound Commercial Dr @ Graveley St,5.68,8,2,4,2,0.187,0.201,0.1,2,8
+6642,100,Marine Drive,Regular Bus,0,312532,8.5,8.5,9.0,1852,Eastbound SE Marine Dr @ Fieldstone Ave,8.29,2165,Eastbound Marine Dr @ Joffre Ave,9.45,8,4,0,4,0.232,0.202,0.023,4,8
+6624,019,Kingsway,Regular Bus,0,312403,10.5,10.5,11.0,668,Eastbound Kingsway @ Slocan St,10.32,1157,Eastbound Kingsway @ Killarney St,11.04,8,0,0,8,0.389,0.411,0.329,2,8
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,13.5,13.5,14.0,429,Eastbound E Cordova St @ Main St,13.21,12070,Eastbound Cordova Diversion @ Hawks Ave,14.11,8,2,4,2,0.158,0.149,0.0,4,6
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,1,312991,17.0,17.0,17.5,5904,Westbound 108 Ave @ 140 St,16.37,11720,Southbound University Dr @ 107A Ave,17.77,8,0,4,4,0.298,0.258,0.193,2,8
+6619,009,Broadway,Regular Bus,1,312305,1.5,1.5,2.0,912,Westbound E Broadway @ Windermere St,1.04,917,Westbound E Broadway @ Penticton St,2.13,8,3,0,5,0.256,0.326,0.068,3,8
+6624,019,Kingsway,Regular Bus,0,312403,6.5,6.5,7.0,1144,Eastbound Kingsway @ E 12 Ave,6.38,1147,Eastbound Kingsway @ Fraser St,7.13,8,0,4,4,0.271,0.252,0.111,3,8
+6624,019,Kingsway,Regular Bus,0,312405,1.0,1.0,1.5,9487,Eastbound W Georgia St @ Gilford St,0.95,1382,Eastbound W Pender St @ Nicola St,1.6,8,0,0,8,0.335,0.335,0.255,2,8
+6636,049,49th Avenue,Regular Bus,0,312498,11.5,11.5,12.0,1979,Eastbound W 49 Ave @ Montgomery St,11.3,13008,Eastbound W 49th Ave @ Tisdall St,12.05,8,1,3,4,0.252,0.213,0.081,5,8
+37810,R4,41st Avenue,RapidBus,0,313452,14.5,14.5,15.0,255,Eastbound E 41 Ave @ Main St,13.7,655,Eastbound E 41 Ave @ Knight St,15.59,8,2,2,4,0.246,0.241,0.037,5,8
+6624,019,Kingsway,Regular Bus,1,312413,7.5,7.5,8.0,1203,Westbound Kingsway @ Inverness St,7.18,1206,Westbound Kingsway @ Fraser St,8.08,8,0,5,3,0.245,0.216,0.131,5,8
+6625,020,Victoria,Regular Bus,0,312419,2.0,2.0,2.5,1219,Northbound Victoria Dr @ Waverley Ave,1.87,661,Northbound Victoria Dr @ E 38 Ave,2.83,8,4,1,3,0.235,0.172,0.012,2,8
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,3.5,3.5,4.0,1097,Northbound Renfrew St @ Grant St,3.29,1100,Northbound Renfrew St @ E Georgia St,4.05,8,2,4,2,0.18,0.182,0.019,2,8
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,4.0,4.0,4.5,518,Westbound Powell St @ Heatley Ave,3.92,520,Westbound Powell St @ Gore Ave,4.52,8,3,3,2,0.152,0.139,0.013,3,6
+6625,020,Victoria,Regular Bus,0,312419,1.0,1.0,1.5,1215,Northbound Victoria Dr @ Upland Dr,0.88,1218,Northbound Victoria Dr @ E 49 Ave,1.65,8,1,1,6,0.359,0.396,0.079,3,8
+37810,R4,41st Avenue,RapidBus,0,313452,2.0,2.0,2.5,1896,Westbound W 16 Ave @ Wesbrook Mall,1.76,12625,Dunbar Loop @ Bay 7,7.62,8,1,3,4,0.261,0.241,0.029,8,8
+6625,020,Victoria,Regular Bus,1,312428,3.5,3.5,4.0,947,Eastbound E Hastings St @ Campbell Ave,3.42,949,Eastbound E Hastings St @ Clark Dr,4.0,7,1,4,2,0.194,0.217,0.07,1,7
+6624,019,Kingsway,Regular Bus,0,312403,13.0,13.0,13.5,1165,Eastbound Kingsway @ Boundary Rd,12.87,1168,Eastbound Kingsway @ Patterson Ave,13.62,7,1,5,1,0.202,0.201,0.04,4,7
+6625,020,Victoria,Regular Bus,0,312419,4.0,4.0,4.5,665,Northbound Victoria Dr @ Kingsway,3.78,1225,Northbound Victoria Diversion @ Victoria Dr,4.73,7,1,3,3,0.248,0.14,0.072,2,7
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,16.0,16.0,16.5,1046,Southbound Renfrew St @ E Hastings St,15.97,1049,Southbound Renfrew St @ William St,16.72,7,0,2,5,0.317,0.301,0.158,4,7
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,2.5,2.5,3.0,1093,Northbound Renfrew St @ E 7th Ave,2.46,1096,Northbound Renfrew St @ E 1st Ave,3.09,7,0,3,4,0.252,0.265,0.103,2,5
+6624,019,Kingsway,Regular Bus,0,312403,13.5,13.5,14.0,1167,Eastbound Kingsway @ Inman Ave,13.39,1170,Eastbound Kingsway @ Wilson Ave,14.01,7,1,6,0,0.153,0.203,0.0,4,7
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,1.5,1.5,2.0,308,Northbound Dunbar St @ W 28 Ave,1.44,311,Northbound Dunbar St @ W 22 Ave,2.08,7,1,4,2,0.205,0.158,0.074,3,7
+37810,R4,41st Avenue,RapidBus,1,313453,10.0,10.0,10.5,12632,Westbound W 41 Ave @ East Blvd,9.46,297,Westbound W 41 Ave @ Carnarvon St,10.86,7,0,1,6,0.362,0.413,0.122,5,7
+6642,100,Marine Drive,Regular Bus,1,312538,11.0,11.0,11.5,2229,Westbound SE Marine Dr @ Ross St,10.58,12842,Westbound SE Marine Dr @ Prince Edward St,11.72,7,1,1,5,0.266,0.305,0.072,2,7
+6642,100,Marine Drive,Regular Bus,0,312532,5.5,5.5,6.0,2161,Eastbound SE Marine Dr @ Argyle St,5.47,1847,Eastbound SE Marine Dr @ Gladstone St,6.27,7,0,0,7,0.305,0.324,0.279,2,7
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,6.0,6.0,6.5,12811,Eastbound W 4th Ave @ Blenheim St,5.88,397,Eastbound W 4th Ave @ Macdonald St,6.58,7,0,2,5,0.328,0.403,0.141,3,6
+37810,R4,41st Avenue,RapidBus,0,313452,7.5,7.5,8.0,1896,Westbound W 16 Ave @ Wesbrook Mall,1.76,381,Eastbound W 41 Ave @ Carnarvon St,8.49,7,1,1,5,0.378,0.482,0.0,6,7
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,8.5,8.5,9.0,11475,Southbound Granville St @ Drake St,8.12,542,Westbound W 5th Ave Offramp @ Granville St,9.47,7,0,0,7,0.418,0.452,0.26,4,5
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,19.0,19.0,19.5,1059,Southbound Renfrew St @ E 17 Ave,18.89,1062,Southbound Nootka St @ E 25 Ave,19.7,7,1,5,1,0.173,0.147,0.072,4,7
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,11.5,11.5,12.0,591,Westbound W 4th Ave @ Macdonald St,11.2,11046,Westbound W 4th Ave @ Collingwood St,12.18,7,0,0,7,0.393,0.433,0.282,3,7
+6705,321,King George Blvd,Regular Bus,0,312945,19.0,19.0,19.5,5473,Northbound King George Blvd @ 8600 Block,18.84,5475,Northbound King George Blvd @ 91 Ave,19.66,7,4,1,2,0.128,0.049,0.012,3,7
+6627,025,King Edward,Regular Bus,0,312450,13.0,13.0,13.5,1530,Eastbound E King Edward Ave @ Main St,12.79,1533,Eastbound E King Edward Ave @ Fraser St,13.6,7,2,3,2,0.198,0.123,0.079,1,7
+6705,321,King George Blvd,Regular Bus,1,312952,19.0,19.0,19.5,5534,Southbound 152 St @ 26 Ave,18.9,5536,Southbound 152 St @ 22 Ave,19.67,7,2,1,4,0.259,0.371,0.008,3,7
+6627,025,King Edward,Regular Bus,1,312455,16.0,16.0,16.5,1600,Westbound W King Edward Ave @ Trafalgar St,15.99,13031,Westbound W King Edward Ave @ Quesnel Dr,16.56,7,0,2,5,0.263,0.311,0.106,3,7
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,4.0,4.0,4.5,1035,Northbound Arbutus St @ Quilchena Cres,3.97,1038,Northbound Arbutus St @ Nanton Ave,4.7,7,0,0,7,0.318,0.291,0.277,2,7
+37810,R4,41st Avenue,RapidBus,1,313453,1.5,1.5,2.0,1190,Westbound E 41 Ave @ Rupert St,1.24,1076,Westbound E 41 Ave @ Clarendon St,2.14,7,1,1,5,0.329,0.38,0.043,5,7
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,0,312666,15.0,15.0,15.5,12506,Eastbound St. Johns St @ Kyle St,14.57,12020,Moody Centre Station @ Bay 4,15.54,7,2,4,1,0.179,0.181,0.02,2,7
+6641,099,Broadway B-Line,B-Line,1,312530,0.5,0.5,1.0,11606,Commercial-Broadway Station @ Bay 5,0.3,924,Westbound E Broadway @ Clark Dr,1.02,7,4,0,3,0.227,0.083,0.055,6,7
+6625,020,Victoria,Regular Bus,0,312419,3.5,3.5,4.0,664,Northbound Victoria Dr @ E 32 Ave,3.46,1222,Northbound Victoria Dr @ E 26 Ave,4.12,7,1,6,0,0.194,0.23,0.05,2,7
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,16.0,16.0,16.5,439,Eastbound Powell St @ Victoria Dr,15.75,444,Northbound N Nanaimo St @ Eton St,16.74,7,2,1,4,0.248,0.286,0.054,4,7
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,16.0,16.0,16.5,680,Southbound Nanaimo St @ Adanac St,15.86,685,Southbound Nanaimo St @ E 1st Ave,16.74,7,1,2,4,0.286,0.341,0.035,3,7
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,1,312669,10.5,10.5,11.0,3216,Westbound St. Johns St @ Buller St,10.11,3218,Westbound St. Johns St @ Moody St,11.08,7,0,1,6,0.377,0.408,0.24,2,7
+6614,004,Powell/UBC Exchange,Regular Bus,0,312234,9.0,9.0,9.5,11523,Northbound Granville St @ W Georgia St,8.88,35,Waterfront Station @ Bay 3,9.63,7,0,0,7,0.359,0.365,0.25,1,7
+6625,020,Victoria,Regular Bus,0,312419,1.5,1.5,2.0,1217,Northbound Victoria Dr @ E 51 Ave,1.43,1220,Northbound Victoria Dr @ E 45 Ave,2.13,7,0,4,3,0.306,0.228,0.126,3,7
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,10.5,10.5,11.0,586,Westbound W 4th Ave @ Maple St,10.39,589,Westbound W 4th Ave @ Balsam St,11.09,7,0,4,3,0.244,0.172,0.171,2,7
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,18.5,18.5,19.0,7000,Westbound Cambie Rd @ Stolberg St,18.37,6624,Westbound Cambie Rd @ Hazelbridge Way,19.31,7,0,0,7,0.393,0.386,0.27,3,7
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,4.5,4.5,5.0,1037,Northbound Arbutus St @ Valley Dr,4.43,1039,Northbound Arbutus St @ W King Edward Ave,5.14,7,1,0,6,0.34,0.356,0.088,3,7
+6636,049,49th Avenue,Regular Bus,0,312498,8.5,8.5,9.0,1964,Eastbound SW Marine Dr @ Balaclava St,8.02,1969,Eastbound W 49 Ave @ Balsam St,9.13,7,0,3,4,0.246,0.26,0.11,3,7
+6624,019,Kingsway,Regular Bus,0,312403,7.5,7.5,8.0,9147,Eastbound Kingsway @ St. Catherines St,7.49,1150,Eastbound Kingsway @ Clark Dr,8.16,7,1,3,3,0.239,0.172,0.045,4,7
+6636,049,49th Avenue,Regular Bus,0,312498,19.0,19.0,19.5,1659,Eastbound E 49 Ave @ Tyne St,18.67,2011,Eastbound Imperial St @ Mandy Ave,19.8,7,1,4,2,0.201,0.147,0.089,4,7
+6627,025,King Edward,Regular Bus,1,312455,22.0,22.0,22.5,1610,Westbound W 16 Ave @ Pacific Spirit Park,21.11,10755,Northbound Wesbrook Mall @ 2900 Block,22.56,7,0,2,5,0.362,0.378,0.134,6,7
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,14.0,14.0,14.5,600,Westbound W 4th Ave @ NW Marine Dr,13.54,604,Southbound Blanca St @ W 4th Ave,14.68,7,0,4,3,0.251,0.22,0.11,3,6
+6641,099,Broadway B-Line,B-Line,1,312530,9.0,9.0,9.5,11113,Westbound W Broadway @ Macdonald St,7.6,582,Westbound W 10 Ave @ Sasamat St,10.8,7,0,3,4,0.288,0.351,0.14,4,7
+6728,410,Brighouse Station/22nd St Station,Regular Bus,0,313126,1.0,1.0,1.5,11243,Richmond-Brighouse Station @ Bay 4,0.69,11409,Northbound No. 3 Rd @ Alderbridge Way,1.71,7,0,3,4,0.286,0.274,0.177,3,7
+6636,049,49th Avenue,Regular Bus,1,312507,5.0,5.0,5.5,11610,Westbound E 49 Ave @ Vivian St,4.78,2034,Westbound E 49 Ave @ Gladstone St,5.67,7,0,2,5,0.337,0.372,0.234,3,7
+6625,020,Victoria,Regular Bus,1,312428,1.0,1.0,1.5,11616,Northbound Granville St @ W Pender St,0.97,12489,Eastbound W Hastings St @ Abbott St,1.76,7,0,0,7,0.34,0.352,0.252,1,7
+6624,019,Kingsway,Regular Bus,1,312412,12.0,12.0,12.5,11638,Westbound W Pender St @ Hamilton St,11.92,9307,Westbound W Pender St @ Burrard St,12.61,7,0,4,3,0.216,0.203,0.149,1,7
+6627,025,King Edward,Regular Bus,0,312450,9.5,9.5,10.0,1516,Eastbound W King Edward Ave @ Cypress St,9.25,1520,Eastbound W King Edward Ave @ Hudson St,10.33,7,4,1,2,0.169,0.052,0.052,1,7
+6705,321,King George Blvd,Regular Bus,1,312952,20.0,20.0,20.5,5536,Southbound 152 St @ 22 Ave,19.67,5542,Southbound White Rock Centre @ Bay 11,20.67,7,2,5,0,0.16,0.183,0.025,2,7
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,8.0,8.0,8.5,91,Westbound W Pender St @ Carrall St,7.99,11638,Westbound W Pender St @ Hamilton St,8.52,7,0,2,5,0.333,0.315,0.213,3,7
+6619,009,Broadway,Regular Bus,1,312305,7.5,7.5,8.0,9054,Westbound W Broadway @ Willow St,7.38,469,Westbound W Broadway @ Alder St,8.04,7,0,0,7,0.344,0.344,0.344,3,7
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,2.5,2.5,3.0,1027,Northbound West Blvd @ W 49 Ave,2.4,13138,Northbound West Blvd @ W 42 Ave,3.06,7,0,3,4,0.229,0.254,0.108,2,7
+6642,100,Marine Drive,Regular Bus,0,312532,12.0,12.0,12.5,2172,Eastbound Marine Dr @ Royal Oak Ave,11.82,2174,Eastbound Marine Dr @ Gilley Ave,12.51,7,1,1,5,0.251,0.259,0.096,2,6
+6624,019,Kingsway,Regular Bus,0,312403,4.5,4.5,5.0,232,Southbound Main St @ Keefer St,4.22,236,Southbound Main St @ Switchmen St,5.15,7,2,3,2,0.179,0.197,0.016,2,7
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,318514,4.5,4.5,5.0,498,Westbound Dundas St @ N Templeton Dr,4.35,512,Westbound Powell St @ Commercial Dr,5.15,7,1,3,3,0.238,0.211,0.0,2,7
+6624,019,Kingsway,Regular Bus,0,312405,2.0,2.0,2.5,11220,Eastbound W Pender St @ Jervis St,1.89,76,Eastbound W Pender St @ Burrard St,2.56,7,1,3,3,0.264,0.236,0.076,4,7
+37810,R4,41st Avenue,RapidBus,0,313452,6.0,6.0,6.5,1896,Westbound W 16 Ave @ Wesbrook Mall,1.76,12625,Dunbar Loop @ Bay 7,7.62,6,0,1,5,0.345,0.357,0.204,4,6
+6636,049,49th Avenue,Regular Bus,1,312507,13.5,13.5,14.0,2065,Westbound W 49 Ave @ Macdonald St,13.43,2068,Westbound SW Marine Dr @ Blenheim St,14.36,6,0,1,5,0.352,0.345,0.239,2,6
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,1,312991,14.0,14.0,14.5,5185,Northbound 150 St @ 10600 Block,13.94,5900,Westbound 108 Ave @ 148 St,14.78,6,0,2,4,0.258,0.281,0.103,2,6
+6705,321,King George Blvd,Regular Bus,0,312945,17.5,17.5,18.0,5468,Northbound King George Blvd @ 78 Ave,17.09,5471,Northbound King George Blvd @ 8200 Block,18.15,6,1,2,3,0.24,0.243,0.092,3,6
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,1.0,1.0,1.5,5893,Northbound University Dr @ 105A Ave,0.75,5845,Eastbound 108 Ave @ King George Blvd,1.63,6,0,2,4,0.34,0.397,0.171,2,6
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,6.5,6.5,7.0,13122,Westbound E Hastings St @ Commercial Dr,6.23,506,Westbound E Hastings St @ Glen Dr,7.12,6,0,2,4,0.25,0.278,0.108,2,5
+6642,100,Marine Drive,Regular Bus,1,312538,7.0,7.0,7.5,1809,Westbound SE Marine Dr @ Fieldstone Ave,6.93,1811,Westbound SE Marine Dr @ Jellicoe St,7.86,6,3,1,2,0.178,0.098,0.039,3,6
+6705,321,King George Blvd,Regular Bus,0,312945,16.5,16.5,17.0,5465,Northbound King George Blvd @ 72 Ave,16.05,5468,Northbound King George Blvd @ 78 Ave,17.09,6,0,2,4,0.322,0.354,0.104,2,6
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,4.0,4.0,4.5,283,Eastbound W 10 Ave @ Camosun St,3.94,286,Eastbound W 10 Ave @ Highbury St,4.61,6,0,2,4,0.345,0.36,0.22,4,6
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,1,312991,16.0,16.0,16.5,5903,Westbound 108 Ave @ 142 St,15.94,5860,Westbound 108 Ave @ 13600 Block,17.09,6,0,1,5,0.343,0.344,0.17,4,6
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,5.5,5.5,6.0,737,Westbound E Hastings St @ Nanaimo St,5.3,13122,Westbound E Hastings St @ Commercial Dr,6.23,6,1,1,4,0.295,0.353,0.0,2,5
+6627,025,King Edward,Regular Bus,0,312450,18.5,18.5,19.0,1544,Eastbound E 22 Ave @ Boyd Diversion,18.12,1547,Eastbound E 22 Ave @ Cassiar St,19.08,6,0,3,3,0.242,0.243,0.109,2,6
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,15.5,15.5,16.0,678,Southbound Nanaimo St @ E Hastings St,15.46,682,Southbound Nanaimo St @ William St,16.25,6,2,1,3,0.263,0.288,0.044,3,6
+6624,019,Kingsway,Regular Bus,1,312414,1.0,1.0,1.5,179,Northbound Main St @ E 2nd Ave,0.93,182,Northbound Main St @ National Ave,1.58,6,0,2,4,0.328,0.33,0.201,1,6
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,18.0,18.0,18.5,1120,Southbound Arbutus St @ W 49 Ave,17.94,1122,Southbound West Blvd @ W 53 Ave,18.53,6,2,0,4,0.266,0.325,0.063,5,6
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,0.5,0.5,1.0,271,Eastbound University Blvd @ Allison Rd,0.48,274,Eastbound University Blvd @ 5100 Block,1.53,6,1,5,0,0.16,0.156,0.042,2,6
+6627,025,King Edward,Regular Bus,1,312455,17.5,17.5,18.0,1602,Westbound W King Edward Ave @ Blenheim St,17.04,313,Northbound Dunbar St @ W 18 Ave,18.21,6,0,3,3,0.284,0.3,0.101,3,6
+6625,020,Victoria,Regular Bus,1,312428,4.0,4.0,4.5,948,Eastbound E Hastings St @ Glen Dr,3.67,1245,Southbound Commercial Dr @ Frances St,4.68,6,2,3,1,0.153,0.158,0.057,1,6
+6627,025,King Edward,Regular Bus,1,312455,15.5,15.5,16.0,1597,Westbound W King Edward Ave @ Yew St,15.19,122,Westbound W King Edward Ave @ Macdonald St,16.21,6,1,0,5,0.367,0.443,0.0,4,6
+6625,020,Victoria,Regular Bus,0,312419,7.5,7.5,8.0,1240,Northbound Commercial Diversion @ Venables St,7.42,504,Westbound E Hastings St @ McLean Dr,8.22,6,0,0,6,0.382,0.372,0.257,2,6
+6619,009,Broadway,Regular Bus,0,312285,6.5,6.5,7.0,779,Eastbound E Broadway @ Kingsway,6.44,10620,Eastbound E Broadway  @ Fraser St,7.15,6,0,1,5,0.344,0.352,0.139,2,6
+6624,019,Kingsway,Regular Bus,0,312405,4.0,4.0,4.5,21,Eastbound E Pender St @ Carrall St,3.76,234,Southbound Main St @ National Ave,4.71,6,0,0,6,0.428,0.413,0.402,1,6
+6738,502,Fraser Hwy,Express / Regional,0,317228,5.5,5.5,6.0,6471,Eastbound Fraser Hwy @ 150 St,5.07,5288,Eastbound Fraser Hwy @ 156 St,6.5,6,1,0,5,0.282,0.293,0.048,1,6
+6728,410,Brighouse Station/22nd St Station,Regular Bus,0,313126,0.5,0.5,1.0,8324,Northbound No. 3 Rd @ Park Rd,0.22,11387,Northbound No. 3 Rd @ Ackroyd Rd,1.12,6,0,4,2,0.263,0.205,0.149,2,6
+6627,025,King Edward,Regular Bus,1,312455,10.5,10.5,11.0,1580,Westbound E King Edward Ave @ Fraser St,10.27,1583,Westbound E King Edward Ave @ Main St,11.09,6,0,2,4,0.274,0.35,0.112,2,6
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312348,1.5,1.5,2.0,4883,Southbound Howe St @ Robson St,1.2,542,Westbound W 5th Ave Offramp @ Granville St,3.41,6,1,0,5,0.288,0.299,0.0,3,6
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,11.0,11.0,11.5,11475,Southbound Granville St @ Drake St,10.26,542,Westbound W 5th Ave Offramp @ Granville St,11.61,6,0,0,6,0.4,0.385,0.289,4,6
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,1,312991,16.5,16.5,17.0,5904,Westbound 108 Ave @ 140 St,16.37,5860,Westbound 108 Ave @ 13600 Block,17.09,6,0,4,2,0.252,0.226,0.158,4,6
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,12.0,12.0,12.5,429,Eastbound E Cordova St @ Main St,11.85,12070,Eastbound Cordova Diversion @ Hawks Ave,12.75,6,1,4,1,0.169,0.149,0.0,3,6
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,2.0,2.0,2.5,1025,Northbound West Blvd @ W 51 Ave,1.99,1028,Northbound West Blvd @ W 46 Ave,2.7,6,0,0,6,0.327,0.311,0.305,2,6
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,12.0,12.0,12.5,584,Westbound W 4th Ave @ Fir St,11.85,586,Westbound W 4th Ave @ Maple St,12.53,6,0,5,1,0.202,0.176,0.17,3,6
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,0.5,0.5,1.0,271,Eastbound University Blvd @ Allison Rd,0.42,274,Eastbound University Blvd @ 5100 Block,1.48,6,2,3,1,0.154,0.138,0.057,2,6
+6624,019,Kingsway,Regular Bus,1,312413,3.5,3.5,4.0,1193,Westbound Kingsway @ McKinnon St,3.5,1196,Westbound Kingsway @ Fairmont St,4.19,6,0,3,3,0.213,0.206,0.117,1,6
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,14.5,14.5,15.0,593,Westbound W 4th Ave @ Balaclava St,14.26,359,Southbound Alma St @ W 4th Ave,15.15,6,0,1,5,0.345,0.383,0.149,3,6
+37810,R4,41st Avenue,RapidBus,0,313452,0.5,0.5,1.0,,,,1896,Westbound W 16 Ave @ Wesbrook Mall,1.76,6,0,4,2,0.244,0.168,0.148,4,6
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,1,312991,12.5,12.5,13.0,5813,Westbound 104 Ave @ 156 St,12.3,5815,Westbound 104 Ave @ 152 St,13.13,6,0,0,6,0.403,0.401,0.401,3,6
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,4.5,4.5,5.0,393,Eastbound W 4th Ave @ Collingwood St,4.24,397,Eastbound W 4th Ave @ Macdonald St,5.22,6,0,2,4,0.275,0.282,0.141,3,5
+6642,100,Marine Drive,Regular Bus,0,312532,6.5,6.5,7.0,1848,Eastbound SE Marine Dr @ Nanaimo St,6.49,1850,Eastbound SE Marine Dr @ Jellicoe St,7.37,5,1,2,2,0.253,0.235,0.085,2,5
+6728,410,Brighouse Station/22nd St Station,Regular Bus,0,313126,4.5,4.5,5.0,6952,Eastbound Cambie Rd @ 10200 Block,4.37,6954,Eastbound Cambie Rd @ Vanguard Rd,5.13,5,1,2,2,0.23,0.209,0.072,3,5
+6636,049,49th Avenue,Regular Bus,0,312498,20.0,20.0,20.5,2011,Eastbound Imperial St @ Mandy Ave,19.8,2015,Northbound Willingdon Ave @ Mayberry St,20.7,5,4,1,0,0.087,0.071,0.02,3,5
+6614,004,Powell/UBC Exchange,Regular Bus,0,312234,3.5,3.5,4.0,12811,Eastbound W 4th Ave @ Blenheim St,3.29,398,Eastbound W 4th Ave @ Trafalgar St,4.26,5,0,3,2,0.245,0.203,0.141,1,5
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,5.5,5.5,6.0,358,Eastbound W 4th Ave @ Alma St,5.3,12812,Eastbound W 4th Ave @ Balaclava St,6.18,5,0,3,2,0.202,0.148,0.141,3,3
+6614,004,Powell/UBC Exchange,Regular Bus,0,312234,3.0,3.0,3.5,393,Eastbound W 4th Ave @ Collingwood St,3.0,12812,Eastbound W 4th Ave @ Balaclava St,3.58,5,0,0,5,0.382,0.429,0.282,1,5
+6625,020,Victoria,Regular Bus,1,312428,3.0,3.0,3.5,945,Eastbound E Hastings St @ Princess Ave,2.92,948,Eastbound E Hastings St @ Glen Dr,3.67,5,0,3,2,0.218,0.172,0.172,1,5
+6624,019,Kingsway,Regular Bus,1,312413,1.0,1.0,1.5,1175,Westbound Kingsway @ Willingdon Ave,0.92,1178,Westbound Kingsway @ Inman Ave,1.76,5,3,1,1,0.154,0.086,0.059,2,5
+6642,100,Marine Drive,Regular Bus,1,312538,12.0,12.0,12.5,12842,Westbound SE Marine Dr @ Prince Edward St,11.72,2236,Westbound SW Marine Dr @ Manitoba St,12.6,5,1,1,3,0.275,0.371,0.001,1,5
+6619,009,Broadway,Regular Bus,0,312285,4.0,4.0,4.5,331,Eastbound W Broadway @ Hemlock St,3.75,880,Eastbound W Broadway @ Willow St,4.72,5,0,2,3,0.334,0.35,0.172,2,5
+6728,410,Brighouse Station/22nd St Station,Regular Bus,0,313126,4.0,4.0,4.5,6950,Eastbound Cambie Rd @ Stolberg St,3.74,6953,Eastbound Cambie Rd @ St. Edwards Dr,4.85,5,0,3,2,0.265,0.194,0.103,3,5
+6687,250,Horseshoe Bay/Dundarave/Vancouver,Express / Regional,1,312849,9.0,9.0,9.5,4665,Westbound Marine Dr @ 17 St,8.88,4669,Westbound Marine Dr @ 21 St,9.54,5,2,1,2,0.211,0.136,0.0,2,5
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,8.5,8.5,9.0,4879,Northbound Granville St @ W 5th Ave,7.92,11426,Northbound Granville St @ Drake St,9.25,5,0,1,4,0.366,0.372,0.223,2,5
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,7.0,7.0,7.5,505,Westbound E Hastings St @ Clark Dr,6.83,508,Westbound E Hastings St @ Hawks Ave,7.55,5,0,4,1,0.217,0.172,0.164,2,5
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,16.5,16.5,17.0,682,Southbound Nanaimo St @ William St,16.25,687,Southbound Nanaimo St @ E 5th Ave,17.14,5,1,2,2,0.208,0.192,0.045,2,5
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,11.0,11.0,11.5,12815,Westbound W 4th Ave @ Yew St,10.74,1379,Southbound Macdonald St @ W 4th Ave,11.72,5,0,4,1,0.182,0.166,0.141,2,5
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,5.0,5.0,5.5,509,Westbound E Hastings St @ Princess Ave,4.87,186,Westbound W Hastings St @ Carrall St,5.86,5,0,0,5,0.464,0.465,0.429,2,5
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,14.0,14.0,14.5,431,Eastbound E Cordova St @ Princess Ave,13.81,435,Eastbound Powell St @ Clark Dr,14.87,5,0,1,4,0.375,0.424,0.134,3,5
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,6.5,6.5,7.0,12703,Eastbound W 12th Ave @ Arbutus St,6.2,11403,Northbound Granville St @ W 10 Ave,7.45,5,0,1,4,0.302,0.344,0.174,3,5
+6642,100,Marine Drive,Regular Bus,1,312538,12.5,12.5,13.0,2235,Westbound SW Marine Dr @ Ontario St,12.35,11252,Marine Drive Station @ Bay 2,13.2,5,0,2,3,0.306,0.293,0.209,1,5
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,17.0,17.0,17.5,957,Eastbound E Hastings St @ Slocan St,16.95,960,Eastbound E Hastings St @ Lillooet St,17.72,5,0,0,5,0.378,0.378,0.378,4,5
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,16.5,16.5,17.0,442,Northbound N Nanaimo St @ Dundas St,16.43,446,Eastbound McGill St @ N Penticton St,17.17,5,4,1,0,0.052,0.028,0.001,3,3
+37807,R5,Hastings St,RapidBus,0,313454,7.0,7.0,7.5,959,Eastbound E Hastings St @ Renfrew St,5.81,1391,Eastbound Hastings St @ Gilmore Ave,8.01,5,0,3,2,0.276,0.175,0.172,2,5
+6636,049,49th Avenue,Regular Bus,0,312498,11.0,11.0,11.5,1977,Eastbound W 49 Ave @ Granville St,10.71,1980,Eastbound W 49 Ave @ Oak St,11.57,5,1,1,3,0.258,0.264,0.055,2,5
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,14.5,14.5,15.0,1103,Southbound Arbutus St @ W 12 Ave,14.17,1108,Southbound Arbutus St @ W King Edward Ave,15.21,5,1,3,1,0.221,0.157,0.1,3,5
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,0,312666,20.5,20.5,21.0,9714,Southbound Pinetree Way @ Guildford Way,20.32,3334,Coquitlam Central Station @ Bay 1,21.75,5,2,3,0,0.108,0.105,0.072,2,5
+6619,009,Broadway,Regular Bus,1,312305,3.0,3.0,3.5,919,Westbound E Broadway @ Lakewood Dr,2.91,922,Westbound E Broadway @ Woodland Dr,3.78,5,3,1,1,0.133,0.034,0.034,1,5
+6627,025,King Edward,Regular Bus,1,312455,17.0,17.0,17.5,13031,Westbound W King Edward Ave @ Quesnel Dr,16.56,310,Northbound Dunbar St @ W King Edward Ave,17.53,5,1,1,3,0.251,0.318,0.047,2,5
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,2.5,2.5,3.0,737,Westbound E Hastings St @ Nanaimo St,2.3,13122,Westbound E Hastings St @ Commercial Dr,3.23,5,1,1,3,0.284,0.351,0.082,2,5
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,11.0,11.0,11.5,590,Westbound W 4th Ave @ Trafalgar St,10.91,593,Westbound W 4th Ave @ Balaclava St,11.59,5,0,1,4,0.363,0.403,0.203,2,5
+6728,410,Brighouse Station/22nd St Station,Regular Bus,0,313126,19.5,19.5,20.0,10855,Northbound Hwy 91A Onramp @ Howes St,19.42,10929,22nd Street Station @ Unloading Only,21.45,5,2,3,0,0.092,0.117,0.033,1,5
+6705,321,King George Blvd,Regular Bus,0,312945,14.5,14.5,15.0,5458,Eastbound 68 Ave @ King George Blvd,14.34,5461,Northbound 138 St @ 70 Ave,15.04,5,2,3,0,0.154,0.17,0.031,4,5
+37807,R5,Hastings St,RapidBus,0,313454,7.5,7.5,8.0,1387,Kootenay Loop @ Bay 8,7.16,1391,Eastbound Hastings St @ Gilmore Ave,8.01,5,0,4,1,0.201,0.171,0.154,3,5
+6641,099,Broadway B-Line,B-Line,0,312527,4.0,4.0,4.5,279,Eastbound W 10 Ave @ Sasamat St,3.04,9530,Eastbound W Broadway @ Alma St,4.9,5,0,3,2,0.296,0.221,0.22,5,5
+6627,025,King Edward,Regular Bus,0,312450,12.0,12.0,12.5,12866,King Edward Station @ Bay 3,11.6,1530,Eastbound E King Edward Ave @ Main St,12.79,5,2,2,1,0.152,0.161,0.043,1,5
+6619,009,Broadway,Regular Bus,1,312305,7.0,7.0,7.5,929,Westbound W Broadway @ Columbia St,6.42,468,Westbound W Broadway @ Spruce St,7.86,5,0,1,4,0.336,0.35,0.178,1,5
+6642,100,Marine Drive,Regular Bus,1,312538,8.5,8.5,9.0,1811,Westbound SE Marine Dr @ Jellicoe St,7.86,2225,Westbound SE Marine Dr @ Victoria Dr,9.3,5,0,0,5,0.35,0.354,0.282,2,5
+6642,100,Marine Drive,Regular Bus,1,312538,10.5,10.5,11.0,2228,Westbound SE Marine Dr @ Inverness St,10.37,2231,Westbound SE Marine Dr @ Chester St,11.05,5,1,1,3,0.282,0.417,0.001,2,5
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,1.0,1.0,1.5,494,Westbound McGill St @ N Penticton St,0.68,498,Westbound Dundas St @ N Templeton Dr,1.68,5,0,2,3,0.305,0.333,0.192,2,4
+6636,049,49th Avenue,Regular Bus,1,312507,20.0,20.0,20.5,1895,Northbound Wesbrook Mall @ Triumf Centre,19.45,10755,Northbound Wesbrook Mall @ 2900 Block,20.8,5,4,1,0,0.066,0.062,0.019,1,5
+6705,321,King George Blvd,Regular Bus,1,312952,5.0,5.0,5.5,5502,Southbound King George Blvd @ 8100 Block,4.84,5504,Southbound King George Blvd @ 77 Ave,5.72,5,1,1,3,0.283,0.341,0.031,1,5
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,2.0,2.0,2.5,13011,Westbound E Hastings St @ Penticton St,1.87,738,Westbound E Hastings St @ Templeton Dr,2.52,5,0,2,3,0.322,0.341,0.234,1,5
+37810,R4,41st Avenue,RapidBus,1,313453,14.5,14.5,15.0,1907,Dunbar Loop @ Bay 5,11.76,10960,Eastbound W 16 Ave @ Wesbrook Mall,17.45,5,2,1,2,0.219,0.223,0.0,5,5
+6627,025,King Edward,Regular Bus,0,312450,19.0,19.0,19.5,1546,Eastbound E 22 Ave @ Rupert St,18.88,1549,Eastbound Kincaid St @ Boundary Rd,19.83,5,1,0,4,0.298,0.333,0.06,2,5
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,13.0,13.0,13.5,12070,Eastbound Cordova Diversion @ Hawks Ave,12.75,435,Eastbound Powell St @ Clark Dr,13.52,5,1,0,4,0.337,0.342,0.052,3,5
+6642,100,Marine Drive,Regular Bus,0,312532,1.0,1.0,1.5,2146,Eastbound SW Marine Dr @ Heather St,0.83,11252,Marine Drive Station @ Bay 2,1.79,5,0,0,5,0.332,0.325,0.275,2,5
+6642,100,Marine Drive,Regular Bus,0,312532,7.0,7.0,7.5,8621,Eastbound SE Marine Dr @ 2600 Block,6.91,1851,Eastbound SE Marine Dr @ Kerr St,7.55,5,1,0,4,0.303,0.381,0.074,2,5
+6627,025,King Edward,Regular Bus,1,312455,16.5,16.5,17.0,122,Westbound W King Edward Ave @ Macdonald St,16.21,1602,Westbound W King Edward Ave @ Blenheim St,17.04,5,2,0,3,0.29,0.419,0.039,3,5
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,4.5,4.5,5.0,507,Westbound E Hastings St @ Campbell Ave,4.37,510,Westbound E Hastings St @ Jackson Ave,5.01,5,0,0,5,0.455,0.456,0.437,2,5
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,16.0,16.0,16.5,1111,Southbound Arbutus St @ Valley Dr,15.9,1114,Southbound West Blvd @ W 37 Ave,16.7,5,2,1,2,0.192,0.107,0.051,4,5
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,13.0,13.0,13.5,597,Westbound W 4th Ave @ Wallace St,12.84,600,Westbound W 4th Ave @ NW Marine Dr,13.54,5,1,2,2,0.252,0.231,0.085,4,4
+6619,009,Broadway,Regular Bus,0,312285,2.0,2.0,2.5,10980,Eastbound W Broadway @ Larch St,1.72,328,Eastbound W Broadway @ Burrard St,2.96,5,0,2,3,0.276,0.342,0.171,2,5
+6705,321,King George Blvd,Regular Bus,0,312945,1.5,1.5,2.0,6355,Eastbound North Bluff Rd @ Everall St,1.36,6174,White Rock Centre @ Bay 7,2.1,5,0,1,4,0.305,0.32,0.195,2,5
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,18.0,18.0,18.5,6999,Westbound Cambie Rd @ No. 4 Rd,17.95,7001,Westbound Cambie Rd @ Garden City Rd,18.65,5,0,2,3,0.274,0.342,0.139,2,5
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,1.0,1.0,1.5,967,Westbound E Hastings St @ Windermere St,0.8,969,Westbound E Hastings St @ Kaslo St,1.58,5,0,0,5,0.386,0.386,0.386,2,5
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,4.5,4.5,5.0,354,Eastbound W 4th Ave @ 4100 Block,4.38,358,Eastbound W 4th Ave @ Alma St,5.3,5,0,3,2,0.239,0.222,0.101,3,4
+6627,025,King Edward,Regular Bus,0,312450,11.5,11.5,12.0,1523,Eastbound W King Edward Ave @ Willow St,11.22,12989,Eastbound W King Edward Ave @ Columbia St,12.11,5,0,0,5,0.391,0.411,0.264,1,5
+6705,321,King George Blvd,Regular Bus,0,312945,17.0,17.0,17.5,5467,Northbound King George Blvd @ 76 Ave,16.84,5469,Northbound King George Blvd @ 80 Ave,17.51,4,0,1,3,0.332,0.381,0.186,2,4
+6687,250,Horseshoe Bay/Dundarave/Vancouver,Express / Regional,0,312836,8.5,8.5,9.0,9487,Eastbound W Georgia St @ Gilford St,8.3,982,Eastbound W Georgia St @ Broughton St,9.08,4,0,0,4,0.47,0.488,0.418,3,4
+6627,025,King Edward,Regular Bus,1,312455,18.5,18.5,19.0,1604,Westbound W 16 Ave @ Alma St,18.45,1606,Westbound W 16 Ave @ Camosun St,19.27,4,1,1,2,0.24,0.24,0.091,3,4
+37807,R5,Hastings St,RapidBus,1,313460,16.5,16.5,17.0,503,Westbound E Hastings St @ Commercial Dr,14.43,11646,Westbound W Hastings St @ Abbott St,17.07,4,1,3,0,0.147,0.168,0.067,2,4
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,12.5,12.5,13.0,570,Westbound W Broadway @ Bayswater St,12.42,573,Westbound W Broadway @ Collingwood St,13.19,4,0,1,3,0.327,0.361,0.148,3,4
+6627,025,King Edward,Regular Bus,1,312455,4.0,4.0,4.5,1564,Westbound Kincaid St @ Boundary Rd,3.76,12868,Westbound E 22 Ave @ Cassiar St,4.52,4,1,0,3,0.368,0.466,0.065,2,4
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,5.0,5.0,5.5,1038,Northbound Arbutus St @ Nanton Ave,4.7,1042,Northbound Arbutus St @ W 16 Ave,5.76,4,0,3,1,0.243,0.21,0.113,2,4
+6627,025,King Edward,Regular Bus,0,312450,18.0,18.0,18.5,1542,Eastbound E 22 Ave @ Slocan St,17.71,1546,Eastbound E 22 Ave @ Rupert St,18.88,4,1,0,3,0.328,0.405,0.022,2,4
+6636,049,49th Avenue,Regular Bus,0,312498,6.5,6.5,7.0,1903,Eastbound W 41 Ave @ Wallace St,6.37,1962,Southbound Dunbar St @ SW Marine Dr,7.15,4,0,1,3,0.295,0.305,0.158,2,4
+6728,410,Brighouse Station/22nd St Station,Regular Bus,0,313126,3.5,3.5,4.0,6949,Eastbound Cambie Rd @ Garden City Rd,3.4,6951,Eastbound Cambie Rd @ No. 4 Rd,4.16,4,0,0,4,0.421,0.421,0.421,3,4
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312348,3.0,3.0,3.5,11542,Southbound Howe St @ Davie St,1.8,584,Westbound W 4th Ave @ Fir St,3.65,4,2,1,1,0.153,0.131,0.025,2,4
+6627,025,King Edward,Regular Bus,0,312450,21.0,21.0,21.5,1552,Eastbound Sanderson Way @ Gilmore Way,20.94,1554,Northbound Willingdon Ave @ Goard Way,21.72,4,2,0,2,0.258,0.277,0.008,3,4
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,2.5,2.5,3.0,274,Eastbound University Blvd @ 5100 Block,1.48,350,Eastbound W 4th Ave @ Blanca St,3.12,4,1,2,1,0.15,0.127,0.048,2,4
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,15.0,15.0,15.5,6119,Southbound 152 St @ 76 Ave,14.64,12936,Westbound 72 Ave @ 150 St,15.84,4,0,0,4,0.378,0.401,0.311,2,4
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312348,2.0,2.0,2.5,11542,Southbound Howe St @ Davie St,1.8,542,Westbound W 5th Ave Offramp @ Granville St,3.41,4,3,0,1,0.119,0.076,0.008,3,4
+6636,049,49th Avenue,Regular Bus,0,312498,9.5,9.5,10.0,1970,Eastbound W 49 Ave @ Yew St,9.3,1974,Eastbound W 49 Ave @ Angus Dr,10.11,4,2,0,2,0.168,0.153,0.051,2,4
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,0,312666,22.0,22.0,22.5,3334,Coquitlam Central Station @ Bay 1,21.75,3054,Eastbound Lougheed Hwy @ Westwood St,22.78,4,0,1,3,0.371,0.451,0.115,3,4
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,8.0,8.0,8.5,8968,Eastbound 100 Ave @ 158 St,7.76,5913,Southbound 160 St @ 98 Ave,8.58,4,2,0,2,0.232,0.207,0.047,2,4
+6728,410,Brighouse Station/22nd St Station,Regular Bus,0,313126,18.0,18.0,18.5,12139,Eastbound Westminster Hwy @ Boundary Rd,17.99,6978,Eastbound Ewen Ave @ Gifford St,18.73,4,2,0,2,0.182,0.17,0.049,1,4
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,6.5,6.5,7.0,517,Westbound Powell St @ Hawks Ave,6.4,520,Westbound Powell St @ Gore Ave,7.18,4,0,0,4,0.398,0.425,0.283,1,4
+37807,R5,Hastings St,RapidBus,1,313460,15.5,15.5,16.0,503,Westbound E Hastings St @ Commercial Dr,14.43,185,Westbound E Hastings St @ Main St,16.51,4,1,1,2,0.22,0.218,0.016,2,4
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,13.5,13.5,14.0,599,Westbound W 4th Ave @ 4100 Block,13.34,601,Westbound W 4th Ave @ Trimble St,14.0,4,0,1,3,0.312,0.314,0.219,3,4
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,12.5,12.5,13.0,596,Westbound W 4th Ave @ Alma St,12.48,599,Westbound W 4th Ave @ 4100 Block,13.34,4,0,2,2,0.338,0.338,0.221,2,3
+6636,049,49th Avenue,Regular Bus,0,312498,19.5,19.5,20.0,2010,Eastbound Imperial St @ Boundary Rd,19.41,10331,Northbound Willingdon Extension @ Imperial St,20.22,4,0,1,3,0.316,0.328,0.139,3,4
+6627,025,King Edward,Regular Bus,0,312450,22.0,22.0,22.5,1554,Northbound Willingdon Ave @ Goard Way,21.72,11192,Northbound Willingdon Ave @ Still Creek Dr,22.84,4,1,2,1,0.212,0.182,0.047,3,4
+6619,009,Broadway,Regular Bus,0,312285,3.5,3.5,4.0,329,Eastbound W Broadway @ Fir St,3.3,332,Eastbound W Broadway @ Alder St,4.0,4,0,0,4,0.344,0.344,0.343,1,4
+6705,321,King George Blvd,Regular Bus,0,312945,22.0,22.0,22.5,7213,Northbound King George Blvd @ 102 Ave,21.97,10880,Surrey Central Station @ Bay 12,22.74,4,1,3,0,0.088,0.114,0.008,3,4
+6619,009,Broadway,Regular Bus,0,312285,1.0,1.0,1.5,10652,Eastbound W Broadway St @ Balaclava St,0.86,323,Eastbound W Broadway @ Trafalgar St,1.55,4,0,0,4,0.373,0.396,0.297,1,4
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,13.0,13.0,13.5,5924,Westbound 84 Ave @ 154 St,12.66,6118,Southbound 152 St @ 7900 Block,13.86,4,1,1,2,0.209,0.202,0.014,3,4
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,2.5,2.5,3.0,512,Westbound Powell St @ Commercial Dr,2.49,516,Westbound Powell St @ Glen Dr,3.3,4,1,1,2,0.232,0.269,0.018,2,3
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,1.0,1.0,1.5,1086,Northbound Boyd Diversion @ E 22 Ave,0.92,1089,Northbound Renfrew St @ E 16 Ave,1.54,4,0,1,3,0.347,0.369,0.227,2,4
+6636,049,49th Avenue,Regular Bus,0,312498,7.0,7.0,7.5,1961,Southbound Dunbar St @ W 43 Ave,6.99,1963,Eastbound SW Marine Dr @ Blenheim St,7.64,4,0,2,2,0.303,0.307,0.141,2,4
+6636,049,49th Avenue,Regular Bus,0,312498,8.0,8.0,8.5,1963,Eastbound SW Marine Dr @ Blenheim St,7.64,1967,Eastbound W 49 Ave @ McCleery St,8.56,4,1,1,2,0.21,0.242,0.028,2,4
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,9.5,9.5,10.0,5915,Southbound 160 St @ 93A Ave,9.43,5918,Southbound 160 St @ 88 Ave,10.55,4,0,3,1,0.261,0.2,0.2,2,4
+6705,321,King George Blvd,Regular Bus,0,312945,13.5,13.5,14.0,5455,Northbound King George Blvd @ 62 Ave,13.11,5458,Eastbound 68 Ave @ King George Blvd,14.34,4,3,0,1,0.164,0.066,0.047,2,4
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,15.0,15.0,15.5,435,Eastbound Powell St @ Clark Dr,14.87,439,Eastbound Powell St @ Victoria Dr,15.75,4,0,2,2,0.279,0.29,0.167,2,4
+6641,099,Broadway B-Line,B-Line,1,312530,12.5,12.5,13.0,582,Westbound W 10 Ave @ Sasamat St,10.8,12483,Westbound University Blvd @ Western Parkway,13.51,4,1,0,3,0.316,0.37,0.081,4,4
+6627,025,King Edward,Regular Bus,0,312450,19.5,19.5,20.0,1548,Eastbound E 22 Ave @ Kootenay St,19.43,1550,Eastbound Kincaid St @ Smith Ave,20.1,4,1,1,2,0.264,0.252,0.06,2,4
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,9.5,9.5,10.0,407,Westbound W 5th Ave @ Granville St,9.18,11426,Northbound Granville St @ Drake St,10.62,4,1,1,2,0.175,0.216,0.005,2,4
+6705,321,King George Blvd,Regular Bus,0,312945,16.0,16.0,16.5,5700,Newton Exchange @ Bay 2,15.7,5466,Northbound King George Blvd @ 74 Ave,16.57,4,1,1,2,0.221,0.237,0.048,1,4
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,12.5,12.5,13.0,585,Westbound W 4th Ave @ Burrard St,12.18,589,Westbound W 4th Ave @ Balsam St,13.23,4,0,3,1,0.215,0.173,0.172,1,4
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,12.5,12.5,13.0,431,Eastbound E Cordova St @ Princess Ave,12.45,433,Eastbound Powell St @ Glen Dr,13.14,4,2,1,1,0.143,0.086,0.0,3,4
+6642,100,Marine Drive,Regular Bus,0,312532,13.0,13.0,13.5,10349,Eastbound Southridge Dr @ Marine Dr,12.81,2176,Eastbound Marine Dr @ 14 Ave,13.63,4,0,0,4,0.285,0.277,0.26,2,3
+6624,019,Kingsway,Regular Bus,0,312403,1.5,1.5,2.0,981,Eastbound W Georgia St @ Denman St,1.18,410,Eastbound W Pender St @ Thurlow St,2.32,4,1,2,1,0.15,0.145,0.034,2,4
+6636,049,49th Avenue,Regular Bus,1,312507,9.5,9.5,10.0,13088,Westbound W 49th Ave @ Columbia St,9.18,2053,Westbound W 49 Ave @ Laurel St,10.3,4,1,0,3,0.292,0.351,0.072,1,4
+6627,025,King Edward,Regular Bus,1,312455,5.0,5.0,5.5,1568,Westbound E 22 Ave @ Windermere St,4.97,672,Westbound E 22 Ave @ Slocan St,5.97,4,0,3,1,0.242,0.229,0.184,2,4
+6614,004,Powell/UBC Exchange,Regular Bus,0,312234,5.5,5.5,6.0,12814,Eastbound W 4th Ave @ Maple St,5.3,405,Eastbound W 4th Ave @ Fir St,6.03,4,0,0,4,0.374,0.378,0.315,1,4
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,1,312991,3.0,3.0,3.5,12937,Eastbound 72 Ave @ 150 St,2.99,6108,Northbound 152 St @ 76 Ave,4.26,4,0,0,4,0.316,0.316,0.311,1,4
+6624,019,Kingsway,Regular Bus,1,312414,1.5,1.5,2.0,181,Main Street-Science World Station @ Bay 2,1.36,696,Westbound E Pender St @ Main St,2.21,4,0,2,2,0.265,0.244,0.12,2,4
+6642,100,Marine Drive,Regular Bus,0,312532,13.5,13.5,14.0,2175,Eastbound Marine Dr @ Willard St,13.1,2177,Eastbound Marine Dr @ 6400 Block,14.15,4,0,3,1,0.248,0.239,0.194,2,3
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,17.0,17.0,17.5,12152,Westbound 72 Ave @ 146 St,16.66,5792,Westbound 72 Ave @ 140 St,17.91,4,3,0,1,0.12,0.029,0.012,2,4
+37807,R5,Hastings St,RapidBus,1,313460,11.0,11.0,11.5,13069,Westbound Hastings St @ Gilmore Ave,10.16,968,Westbound E Hastings St @ Renfrew St,12.47,4,2,0,2,0.221,0.173,0.05,2,4
+6705,321,King George Blvd,Regular Bus,0,312945,14.0,14.0,14.5,12651,Northbound King George Blvd @ 6700 Block,13.99,5459,Northbound 138 St @ Hyland Rd,14.57,4,0,1,3,0.31,0.266,0.221,3,4
+6728,410,Brighouse Station/22nd St Station,Regular Bus,0,313126,5.0,5.0,5.5,6953,Eastbound Cambie Rd @ St. Edwards Dr,4.85,6956,Eastbound Cambie Rd @ No. 5 Rd,5.82,4,0,1,3,0.311,0.341,0.137,1,4
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,4.0,4.0,4.5,353,Eastbound W 4th Ave @ Trimble St,3.71,356,Eastbound W 4th Ave @ Wallace St,4.93,4,0,2,2,0.306,0.281,0.181,2,3
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,17.0,17.0,17.5,608,Westbound University Blvd @ 5100 Block,16.8,610,Westbound University Blvd @ Acadia Rd,17.62,4,0,1,3,0.269,0.282,0.141,2,4
+6636,049,49th Avenue,Regular Bus,0,312498,12.5,12.5,13.0,10745,Langara-49th Station @ Bay 3,12.45,1987,Eastbound E 49 Ave @ Quebec St,13.38,4,2,1,1,0.169,0.149,0.0,3,4
+6627,025,King Edward,Regular Bus,1,312455,20.0,20.0,20.5,1607,Westbound W 16 Ave @ Discovery St,19.72,1609,Westbound W 16 Ave @ Blanca St,20.52,4,0,1,3,0.386,0.441,0.222,3,4
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,4.0,4.0,4.5,358,Eastbound W 4th Ave @ Alma St,3.94,12811,Eastbound W 4th Ave @ Blenheim St,4.53,4,0,2,2,0.219,0.221,0.138,2,3
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,3.0,3.0,3.5,740,Westbound E Hastings St @ Victoria Dr,2.96,504,Westbound E Hastings St @ McLean Dr,3.58,4,0,0,4,0.379,0.379,0.271,2,4
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,16.5,16.5,17.0,11910,Westbound 72 Ave @ 148 St,16.24,5935,Westbound 72 Ave @ 144 St,17.08,4,2,0,2,0.164,0.157,0.018,2,4
+6619,009,Broadway,Regular Bus,0,312285,10.5,10.5,11.0,902,Eastbound E Broadway @ Renfrew St,10.45,906,Eastbound E Broadway @ Rupert St,11.23,4,0,2,2,0.272,0.242,0.183,3,4
+6627,025,King Edward,Regular Bus,0,312450,20.5,20.5,21.0,1551,Eastbound Kincaid St @ MacDonald Ave,20.44,1553,Eastbound Sanderson Way @ Mathissi Place,21.2,4,1,1,2,0.267,0.31,0.071,2,4
+6636,049,49th Avenue,Regular Bus,0,312498,13.5,13.5,14.0,1987,Eastbound E 49 Ave @ Quebec St,13.38,1990,Eastbound E 49 Ave @ St. George St,14.09,4,0,0,4,0.302,0.277,0.25,3,4
+6619,009,Broadway,Regular Bus,0,312285,3.0,3.0,3.5,328,Eastbound W Broadway @ Burrard St,2.96,331,Eastbound W Broadway @ Hemlock St,3.75,4,0,1,3,0.313,0.331,0.231,2,4
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,9.0,9.0,9.5,5913,Southbound 160 St @ 98 Ave,8.58,5916,Southbound 160 St @ 92 Ave,9.77,4,3,0,1,0.121,0.057,0.027,2,4
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,5.0,5.0,5.5,2391,Westbound Westminster Hwy @ Smith Cres,4.94,11520,Westbound Westminster Hwy @ McLean Ave,5.92,4,2,2,0,0.13,0.133,0.042,3,4
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,1,312991,11.5,11.5,12.0,5811,Northbound 156 St @ 100 Ave,11.5,5813,Westbound 104 Ave @ 156 St,12.3,4,1,0,3,0.279,0.359,0.037,2,4
+6627,025,King Edward,Regular Bus,0,312450,12.5,12.5,13.0,12570,Eastbound E King Edward Ave @ Ontario St,12.5,1531,Eastbound E King Edward Ave @ Prince Edward St,13.12,4,2,0,2,0.231,0.196,0.044,1,4
+6627,025,King Edward,Regular Bus,0,312450,13.5,13.5,14.0,1532,Eastbound E King Edward Ave @ St. George St,13.3,1535,Eastbound E King Edward Ave @ Glen Dr,14.2,4,0,0,4,0.269,0.267,0.255,1,4
+6642,100,Marine Drive,Regular Bus,0,312532,8.0,8.0,8.5,1851,Eastbound SE Marine Dr @ Kerr St,7.55,2163,Eastbound SE Marine Dr @ Matheson Cres,8.64,4,1,0,3,0.239,0.284,0.055,3,4
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312366,13.0,13.0,13.5,947,Eastbound E Hastings St @ Campbell Ave,12.87,950,Eastbound E Hastings St @ McLean Dr,13.66,4,0,1,3,0.379,0.407,0.217,1,4
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,3.5,3.5,4.0,281,Eastbound W 10 Ave @ Discovery St,3.49,284,Eastbound W 10 Ave @ Crown St,4.17,4,0,1,3,0.312,0.337,0.127,3,4
+6641,099,Broadway B-Line,B-Line,0,312527,3.5,3.5,4.0,279,Eastbound W 10 Ave @ Sasamat St,3.04,9530,Eastbound W Broadway @ Alma St,4.9,4,0,3,1,0.275,0.225,0.212,2,4
+6619,009,Broadway,Regular Bus,0,312285,8.0,8.0,8.5,891,Eastbound E Broadway @ Glen Dr,7.71,11588,Commercial-Broadway Station @ Bay 1,8.59,4,1,3,0,0.128,0.14,0.086,1,4
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,3.0,3.0,3.5,,,,2387,Westbound Ewen Ave @ Jardine St,3.51,4,0,1,3,0.277,0.31,0.114,1,4
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,0,312666,21.0,21.0,21.5,12280,Lincoln Station @ Bay 1,20.78,3334,Coquitlam Central Station @ Bay 1,21.75,4,0,1,3,0.393,0.441,0.248,3,4
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,1,312669,23.5,23.5,24.0,1891,Westbound Hastings St @ Hythe Ave,23.4,1893,Westbound Hastings St @ Alpha Ave,24.14,3,0,2,1,0.265,0.205,0.184,2,3
+6705,321,King George Blvd,Regular Bus,1,312952,17.5,17.5,18.0,10443,Southbound King George Blvd @ 32 Ave,17.24,5530,Southbound King George Blvd @ 28 Ave,18.34,3,0,1,2,0.28,0.285,0.112,2,3
+6627,025,King Edward,Regular Bus,1,312455,13.0,13.0,13.5,1588,Westbound W King Edward Ave @ Laurel St,12.82,1592,Westbound W King Edward Ave @ Granville St,13.89,3,0,0,3,0.332,0.326,0.326,1,3
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,6.0,6.0,6.5,11520,Westbound Westminster Hwy @ McLean Ave,5.92,6988,Northbound No. 6 Rd @ Maycrest Way,14.07,3,0,2,1,0.2,0.157,0.103,2,3
+6705,321,King George Blvd,Regular Bus,1,312952,15.5,15.5,16.0,5523,Southbound King George Blvd @ 40 Ave,14.68,5524,Southbound King George Blvd @ Crescent Rd,16.4,3,3,0,0,0.028,0.035,0.014,2,3
+6641,099,Broadway B-Line,B-Line,1,312530,2.5,2.5,3.0,13121,Westbound E Broadway @ Brunswick St,2.39,11088,Broadway-City Hall Station @ Bay 4,3.77,3,0,1,2,0.339,0.39,0.151,3,3
+6642,100,Marine Drive,Regular Bus,0,312532,9.5,9.5,10.0,2165,Eastbound Marine Dr @ Joffre Ave,9.45,2167,Eastbound Marine Dr @ Patterson Ave,10.05,3,1,0,2,0.235,0.315,0.073,2,3
+6642,100,Marine Drive,Regular Bus,0,312532,10.5,10.5,11.0,2168,Eastbound Marine Dr @ Sussex Ave,10.5,2170,Eastbound Marine Dr @ Nelson Ave,11.13,3,0,1,2,0.322,0.315,0.209,1,3
+6636,049,49th Avenue,Regular Bus,0,312498,7.5,7.5,8.0,1962,Southbound Dunbar St @ SW Marine Dr,7.15,1964,Eastbound SW Marine Dr @ Balaclava St,8.02,3,0,1,2,0.282,0.323,0.147,2,3
+6624,019,Kingsway,Regular Bus,0,312397,5.0,5.0,5.5,235,Main Street-Science World Station @ Bay 1,4.87,9067,Southbound Main St @ E 5th Ave,5.65,3,0,3,0,0.189,0.211,0.145,1,3
+6619,009,Broadway,Regular Bus,0,312285,8.5,8.5,9.0,893,Eastbound E Broadway @ Woodland Dr,8.27,896,Eastbound E Broadway @ Lakewood Dr,9.13,3,2,1,0,0.061,0.012,0.011,1,3
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,1,312669,20.5,20.5,21.0,3799,Southbound Inlet Dr @ Bayview Dr,20.19,11766,Westbound Hastings St @ Cliff Ave,21.07,3,0,0,3,0.414,0.431,0.334,1,3
+6636,049,49th Avenue,Regular Bus,1,312507,9.0,9.0,9.5,13140,Westbound E 49th Ave @ Quebec St,8.66,13141,Westbound W 49 Ave @ Cambie St,9.67,3,0,0,3,0.36,0.342,0.324,2,3
+6642,100,Marine Drive,Regular Bus,0,312532,1.5,1.5,2.0,2148,Eastbound SW Marine Dr @ Ash St,1.29,2151,Eastbound SW Marine Dr @ Manitoba St,2.65,3,0,1,2,0.325,0.415,0.133,2,3
+6627,025,King Edward,Regular Bus,1,312455,11.5,11.5,12.0,1584,Westbound W King Edward Ave @ Ontario St,11.36,1586,King Edward Station @ Bay 1,12.15,3,0,1,2,0.329,0.342,0.241,3,3
+6636,049,49th Avenue,Regular Bus,1,312507,8.5,8.5,9.0,2046,Westbound E 49 Ave @ Prince Edward St,8.26,13088,Westbound W 49th Ave @ Columbia St,9.18,3,0,1,2,0.259,0.333,0.109,1,3
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,0,312666,20.0,20.0,20.5,3199,Eastbound Guildford Way @ Pacific St,19.88,3202,Southbound Pinetree Way @ Glen Dr,20.52,3,0,0,3,0.264,0.254,0.254,1,3
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,16.0,16.0,16.5,12936,Westbound 72 Ave @ 150 St,15.84,12152,Westbound 72 Ave @ 146 St,16.66,3,0,0,3,0.391,0.417,0.262,2,3
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,3.5,3.5,4.0,516,Westbound Powell St @ Glen Dr,3.3,519,Westbound Powell St @ Jackson Ave,4.2,3,0,3,0,0.174,0.174,0.174,2,3
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,5.5,5.5,6.0,6985,Westbound Westminster Hwy @ Fraserside Gate,5.46,6987,Westbound Westminster Hwy @ Hwy 91,6.23,3,0,1,2,0.316,0.39,0.169,2,3
+37807,R5,Hastings St,RapidBus,0,313454,8.5,8.5,9.0,1391,Eastbound Hastings St @ Gilmore Ave,8.01,1860,Eastbound Hastings St @ Hythe Ave,9.79,3,0,3,0,0.202,0.202,0.202,1,3
+6642,100,Marine Drive,Regular Bus,0,312532,7.5,7.5,8.0,1850,Eastbound SE Marine Dr @ Jellicoe St,7.37,1852,Eastbound SE Marine Dr @ Fieldstone Ave,8.29,3,0,1,2,0.268,0.253,0.108,2,3
+6627,025,King Edward,Regular Bus,1,312455,8.5,8.5,9.0,1198,Westbound Kingsway @ Victoria Dr,8.33,1576,Westbound E King Edward Ave @ Knight St,9.23,3,0,0,3,0.299,0.301,0.291,1,3
+37810,R4,41st Avenue,RapidBus,1,313453,15.5,15.5,16.0,1907,Dunbar Loop @ Bay 5,11.76,10960,Eastbound W 16 Ave @ Wesbrook Mall,17.45,3,1,1,1,0.215,0.24,0.074,3,3
+6627,025,King Edward,Regular Bus,1,312455,19.0,19.0,19.5,1605,Westbound W 16 Ave @ Wallace St,18.82,1607,Westbound W 16 Ave @ Discovery St,19.72,3,0,1,2,0.338,0.442,0.131,2,3
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312366,17.5,17.5,18.0,1052,Southbound Renfrew St @ E 4th Ave,17.46,8907,Renfrew Station @ Bay 1,18.27,3,0,2,1,0.212,0.11,0.11,1,3
+6636,049,49th Avenue,Regular Bus,0,312498,10.5,10.5,11.0,1975,Eastbound W 49 Ave @ Marguerite St,10.33,1978,Eastbound W 49 Ave @ Hudson St,11.06,3,0,1,2,0.254,0.258,0.16,2,3
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,11.0,11.0,11.5,5918,Southbound 160 St @ 88 Ave,10.55,12552,Westbound 84 Ave @ Venture Way,11.77,3,3,0,0,0.052,0.055,0.048,1,3
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312366,17.0,17.0,17.5,1050,Southbound Renfrew St @ Kitchener St,16.85,1053,Southbound Renfrew St @ E 5th Ave,17.57,3,0,0,3,0.411,0.409,0.409,1,3
+37807,R5,Hastings St,RapidBus,1,313460,17.0,17.0,17.5,185,Westbound E Hastings St @ Main St,16.51,11441,Westbound W Hastings St @ Granville St,17.7,3,2,1,0,0.07,0.054,0.054,2,3
+6641,099,Broadway B-Line,B-Line,1,312530,8.0,8.0,8.5,11113,Westbound W Broadway @ Macdonald St,7.6,361,Southbound Alma St @ W 10 Ave,9.03,3,0,2,1,0.258,0.148,0.139,2,3
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,3.0,3.0,3.5,275,Northbound Blanca St @ W 10 Ave,2.55,353,Eastbound W 4th Ave @ Trimble St,3.71,3,0,2,1,0.285,0.222,0.222,2,2
+6642,100,Marine Drive,Regular Bus,1,312538,9.0,9.0,9.5,1814,Westbound SE Marine Dr @ Gladstone St,8.95,2226,Westbound SE Marine Dr @ Argyle St,9.78,3,1,0,2,0.327,0.459,0.056,1,3
+6636,049,49th Avenue,Regular Bus,0,312498,10.0,10.0,10.5,1973,Eastbound W 49 Ave @ Maple St,9.78,1976,Eastbound W 49 Ave @ Churchill St,10.57,3,1,1,1,0.157,0.117,0.051,2,3
+6636,049,49th Avenue,Regular Bus,1,312507,19.5,19.5,20.0,1895,Northbound Wesbrook Mall @ Triumf Centre,19.45,11760,Northbound Wesbrook Mall @ Birney Ave,20.25,3,3,0,0,0.041,0.032,0.018,1,3
+6728,410,Brighouse Station/22nd St Station,Regular Bus,0,313126,18.5,18.5,19.0,6976,Eastbound Ewen Ave @ Hume St,18.44,11927,Eastbound Ewen Ave @ Jardine St,19.02,3,1,1,1,0.22,0.193,0.099,2,3
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,3.5,3.5,4.0,2386,Westbound Ewen Ave @ Howes St,3.23,2389,Westbound Ewen Ave @ Hume St,4.02,3,0,0,3,0.41,0.387,0.354,1,3
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,0,312666,4.5,4.5,5.0,1865,Eastbound Hastings St @ Kensington Ave,4.26,12342,Northbound Inlet Dr @ Hastings St,5.09,3,0,1,2,0.241,0.307,0.11,1,3
+6627,025,King Edward,Regular Bus,0,312450,6.0,6.0,6.5,368,Southbound Dunbar St @ W 21 Ave,5.93,1507,Eastbound W King Edward Ave @ Blenheim St,6.83,3,0,0,3,0.421,0.447,0.32,1,3
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,14.0,14.0,14.5,576,Westbound W 10 Ave @ Wallace St,13.97,579,Westbound W 10 Ave @ Courtenay St,14.65,3,0,2,1,0.253,0.223,0.212,2,3
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,8.5,8.5,9.0,12305,Eastbound 100 Ave @ 160 St,8.06,5914,Southbound 160 St @ 96 Ave,9.0,3,0,2,1,0.213,0.117,0.106,2,3
+6705,321,King George Blvd,Regular Bus,1,312952,6.0,6.0,6.5,5504,Southbound King George Blvd @ 77 Ave,5.72,5507,Eastbound 72 Ave @ King George Blvd,6.88,3,0,1,2,0.375,0.409,0.231,1,3
+6627,025,King Edward,Regular Bus,1,312455,15.0,15.0,15.5,1596,Westbound W King Edward Ave @ Arbutus St,15.0,1598,Westbound W King Edward Ave @ Valley Dr,15.5,3,0,1,2,0.306,0.306,0.154,2,3
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,4.0,4.0,4.5,5899,Eastbound 108 Ave @ 146 St,3.69,5178,Southbound 150 St @ 107A Ave,4.61,3,0,0,3,0.282,0.284,0.277,1,3
+6642,100,Marine Drive,Regular Bus,1,312538,7.5,7.5,8.0,1810,Westbound SE Marine Dr @ Kerr St,7.47,1812,Westbound SE Marine Dr @ Elliott St,8.54,3,0,2,1,0.237,0.211,0.211,2,3
+6614,004,Powell/UBC Exchange,Regular Bus,0,312234,8.5,8.5,9.0,11429,Northbound Granville St @ Davie St,8.15,11525,Northbound Granville St @ Dunsmuir St,9.06,3,0,0,3,0.409,0.444,0.34,1,3
+37810,R4,41st Avenue,RapidBus,1,313453,12.5,12.5,13.0,1907,Dunbar Loop @ Bay 5,11.76,10960,Eastbound W 16 Ave @ Wesbrook Mall,17.45,3,3,0,0,0.009,0.0,0.0,3,3
+37807,R5,Hastings St,RapidBus,0,313454,8.0,8.0,8.5,1387,Kootenay Loop @ Bay 8,7.16,1393,Eastbound Hastings St @ Willingdon Ave,8.62,3,0,3,0,0.202,0.202,0.202,2,3
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,16.5,16.5,17.0,607,Westbound University Blvd @ Blanca St,15.78,609,Westbound University Blvd @ 5300 Block,17.31,3,1,0,2,0.338,0.49,0.035,3,3
+6627,025,King Edward,Regular Bus,1,312455,19.5,19.5,20.0,1606,Westbound W 16 Ave @ Camosun St,19.27,1608,Westbound W 16 Ave @ Sasamat St,20.17,3,1,0,2,0.296,0.444,0.001,2,3
+6619,009,Broadway,Regular Bus,0,312285,10.0,10.0,10.5,899,Eastbound E Broadway @ Penticton St,9.89,904,Eastbound E Broadway @ Nootka St,10.75,3,1,1,1,0.211,0.199,0.055,1,3
+6738,502,Fraser Hwy,Express / Regional,0,317228,9.0,9.0,9.5,5298,Eastbound Fraser Hwy @ 166 St,8.88,13055,Eastbound Fraser Hwy @ 176 St,11.1,3,0,1,2,0.29,0.316,0.108,1,3
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,1,312991,10.5,10.5,11.0,5967,Northbound 160 St @ 98 Ave,10.26,8487,Westbound 100 Ave @ 158 St,11.07,3,2,0,1,0.164,0.097,0.036,1,3
+6642,100,Marine Drive,Regular Bus,1,312538,6.5,6.5,7.0,2224,Westbound SE Marine Dr @ City Edge Place,6.25,1810,Westbound SE Marine Dr @ Kerr St,7.47,3,0,0,3,0.421,0.46,0.333,2,3
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,10.5,10.5,11.0,5917,Southbound 160 St @ 91 Ave,9.94,5919,Southbound 160 St @ Fraser Hwy,11.17,3,1,1,1,0.188,0.134,0.092,1,3
+6738,502,Fraser Hwy,Express / Regional,0,317228,13.5,13.5,14.0,10648,Eastbound Fraser Hwy @ 184 St,13.34,10644,Eastbound Fraser Hwy @ 188 St,14.29,3,0,0,3,0.368,0.351,0.279,1,3
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,2.5,2.5,3.0,274,Eastbound University Blvd @ 5100 Block,1.53,279,Eastbound W 10 Ave @ Sasamat St,3.06,3,1,2,0,0.136,0.114,0.075,1,3
+37810,R4,41st Avenue,RapidBus,0,313452,4.0,4.0,4.5,1896,Westbound W 16 Ave @ Wesbrook Mall,1.76,12625,Dunbar Loop @ Bay 7,7.62,3,0,1,2,0.348,0.306,0.25,3,3
+6705,321,King George Blvd,Regular Bus,1,312952,19.5,19.5,20.0,5535,Southbound 152 St @ 24 Ave,19.3,5537,Southbound 152 St @ 20 Ave,20.07,3,0,0,3,0.359,0.379,0.292,2,3
+37807,R5,Hastings St,RapidBus,1,313460,15.0,15.0,15.5,503,Westbound E Hastings St @ Commercial Dr,14.43,185,Westbound E Hastings St @ Main St,16.51,3,0,0,3,0.331,0.336,0.314,2,3
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312366,14.0,14.0,14.5,951,Eastbound E Hastings St @ Commercial Dr,13.95,954,Eastbound E Hastings St @ Templeton Dr,14.72,3,1,1,1,0.187,0.198,0.082,1,3
+6624,019,Kingsway,Regular Bus,0,312397,4.5,4.5,5.0,232,Southbound Main St @ Keefer St,4.22,236,Southbound Main St @ Switchmen St,5.15,3,0,0,3,0.39,0.4,0.356,1,3
+6619,009,Broadway,Regular Bus,1,312305,6.5,6.5,7.0,929,Westbound W Broadway @ Columbia St,6.42,932,Westbound W Broadway @ Ash St,7.03,3,0,0,3,0.313,0.313,0.313,1,3
+6625,020,Victoria,Regular Bus,1,312428,7.0,7.0,7.5,973,Southbound Commercial Dr @ E 12 Ave,6.89,976,Southbound Victoria Diversion @ Commercial St,7.52,3,0,1,2,0.338,0.429,0.151,1,3
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,4.0,4.0,4.5,2388,Westbound Ewen Ave @ Gifford St,3.68,2391,Westbound Westminster Hwy @ Smith Cres,4.94,3,1,0,2,0.293,0.341,0.066,2,3
+6627,025,King Edward,Regular Bus,1,312455,21.5,21.5,22.0,1610,Westbound W 16 Ave @ Pacific Spirit Park,21.11,10959,Westbound W 16 Ave @ Wesbrook Mall,22.08,3,0,0,3,0.375,0.317,0.317,2,3
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,5.5,5.5,6.0,185,Westbound E Hastings St @ Main St,5.41,3429,Westbound W Hastings St @ Abbott St,6.07,3,0,0,3,0.424,0.424,0.424,2,3
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,16.5,16.5,17.0,6994,Westbound Cambie Rd @ No. 5 Rd,16.29,6997,Westbound Cambie Rd @ Shell Rd,17.13,3,2,1,0,0.128,0.096,0.065,1,3
+6624,019,Kingsway,Regular Bus,1,312414,5.0,5.0,5.5,8643,Westbound W Georgia St @ Cardero St,4.79,9105,Westbound Stanley Park Dr @ Pipeline Rd,5.65,3,1,0,2,0.211,0.299,0.0,2,3
+6642,100,Marine Drive,Regular Bus,0,312532,12.5,12.5,13.0,2173,Eastbound Marine Dr @ 5500 Block,12.17,2175,Eastbound Marine Dr @ Willard St,13.1,3,1,0,2,0.228,0.264,0.078,2,3
+23384,503,Fraser Hwy Express,Express / Regional,0,313171,14.5,14.5,15.0,10644,Eastbound Fraser Hwy @ 188 St,13.79,8989,Eastbound Fraser Hwy @ 196 St,15.76,3,0,2,1,0.174,0.116,0.116,1,3
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312348,0.5,0.5,1.0,859,Westbound W Hastings St @ Richards St,0.29,4882,Southbound Howe St @ W Georgia St,1.03,3,0,2,1,0.234,0.182,0.182,1,3
+6705,321,King George Blvd,Regular Bus,1,312952,20.5,20.5,21.0,5541,Southbound 152 St @ 18 Ave,20.48,6197,Westbound Thrift Ave @ Johnston Rd,21.31,3,3,0,0,0.038,0.025,0.016,2,3
+6642,100,Marine Drive,Regular Bus,0,312532,11.5,11.5,12.0,2171,Eastbound Marine Dr @ 4900 Block,11.42,2173,Eastbound Marine Dr @ 5500 Block,12.17,3,0,0,3,0.358,0.344,0.321,1,3
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,1,312991,15.5,15.5,16.0,5901,Westbound 108 Ave @ 146 St,15.15,5904,Westbound 108 Ave @ 140 St,16.37,3,0,0,3,0.408,0.413,0.397,2,3
+6627,025,King Edward,Regular Bus,0,312450,5.0,5.0,5.5,1503,Eastbound W 16 Ave @ Crown St,4.86,366,Southbound Dunbar St @ W 17 Ave,5.53,3,0,1,2,0.283,0.264,0.223,1,3
+6625,020,Victoria,Regular Bus,1,312427,5.0,5.0,5.5,1247,Southbound Commercial Dr @ Parker St,4.89,12919,Southbound Commercial Dr @ E 3rd Ave,5.72,3,0,0,3,0.456,0.484,0.398,1,3
+6705,321,King George Blvd,Regular Bus,0,312945,13.0,13.0,13.5,5454,Northbound King George Blvd @ 60 Ave,12.64,5456,Northbound King George Blvd @ 64 Ave,13.54,3,2,0,1,0.212,0.099,0.067,3,3
+6627,025,King Edward,Regular Bus,1,312455,3.5,3.5,4.0,12810,Westbound Kincaid St @ Ingleton Ave,3.31,1565,Westbound E 22 Ave @ Boundary Rd,4.04,3,0,0,3,0.34,0.278,0.278,1,3
+6636,049,49th Avenue,Regular Bus,0,312498,9.0,9.0,9.5,1968,Eastbound W 49 Ave @ Marine Cres,8.84,1971,Eastbound W 49 Ave @ Arbutus St,9.52,3,0,3,0,0.169,0.185,0.102,1,3
+6619,009,Broadway,Regular Bus,0,312285,9.5,9.5,10.0,896,Eastbound E Broadway @ Lakewood Dr,9.13,900,Eastbound E Broadway @ Slocan St,10.05,3,0,2,1,0.251,0.191,0.123,1,3
+6738,502,Fraser Hwy,Express / Regional,0,317228,13.0,13.0,13.5,10871,Eastbound Fraser Hwy @ 182 St,12.87,10646,Eastbound Fraser Hwy @ 68 Ave,13.87,3,0,1,2,0.37,0.484,0.138,1,3
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,6.0,6.0,6.5,5816,Eastbound 104 Ave @ 152 St,5.77,5818,Southbound 156 St @ 104 Ave,6.56,3,0,2,1,0.17,0.106,0.101,1,3
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,1,312669,6.5,6.5,7.0,3784,Westbound Guildford Way @ Johnson St,6.27,3786,Westbound Guildford Way @ Eagleridge Dr,7.11,3,1,1,1,0.187,0.216,0.029,2,3
+6627,025,King Edward,Regular Bus,0,312450,14.0,14.0,14.5,1534,Eastbound E King Edward Ave @ St. Catherines St,13.92,1537,Eastbound E King Edward Ave @ Knight St,14.63,3,0,0,3,0.414,0.418,0.344,1,3
+6619,009,Broadway,Regular Bus,1,312305,5.5,5.5,6.0,856,Westbound E Broadway @ Prince Edward St,5.44,928,Westbound W Broadway @ Ontario St,6.08,3,0,0,3,0.321,0.335,0.291,1,3
+6738,502,Fraser Hwy,Express / Regional,0,317228,7.0,7.0,7.5,5292,Eastbound Fraser Hwy @ 158 St,6.91,5295,Eastbound Fraser Hwy @ 160 St,7.51,3,0,2,1,0.207,0.162,0.129,1,3
+6641,099,Broadway B-Line,B-Line,1,312530,10.0,10.0,10.5,361,Southbound Alma St @ W 10 Ave,9.03,582,Westbound W 10 Ave @ Sasamat St,10.8,3,0,2,1,0.298,0.224,0.224,3,3
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,15.0,15.0,15.5,1107,Southbound Arbutus St @ W 21 Ave,14.99,12788,Southbound Arbutus St @ Lahb Ave,15.55,3,0,0,3,0.309,0.311,0.282,2,3
+6728,410,Brighouse Station/22nd St Station,Regular Bus,0,313126,5.5,5.5,6.0,6955,Eastbound Cambie Rd @ Bargen Dr,5.43,6957,Eastbound Cambie Rd @ 12400 Block,6.23,3,1,0,2,0.305,0.457,0.0,1,3
+6687,250,Horseshoe Bay/Dundarave/Vancouver,Express / Regional,1,312849,6.5,6.5,7.0,1487,Westbound W Georgia St @ Denman St,1.86,4491,Park Royal @ Bay 2,7.31,3,0,0,3,0.368,0.34,0.311,3,3
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,12.5,12.5,13.0,5923,Westbound 84 Ave @ 156 St,12.18,6116,Southbound 152 St @ 84 Ave,13.03,3,1,1,1,0.184,0.105,0.1,2,3
+6619,009,Broadway,Regular Bus,0,312285,7.0,7.0,7.5,781,Eastbound E Broadway @ St. George St,6.85,891,Eastbound E Broadway @ Glen Dr,7.71,3,0,1,2,0.235,0.282,0.142,1,3
+6625,020,Victoria,Regular Bus,0,312419,4.5,4.5,5.0,1224,Northbound Victoria Dr @ E 22 Ave,4.41,1228,Northbound Commercial Dr @ E 14 Ave,5.34,3,0,1,2,0.34,0.331,0.209,1,3
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,0,312666,17.0,17.0,17.5,11308,Northbound Ioco Rd @ Suter Brook Way,16.97,11402,Eastbound Ungless Way @ Ioco Rd,17.53,3,0,2,1,0.227,0.197,0.139,1,3
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,1,312991,13.5,13.5,14.0,5183,Guildford Exchange @ Bay 2,13.31,5186,Northbound 150 St @ 107A Ave,14.2,3,0,1,2,0.317,0.383,0.168,1,3
+37807,R5,Hastings St,RapidBus,1,313460,7.5,7.5,8.0,1886,Westbound Hastings St @ Kensington Ave,6.98,1891,Westbound Hastings St @ Hythe Ave,8.49,3,0,0,3,0.4,0.401,0.3,1,3
+6687,250,Horseshoe Bay/Dundarave/Vancouver,Express / Regional,1,312851,16.0,16.0,16.5,4689,Westbound Marine Dr @ Morgan Cres,15.41,4692,Westbound Marine Dr @ The Dale,16.9,3,0,0,3,0.396,0.385,0.368,2,3
+6627,025,King Edward,Regular Bus,0,312450,20.0,20.0,20.5,1549,Eastbound Kincaid St @ Boundary Rd,19.83,1552,Eastbound Sanderson Way @ Gilmore Way,20.94,3,0,0,3,0.37,0.401,0.257,2,3
+6627,025,King Edward,Regular Bus,1,312455,12.5,12.5,13.0,1586,King Edward Station @ Bay 1,12.15,1589,Westbound W King Edward Ave @ Oak St,13.04,2,0,2,0,0.189,0.189,0.175,1,2
+6636,049,49th Avenue,Regular Bus,1,312507,18.5,18.5,19.0,1912,Westbound SW Marine Dr @ Kullahun Dr,16.83,1895,Northbound Wesbrook Mall @ Triumf Centre,19.45,2,0,0,2,0.375,0.375,0.371,1,2
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,6.0,6.0,6.5,740,Westbound E Hastings St @ Victoria Dr,5.96,504,Westbound E Hastings St @ McLean Dr,6.58,2,0,1,1,0.212,0.212,0.154,2,2
+6614,004,Powell/UBC Exchange,Regular Bus,0,312234,2.0,2.0,2.5,354,Eastbound W 4th Ave @ 4100 Block,1.79,358,Eastbound W 4th Ave @ Alma St,2.7,2,0,0,2,0.363,0.363,0.363,1,2
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,8.0,8.0,8.5,4879,Northbound Granville St @ W 5th Ave,7.92,11426,Northbound Granville St @ Drake St,9.25,2,1,0,1,0.14,0.14,0.025,2,2
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,6.5,6.5,7.0,9849,Westbound Hwy 91 Onramp @ Westminster Hwy,6.43,6988,Northbound No. 6 Rd @ Maycrest Way,14.07,2,0,1,1,0.268,0.268,0.227,1,2
+6627,025,King Edward,Regular Bus,0,312450,4.5,4.5,5.0,1500,Eastbound W 16 Ave @ Trimble St,3.92,1504,Eastbound W 16 Ave @ Highbury St,5.27,2,2,0,0,0.021,0.021,0.0,2,2
+6641,099,Broadway B-Line,B-Line,1,312530,6.5,6.5,7.0,545,Westbound W Broadway @ Granville St,5.57,11113,Westbound W Broadway @ Macdonald St,7.6,2,0,0,2,0.342,0.342,0.342,2,2
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312366,16.5,16.5,17.0,1048,Southbound Renfrew St @ Venables St,16.4,1051,Southbound Renfrew St @ E 1st Ave,17.16,2,0,1,1,0.263,0.263,0.103,1,2
+6641,099,Broadway B-Line,B-Line,1,312530,9.5,9.5,10.0,361,Southbound Alma St @ W 10 Ave,9.03,582,Westbound W 10 Ave @ Sasamat St,10.8,2,0,1,1,0.334,0.334,0.228,2,2
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,2.5,2.5,3.0,,,,2386,Westbound Ewen Ave @ Howes St,3.23,2,0,0,2,0.325,0.325,0.317,1,2
+37810,R4,41st Avenue,RapidBus,0,313452,2.5,2.5,3.0,1896,Westbound W 16 Ave @ Wesbrook Mall,1.76,12625,Dunbar Loop @ Bay 7,7.62,2,2,0,0,0.016,0.016,0.012,2,2
+6738,502,Fraser Hwy,Express / Regional,0,317228,3.0,3.0,3.5,13052,Eastbound Fraser Hwy @ 140 St,2.34,6470,Eastbound Fraser Hwy @ 148 St,4.63,2,0,1,1,0.33,0.33,0.219,1,2
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,12.0,12.0,12.5,12552,Westbound 84 Ave @ Venture Way,11.77,5924,Westbound 84 Ave @ 154 St,12.66,2,0,1,1,0.308,0.308,0.15,1,2
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,1,312669,24.5,24.5,25.0,12827,Westbound Hastings St @ Willingdon Ave,24.29,12777,Westbound Hastings St @ MacDonald Ave,25.32,2,0,0,2,0.377,0.377,0.354,1,2
+6619,009,Broadway,Regular Bus,0,312285,9.0,9.0,9.5,895,Eastbound E Broadway @ Victoria Dr,8.85,898,Eastbound E Broadway @ Nanaimo St,9.58,2,2,0,0,0.023,0.023,0.02,2,2
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,1,312991,11.0,11.0,11.5,8486,Westbound 100 Ave @ 160 St,10.67,5812,Northbound 156 St @ 102 Ave,11.89,2,0,0,2,0.372,0.372,0.331,2,2
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,1,312669,8.0,8.0,8.5,3316,Westbound Guildford Way @ Eagle Ridge Hospital,7.82,11259,Southbound Ioco Rd @ Suter Brook Way,8.92,2,0,0,2,0.29,0.29,0.272,1,2
+6687,250,Horseshoe Bay/Dundarave/Vancouver,Express / Regional,1,312849,1.0,1.0,1.5,9131,Westbound W Georgia St @ Bute St,1.0,8643,Westbound W Georgia St @ Cardero St,1.54,2,0,0,2,0.414,0.414,0.383,1,2
+6705,321,King George Blvd,Regular Bus,1,312952,16.5,16.5,17.0,5524,Southbound King George Blvd @ Crescent Rd,16.4,10443,Southbound King George Blvd @ 32 Ave,17.24,2,0,0,2,0.398,0.398,0.32,1,2
+6642,100,Marine Drive,Regular Bus,1,312538,15.0,15.0,15.5,826,Westbound SW Marine Dr @ Oak St,14.65,2137,Northbound Granville St @ W 71 Ave,15.6,2,0,0,2,0.428,0.428,0.379,1,2
+6738,502,Fraser Hwy,Express / Regional,0,317228,16.5,16.5,17.0,8989,Eastbound Fraser Hwy @ 196 St,16.26,7146,Eastbound Fraser Hwy @ 200 St,17.35,2,0,1,1,0.29,0.29,0.188,1,2
+6642,100,Marine Drive,Regular Bus,1,312538,8.0,8.0,8.5,1811,Westbound SE Marine Dr @ Jellicoe St,7.86,1812,Westbound SE Marine Dr @ Elliott St,8.54,2,1,1,0,0.12,0.12,0.078,1,2
+37810,R4,41st Avenue,RapidBus,0,313452,5.5,5.5,6.0,1896,Westbound W 16 Ave @ Wesbrook Mall,1.76,12625,Dunbar Loop @ Bay 7,7.62,2,0,0,2,0.442,0.442,0.435,2,2
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,3.0,3.0,3.5,278,Eastbound W 10 Ave @ Tolmie St,2.85,282,Eastbound W 10 Ave @ Courtenay St,3.73,2,0,2,0,0.219,0.219,0.213,1,2
+6627,025,King Edward,Regular Bus,0,312450,6.5,6.5,7.0,1505,Eastbound W King Edward Ave @ Dunbar St,6.36,1509,Eastbound W King Edward Ave @ Quesnel Dr,7.24,2,0,0,2,0.422,0.422,0.417,1,2
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,1,312669,24.0,24.0,24.5,1892,Westbound Hastings St @ Gamma Ave,23.79,1478,Westbound Hastings St @ Madison Ave,24.77,2,0,1,1,0.328,0.328,0.227,1,2
+6705,321,King George Blvd,Regular Bus,0,312945,6.0,6.0,6.5,10445,Northbound King George Blvd @ 148 St,5.62,5448,Northbound King George Blvd @ Crescent Rd,6.53,2,2,0,0,0.097,0.097,0.097,1,2
+37807,R5,Hastings St,RapidBus,1,313460,13.0,13.0,13.5,968,Westbound E Hastings St @ Renfrew St,12.47,503,Westbound E Hastings St @ Commercial Dr,14.43,2,0,2,0,0.19,0.19,0.143,2,2
+6687,250,Horseshoe Bay/Dundarave/Vancouver,Express / Regional,1,312849,9.5,9.5,10.0,4668,Westbound Marine Dr @ 20 St,9.41,4672,Westbound Marine Dr @ 23 St,10.17,2,0,1,1,0.313,0.313,0.237,1,2
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,14.0,14.0,14.5,591,Westbound W 4th Ave @ Macdonald St,13.86,594,Westbound W 4th Ave @ Blenheim St,14.54,2,0,2,0,0.17,0.17,0.141,1,2
+6625,020,Victoria,Regular Bus,0,312419,0.5,0.5,1.0,1213,Northbound Victoria Dr @ E 61 Ave,0.49,1216,Northbound Victoria Dr @ E 54 Ave,1.12,2,0,0,2,0.298,0.298,0.251,1,2
+6624,019,Kingsway,Regular Bus,0,312405,3.5,3.5,4.0,80,Eastbound W Pender St @ Hamilton St,3.24,524,Eastbound E Pender St @ Main St,4.04,2,0,0,2,0.449,0.449,0.443,1,2
+6642,100,Marine Drive,Regular Bus,1,312538,11.5,11.5,12.0,12971,Westbound SE Marine Dr @ Poplar St,11.32,12760,Westbound SE Marine Dr @ Main St,12.04,2,0,2,0,0.196,0.196,0.196,1,2
+6641,099,Broadway B-Line,B-Line,1,312530,12.0,12.0,12.5,582,Westbound W 10 Ave @ Sasamat St,10.8,12483,Westbound University Blvd @ Western Parkway,13.51,2,0,0,2,0.308,0.308,0.291,2,2
+6728,410,Brighouse Station/22nd St Station,Regular Bus,0,313126,6.0,6.0,6.5,6956,Eastbound Cambie Rd @ No. 5 Rd,5.82,6958,Eastbound Cambie Rd @ Jacombs Rd,6.66,2,0,0,2,0.36,0.36,0.36,1,2
+6627,025,King Edward,Regular Bus,1,312455,14.5,14.5,15.0,1593,Westbound W King Edward Ave @ Marguerite St,14.29,1597,Westbound W King Edward Ave @ Yew St,15.19,2,1,1,0,0.128,0.128,0.037,2,2
+6636,049,49th Avenue,Regular Bus,1,312507,15.0,15.0,15.5,2070,Northbound Dunbar St @ SW Marine Dr,14.86,1908,Westbound W 41 Ave @ Olympic St,15.62,2,0,1,1,0.312,0.312,0.217,1,2
+6642,100,Marine Drive,Regular Bus,0,312532,10.0,10.0,10.5,2166,Eastbound Marine Dr @ Greenall Ave,9.61,2168,Eastbound Marine Dr @ Sussex Ave,10.5,2,0,0,2,0.363,0.363,0.341,2,2
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,16.0,16.0,16.5,6993,Westbound Cambie Rd @ 12300 Block,15.9,6995,Westbound Cambie Rd @ Bargen Dr,16.68,2,1,0,1,0.197,0.197,0.0,1,2
+37810,R4,41st Avenue,RapidBus,0,313452,10.0,10.0,10.5,13151,Eastbound W 41 Ave @ Maple St,9.97,199,Eastbound W 41 Ave @ Granville St,11.0,2,2,0,0,0.054,0.054,0.047,2,2
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,5.0,5.0,5.5,318,Eastbound W Broadway @ Alma St,4.87,10652,Eastbound W Broadway St @ Balaclava St,5.73,2,0,1,1,0.313,0.313,0.148,2,2
+6738,502,Fraser Hwy,Express / Regional,0,317228,6.0,6.0,6.5,9019,Eastbound Fraser Hwy @ Fleetwood Way,5.81,5292,Eastbound Fraser Hwy @ 158 St,6.91,2,0,0,2,0.363,0.363,0.344,2,2
+6641,099,Broadway B-Line,B-Line,0,312527,0.5,0.5,1.0,271,Eastbound University Blvd @ Allison Rd,0.47,279,Eastbound W 10 Ave @ Sasamat St,3.04,2,0,1,1,0.239,0.239,0.117,2,2
+6624,019,Kingsway,Regular Bus,0,312397,4.0,4.0,4.5,21,Eastbound E Pender St @ Carrall St,3.76,234,Southbound Main St @ National Ave,4.71,2,0,0,2,0.375,0.375,0.348,1,2
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,1,312669,8.5,8.5,9.0,11827,Southbound Ioco Rd @ Newport Dr,8.47,12241,Inlet Centre Station @ Bay 1,9.02,2,0,0,2,0.375,0.375,0.318,1,2
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312332,17.5,17.5,18.0,959,Eastbound E Hastings St @ Renfrew St,17.35,962,Eastbound E Hastings St @ Cassiar St,18.34,2,0,2,0,0.193,0.193,0.193,2,2
+6641,099,Broadway B-Line,B-Line,0,312527,1.0,1.0,1.5,271,Eastbound University Blvd @ Allison Rd,0.47,279,Eastbound W 10 Ave @ Sasamat St,3.04,2,0,0,2,0.305,0.305,0.27,1,2
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,2.5,2.5,3.0,5896,Eastbound 108 Ave @ 140 St,2.47,5898,Eastbound 108 Ave @ 144 St,3.28,2,1,0,1,0.238,0.238,0.063,1,2
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,1.5,1.5,2.0,5844,Gateway Station @ Bay 3,1.24,5895,Eastbound 108 Ave @ 138 St,2.05,2,2,0,0,0.054,0.054,0.018,2,2
+6642,100,Marine Drive,Regular Bus,1,312538,6.0,6.0,6.5,2222,Westbound Marine Dr @ Greenall Ave,5.56,1808,Westbound SE Marine Dr @ Matheson Cres,6.61,2,0,0,2,0.373,0.373,0.373,2,2
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,0,312666,14.0,14.0,14.5,3765,Southbound Barnet Hwy @ Clarke St,13.58,12506,Eastbound St. Johns St @ Kyle St,14.57,2,0,1,1,0.223,0.223,0.143,1,2
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,14.0,14.0,14.5,9849,Westbound Hwy 91 Onramp @ Westminster Hwy,6.43,6990,Westbound Cambie Rd @ No. 6 Rd,14.66,2,0,0,2,0.407,0.407,0.339,2,2
+6705,321,King George Blvd,Regular Bus,0,312945,11.5,11.5,12.0,10808,Northbound King George Blvd @ 5000 Block,9.87,11913,Northbound King George Blvd @ 58A Ave,12.13,2,2,0,0,0.07,0.07,0.066,1,2
+6625,020,Victoria,Regular Bus,1,312428,0.5,0.5,1.0,193,Westbound Robson St @ Granville St,0.45,938,Eastbound W Hastings St @ Seymour St,1.24,2,0,0,2,0.263,0.263,0.263,1,2
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,0.5,0.5,1.0,493,Westbound McGill St @ N Kaslo St,0.31,495,Southbound N Nanaimo St @ McGill St,1.06,2,0,0,2,0.455,0.455,0.427,2,2
+37810,R4,41st Avenue,RapidBus,1,313453,14.0,14.0,14.5,1907,Dunbar Loop @ Bay 5,11.76,10960,Eastbound W 16 Ave @ Wesbrook Mall,17.45,2,0,1,1,0.325,0.325,0.157,2,2
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312365,3.5,3.5,4.0,1032,Northbound West Blvd @ W 39 Ave,3.43,1036,Northbound Arbutus St @ W 33 Ave,4.1,2,0,0,2,0.444,0.444,0.422,2,2
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,10.0,10.0,10.5,5917,Southbound 160 St @ 91 Ave,9.94,5918,Southbound 160 St @ 88 Ave,10.55,2,0,2,0,0.168,0.168,0.168,2,2
+6705,321,King George Blvd,Regular Bus,1,312952,16.0,16.0,16.5,6466,South Surrey Park & Ride @ Bay 2,15.53,5525,Southbound King George Blvd @ 34 Ave,16.76,2,0,1,1,0.246,0.246,0.106,1,2
+6738,502,Fraser Hwy,Express / Regional,0,317228,16.0,16.0,16.5,7161,Eastbound Fraser Hwy @ 194 St,15.76,5338,Eastbound Fraser Hwy @ Langley Bypass,16.65,2,0,1,1,0.291,0.291,0.201,1,2
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,1,312669,10.0,10.0,10.5,3215,Westbound St. Johns St @ Moray St,9.74,11940,Moody Centre Station @ Bay 5,10.64,2,0,0,2,0.415,0.415,0.358,1,2
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312348,1.0,1.0,1.5,4881,Southbound Howe St @ Dunsmuir St,0.85,4884,Southbound Howe St @ Nelson St,1.53,2,0,2,0,0.165,0.165,0.164,1,2
+6627,025,King Edward,Regular Bus,1,312455,22.5,22.5,23.0,10959,Westbound W 16 Ave @ Wesbrook Mall,22.08,1613,Northbound Wesbrook Mall @ Thunderbird Blvd,23.0,2,0,1,1,0.205,0.205,0.159,1,2
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,0,312666,16.5,16.5,17.0,3182,Eastbound St. Johns St @ Buller St,16.39,3317,Northbound Ioco Rd @ Newport Dr,17.31,2,0,0,2,0.279,0.279,0.251,1,2
+6627,025,King Edward,Regular Bus,0,312450,8.0,8.0,8.5,1510,Eastbound W King Edward Ave @ Puget Dr,7.7,1513,Eastbound W King Edward Ave @ Yew St,8.68,2,0,0,2,0.313,0.313,0.264,1,2
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,2.0,2.0,2.5,11870,Eastbound 108 Ave @ Whalley Blvd,1.85,5897,Eastbound 108 Ave @ 142 St,2.88,2,0,0,2,0.376,0.376,0.291,2,2
+6728,410,Brighouse Station/22nd St Station,Regular Bus,0,313126,8.0,8.0,8.5,6961,Southbound No. 6 Rd @ Mayfield Place,7.81,10144,Eastbound Westminster Hwy @ Hwy 91 Offramp,15.66,2,1,0,1,0.206,0.206,0.085,1,2
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,3.5,3.5,4.0,351,Eastbound W 4th Ave @ Tolmie St,3.34,354,Eastbound W 4th Ave @ 4100 Block,4.38,2,0,0,2,0.429,0.429,0.364,1,2
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,0,312666,13.5,13.5,14.0,3764,Southbound Barnet Hwy @ Gore St,12.95,3177,Eastbound St. Johns St @ Douglas St,14.02,2,0,2,0,0.213,0.213,0.179,1,2
+6619,009,Broadway,Regular Bus,0,312285,7.5,7.5,8.0,890,Eastbound E Broadway @ St. Catherines St,7.42,892,Eastbound E Broadway @ Clark Dr,8.01,2,0,2,0,0.21,0.21,0.195,1,2
+6642,100,Marine Drive,Regular Bus,0,312532,9.0,9.0,9.5,2164,Eastbound SE Marine Dr @ City Edge Place,8.99,2166,Eastbound Marine Dr @ Greenall Ave,9.61,2,2,0,0,0.077,0.077,0.076,2,2
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,1,312669,21.0,21.0,21.5,3800,Southbound Inlet Dr @ Ridge Dr,20.71,1885,Westbound Hastings St @ Sperling Ave,21.51,2,0,0,2,0.392,0.392,0.367,1,2
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,15.0,15.0,15.5,604,Southbound Blanca St @ W 4th Ave,14.68,608,Westbound University Blvd @ 5100 Block,16.27,2,2,0,0,0.092,0.092,0.09,2,2
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,0,312666,11.5,11.5,12.0,3762,Eastbound Barnet Rd @ 9900 Block,10.3,3764,Southbound Barnet Hwy @ Gore St,12.95,2,1,1,0,0.098,0.098,0.014,1,2
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,15.0,15.0,15.5,580,Westbound W 10 Ave @ Discovery St,14.85,583,Westbound W 10 Ave @ Tolmie St,15.52,2,0,1,1,0.247,0.247,0.161,1,2
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312348,2.5,2.5,3.0,11542,Southbound Howe St @ Davie St,1.8,542,Westbound W 5th Ave Offramp @ Granville St,3.41,2,2,0,0,0.091,0.091,0.087,1,2
+6636,049,49th Avenue,Regular Bus,1,312507,8.0,8.0,8.5,2045,Westbound E 49 Ave @ St. George St,8.0,2047,Westbound E 49 Ave @ Main St,8.56,2,1,0,1,0.186,0.186,0.074,1,2
+6627,025,King Edward,Regular Bus,0,312450,11.0,11.0,11.5,1522,Eastbound W King Edward Ave @ Oak St,10.84,12866,King Edward Station @ Bay 3,11.6,2,0,0,2,0.391,0.391,0.285,1,2
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,8.0,8.0,8.5,407,Westbound W 5th Ave @ Granville St,7.77,11426,Northbound Granville St @ Drake St,9.21,2,0,1,1,0.267,0.267,0.227,1,2
+6625,020,Victoria,Regular Bus,0,312419,3.0,3.0,3.5,662,Northbound Victoria Dr @ E 36 Ave,3.0,665,Northbound Victoria Dr @ Kingsway,3.78,2,1,1,0,0.117,0.117,0.072,2,2
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,0.5,0.5,1.0,722,Northbound Nanaimo St @ E 22 Ave,0.38,725,Northbound Nanaimo St @ S Grandview Hwy,1.07,2,0,0,2,0.303,0.303,0.303,1,2
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,19.0,19.0,19.5,11541,Southbound West Blvd @ W 57 Ave,18.93,1126,Southbound Angus Dr @ W 63 Ave,19.53,2,0,1,1,0.281,0.281,0.217,2,2
+6619,009,Broadway,Regular Bus,0,312285,1.5,1.5,2.0,322,Eastbound W Broadway @ Macdonald St,1.32,325,Eastbound W Broadway @ Vine St,2.07,2,0,1,1,0.255,0.255,0.162,1,2
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,6.5,6.5,7.0,5817,Eastbound 104 Ave @ 154 St,6.16,8967,Eastbound 100 Ave @ 156 St,7.36,2,1,0,1,0.18,0.18,0.0,1,2
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,0.5,0.5,1.0,303,Northbound Dunbar St @ W 38 Ave,0.43,306,Northbound Dunbar St @ W 31 Ave,1.14,2,0,0,2,0.341,0.341,0.315,1,2
+37807,R5,Hastings St,RapidBus,1,313460,14.0,14.0,14.5,737,Westbound E Hastings St @ Nanaimo St,13.4,185,Westbound E Hastings St @ Main St,16.51,2,0,0,2,0.484,0.484,0.48,1,2
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,14.5,14.5,15.0,6989,Northbound No. 6 Rd @ Mayfield Place,14.31,6992,Westbound Cambie Rd @ Jacombs Rd,15.46,2,0,0,2,0.302,0.302,0.302,2,2
+6614,004,Powell/UBC Exchange,Regular Bus,1,312238,1.5,1.5,2.0,4883,Southbound Howe St @ Robson St,1.21,542,Westbound W 5th Ave Offramp @ Granville St,3.42,2,0,0,2,0.492,0.492,0.492,1,2
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312366,14.5,14.5,15.0,952,Eastbound E Hastings St @ Victoria Dr,14.3,956,Eastbound E Hastings St @ Kamloops St,15.1,2,0,2,0,0.143,0.143,0.143,1,2
+6705,321,King George Blvd,Regular Bus,0,312945,7.0,7.0,7.5,5448,Northbound King George Blvd @ Crescent Rd,6.53,5449,Northbound King George Blvd @ 40 Ave,8.08,2,1,1,0,0.165,0.165,0.099,2,2
+6705,321,King George Blvd,Regular Bus,0,312945,11.0,11.0,11.5,10808,Northbound King George Blvd @ 5000 Block,9.87,5452,Northbound King George Blvd @ Hwy 10,11.67,2,1,1,0,0.102,0.102,0.078,1,2
+6636,049,49th Avenue,Regular Bus,1,312507,5.5,5.5,6.0,2033,Westbound E 49 Ave @ Nanaimo St,5.42,2036,Westbound E 49 Ave @ Beatrice St,6.01,2,0,0,2,0.443,0.443,0.395,1,2
+6627,025,King Edward,Regular Bus,0,312450,7.5,7.5,8.0,1509,Eastbound W King Edward Ave @ Quesnel Dr,7.24,1511,Eastbound W King Edward Ave @ Brakenridge St,8.1,2,1,0,1,0.206,0.206,0.051,1,2
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,1.0,1.0,1.5,273,Eastbound University Blvd @ 5300 Block,0.88,275,Northbound Blanca St @ W 10 Ave,2.55,2,0,0,2,0.352,0.352,0.27,1,2
+6636,049,49th Avenue,Regular Bus,1,312507,20.5,20.5,21.0,11760,Northbound Wesbrook Mall @ Birney Ave,20.25,1613,Northbound Wesbrook Mall @ Thunderbird Blvd,21.25,2,2,0,0,0.035,0.035,0.0,2,2
+6614,004,Powell/UBC Exchange,Regular Bus,0,312234,2.5,2.5,3.0,356,Eastbound W 4th Ave @ Wallace St,2.34,12811,Eastbound W 4th Ave @ Blenheim St,3.29,2,0,0,2,0.435,0.435,0.435,1,2
+6619,009,Broadway,Regular Bus,0,312285,11.0,11.0,11.5,905,Eastbound E Broadway @ Lillooet St,10.92,907,Eastbound Lougheed Hwy @ Skeena St,11.69,2,2,0,0,0.045,0.045,0.02,2,2
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,13.5,13.5,14.0,6117,Southbound 152 St @ 82 Ave,13.3,6119,Southbound 152 St @ 76 Ave,14.64,2,0,2,0,0.194,0.194,0.194,2,2
+6738,502,Fraser Hwy,Express / Regional,0,317228,2.5,2.5,3.0,13052,Eastbound Fraser Hwy @ 140 St,2.34,6470,Eastbound Fraser Hwy @ 148 St,4.63,2,0,0,2,0.418,0.418,0.385,1,2
+6642,100,Marine Drive,Regular Bus,0,312532,11.0,11.0,11.5,2169,Eastbound Marine Dr @ Strathearn Ave,10.9,2172,Eastbound Marine Dr @ Royal Oak Ave,11.82,2,0,1,1,0.193,0.193,0.123,2,2
+6614,004,Powell/UBC Exchange,Regular Bus,0,312231,14.5,14.5,15.0,433,Eastbound Powell St @ Glen Dr,14.5,437,Eastbound Powell St @ Commercial Dr,15.38,2,0,0,2,0.391,0.391,0.29,2,2
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,7.0,7.0,7.5,9849,Westbound Hwy 91 Onramp @ Westminster Hwy,6.43,6988,Northbound No. 6 Rd @ Maycrest Way,14.07,2,2,0,0,0.0,0.0,0.0,1,2
+37810,R4,41st Avenue,RapidBus,1,313453,13.0,13.0,13.5,1907,Dunbar Loop @ Bay 5,11.76,10960,Eastbound W 16 Ave @ Wesbrook Mall,17.45,2,1,0,1,0.144,0.144,0.0,2,2
+6627,025,King Edward,Regular Bus,1,312455,14.0,14.0,14.5,1592,Westbound W King Edward Ave @ Granville St,13.89,1594,Westbound W King Edward Ave @ Pine Cres,14.5,2,0,2,0,0.213,0.213,0.196,1,2
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,13.5,13.5,14.0,573,Westbound W Broadway @ Collingwood St,13.19,577,Westbound W 10 Ave @ Crown St,14.19,1,0,0,1,0.351,0.351,0.351,1,1
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,1,312991,14.5,14.5,15.0,5187,Westbound 108 Ave @ Oriole Dr,14.49,5901,Westbound 108 Ave @ 146 St,15.15,1,0,0,1,0.358,0.358,0.358,1,1
+6614,004,Powell/UBC Exchange,Regular Bus,0,312234,10.0,10.0,10.5,36,Eastbound W Cordova St @ Homer St,9.79,429,Eastbound E Cordova St @ Main St,10.61,1,0,0,1,0.487,0.487,0.487,1,1
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,0,312666,6.5,6.5,7.0,3758,Northbound Inlet Dr @ Bayview Dr,5.9,3761,Eastbound Barnet Rd @ Barnet Marine Park,8.05,1,1,0,0,0.0,0.0,0.0,1,1
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,0,312666,6.0,6.0,6.5,3758,Northbound Inlet Dr @ Bayview Dr,5.9,3759,Eastbound Barnet Rd @ 7600 Block,6.92,1,0,1,0,0.219,0.219,0.219,1,1
+6636,049,49th Avenue,Regular Bus,1,312507,13.0,13.0,13.5,12744,Westbound W 49 Ave @ Yew St,12.79,2067,Westbound SW Marine Dr @ Carnarvon St,13.92,1,0,0,1,0.377,0.377,0.377,1,1
+6625,020,Victoria,Regular Bus,0,312419,9.0,9.0,9.5,506,Westbound E Hastings St @ Glen Dr,8.75,509,Westbound E Hastings St @ Princess Ave,9.51,1,0,0,1,0.284,0.284,0.284,1,1
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,16.5,16.5,17.0,608,Westbound University Blvd @ 5100 Block,16.27,610,Westbound University Blvd @ Acadia Rd,17.09,1,0,1,0,0.131,0.131,0.131,1,1
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,14.0,14.0,14.5,6118,Southbound 152 St @ 7900 Block,13.86,6119,Southbound 152 St @ 76 Ave,14.64,1,0,0,1,0.459,0.459,0.459,1,1
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,1.5,1.5,2.0,,,,2386,Westbound Ewen Ave @ Howes St,3.23,1,0,0,1,0.386,0.386,0.386,1,1
+6636,049,49th Avenue,Regular Bus,0,312498,5.5,5.5,6.0,1901,Eastbound SW Marine Dr @ Kullahun Dr,5.26,1902,Eastbound W 41 Ave @ Crown St,6.1,1,0,0,1,0.459,0.459,0.459,1,1
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,0,312666,1.5,1.5,2.0,11614,Eastbound Hastings St @ Madison Ave,1.36,1859,Eastbound Hastings St @ Beta Ave,2.18,1,0,0,1,0.496,0.496,0.496,1,1
+6738,502,Fraser Hwy,Express / Regional,0,317228,15.5,15.5,16.0,11331,Eastbound Fraser Hwy @ 64 Ave,15.23,8989,Eastbound Fraser Hwy @ 196 St,16.26,1,0,0,1,0.466,0.466,0.466,1,1
+6705,321,King George Blvd,Regular Bus,1,312952,18.0,18.0,18.5,5529,Southbound King George Blvd @ 2900 Block,17.98,5533,Southbound 152 St @ King George Blvd,18.62,1,0,1,0,0.244,0.244,0.244,1,1
+6705,321,King George Blvd,Regular Bus,1,312952,17.0,17.0,17.5,5525,Southbound King George Blvd @ 34 Ave,16.76,5528,Southbound King George Blvd @ 32 Ave Diversion,17.65,1,0,0,1,0.468,0.468,0.468,1,1
+6624,019,Kingsway,Regular Bus,0,312405,2.5,2.5,3.0,410,Eastbound W Pender St @ Thurlow St,2.32,80,Eastbound W Pender St @ Hamilton St,3.24,1,0,1,0,0.103,0.103,0.103,1,1
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,0,312666,10.5,10.5,11.0,3762,Eastbound Barnet Rd @ 9900 Block,10.3,3763,Eastbound Barnet Hwy @ Reed Point Way,11.57,1,0,1,0,0.106,0.106,0.106,1,1
+6642,100,Marine Drive,Regular Bus,1,312538,14.5,14.5,15.0,2241,Westbound SW Marine Dr @ Laurel St,14.28,4876,Marpole Loop @ Bay 4,15.05,1,0,0,1,0.319,0.319,0.319,1,1
+6624,019,Kingsway,Regular Bus,1,312412,11.5,11.5,12.0,91,Westbound W Pender St @ Carrall St,11.4,95,Westbound W Pender St @ Seymour St,12.13,1,0,0,1,0.299,0.299,0.299,1,1
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,1,312669,23.0,23.0,23.5,10205,Westbound Hastings St @ Howard Ave,22.92,1892,Westbound Hastings St @ Gamma Ave,23.79,1,0,1,0,0.212,0.212,0.212,1,1
+6687,250,Horseshoe Bay/Dundarave/Vancouver,Express / Regional,0,312836,9.0,9.0,9.5,12896,Eastbound W Georgia St @ Cardero St,8.83,9112,Eastbound W Georgia St @ Burrard St,9.83,1,0,0,1,0.382,0.382,0.382,1,1
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,0.5,0.5,1.0,5892,Northbound University Dr @ 104 Ave,0.44,11721,Northbound University Dr @ 107A Ave,1.06,1,0,1,0,0.145,0.145,0.145,1,1
+6642,100,Marine Drive,Regular Bus,1,312538,5.0,5.0,5.5,2220,Westbound Marine Dr @ Sussex Ave,4.67,2222,Westbound Marine Dr @ Greenall Ave,5.56,1,0,0,1,0.421,0.421,0.421,1,1
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,7.5,7.5,8.0,9849,Westbound Hwy 91 Onramp @ Westminster Hwy,6.43,6988,Northbound No. 6 Rd @ Maycrest Way,14.07,1,0,1,0,0.199,0.199,0.199,1,1
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,7.0,7.0,7.5,5819,Southbound 156 St @ 102 Ave,6.94,8968,Eastbound 100 Ave @ 158 St,7.76,1,1,0,0,0.042,0.042,0.042,1,1
+6738,502,Fraser Hwy,Express / Regional,0,317228,4.5,4.5,5.0,13052,Eastbound Fraser Hwy @ 140 St,2.34,6471,Eastbound Fraser Hwy @ 150 St,5.07,1,0,0,1,0.47,0.47,0.47,1,1
+6705,321,King George Blvd,Regular Bus,1,312952,4.5,4.5,5.0,5500,Southbound King George Blvd @ 84 Ave,4.44,5503,Southbound King George Blvd @ 80 Ave,5.28,1,0,1,0,0.149,0.149,0.149,1,1
+6636,049,49th Avenue,Regular Bus,1,312507,19.0,19.0,19.5,1912,Westbound SW Marine Dr @ Kullahun Dr,16.83,11760,Northbound Wesbrook Mall @ Birney Ave,20.25,1,1,0,0,0.039,0.039,0.039,1,1
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,3.0,3.0,3.5,12071,Westbound Powell St @ Clark Dr,2.91,517,Westbound Powell St @ Hawks Ave,3.74,1,0,0,1,0.354,0.354,0.354,1,1
+6738,502,Fraser Hwy,Express / Regional,0,317228,6.5,6.5,7.0,5288,Eastbound Fraser Hwy @ 156 St,6.5,5293,Eastbound Fraser Hwy @ Venture Way,7.16,1,0,0,1,0.425,0.425,0.425,1,1
+37810,R4,41st Avenue,RapidBus,0,313452,3.5,3.5,4.0,1896,Westbound W 16 Ave @ Wesbrook Mall,1.76,12625,Dunbar Loop @ Bay 7,7.62,1,0,1,0,0.139,0.139,0.139,1,1
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,0.5,0.5,1.0,9097,Northbound Nootka St @ E 29 Ave,0.27,1087,Northbound Renfrew St @ E 21 Ave,1.11,1,0,0,1,0.419,0.419,0.419,1,1
+6641,099,Broadway B-Line,B-Line,0,312527,3.0,3.0,3.5,271,Eastbound University Blvd @ Allison Rd,0.47,9530,Eastbound W Broadway @ Alma St,4.9,1,0,0,1,0.445,0.445,0.445,1,1
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,1,312669,22.0,22.0,22.5,1886,Westbound Hastings St @ Kensington Ave,21.89,1888,Westbound Hastings St @ Holdom Ave,22.69,1,0,0,1,0.394,0.394,0.394,1,1
+6625,020,Victoria,Regular Bus,0,312419,5.0,5.0,5.5,1226,Northbound Commercial Dr @ Findlay St,4.94,1229,Northbound Commercial Dr @ E 12 Ave,5.55,1,0,0,1,0.472,0.472,0.472,1,1
+6625,020,Victoria,Regular Bus,0,312419,7.0,7.0,7.5,1236,Northbound Commercial Dr @ Grant St,6.83,1241,Northbound Commercial Dr @ E Georgia St,7.63,1,0,0,1,0.475,0.475,0.475,1,1
+6617,007,Nanaimo Station/Dunbar,Regular Bus,0,312261,18.0,18.0,18.5,690,Southbound Nanaimo St @ E Broadway,17.54,693,Southbound Nanaimo St @ E 20 Ave,18.62,1,1,0,0,0.0,0.0,0.0,1,1
+6728,410,Brighouse Station/22nd St Station,Regular Bus,0,313126,6.5,6.5,7.0,6957,Eastbound Cambie Rd @ 12400 Block,6.23,6959,Eastbound Cambie Rd @ Viking Way,7.16,1,0,0,1,0.362,0.362,0.362,1,1
+37807,R5,Hastings St,RapidBus,0,313454,5.0,5.0,5.5,955,Eastbound E Hastings St @ Nanaimo St,4.89,959,Eastbound E Hastings St @ Renfrew St,5.81,1,0,0,1,0.386,0.386,0.386,1,1
+6614,004,Powell/UBC Exchange,Regular Bus,0,312234,6.0,6.0,6.5,404,Eastbound W 4th Ave @ Burrard St,5.67,407,Westbound W 5th Ave @ Granville St,6.53,1,0,0,1,0.495,0.495,0.495,1,1
+6614,004,Powell/UBC Exchange,Regular Bus,0,312234,6.5,6.5,7.0,405,Eastbound W 4th Ave @ Fir St,6.03,11426,Northbound Granville St @ Drake St,7.97,1,0,1,0,0.245,0.245,0.245,1,1
+6641,099,Broadway B-Line,B-Line,1,312530,11.0,11.0,11.5,582,Westbound W 10 Ave @ Sasamat St,10.8,12483,Westbound University Blvd @ Western Parkway,13.51,1,1,0,0,0.089,0.089,0.089,1,1
+6705,321,King George Blvd,Regular Bus,0,312945,6.5,6.5,7.0,5447,Northbound King George Blvd @ 34 Ave,6.14,10437,South Surrey Park & Ride @ Bay 4,7.32,1,0,1,0,0.102,0.102,0.102,1,1
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,0,312666,16.0,16.0,16.5,12020,Moody Centre Station @ Bay 4,15.54,11198,Eastbound St. Johns St @ Moray St,16.79,1,0,1,0,0.137,0.137,0.137,1,1
+6738,502,Fraser Hwy,Express / Regional,0,317228,8.5,8.5,9.0,5297,Eastbound Fraser Hwy @ 164 St,8.43,10642,Eastbound Fraser Hwy @ 168 St,9.43,1,0,1,0,0.137,0.137,0.137,1,1
+6624,019,Kingsway,Regular Bus,1,312413,1.5,1.5,2.0,1177,Westbound Kingsway @ Barker Ave,1.34,1181,Westbound Kingsway @ Boundary Rd,2.35,1,1,0,0,0.086,0.086,0.086,1,1
+6627,025,King Edward,Regular Bus,0,312450,4.0,4.0,4.5,1500,Eastbound W 16 Ave @ Trimble St,3.92,1502,Eastbound W 16 Ave @ Camosun St,4.53,1,0,0,1,0.48,0.48,0.48,1,1
+6738,502,Fraser Hwy,Express / Regional,0,317228,11.5,11.5,12.0,13055,Eastbound Fraser Hwy @ 176 St,11.1,10871,Eastbound Fraser Hwy @ 182 St,12.87,1,0,1,0,0.196,0.196,0.196,1,1
+6738,502,Fraser Hwy,Express / Regional,0,317228,12.5,12.5,13.0,13055,Eastbound Fraser Hwy @ 176 St,11.1,10648,Eastbound Fraser Hwy @ 184 St,13.34,1,1,0,0,0.048,0.048,0.048,1,1
+6636,049,49th Avenue,Regular Bus,1,312507,15.5,15.5,16.0,12626,Dunbar Loop @ Bay 4,15.37,1911,Westbound SW Marine Dr @ Camosun St,16.19,1,0,1,0,0.25,0.25,0.25,1,1
+6627,025,King Edward,Regular Bus,1,312455,3.0,3.0,3.5,1561,Westbound Kincaid St @ Gilmore Way,2.86,1563,Westbound Kincaid St @ Smith Ave,3.54,1,0,0,1,0.304,0.304,0.304,1,1
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,1,312669,9.5,9.5,10.0,3214,Westbound St. Johns St @ Clearview Dr,9.42,3216,Westbound St. Johns St @ Buller St,10.11,1,0,0,1,0.477,0.477,0.477,1,1
+6705,321,King George Blvd,Regular Bus,0,312945,12.5,12.5,13.0,11913,Northbound King George Blvd @ 58A Ave,12.13,5455,Northbound King George Blvd @ 62 Ave,13.11,1,0,0,1,0.468,0.468,0.468,1,1
+6627,025,King Edward,Regular Bus,1,312455,21.0,21.0,21.5,1609,Westbound W 16 Ave @ Blanca St,20.52,10959,Westbound W 16 Ave @ Wesbrook Mall,22.08,1,0,0,1,0.478,0.478,0.478,1,1
+6622,016,29th Avenue Station/Arbutus,Regular Bus,1,312384,19.5,19.5,20.0,1124,Southbound West Blvd @ W 60 Ave,19.21,1128,Northbound Adera St @ W 64 Ave,20.0,1,1,0,0,0.095,0.095,0.095,1,1
+6624,019,Kingsway,Regular Bus,0,312397,3.5,3.5,4.0,80,Eastbound W Pender St @ Hamilton St,3.24,524,Eastbound E Pender St @ Main St,4.04,1,0,0,1,0.488,0.488,0.488,1,1
+37807,R5,Hastings St,RapidBus,1,313460,14.5,14.5,15.0,503,Westbound E Hastings St @ Commercial Dr,14.43,185,Westbound E Hastings St @ Main St,16.51,1,0,0,1,0.404,0.404,0.404,1,1
+6625,020,Victoria,Regular Bus,0,312419,2.5,2.5,3.0,659,Northbound Victoria Dr @ E 41 Ave,2.5,663,Northbound Victoria Dr @ E 33 Ave,3.28,1,0,0,1,0.397,0.397,0.397,1,1
+6625,020,Victoria,Regular Bus,0,312419,10.5,10.5,11.0,186,Westbound W Hastings St @ Carrall St,10.5,189,Southbound Richards St @ W Hastings St,11.11,1,0,1,0,0.185,0.185,0.185,1,1
+6625,020,Victoria,Regular Bus,0,312419,5.5,5.5,6.0,1228,Northbound Commercial Dr @ E 14 Ave,5.34,8569,Northbound Commercial Dr @ E 6th Ave,6.14,1,0,0,1,0.359,0.359,0.359,1,1
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,3.5,3.5,4.0,5898,Eastbound 108 Ave @ 144 St,3.28,5176,Eastbound 108 Ave @ 148 St,4.07,1,0,0,1,0.358,0.358,0.358,1,1
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,0,312666,4.0,4.0,4.5,1864,Eastbound Hastings St @ Fell Ave,3.82,1866,Eastbound Hastings St @ Sperling Ave,4.66,1,0,1,0,0.17,0.17,0.17,1,1
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,1,312991,10.0,10.0,10.5,12176,Northbound 160 St @ 96 Ave,9.86,8486,Westbound 100 Ave @ 160 St,10.67,1,0,1,0,0.187,0.187,0.187,1,1
+6642,100,Marine Drive,Regular Bus,1,312538,15.5,15.5,16.0,763,Westbound SW Marine Dr @ Granville St,15.39,2139,Southbound Hudson St @ W 70 Ave,16.27,1,0,0,1,0.31,0.31,0.31,1,1
+6627,025,King Edward,Regular Bus,0,312450,7.0,7.0,7.5,1507,Eastbound W King Edward Ave @ Blenheim St,6.83,1510,Eastbound W King Edward Ave @ Puget Dr,7.7,1,0,0,1,0.357,0.357,0.357,1,1
+37807,R5,Hastings St,RapidBus,1,313460,8.0,8.0,8.5,1888,Westbound Hastings St @ Holdom Ave,7.78,12826,Westbound Hastings St @ Willingdon Ave-,9.46,1,0,1,0,0.111,0.111,0.111,1,1
+6627,025,King Edward,Regular Bus,0,312450,0.5,0.5,1.0,,,,1493,Southbound Wesbrook Mall @ Hampton Place,1.35,1,0,0,1,0.292,0.292,0.292,1,1
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,13.5,13.5,14.0,9849,Westbound Hwy 91 Onramp @ Westminster Hwy,6.43,6988,Northbound No. 6 Rd @ Maycrest Way,14.07,1,0,0,1,0.318,0.318,0.318,1,1
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312366,16.0,16.0,16.5,1046,Southbound Renfrew St @ E Hastings St,15.89,1049,Southbound Renfrew St @ William St,16.64,1,1,0,0,0.048,0.048,0.048,1,1
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,0,312666,12.5,12.5,13.0,3763,Eastbound Barnet Hwy @ Reed Point Way,11.57,3765,Southbound Barnet Hwy @ Clarke St,13.58,1,1,0,0,0.041,0.041,0.041,1,1
+6728,410,Brighouse Station/22nd St Station,Regular Bus,0,313126,7.0,7.0,7.5,6958,Eastbound Cambie Rd @ Jacombs Rd,6.66,6961,Southbound No. 6 Rd @ Mayfield Place,7.81,1,0,0,1,0.302,0.302,0.302,1,1
+6614,004,Powell/UBC Exchange,Regular Bus,1,312245,16.0,16.0,16.5,607,Westbound University Blvd @ Blanca St,15.25,609,Westbound University Blvd @ 5300 Block,16.78,1,0,0,1,0.47,0.47,0.47,1,1
+37810,R4,41st Avenue,RapidBus,1,313453,15.0,15.0,15.5,1907,Dunbar Loop @ Bay 5,11.76,10960,Eastbound W 16 Ave @ Wesbrook Mall,17.45,1,1,0,0,0.074,0.074,0.074,1,1
+37807,R5,Hastings St,RapidBus,0,313454,6.5,6.5,7.0,959,Eastbound E Hastings St @ Renfrew St,5.81,1387,Kootenay Loop @ Bay 8,7.16,1,0,0,1,0.343,0.343,0.343,1,1
+6627,025,King Edward,Regular Bus,1,312455,1.5,1.5,2.0,11193,Southbound Willingdon Ave @ Still Creek Dr,0.79,1559,Southbound Willingdon Ave @ Sanderson Way,2.25,1,0,0,1,0.454,0.454,0.454,1,1
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,1,312669,3.0,3.0,3.5,3066,Westbound Lougheed Hwy @ Westwood St,2.91,7643,Coquitlam Central Station @ Bay 2,3.89,1,1,0,0,0.003,0.003,0.003,1,1
+6687,250,Horseshoe Bay/Dundarave/Vancouver,Express / Regional,0,312836,7.5,7.5,8.0,11673,Eastbound Marine Dr Offramp @ Lions Gate Bridge,4.14,9487,Eastbound W Georgia St @ Gilford St,8.3,1,0,0,1,0.347,0.347,0.347,1,1
+6625,020,Victoria,Regular Bus,0,312419,6.5,6.5,7.0,8637,Northbound Commercial Dr @ E 3rd Ave,6.44,1237,Northbound Commercial Dr @ Charles St,7.02,1,0,0,1,0.386,0.386,0.386,1,1
+6738,502,Fraser Hwy,Express / Regional,0,317228,14.0,14.0,14.5,10646,Eastbound Fraser Hwy @ 68 Ave,13.87,11329,Eastbound Fraser Hwy @ 19000 Block,14.76,1,1,0,0,0.036,0.036,0.036,1,1
+6622,016,29th Avenue Station/Arbutus,Regular Bus,0,312366,15.0,15.0,15.5,955,Eastbound E Hastings St @ Nanaimo St,14.98,957,Eastbound E Hastings St @ Slocan St,15.5,1,0,0,1,0.382,0.382,0.382,1,1
+6705,321,King George Blvd,Regular Bus,0,312945,7.5,7.5,8.0,10437,South Surrey Park & Ride @ Bay 4,7.32,5449,Northbound King George Blvd @ 40 Ave,8.08,1,0,1,0,0.237,0.237,0.237,1,1
+6614,004,Powell/UBC Exchange,Regular Bus,0,312234,7.5,7.5,8.0,407,Westbound W 5th Ave @ Granville St,6.53,11429,Northbound Granville St @ Davie St,8.15,1,0,0,1,0.413,0.413,0.413,1,1
+6705,321,King George Blvd,Regular Bus,0,312945,20.0,20.0,20.5,5475,Northbound King George Blvd @ 91 Ave,19.66,11725,Northbound King George Blvd @ 94A Ave,20.54,1,1,0,0,0.03,0.03,0.03,1,1
+6705,321,King George Blvd,Regular Bus,1,312952,5.5,5.5,6.0,5503,Southbound King George Blvd @ 80 Ave,5.28,5505,Southbound King George Blvd @ 76 Ave,6.06,1,0,1,0,0.206,0.206,0.206,1,1
+6636,049,49th Avenue,Regular Bus,1,312507,12.0,12.0,12.5,2060,Westbound W 49 Ave @ Wiltshire St,11.88,2062,Westbound W 49 Ave @ West Blvd,12.53,1,0,0,1,0.472,0.472,0.472,1,1
+6619,009,Broadway,Regular Bus,1,312305,5.0,5.0,5.5,10619,Westbound E Broadway @ Fraser St,4.96,928,Westbound W Broadway @ Ontario St,6.08,1,0,0,1,0.298,0.298,0.298,1,1
+6627,025,King Edward,Regular Bus,1,312455,7.0,7.0,7.5,1572,Nanaimo Station @ Bay 2,6.68,12982,Westbound Kingsway @ Nanaimo St,7.74,1,0,0,1,0.427,0.427,0.427,1,1
+16718,014,Hastings/UBC Exchange,Regular Bus,0,312335,9.0,9.0,9.5,405,Eastbound W 4th Ave @ Fir St,8.68,1013,Northbound Seymour St @ Davie St,10.8,1,0,0,1,0.472,0.472,0.472,1,1
+6705,321,King George Blvd,Regular Bus,0,312945,18.5,18.5,19.0,5472,Northbound King George Blvd @ 84 Ave,18.48,5474,Northbound King George Blvd @ 88 Ave,19.25,1,0,0,1,0.445,0.445,0.445,1,1
+6705,321,King George Blvd,Regular Bus,1,312952,18.5,18.5,19.0,5530,Southbound King George Blvd @ 28 Ave,18.34,5535,Southbound 152 St @ 24 Ave,19.3,1,0,0,1,0.27,0.27,0.27,1,1
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,5.0,5.0,5.5,500,Westbound Powell St @ Victoria Dr,4.78,12071,Westbound Powell St @ Clark Dr,5.57,1,0,0,1,0.492,0.492,0.492,1,1
+6705,321,King George Blvd,Regular Bus,1,312952,4.0,4.0,4.5,5499,Southbound King George Blvd @ 8600 Block,3.94,5501,Southbound King George Blvd @ 8200 Block,4.63,1,0,0,1,0.406,0.406,0.406,1,1
+6738,502,Fraser Hwy,Express / Regional,0,317228,5.0,5.0,5.5,6470,Eastbound Fraser Hwy @ 148 St,4.63,5285,Eastbound Fraser Hwy @ 152 St,5.56,1,0,0,1,0.309,0.309,0.309,1,1
+6627,025,King Edward,Regular Bus,0,312450,8.5,8.5,9.0,1512,Eastbound W King Edward Ave @ Valley Dr,8.37,1515,Eastbound W King Edward Ave @ Maple Cres,9.03,1,0,0,1,0.416,0.416,0.416,1,1
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,1,312669,21.5,21.5,22.0,11766,Westbound Hastings St @ Cliff Ave,21.07,1887,Westbound Hastings St @ Fell Ave,22.29,1,1,0,0,0.088,0.088,0.088,1,1
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,15.5,15.5,16.0,582,Westbound W 10 Ave @ Sasamat St,15.32,608,Westbound University Blvd @ 5100 Block,16.8,1,1,0,0,0.075,0.075,0.075,1,1
+6642,100,Marine Drive,Regular Bus,1,312538,9.5,9.5,10.0,2225,Westbound SE Marine Dr @ Victoria Dr,9.3,2227,Westbound SE Marine Dr @ Knight St,10.07,1,0,1,0,0.105,0.105,0.105,1,1
+6624,019,Kingsway,Regular Bus,0,312397,3.0,3.0,3.5,78,Eastbound W Pender St @ Seymour St,2.93,9063,Eastbound W Pender St @ Abbott St,3.52,1,0,0,1,0.431,0.431,0.431,1,1
+6738,502,Fraser Hwy,Express / Regional,0,317228,12.0,12.0,12.5,13055,Eastbound Fraser Hwy @ 176 St,11.1,10871,Eastbound Fraser Hwy @ 182 St,12.87,1,0,1,0,0.21,0.21,0.21,1,1
+6705,321,King George Blvd,Regular Bus,0,312945,8.0,8.0,8.5,10437,South Surrey Park & Ride @ Bay 4,7.32,10808,Northbound King George Blvd @ 5000 Block,9.87,1,0,0,1,0.478,0.478,0.478,1,1
+6687,250,Horseshoe Bay/Dundarave/Vancouver,Express / Regional,1,312849,7.5,7.5,8.0,4491,Park Royal @ Bay 2,7.31,4663,Westbound Marine Dr @ 13 St,8.29,1,1,0,0,0.078,0.078,0.078,1,1
+6636,049,49th Avenue,Regular Bus,1,312507,7.5,7.5,8.0,2042,Westbound E 49 Ave @ St. Catherines St,7.46,2046,Westbound E 49 Ave @ Prince Edward St,8.26,1,0,0,1,0.498,0.498,0.498,1,1
+6738,502,Fraser Hwy,Express / Regional,0,317228,11.0,11.0,11.5,10642,Eastbound Fraser Hwy @ 168 St,9.43,10871,Eastbound Fraser Hwy @ 182 St,12.87,1,0,1,0,0.211,0.211,0.211,1,1
+6738,502,Fraser Hwy,Express / Regional,0,317228,8.0,8.0,8.5,5296,Eastbound Fraser Hwy @ 84 Ave,7.82,5298,Eastbound Fraser Hwy @ 166 St,8.88,1,0,0,1,0.308,0.308,0.308,1,1
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,13.0,13.0,13.5,12815,Westbound W 4th Ave @ Yew St,12.88,590,Westbound W 4th Ave @ Trafalgar St,13.57,1,0,0,1,0.342,0.342,0.342,1,1
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,0,312666,14.5,14.5,15.0,3178,Eastbound St. Johns St @ Elgin St,14.2,12935,Eastbound St. Johns St @ Moody St,15.09,1,0,1,0,0.166,0.166,0.166,1,1
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,1.0,1.0,1.5,,,,2386,Westbound Ewen Ave @ Howes St,3.23,1,0,0,1,0.433,0.433,0.433,1,1
+6728,410,Brighouse Station/22nd St Station,Regular Bus,0,313126,20.0,20.0,20.5,10855,Northbound Hwy 91A Onramp @ Howes St,19.42,10929,22nd Street Station @ Unloading Only,21.45,1,0,0,1,0.418,0.418,0.418,1,1
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,0.5,0.5,1.0,,,,2386,Westbound Ewen Ave @ Howes St,3.23,1,0,0,1,0.323,0.323,0.323,1,1
+16718,014,Hastings/UBC Exchange,Regular Bus,1,312346,14.5,14.5,15.0,578,Westbound W 10 Ave @ Camosun St,14.4,581,Westbound W 10 Ave @ Trimble St,15.08,1,0,1,0,0.224,0.224,0.224,1,1
+23384,503,Fraser Hwy Express,Express / Regional,1,313175,8.0,8.0,8.5,7243,Westbound Fraser Hwy @ 256 St,6.46,7245,Westbound Fraser Hwy @ 244 St,9.3,1,0,1,0,0.166,0.166,0.166,1,1
+6642,100,Marine Drive,Regular Bus,1,312538,13.0,13.0,13.5,2236,Westbound SW Marine Dr @ Manitoba St,12.6,2239,Westbound SW Marine Dr @ Ash St,13.67,1,0,0,1,0.305,0.305,0.305,1,1
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,11.5,11.5,12.0,5920,Westbound 84 Ave @ 160 St,11.36,5923,Westbound 84 Ave @ 156 St,12.18,1,1,0,0,0.009,0.009,0.009,1,1
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,17.0,17.0,17.5,6996,Westbound Cambie Rd @ Vanguard Rd,16.99,6998,Westbound Cambie Rd @ 10200 Block,17.67,1,0,0,1,0.424,0.424,0.424,1,1
+6738,502,Fraser Hwy,Express / Regional,0,317228,10.5,10.5,11.0,10642,Eastbound Fraser Hwy @ 168 St,9.43,13055,Eastbound Fraser Hwy @ 176 St,11.1,1,0,0,1,0.347,0.347,0.347,1,1
+6728,410,Brighouse Station/22nd St Station,Regular Bus,0,313126,7.5,7.5,8.0,6960,Southbound No. 6 Rd @ Cambie Rd,7.48,6962,Southbound No. 6 Rd @ Maycrest Way,8.04,1,0,1,0,0.136,0.136,0.136,1,1
+6705,321,King George Blvd,Regular Bus,0,312945,10.5,10.5,11.0,10808,Northbound King George Blvd @ 5000 Block,9.87,5452,Northbound King George Blvd @ Hwy 10,11.67,1,1,0,0,0.057,0.057,0.057,1,1
+6636,049,49th Avenue,Regular Bus,1,312507,14.0,14.0,14.5,2067,Westbound SW Marine Dr @ Carnarvon St,13.92,2070,Northbound Dunbar St @ SW Marine Dr,14.86,1,0,0,1,0.462,0.462,0.462,1,1
+6627,025,King Edward,Regular Bus,1,312455,20.5,20.5,21.0,1608,Westbound W 16 Ave @ Sasamat St,20.17,1610,Westbound W 16 Ave @ Pacific Spirit Park,21.11,1,0,0,1,0.474,0.474,0.474,1,1
+6614,004,Powell/UBC Exchange,Regular Bus,0,312234,9.5,9.5,10.0,11527,Northbound Granville St @ W Hastings St,9.39,12720,Eastbound W Cordova St @ Carrall St,10.19,1,0,0,1,0.48,0.48,0.48,1,1
+37810,R4,41st Avenue,RapidBus,0,313452,18.0,18.0,18.5,1133,Eastbound E 41 Ave @ Clarendon St,17.19,1648,Northbound Joyce St @ Kingsway,18.69,1,0,1,0,0.191,0.191,0.191,1,1
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,1,312669,7.5,7.5,8.0,3786,Westbound Guildford Way @ Eagleridge Dr,7.11,3261,Westbound Ungless Way @ Guildford Way,8.0,1,0,0,1,0.427,0.427,0.427,1,1
+6642,100,Marine Drive,Regular Bus,0,312532,5.0,5.0,5.5,2158,Eastbound SE Marine Dr @ Ross St,4.59,1846,Eastbound SE Marine Dr @ Victoria Dr,5.97,1,0,0,1,0.466,0.466,0.466,1,1
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,0,312666,8.0,8.0,8.5,3759,Eastbound Barnet Rd @ 7600 Block,6.92,10388,Eastbound Barnet Rd @ Cariboo Rd,8.85,1,0,0,1,0.458,0.458,0.458,1,1
+6636,049,49th Avenue,Regular Bus,1,312507,16.5,16.5,17.0,1911,Westbound SW Marine Dr @ Camosun St,16.19,1895,Northbound Wesbrook Mall @ Triumf Centre,19.45,1,0,0,1,0.458,0.458,0.458,1,1
+6667,160,Port Coquitlam Station/Kootenay Loop,Express / Regional,0,312666,5.0,5.0,5.5,1866,Eastbound Hastings St @ Sperling Ave,4.66,3758,Northbound Inlet Dr @ Bayview Dr,5.9,1,0,0,1,0.469,0.469,0.469,1,1
+6627,025,King Edward,Regular Bus,0,312450,9.0,9.0,9.5,1514,Eastbound W King Edward Ave @ Arbutus St,8.83,1517,Eastbound W King Edward Ave @ Marguerite St,9.57,1,0,1,0,0.146,0.146,0.146,1,1
+6728,410,Brighouse Station/22nd St Station,Regular Bus,1,313131,8.0,8.0,8.5,9849,Westbound Hwy 91 Onramp @ Westminster Hwy,6.43,6988,Northbound No. 6 Rd @ Maycrest Way,14.07,1,0,0,1,0.456,0.456,0.456,1,1
+37807,R5,Hastings St,RapidBus,0,313454,4.5,4.5,5.0,2739,Eastbound E Hastings St @ Commercial Dr,3.78,959,Eastbound E Hastings St @ Renfrew St,5.81,1,0,0,1,0.333,0.333,0.333,1,1
+23384,503,Fraser Hwy Express,Express / Regional,1,313175,17.5,17.5,18.0,10739,Westbound 56 Ave @ 213A St,16.87,7421,Westbound 56 Ave @ 208 St,18.03,1,0,0,1,0.278,0.278,0.278,1,1
+6712,335,Newton Exchange/Surrey Central Station,Regular Bus,0,314717,7.5,7.5,8.0,8967,Eastbound 100 Ave @ 156 St,7.36,12305,Eastbound 100 Ave @ 160 St,8.06,1,0,0,1,0.405,0.405,0.405,1,1
+23384,503,Fraser Hwy Express,Express / Regional,1,313175,18.0,18.0,18.5,5350,Westbound 56 Ave @ Langley Bypass,17.89,5352,Langley Centre @ Bay 1,18.69,1,0,0,1,0.484,0.484,0.484,1,1
+6617,007,Nanaimo Station/Dunbar,Regular Bus,1,312273,4.5,4.5,5.0,498,Westbound Dundas St @ N Templeton Dr,4.35,512,Westbound Powell St @ Commercial Dr,5.15,1,0,0,1,0.495,0.495,0.495,1,1

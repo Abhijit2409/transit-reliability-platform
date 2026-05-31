@@ -1,0 +1,21 @@
+route_short_name,route_type,fifa_stress_score,reliability_score,bunching_rate_pct,severe_bunching_rate_pct,peak_bunching_share_pct,total_bunching_events,severe_events,intervention_priority_score,worst_segment_events,bc_place_exposure,downtown_exposure,fan_festival_exposure,skytrain_connector_exposure,pm_peak_vulnerability,existing_reliability_weakness,route_type_encoded,fifa_high_risk,fifa_risk_band
+R4,RapidBus,100.0,77.6,12.03,2.14,36.89,1301,232,52.42,111,1,0,0,0,0,1,2,1,Critical
+004,Regular Bus,86.03,81.95,7.45,0.94,72.29,776,98,34.94,58,1,1,0,0,1,1,3,1,Critical
+099,B-Line,69.94,84.21,7.36,0.81,53.4,1000,110,33.86,92,1,1,0,0,0,1,0,1,Critical
+019,Regular Bus,67.09,85.41,6.97,1.16,39.07,1208,202,32.08,71,1,1,0,0,0,1,3,1,Critical
+016,Regular Bus,55.17,86.29,6.39,0.66,47.27,1263,131,29.02,75,1,0,0,1,0,1,3,1,High
+007,Regular Bus,74.33,84.82,5.63,0.99,64.4,736,130,28.7,42,1,1,0,1,1,1,3,1,Critical
+014,Regular Bus,60.28,86.26,5.82,0.58,55.97,879,87,28.06,77,1,1,1,0,1,1,3,1,High
+100,Regular Bus,55.05,86.07,3.34,0.61,87.06,170,31,22.82,41,1,1,0,0,1,1,3,1,High
+410,Regular Bus,22.62,89.24,3.61,0.54,53.51,299,45,18.9,22,0,0,0,1,0,0,3,0,Low
+020,Regular Bus,23.36,89.27,3.33,0.53,56.77,310,49,18.47,23,0,0,0,0,1,0,3,0,Low
+025,Regular Bus,17.6,90.6,3.51,0.71,37.64,449,91,18.15,27,0,0,0,0,0,0,3,0,Low
+049,Regular Bus,26.64,88.93,2.34,0.38,75.0,320,52,17.07,27,0,0,0,0,1,1,3,0,Medium
+009,Regular Bus,38.0,88.47,1.77,0.15,91.05,190,16,15.59,19,1,1,0,0,1,1,3,0,Medium
+250,Express / Regional,15.32,90.7,1.83,0.14,68.22,107,8,13.46,20,0,0,0,0,1,0,1,0,Low
+335,Regular Bus,11.24,92.93,2.13,0.38,37.5,192,34,12.05,13,0,0,0,1,0,0,3,0,Low
+160,Express / Regional,13.35,91.78,1.14,0.15,65.55,119,16,11.53,23,0,0,0,1,1,0,1,0,Low
+321,Regular Bus,3.92,95.24,1.65,0.33,21.19,236,47,9.63,28,0,0,0,0,0,0,3,0,Low
+503,Express / Regional,5.33,93.26,0.06,0.0,66.67,6,0,6.98,3,0,0,0,0,1,0,1,0,Low
+R5,RapidBus,1.98,95.94,0.64,0.1,30.91,55,9,5.77,9,0,1,1,0,0,0,2,0,Low
+502,Express / Regional,0.0,95.58,0.49,0.04,37.5,40,3,5.58,6,0,0,0,0,0,0,1,0,Low

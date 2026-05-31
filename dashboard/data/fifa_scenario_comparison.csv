@@ -1,0 +1,21 @@
+route_short_name,route_type,normal_day,fifa_offpeak_match,fifa_pmpeak_match,fifa_knockout_match
+R4,RapidBus,100.0,100.0,100.0,100.0
+004,Regular Bus,86.03,86.03,86.03,86.03
+007,Regular Bus,74.33,74.33,74.33,74.33
+099,B-Line,69.94,69.94,69.94,69.94
+019,Regular Bus,67.09,67.09,67.09,67.09
+014,Regular Bus,60.28,60.28,60.28,60.28
+016,Regular Bus,55.17,55.17,55.17,55.17
+100,Regular Bus,55.05,55.05,55.05,55.05
+009,Regular Bus,38.0,38.0,38.0,38.0
+049,Regular Bus,26.64,26.64,26.64,26.64
+020,Regular Bus,23.36,23.36,23.36,23.36
+410,Regular Bus,22.62,22.62,22.62,22.62
+025,Regular Bus,17.6,17.6,17.6,17.6
+250,Express / Regional,15.32,15.32,15.32,15.32
+160,Express / Regional,13.35,13.35,13.35,13.35
+335,Regular Bus,11.24,11.24,11.24,11.24
+503,Express / Regional,5.33,5.33,5.33,5.33
+321,Regular Bus,3.92,3.92,3.92,3.92
+R5,RapidBus,1.98,1.98,1.98,1.98
+502,Express / Regional,0.0,0.0,0.0,0.0
