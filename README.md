@@ -73,6 +73,7 @@ The project spans the full analytics-engineering lifecycle: **ingestion → stor
 ## 3\. 🏗️ Project Architecture
 
 flowchart TD
+```mermaid
 
     A\["TransLink GTFS-Realtime API\<br/\>vehicle positions · polled every 30s"\] \--\> B\["collector.py\<br/\>protobuf parse → tabular rows"\]
 
@@ -113,7 +114,7 @@ flowchart TD
     style A fill:\#534AB7,color:\#fff
 
     style E fill:\#185FA5,color:\#fff
-
+'''
 Two data sources are kept **visibly separated** throughout: *observed telemetry* (what buses actually did) and *published infrastructure* (GTFS Static, what the network is supposed to be). Maintaining that boundary is a core design principle and a recurring theme in the dashboard's honesty framing.
 
 ---
@@ -155,6 +156,7 @@ Two data sources are kept **visibly separated** throughout: *observed telemetry*
 I built a continuously running collector that turns a live feed into a queryable warehouse.
 
 flowchart LR
+```mermaid
 
     A\["Poll API\<br/\>every 30s"\] \--\> B\["Parse protobuf"\]
 
@@ -169,6 +171,7 @@ flowchart LR
     E \--\> G\["Load into DuckDB"\]
 
     style D fill:\#EF9F27
+'''
 
 **Design decisions that matter:**
 
@@ -207,6 +210,7 @@ I chose **DuckDB** as the analytical engine: it runs in-process (no server to ma
 The warehouse follows a **medallion-style layering**:
 
 flowchart TD
+```mermaid
 
     R\["Raw Parquet\<br/\>(bronze)"\] \--\> S\["silver\_vehicle\_positions\_enriched\<br/\>RT × GTFS Static join"\]
 
@@ -219,7 +223,7 @@ flowchart TD
     DIM\["GTFS dims:\<br/\>dim\_routes · dim\_shapes · dim\_stops"\] \--\> S
 
     style G fill:\#1D9E75,color:\#fff
-
+'''
 Window functions (`LEAD`, `ROW_NUMBER` partitioned by snapshot/direction/shape) order buses along each corridor and measure the gap to the next bus ahead of the raw bunching signal.
 
 ---
