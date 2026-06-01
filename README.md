@@ -153,23 +153,23 @@ Two data sources are kept **visibly separated** throughout: *observed telemetry*
 
 I built a continuously running collector that turns a live feed into a queryable warehouse.
 
-    ```mermaid
-    flowchart LR
+```mermaid
+flowchart LR
 
-    A["Poll API<br/>every 30s"] --> B["Parse protobuf"]
+A["Poll API<br/>every 30s"] --> B["Parse protobuf"]
 
-    B --> C["Build DataFrame"]
+B --> C["Build DataFrame"]
 
-    C --> D["Atomic write<br/>tempfile + os.replace"]
+C --> D["Atomic write<br/>tempfile + os.replace"]
 
-    D --> E["data/raw/<date>/*.parquet"]
+D --> E["data/raw/<date>/*.parquet"]
 
-    E --> F["Optional Supabase upload"]
+E --> F["Optional Supabase upload"]
 
-    E --> G["Load into DuckDB"]
+E --> G["Load into DuckDB"]
 
-    style D fill:#EF9F27
-    ```
+style D fill:#EF9F27
+```
 **Design decisions that matter:**
 
 - **30-second polling** balances temporal resolution against feed volume fine enough to observe spacing between consecutive buses.  
@@ -206,21 +206,21 @@ I chose **DuckDB** as the analytical engine: it runs in-process (no server to ma
 
 The warehouse follows a **medallion-style layering**:
 
-    ```mermaid
-    flowchart TD
+```mermaid
+flowchart TD
 
-    R["Raw Parquet<br/>(bronze)"] --> S["silver_vehicle_positions_enriched<br/>RT × GTFS Static join"]
+R["Raw Parquet<br/>(bronze)"] --> S["silver_vehicle_positions_enriched<br/>RT × GTFS Static join"]
 
-    S --> P["vehicle_positions_projected<br/>GPS → shape distance"]
+S --> P["vehicle_positions_projected<br/>GPS → shape distance"]
 
-    P --> H["observed_headways_clean<br/>spacing between buses"]
+P --> H["observed_headways_clean<br/>spacing between buses"]
 
-    H --> G["Reliability + bunching<br/>(gold)"]
+H --> G["Reliability + bunching<br/>(gold)"]
 
-    DIM["GTFS dims:<br/>dim_routes · dim_shapes · dim_stops"] --> S
+DIM["GTFS dims:<br/>dim_routes · dim_shapes · dim_stops"] --> S
 
-    style G fill:#1D9E75,color:#fff
-    ```
+style G fill:#1D9E75,color:#fff
+```
 Window functions (`LEAD`, `ROW_NUMBER` partitioned by snapshot/direction/shape) order buses along each corridor and measure the gap to the next bus ahead of the raw bunching signal.
 
 ---
