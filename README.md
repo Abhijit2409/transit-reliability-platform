@@ -72,49 +72,47 @@ The project spans the full analytics-engineering lifecycle: **ingestion → stor
 
 ## 3\. 🏗️ Project Architecture
 
-flowchart TD
 ```mermaid
+flowchart TD
 
-    A\["TransLink GTFS-Realtime API\<br/\>vehicle positions · polled every 30s"\] \--\> B\["collector.py\<br/\>protobuf parse → tabular rows"\]
+A["TransLink GTFS-Realtime API<br/>vehicle positions · polled every 30s"] --> B["collector.py<br/>protobuf parse → tabular rows"]
 
-    B \--\> C\["Atomic Parquet writer\<br/\>write-once · date-partitioned"\]
+B --> C["Atomic Parquet writer<br/>write-once · date-partitioned"]
 
-    C \--\> D\["Supabase Storage\<br/\>optional cloud backup"\]
+C --> D["Supabase Storage<br/>optional cloud backup"]
 
-    C \--\> E\[("DuckDB Warehouse")\]
+C --> E[("DuckDB Warehouse")]
 
-    F\["GTFS Static\<br/\>routes · trips · shapes · stops · stop\_times"\] \--\> E
+F["GTFS Static<br/>routes · trips · shapes · stops · stop_times"] --> E
 
-    E \--\> G\["Shape projection\<br/\>GPS → distance-along-route"\]
+E --> G["Shape projection<br/>GPS → distance-along-route"]
 
-    G \--\> H\["Observed bus spacing"\]
+G --> H["Observed bus spacing"]
 
-    H \--\> I\["Bunching detection\<br/\>+ severity classification"\]
+H --> I["Bunching detection<br/>severity classification"]
 
-    I \--\> J\["Reliability scoring\<br/\>+ corridor priority ranking"\]
+I --> J["Reliability scoring<br/>corridor priority ranking"]
 
-    I \--\> K\["Stop-level hotspots"\]
+I --> K["Stop-level hotspots"]
 
-    J \--\> L\["FIFA 2026 stress simulation"\]
+J --> L["FIFA 2026 stress simulation"]
 
-    K \--\> L
+K --> L
 
-    L \--\> M\["Explainable ML\<br/\>(decision support)"\]
+L --> M["Explainable ML<br/>(decision support)"]
 
-    J \--\> N\["📊 Streamlit Dashboard"\]
+J --> N["📊 Streamlit Dashboard"]
 
-    K \--\> N
+K --> N
 
-    L \--\> N
+L --> N
 
-    M \--\> N
+M --> N
 
-    style N fill:\#1D9E75,color:\#fff
-
-    style A fill:\#534AB7,color:\#fff
-
-    style E fill:\#185FA5,color:\#fff
-'''
+style N fill:#1D9E75,color:#fff
+style A fill:#534AB7,color:#fff
+style E fill:#185FA5,color:#fff
+```
 Two data sources are kept **visibly separated** throughout: *observed telemetry* (what buses actually did) and *published infrastructure* (GTFS Static, what the network is supposed to be). Maintaining that boundary is a core design principle and a recurring theme in the dashboard's honesty framing.
 
 ---
@@ -155,24 +153,23 @@ Two data sources are kept **visibly separated** throughout: *observed telemetry*
 
 I built a continuously running collector that turns a live feed into a queryable warehouse.
 
-flowchart LR
-```mermaid
+    ```mermaid
+    flowchart LR
 
-    A\["Poll API\<br/\>every 30s"\] \--\> B\["Parse protobuf"\]
+    A["Poll API<br/>every 30s"] --> B["Parse protobuf"]
 
-    B \--\> C\["Build DataFrame"\]
+    B --> C["Build DataFrame"]
 
-    C \--\> D\["Atomic write\<br/\>tempfile \+ os.replace"\]
+    C --> D["Atomic write<br/>tempfile + os.replace"]
 
-    D \--\> E\["data/raw/\&lt;date\&gt;/\*.parquet"\]
+    D --> E["data/raw/<date>/*.parquet"]
 
-    E \--\> F\["Optional Supabase upload"\]
+    E --> F["Optional Supabase upload"]
 
-    E \--\> G\["Load into DuckDB"\]
+    E --> G["Load into DuckDB"]
 
-    style D fill:\#EF9F27
-'''
-
+    style D fill:#EF9F27
+    ```
 **Design decisions that matter:**
 
 - **30-second polling** balances temporal resolution against feed volume fine enough to observe spacing between consecutive buses.  
@@ -209,21 +206,21 @@ I chose **DuckDB** as the analytical engine: it runs in-process (no server to ma
 
 The warehouse follows a **medallion-style layering**:
 
-flowchart TD
-```mermaid
+    ```mermaid
+    flowchart TD
 
-    R\["Raw Parquet\<br/\>(bronze)"\] \--\> S\["silver\_vehicle\_positions\_enriched\<br/\>RT × GTFS Static join"\]
+    R["Raw Parquet<br/>(bronze)"] --> S["silver_vehicle_positions_enriched<br/>RT × GTFS Static join"]
 
-    S \--\> P\["vehicle\_positions\_projected\<br/\>GPS → shape distance"\]
+    S --> P["vehicle_positions_projected<br/>GPS → shape distance"]
 
-    P \--\> H\["observed\_headways\_clean\<br/\>spacing between buses"\]
+    P --> H["observed_headways_clean<br/>spacing between buses"]
 
-    H \--\> G\["Reliability \+ bunching\<br/\>(gold)"\]
+    H --> G["Reliability + bunching<br/>(gold)"]
 
-    DIM\["GTFS dims:\<br/\>dim\_routes · dim\_shapes · dim\_stops"\] \--\> S
+    DIM["GTFS dims:<br/>dim_routes · dim_shapes · dim_stops"] --> S
 
-    style G fill:\#1D9E75,color:\#fff
-'''
+    style G fill:#1D9E75,color:#fff
+    ```
 Window functions (`LEAD`, `ROW_NUMBER` partitioned by snapshot/direction/shape) order buses along each corridor and measure the gap to the next bus ahead of the raw bunching signal.
 
 ---
