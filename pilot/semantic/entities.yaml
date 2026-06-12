@@ -1,0 +1,61 @@
+# =============================================================================
+# entities.yaml  —  Canonical entities + alias resolution  (v2, schema-verified)
+# =============================================================================
+# Route catalog GENERATED from top20_route_reliability_scores (all 20 routes).
+# Canonical key = route_short_name (stored as zero-padded strings: '004','099').
+# In production, regenerate this block from dim_routes filtered to the Top-20.
+# =============================================================================
+
+routes:
+  canonical_key: route_short_name
+  also_has: route_id
+  source_table: top20_route_reliability_scores
+  catalog:
+    - { canonical: "004", route_id: 6614,  route_long_name: "Powell/UBC Exchange",        route_type: "Regular Bus",        aliases: ["4","004","the 4","route 4","powell ubc","powell/ubc"] }
+    - { canonical: "007", route_id: 6617,  route_long_name: "Nanaimo Station/Dunbar",      route_type: "Regular Bus",        aliases: ["7","007","route 7","nanaimo dunbar"] }
+    - { canonical: "009", route_id: 6619,  route_long_name: "Broadway",                    route_type: "Regular Bus",        aliases: ["9","009","route 9","broadway 9"] }
+    - { canonical: "014", route_id: 16718, route_long_name: "Hastings/UBC Exchange",       route_type: "Regular Bus",        aliases: ["14","014","route 14","hastings ubc"] }
+    - { canonical: "016", route_id: 6622,  route_long_name: "29th Avenue Station/Arbutus", route_type: "Regular Bus",        aliases: ["16","016","route 16","arbutus"] }
+    - { canonical: "019", route_id: 6624,  route_long_name: "Kingsway",                    route_type: "Regular Bus",        aliases: ["19","019","route 19","kingsway"] }
+    - { canonical: "020", route_id: 6625,  route_long_name: "Victoria",                    route_type: "Regular Bus",        aliases: ["20","020","route 20","victoria"] }
+    - { canonical: "025", route_id: 6627,  route_long_name: "King Edward",                 route_type: "Regular Bus",        aliases: ["25","025","route 25","king edward"] }
+    - { canonical: "049", route_id: 6636,  route_long_name: "49th Avenue",                 route_type: "Regular Bus",        aliases: ["49","049","route 49","49th","49th ave","49th avenue"] }
+    - { canonical: "099", route_id: 6641,  route_long_name: "Broadway B-Line",             route_type: "B-Line",             aliases: ["99","099","route 99","the 99","99 b-line","broadway b-line","b-line","broadway"] }
+    - { canonical: "100", route_id: 6642,  route_long_name: "Marine Drive",                route_type: "Regular Bus",        aliases: ["100","route 100","marine drive","marine dr"] }
+    - { canonical: "160", route_id: 6667,  route_long_name: "Port Coquitlam Station/Kootenay Loop", route_type: "Express / Regional", aliases: ["160","route 160","poco","port coquitlam"] }
+    - { canonical: "250", route_id: 6687,  route_long_name: "Horseshoe Bay/Dundarave/Vancouver", route_type: "Express / Regional", aliases: ["250","route 250","horseshoe bay","dundarave"] }
+    - { canonical: "321", route_id: 6705,  route_long_name: "King George Blvd",            route_type: "Regular Bus",        aliases: ["321","route 321","king george"] }
+    - { canonical: "335", route_id: 6712,  route_long_name: "Newton Exchange/Surrey Central Station", route_type: "Regular Bus", aliases: ["335","route 335","newton","surrey central"] }
+    - { canonical: "410", route_id: 6728,  route_long_name: "Brighouse Station/22nd St Station", route_type: "Regular Bus",   aliases: ["410","route 410","brighouse","22nd st"] }
+    - { canonical: "502", route_id: 6738,  route_long_name: "Fraser Hwy",                  route_type: "Express / Regional", aliases: ["502","route 502","fraser hwy 502"] }
+    - { canonical: "503", route_id: 23384, route_long_name: "Fraser Hwy Express",          route_type: "Express / Regional", aliases: ["503","route 503","fraser hwy express"] }
+    - { canonical: "R4",  route_id: 37810, route_long_name: "41st Avenue",                 route_type: "RapidBus",           aliases: ["r4","the r4","route r4","rapidbus 4","41st","41st ave","41st avenue"] }
+    - { canonical: "R5",  route_id: 37807, route_long_name: "Hastings St",                 route_type: "RapidBus",           aliases: ["r5","the r5","route r5","rapidbus 5","hastings","hastings st"] }
+
+  resolution_rules:
+    - "Match aliases case-insensitively; resolve to canonical route_short_name as stored ('004', not '4')."
+    - "Letter-prefixed routes (R4, R5) are RapidBus; preserve the letter."
+    - "A name matching a route_long_name resolves to that route."
+    - "If no alias matches, the route is NOT in Top-20 scope -> REFUSE (out of scope)."
+  unresolved_behavior: "refuse_out_of_scope"
+
+route_types:
+  canonical_key: route_type
+  catalog:
+    - { canonical: "RapidBus",           aliases: ["rapidbus","rapid bus","r-routes","r routes"] }
+    - { canonical: "B-Line",             aliases: ["bline","b line","b-line"] }
+    - { canonical: "Regular Bus",        aliases: ["regular","regular bus","local bus","standard bus"] }
+    - { canonical: "Express / Regional", aliases: ["express","regional","express regional","express/regional"] }
+
+reliability_bands:
+  canonical_key: reliability_band
+  catalog:
+    - { canonical: "Reliable", aliases: ["reliable","good","healthy"] }
+    - { canonical: "Watch",    aliases: ["watch","watchlist","at risk","needs watching"] }
+  note: "ONLY 'Reliable' and 'Watch' exist. Do not invent other bands."
+
+scope_guards:
+  in_scope_modes: ["bus"]
+  out_of_scope_examples: ["SkyTrain","SeaBus","West Coast Express","HandyDART","ferry"]
+  route_universe: "Top 20 monitored routes only (catalog above)"
+  out_of_scope_behavior: "refuse_out_of_scope"

@@ -1,0 +1,160 @@
+# =============================================================================
+# metrics.yaml  —  Semantic layer: business metric definitions
+# =============================================================================
+# Each metric maps stakeholder language to ONE unambiguous definition, the gold
+# column that backs it, and a `direction` so "worst"/"best" resolve correctly.
+# This file is the single defence against the valid-but-wrong failure mode.
+#
+# Column AND table names are REAL (verified against warehouse_schema.csv).
+# replace `owning_table` values with your registered gold-table names.
+# direction: higher_is_better | lower_is_better | neutral
+# =============================================================================
+
+metrics:
+
+  reliability_score:
+    label: "Reliability score"
+    definition: >
+      Composite 0–100 score of route reliability for a service date. Higher is
+      more reliable.
+    owning_table: top20_route_reliability_scores   # CANONICAL for route-grain reliability/bunching
+    column: reliability_score
+    grain: route_id x service_date
+    direction: higher_is_better
+    synonyms: ["reliability", "how reliable", "reliability rating"]
+    worst_means: "lowest reliability_score (ORDER BY ... ASC)"
+    best_means: "highest reliability_score (ORDER BY ... DESC)"
+
+  reliability_band:
+    label: "Reliability band"
+    definition: "Categorical band derived from reliability_score."
+    owning_table: top20_route_reliability_scores   # CANONICAL for route-grain reliability/bunching
+    column: reliability_band
+    grain: route_id x service_date
+    direction: neutral
+    allowed_values: ["Reliable", "Watch"]       # only values present in data
+    synonyms: ["band", "reliability category", "status"]
+
+  bunching_rate_pct:
+    label: "Bunching rate (%)"
+    definition: >
+      Percent of measured headway/spacing observations flagged as bunching.
+      Lower is better.
+    owning_table: top20_route_reliability_scores   # CANONICAL for route-grain reliability/bunching
+    column: bunching_rate_pct
+    grain: route_id x service_date
+    direction: lower_is_better
+    synonyms: ["bunching", "how much bunching", "bunching percentage"]
+    worst_means: "highest bunching_rate_pct (DESC)"
+
+  severe_bunching_rate_pct:
+    label: "Severe bunching rate (%)"
+    definition: "Percent of observations flagged as severe bunching. Lower is better."
+    owning_table: top20_route_reliability_scores   # CANONICAL for route-grain reliability/bunching
+    column: severe_bunching_rate_pct
+    grain: route_id x service_date
+    direction: lower_is_better
+    synonyms: ["severe bunching", "bad bunching rate"]
+
+  total_bunching_events:
+    label: "Total bunching events"
+    definition: "Count of bunching events for the route on the service date."
+    owning_table: top20_route_reliability_scores   # CANONICAL for route-grain reliability/bunching
+    column: total_bunching_events
+    grain: route_id x service_date
+    direction: lower_is_better
+    synonyms: ["bunching events", "number of bunching events", "how many times bunched"]
+
+  severe_events:
+    label: "Severe bunching events"
+    definition: "Count of severe-severity bunching events."
+    owning_table: top20_route_reliability_scores   # CANONICAL for route-grain reliability/bunching (also in corridor/hourly tables)
+    column: severe_events
+    grain: route_id x service_date
+    direction: lower_is_better
+    synonyms: ["severe events", "serious bunching", "worst bunching incidents"]
+
+  peak_bunching_share_pct:
+    label: "Peak bunching share (%)"
+    definition: "Share of a route's bunching events that occur during peak periods."
+    owning_table: top20_route_reliability_scores   # CANONICAL for route-grain reliability/bunching
+    column: peak_bunching_share_pct
+    grain: route_id x service_date
+    direction: neutral
+    synonyms: ["peak share", "how much bunching at peak"]
+
+  intervention_priority_score:
+    label: "Intervention priority score"
+    definition: >
+      Composite score ranking corridors by how urgently operations should
+      intervene. Higher means higher priority.
+    owning_table: top20_corridor_priority_ranking
+    column: intervention_priority_score
+    grain: route_id (corridor)
+    direction: higher_is_better        # higher = more urgent to act on
+    synonyms: ["priority", "what to prioritize", "intervention priority",
+               "where to focus", "which corridors to fix"]
+    note: "For 'should operations prioritize' rank DESC."
+
+  hotspot_segments:
+    label: "Hotspot segments"
+    definition: "Count of distinct route segments flagged as bunching hotspots."
+    owning_table: top20_corridor_priority_ranking
+    column: hotspot_segments
+    grain: route_id (corridor)
+    direction: lower_is_better
+    synonyms: ["hotspots", "number of hotspots", "problem segments"]
+
+  bunching_events_hourly:
+    label: "Bunching events (hourly)"
+    definition: >
+      Bunching events resolved by hour_of_day and peak_period. Used for any
+      time-of-day or peak-period question.
+    owning_table: top20_hourly_bunching_pattern
+    column: bunching_events
+    grain: route_id x service_date x hour_of_day
+    direction: lower_is_better
+    synonyms: ["bunching by hour", "bunching during peak", "busiest time"]
+
+  avg_reliability_score:
+    label: "Average reliability score (by route type)"
+    definition: "Mean reliability_score across routes of a given route_type."
+    owning_table: top20_route_type_summary
+    column: avg_reliability_score
+    grain: route_type
+    direction: higher_is_better
+    synonyms: ["average reliability", "reliability by route type",
+               "how reliable is RapidBus / B-Line / Regular Bus"]
+
+  # --- ADDED v2 ---
+  bunching_events_hotspot:
+    label: "Bunching events (stop-level hotspot)"
+    definition: "Bunching events on a specific route segment, identified by surrounding stops."
+    owning_table: top20_bunching_hotspots_with_stops
+    column: bunching_events
+    grain: route_id x shape_id x segment
+    direction: lower_is_better
+    synonyms: ["where does it bunch","worst segment","hotspot location","which stops"]
+
+  eligibility_status:
+    label: "Route data eligibility status"
+    definition: >
+      DATA-QUALITY classification of whether a route's telemetry is complete/stable
+      enough to trust. NOT a performance metric. Distinct from reliability_score.
+    owning_table: route_eligibility_summary
+    column: eligibility_status
+    grain: route_id x service_date
+    direction: neutral
+    in_scope: false        # toggle true only if data-quality family is enabled (ADR-004)
+    synonyms: ["data quality","trustworthy data","enough data","coverage"]
+    disambiguation: "If user says 'reliable', clarify performance (reliability_score) vs data-quality (this)."
+
+collision_warnings:
+  reliability_score:
+    appears_in: [route_reliability_score_099, top20_corridor_priority_ranking, top20_route_reliability_scores]
+    canonical: top20_route_reliability_scores
+    rule: "Always source route-level reliability_score from the canonical table only."
+  severe_events:
+    appears_in: [many top20_* and _099 tables]
+    canonical: top20_route_reliability_scores
+    rule: "For route-grain severe_events use the canonical table; segment-grain uses hotspots table."

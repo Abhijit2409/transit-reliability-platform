@@ -1,17 +1,30 @@
-# Python
-__pycache__/
+# --- secrets ---
+
+.env
+.streamlit/secrets.toml
+
+# --- python cache ---
+
+**pycache**/
 *.pyc
 *.pyo
-.venv/
-venv/
-.env
 
-# Project artifacts (do NOT commit local data or logs)
-data/
-logs/
+# --- local / OS cruft ---
 
-# Editor / OS
-.vscode/
-.idea/
 .DS_Store
-Thumbs.db
+.ipynb_checkpoints/
+*.log
+
+# --- duckdb ---
+
+*.duckdb
+*.duckdb.wal
+
+# Ignore the full local warehouse (889 MB)
+
+data/warehouse/transit.duckdb
+
+# Allow the small deployment warehouse (~2 MB)
+
+!data/warehouse/transit_deploy.duckdb
+

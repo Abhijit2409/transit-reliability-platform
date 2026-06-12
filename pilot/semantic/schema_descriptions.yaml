@@ -1,0 +1,375 @@
+# =============================================================================
+# schema_descriptions.yaml  —  per-column NL descriptions for NL->SQL
+# =============================================================================
+# Injected into the NL->SQL prompt at query time. Covers ONLY the 5 allowlisted
+# top20_* gold tables (see config/guardrail_config.yaml). Every numeric range
+# below is VERIFIED against the live warehouse (targeted_column_profile.csv),
+# not assumed.
+#
+# Per column:
+#   role:        dimension | measure | identifier | internal
+#   description: business-friendly meaning
+#   interpretation: how an analyst reads the value
+#   direction:   higher_is_better | lower_is_better | neutral  (measures only)
+#   range:       verified observed range (where profiled)
+#   expose:      true | false   (false = never surface to end users / never filter on)
+#   synonyms:    NL phrases users say when they mean this column
+#   nl_risk:     known NL->SQL hazard, if any
+#
+# GLOBAL DATA SCOPE: single service_date (2026-05-23), Top-20 routes only.
+# =============================================================================
+
+global_notes:
+  reliability_scale: >
+    reliability_score ranges 77.6–95.94 across the network — a COMPRESSED HIGH
+    band. The least reliable route still scores 77.6. "Low" / "bad" / "unreliable"
+    is RELATIVE (rank ascending), never an absolute threshold. Do not filter
+    reliability_score < 50 — no such rows exist.
+  gap_ceiling: >
+    avg_gap_km / median_gap_km / closest_gap_km max out near 0.5 km because
+    BUNCHING IS DEFINED as buses spaced under ~0.5 km apart. A SMALL gap = MORE
+    severe bunching (buses nearly on top of each other). This is inverted from
+    intuition and must be stated whenever gap columns are used.
+  band_values: "reliability_band has only two values: 'Reliable', 'Watch'. No others exist."
+
+tables:
+
+  # ===========================================================================
+  top20_route_reliability_scores:
+    grain: one row per route per service_date  (20 rows)
+    purpose: >
+      Primary route-level reliability scorecard. CANONICAL source for
+      reliability_score, bunching rates, and route-grain event counts.
+    columns:
+
+      service_date:
+        role: dimension
+        description: "The day the metrics describe."
+        interpretation: "Single value (2026-05-23) in current data; not a usable filter dimension yet."
+        expose: true
+        synonyms: ["date", "day", "service day"]
+        nl_risk: "Only one date exists — any 'over time'/'trend' question is unanswerable -> refuse."
+
+      route_id:
+        role: identifier
+        description: "Internal GTFS numeric route id."
+        interpretation: "Join/identity key; not what users say out loud."
+        expose: false
+        synonyms: []
+        nl_risk: "Users say 'R4' or '99', NOT 37810. Resolve via entities.yaml; filter on route_short_name."
+
+      route_short_name:
+        role: dimension
+        description: "Public route label riders see (e.g. R4, 099, 250)."
+        interpretation: "THE canonical filter/group key for a route."
+        expose: true
+        synonyms: ["route", "route number", "line", "bus number", "which bus"]
+        nl_risk: "Stored zero-padded ('004','049'). Match '4'->'004' via entity resolution before filtering."
+
+      route_long_name:
+        role: dimension
+        description: "Descriptive corridor name (e.g. '41st Avenue', 'Broadway B-Line')."
+        interpretation: "Human-readable corridor; useful in output, also a valid filter."
+        expose: true
+        synonyms: ["corridor name", "route name", "street", "where it runs"]
+
+      route_type:
+        role: dimension
+        description: "Service class: RapidBus, B-Line, Regular Bus, Express / Regional."
+        interpretation: "Group-by dimension for service-class comparisons."
+        expose: true
+        synonyms: ["bus type", "service type", "kind of bus", "rapidbus/b-line/regular"]
+
+      total_spacing_rows:
+        role: measure
+        description: "Number of headway/spacing observations collected for the route that day."
+        interpretation: >
+          The DENOMINATOR behind every *_rate_pct. Range 5,096–19,778. Routes with
+          fewer observations have less statistically stable rates.
+        direction: neutral
+        range: "5096–19778"
+        expose: true
+        synonyms: ["observations", "sample size", "data points", "how much data"]
+        nl_risk: >
+          NOT a measure of service volume or ridership. It's telemetry sample size.
+          Do not interpret as 'how busy' or 'how many trips'.
+
+      total_bunching_events:
+        role: measure
+        description: "Count of bunching events on the route that day."
+        interpretation: "Raw volume. Compare across routes only with sample size in mind; prefer bunching_rate_pct for fairness."
+        direction: lower_is_better
+        expose: true
+        synonyms: ["bunching events", "number of times buses bunched", "how many bunching"]
+
+      severe_events:
+        role: measure
+        description: "Count of SEVERE-severity bunching events (subset of total)."
+        interpretation: "Most acute bunching. Always <= total_bunching_events."
+        direction: lower_is_better
+        expose: true
+        synonyms: ["severe events", "serious bunching", "worst bunching incidents"]
+
+      peak_events:
+        role: measure
+        description: "Count of bunching events that occurred during peak periods (AM+PM)."
+        interpretation: "Subset of total occurring at rush hour. Pairs with peak_bunching_share_pct."
+        direction: lower_is_better
+        expose: true
+        synonyms: ["peak events", "rush hour bunching", "bunching at peak"]
+
+      bunching_rate_pct:
+        role: measure
+        description: "Percent of spacing observations flagged as bunching."
+        interpretation: >
+          The FAIR cross-route comparison metric (normalizes for sample size).
+          Range 0.06–12.03%. p50 ~3.3%; anything >7.7% is top-5% (alarming).
+        direction: lower_is_better
+        range: "0.06–12.03"
+        expose: true
+        synonyms: ["bunching rate", "bunching percentage", "how often bunching", "% bunching"]
+        nl_risk: "Bare 'bunching' is ambiguous: count (total_bunching_events) vs rate (this). For 'highest/most bunching' across routes prefer the RATE."
+
+      severe_bunching_rate_pct:
+        role: measure
+        description: "Percent of observations flagged as severe bunching."
+        interpretation: "Range 0.0–2.14%. Some routes are genuinely 0.0. Low absolute numbers — small differences matter."
+        direction: lower_is_better
+        range: "0.0–2.14"
+        expose: true
+        synonyms: ["severe bunching rate", "% severe", "serious bunching rate"]
+
+      peak_bunching_share_pct:
+        role: measure
+        description: "Share of a route's bunching that happens during peak periods."
+        interpretation: >
+          NOT a rate of bunching — a COMPOSITION metric. High value = bunching
+          concentrated at rush hour (an operational-timing signal, not a 'worse' signal).
+        direction: neutral
+        expose: true
+        synonyms: ["peak share", "how much bunching at rush hour", "peak concentration"]
+        nl_risk: "Easily confused with bunching_rate_pct. This is share-of-own-total, not a network rate. Never rank 'worst routes' by this."
+
+      reliability_score:
+        role: measure
+        description: "Composite 0–100 reliability score (higher = more reliable)."
+        interpretation: >
+          OBSERVED range 77.6–95.94 — a compressed high band. The WORST route is
+          77.6, not near 0. 'Least reliable' = LOWEST score (ORDER BY ASC).
+        direction: higher_is_better
+        range: "77.6–95.94 (theoretical 0–100)"
+        expose: true
+        synonyms: ["reliability", "reliability score", "how reliable", "reliability rating"]
+        nl_risk: >
+          (1) 'worst/least reliable' = ASC, a direction trap. (2) Do NOT apply
+          absolute thresholds like <50 — no such rows exist; use ranking instead.
+
+      reliability_band:
+        role: dimension
+        description: "Categorical band derived from the score. Only 'Reliable' or 'Watch'."
+        interpretation: "Coarse status flag. 'Watch' = needs attention; 'Reliable' = healthy."
+        direction: neutral
+        expose: true
+        synonyms: ["band", "status", "category", "reliability category"]
+        nl_risk: "Do not invent 'Critical'/'Poor'/'Good' — only two values exist."
+
+  # ===========================================================================
+  top20_corridor_priority_ranking:
+    grain: one row per route/corridor  (20 rows; no service_date column)
+    purpose: >
+      Operational prioritization view. CANONICAL source for
+      intervention_priority_score and segment-level worst-case columns.
+      Shares reliability/bunching columns with the reliability table — for those,
+      treat the reliability table as canonical (see collision_warnings in metrics.yaml).
+    columns:
+
+      route_id:        { role: identifier, expose: false, description: "GTFS id; join key only.", synonyms: [] }
+      route_short_name: { role: dimension, expose: true, description: "Public route label; canonical filter key.", synonyms: ["route","line","bus number"] }
+      route_long_name:  { role: dimension, expose: true, description: "Corridor name.", synonyms: ["corridor name","route name"] }
+      route_type:       { role: dimension, expose: true, description: "Service class.", synonyms: ["bus type","service type"] }
+
+      total_spacing_rows:       { role: measure, direction: neutral, expose: true, description: "Spacing observations (denominator).", synonyms: ["observations","sample size"], nl_risk: "Telemetry sample size, not ridership." }
+      total_bunching_events:    { role: measure, direction: lower_is_better, expose: true, description: "Route bunching count.", synonyms: ["bunching events"] }
+      severe_events:            { role: measure, direction: lower_is_better, expose: true, description: "Severe bunching count.", synonyms: ["severe events"] }
+      bunching_rate_pct:        { role: measure, direction: lower_is_better, expose: true, description: "Bunching rate %.", synonyms: ["bunching rate"], nl_risk: "Use reliability table as canonical for this metric." }
+      severe_bunching_rate_pct: { role: measure, direction: lower_is_better, expose: true, description: "Severe bunching rate %.", synonyms: ["severe rate"] }
+      peak_bunching_share_pct:  { role: measure, direction: neutral, expose: true, description: "Peak share of bunching (composition).", synonyms: ["peak share"], nl_risk: "Composition, not a rate." }
+      reliability_score:        { role: measure, direction: higher_is_better, expose: true, description: "Reliability score (77.6–95.94).", synonyms: ["reliability"], nl_risk: "Canonical source is the reliability table; 'worst'=ASC." }
+      reliability_band:         { role: dimension, direction: neutral, expose: true, description: "'Reliable' or 'Watch' only.", synonyms: ["band","status"] }
+
+      hotspot_segments:
+        role: measure
+        description: "Count of distinct 0.5 km route segments flagged as bunching hotspots."
+        interpretation: "More hotspot segments = problem spread across more of the corridor."
+        direction: lower_is_better
+        expose: true
+        synonyms: ["hotspots", "problem segments", "number of hotspots", "how many trouble spots"]
+
+      worst_segment_events:
+        role: measure
+        description: "Bunching events in the single worst segment of the corridor."
+        interpretation: "Peak local intensity — how bad the worst spot gets."
+        direction: lower_is_better
+        expose: true
+        synonyms: ["worst segment", "worst spot events", "most bunched segment"]
+
+      worst_segment_severe_events:
+        role: measure
+        description: "Severe events in that worst segment."
+        interpretation: "Severity concentration at the single worst location."
+        direction: lower_is_better
+        expose: true
+        synonyms: ["worst segment severe", "worst spot serious events"]
+
+      intervention_priority_score:
+        role: measure
+        description: "Composite score ranking how urgently operations should act on a corridor."
+        interpretation: >
+          OBSERVED range 5.58–52.42, mean ~21, p95 ~35.8 — NOT a 0–100 scale and
+          NOT a percentage. Higher = more urgent. R4 (52.42) is a clear outlier
+          above the rest. Use for 'what to prioritize/fix' (ORDER BY DESC).
+        direction: higher_is_better
+        range: "5.58–52.42 (no fixed ceiling)"
+        expose: true
+        synonyms: ["priority", "what to prioritize", "where to focus", "which corridors to fix", "intervention priority", "most urgent"]
+        nl_risk: "Do not present as a percentage or out of 100. Higher = act sooner, which is the OPPOSITE polarity from reliability_score."
+
+  # ===========================================================================
+  top20_hourly_bunching_pattern:
+    grain: one row per route per hour_of_day per service_date  (190 rows)
+    purpose: "Time-of-day bunching profile. CANONICAL source for any hour/peak-period question."
+    columns:
+      service_date:    { role: dimension, expose: true, description: "Single date.", synonyms: ["date","day"], nl_risk: "One date only -> no trends." }
+      route_id:        { role: identifier, expose: false, description: "GTFS id; join key.", synonyms: [] }
+      route_short_name: { role: dimension, expose: true, description: "Public route label.", synonyms: ["route","line"] }
+      route_long_name:  { role: dimension, expose: true, description: "Corridor name.", synonyms: ["corridor name"] }
+      route_type:       { role: dimension, expose: true, description: "Service class.", synonyms: ["bus type"] }
+
+      hour_of_day:
+        role: dimension
+        description: "Hour 0–23 the events occurred in."
+        interpretation: "Time-of-day axis. Hour 15 = 3 PM. Group/filter for 'busiest time' questions."
+        expose: true
+        synonyms: ["hour", "time of day", "what time", "by hour"]
+        nl_risk: "24-hour clock. 'evening rush' should map via time_windows.yaml, not a raw guess."
+
+      peak_period:
+        role: dimension
+        description: "Period label: 'AM Peak', 'PM Peak', 'Off Peak'."
+        interpretation: "Preferred filter for peak questions (AM=7-9, PM=15-18). Use this column directly, don't reconstruct from hour."
+        expose: true
+        synonyms: ["peak", "rush hour", "am peak", "pm peak", "off peak", "peak period"]
+        nl_risk: "Bare 'rush hour' is AM or PM ambiguous -> default PM, state assumption (see time_windows.yaml)."
+
+      bunching_events:   { role: measure, direction: lower_is_better, expose: true, description: "Bunching events in that hour.", synonyms: ["bunching","events that hour"], nl_risk: "Hourly grain — SUM when answering daily/route totals." }
+      severe_events:     { role: measure, direction: lower_is_better, expose: true, description: "Severe events that hour.", synonyms: ["severe events"] }
+      high_events:       { role: measure, direction: lower_is_better, expose: true, description: "High-severity events that hour (between moderate and severe).", synonyms: ["high events"] }
+      moderate_events:   { role: measure, direction: lower_is_better, expose: true, description: "Moderate-severity events that hour.", synonyms: ["moderate events"] }
+
+      avg_gap_km:
+        role: measure
+        description: "Average distance between bunched buses in that hour (km)."
+        interpretation: >
+          Range 0.0–0.498 (capped ~0.5 by the bunching definition). SMALLER gap =
+          WORSE bunching (buses nearly overlapping). Inverted polarity.
+        direction: lower_is_better
+        range: "0.0–0.498"
+        expose: true
+        synonyms: ["gap", "distance between buses", "how close", "spacing"]
+        nl_risk: "Smaller is worse — do NOT treat 'highest gap' as 'worst'. Near-0.5 is the least-bad bunching."
+
+      median_gap_km:
+        role: measure
+        description: "Median distance between bunched buses that hour (km)."
+        interpretation: "Robust center of the gap distribution; same inverted polarity as avg_gap_km."
+        direction: lower_is_better
+        range: "0.0–0.498"
+        expose: true
+        synonyms: ["median gap", "typical distance between buses"]
+
+  # ===========================================================================
+  top20_bunching_hotspots_with_stops:
+    grain: one row per route/direction/segment  (948 rows)
+    purpose: "Stop-level WHERE bunching happens. CANONICAL source for location/segment questions."
+    columns:
+      route_id:        { role: identifier, expose: false, description: "GTFS id; join key.", synonyms: [] }
+      route_short_name: { role: dimension, expose: true, description: "Public route label.", synonyms: ["route","line"] }
+      route_long_name:  { role: dimension, expose: true, description: "Corridor name.", synonyms: ["corridor name"] }
+      route_type:       { role: dimension, expose: true, description: "Service class.", synonyms: ["bus type"] }
+
+      direction_id:
+        role: dimension
+        description: "Travel direction: 0 or 1 (binary; GTFS convention)."
+        interpretation: >
+          Two values only (0/1). Roughly inbound vs outbound, BUT the dataset does
+          not label which is which. Use to split by direction; do NOT claim
+          '0 = eastbound' without confirmation — direction is encoded in the
+          stop names instead (e.g. 'Eastbound W 41 Ave').
+        expose: true
+        synonyms: ["direction", "inbound/outbound", "way", "which direction"]
+        nl_risk: "0/1 has no human label in data. Don't assert inbound/outbound mapping; cite stop_before_name/stop_after_name for direction."
+
+      shape_id:           { role: identifier, expose: false, description: "GTFS shape geometry id.", synonyms: [], nl_risk: "Internal; never surface or filter by user request." }
+      route_segment_km:   { role: dimension, expose: true, description: "Segment marker distance along route (km).", synonyms: ["segment","where along route","km mark"] }
+      segment_start_km:   { role: dimension, expose: true, description: "Segment start distance (km).", synonyms: ["segment start"] }
+      segment_end_km:     { role: dimension, expose: true, description: "Segment end distance (km).", synonyms: ["segment end"] }
+
+      stop_before_id:     { role: identifier, expose: false, description: "GTFS stop id at segment start.", synonyms: [] }
+      stop_before_name:   { role: dimension, expose: true, description: "Name of stop at segment start.", interpretation: "Human-readable hotspot location (also encodes direction, e.g. 'Eastbound...').", synonyms: ["stop","where","which stop","location","near which stop"] }
+      stop_before_dist_km: { role: dimension, expose: true, description: "Distance of the before-stop along route (km).", synonyms: ["stop distance"] }
+      stop_after_id:      { role: identifier, expose: false, description: "GTFS stop id at segment end.", synonyms: [] }
+      stop_after_name:    { role: dimension, expose: true, description: "Name of stop at segment end.", interpretation: "Other end of the hotspot segment.", synonyms: ["next stop","to stop","segment end stop"] }
+      stop_after_dist_km: { role: dimension, expose: true, description: "Distance of the after-stop along route (km).", synonyms: ["stop distance"] }
+
+      bunching_events:    { role: measure, direction: lower_is_better, expose: true, description: "Bunching events on this segment.", synonyms: ["bunching here","events on segment"], nl_risk: "Segment grain — for 'worst spot on route X' ORDER BY DESC within that route." }
+      severe_events:      { role: measure, direction: lower_is_better, expose: true, description: "Severe events on this segment.", synonyms: ["severe here"] }
+      high_events:        { role: measure, direction: lower_is_better, expose: true, description: "High-severity events on this segment.", synonyms: ["high events"] }
+      moderate_events:    { role: measure, direction: lower_is_better, expose: true, description: "Moderate events on this segment.", synonyms: ["moderate events"] }
+
+      avg_gap_km:
+        role: measure
+        description: "Average bus-to-bus gap on this segment (km)."
+        interpretation: "Range 0.0–0.498. Smaller = worse (inverted). Capped by bunching definition (~0.5 km)."
+        direction: lower_is_better
+        range: "0.0–0.498"
+        expose: true
+        synonyms: ["gap","distance between buses","how close"]
+        nl_risk: "Smaller is worse. Don't rank 'worst' by largest gap."
+
+      median_gap_km:
+        role: measure
+        description: "Median bus-to-bus gap on this segment (km)."
+        interpretation: "Range 0.0–0.498; same inverted polarity."
+        direction: lower_is_better
+        range: "0.0–0.498"
+        expose: true
+        synonyms: ["median gap","typical gap"]
+
+      closest_gap_km:
+        role: measure
+        description: "Smallest observed gap on the segment (km); can be 0.0 (buses touching)."
+        interpretation: "Worst single moment on the segment. 0.0 = full overlap. Smaller = worse."
+        direction: lower_is_better
+        range: "0.0 and up"
+        expose: true
+        synonyms: ["closest","worst gap","tightest spacing","closest buses got"]
+        nl_risk: "0.0 is the WORST value here, not missing data."
+
+      vehicles_involved: { role: measure, direction: neutral, expose: true, description: "Distinct vehicles in segment's bunching.", synonyms: ["buses involved","how many buses"] }
+      active_timestamps: { role: measure, direction: neutral, expose: true, description: "Count of distinct timestamps with activity on segment.", interpretation: "Telemetry-frequency proxy, not duration.", synonyms: ["how often","activity count"], nl_risk: "Not minutes/duration; a count of observation moments." }
+
+  # ===========================================================================
+  top20_route_type_summary:
+    grain: one row per route_type  (4 rows)
+    purpose: "Pre-aggregated comparison by service class. Use for 'RapidBus vs Regular Bus'-style questions."
+    columns:
+      route_type:              { role: dimension, expose: true, description: "Service class (the group key).", synonyms: ["bus type","service type","class of bus"] }
+      route_count:             { role: measure, direction: neutral, expose: true, description: "Number of routes in the class.", interpretation: "Group size — note when comparing (B-Line n=1, RapidBus n=2).", synonyms: ["how many routes","number of routes"], nl_risk: "Small groups (1-2 routes) make averages volatile; mention n." }
+      avg_reliability_score:   { role: measure, direction: higher_is_better, expose: true, description: "Mean reliability across the class.", synonyms: ["average reliability","reliability by type"] }
+      worst_reliability_score: { role: measure, direction: higher_is_better, expose: true, description: "Lowest score in the class.", synonyms: ["worst in class","lowest reliability"] }
+      best_reliability_score:  { role: measure, direction: higher_is_better, expose: true, description: "Highest score in the class.", synonyms: ["best in class","highest reliability"] }
+      avg_bunching_rate_pct:   { role: measure, direction: lower_is_better, expose: true, description: "Mean bunching rate for the class.", synonyms: ["average bunching rate"] }
+      avg_severe_bunching_rate_pct: { role: measure, direction: lower_is_better, expose: true, description: "Mean severe bunching rate for the class.", synonyms: ["average severe rate"] }
+      avg_peak_bunching_share_pct:  { role: measure, direction: neutral, expose: true, description: "Mean peak share for the class (composition).", synonyms: ["average peak share"], nl_risk: "Composition, not a rate." }
+      total_bunching_events:   { role: measure, direction: lower_is_better, expose: true, description: "Total bunching events across the class.", interpretation: "Class volume — driven partly by route_count; pair the two.", synonyms: ["total bunching for type"] }
+      total_severe_events:     { role: measure, direction: lower_is_better, expose: true, description: "Total severe events across the class.", synonyms: ["total severe for type"] }

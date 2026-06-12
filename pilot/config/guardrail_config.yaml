@@ -1,0 +1,45 @@
+# =============================================================================
+# guardrail_config.yaml  —  the hard security/correctness boundary
+# =============================================================================
+# THE most important file for trust. The NL->SQL model sees ONLY the tables in
+# `allowed_tables`. Everything else in the 38-table warehouse is invisible.
+# Rationale (see ADR-003): the warehouse contains parallel _099 single-route
+# tables, bronze/silver raw tiers, and gtfs/dim staging that would cause the
+# model to query the wrong grain or leak route-099 data into other-route
+# answers. Gold top20_* tables are the only safe, denormalized, self-describing
+# surface.
+# =============================================================================
+
+allowed_tables:
+  - top20_route_reliability_scores      # route x service_date reliability
+  - top20_corridor_priority_ranking     # corridor intervention priority
+  - top20_hourly_bunching_pattern       # bunching by hour_of_day / peak_period
+  - top20_bunching_hotspots_with_stops  # stop-level hotspot segments
+  - top20_route_type_summary            # aggregates by route_type
+  # route_eligibility_summary           # ENABLE only if data-quality family is in scope (ADR-004)
+
+# Hard blocklist (defence-in-depth; allowlist already excludes these, but be explicit)
+blocked_table_patterns:
+  - "bronze_*"        # raw telemetry
+  - "silver_*"        # cleaned but pre-aggregate
+  - "gtfs_*"          # static GTFS staging
+  - "dim_*"           # dimensions (used to BUILD entities.yaml, not queried live)
+  - "*_099"           # single-route tables -> wrong-grain / data-leak risk
+  - "observed_headways_*"
+  - "vehicle_positions_*"
+
+query_rules:
+  statement_types_allowed: ["SELECT"]   # block INSERT/UPDATE/DELETE/DDL/PRAGMA/ATTACH/COPY
+  single_statement_only: true           # reject multiple statements / stacked queries
+  enforce_limit: true
+  max_limit: 100                        # injected if absent; capped if higher
+  block_select_star: false              # allowed but discouraged via prompt
+  disallow_subquery_to_blocked: true    # reject if any referenced table is not allowlisted
+
+connection:
+  mode: read_only                       # DuckDB opened read-only at the OS/handle level
+  statement_timeout_ms: 5000
+
+cost_budget:
+  max_tokens_per_call: 1500
+  target_latency_ms: 8000

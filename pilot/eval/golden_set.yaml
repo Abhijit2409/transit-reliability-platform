@@ -1,0 +1,334 @@
+# =============================================================================
+# golden_set.yaml  —  Transit Intelligence Copilot benchmark spec
+# =============================================================================
+# This file is the SPEC, the few-shot SOURCE, and the BENCHMARK ANSWER KEY.
+# Every question is graded by running it through the real pipeline and comparing
+# the generated SQL's result to `expected.answer`.
+#
+# GROUNDING: table AND column names verified against warehouse_schema.csv.
+# Gold tables used (the ONLY tables the copilot is allowed to query):
+#   top20_route_reliability_scores, top20_corridor_priority_ranking,
+#   top20_hourly_bunching_pattern, top20_bunching_hotspots_with_stops,
+#   top20_route_type_summary  (see config/guardrail_config.yaml allowlist)
+#
+# DATA SCOPE (important for refusals): the warehouse currently holds ONE
+# service_date (2026-05-23) and the TOP 20 routes only. Questions outside that
+# scope must be REFUSED, not guessed.
+#
+# categories: lookup | ranking | comparison | refusal | ambiguous
+# =============================================================================
+
+meta:
+  service_date_scope: "2026-05-23"          # ASSUMPTION: single snapshot in current warehouse
+  route_scope: "Top 20 monitored routes"
+  determinism: "model pinned, temperature 0"
+
+questions:
+
+  # ---------------------------------------------------------------------------
+  # LOOKUP
+  # ---------------------------------------------------------------------------
+  - id: L01
+    category: lookup
+    question: "What was the reliability score of R4?"
+    entity_resolution:
+      route: { input: "R4", canonical_route_short_name: "R4", route_id: 37810 }
+    metric: reliability_score
+    gold_sql: |
+      SELECT route_short_name, reliability_score
+      FROM top20_route_reliability_scores
+      WHERE route_short_name = 'R4';
+    expected:
+      shape: single_value
+      answer: "R4 had a reliability score of 77.6 (band: Watch)."
+      notes: "reliability_score=77.6, reliability_band='Watch'."
+
+  - id: L02
+    category: lookup
+    question: "What reliability band is the 99 B-Line in?"
+    entity_resolution:
+      route: { input: "99 B-Line", canonical_route_short_name: "099", route_id: 6641 }
+    metric: reliability_band
+    gold_sql: |
+      SELECT reliability_band
+      FROM top20_route_reliability_scores
+      WHERE route_short_name = '099';
+    expected:
+      shape: single_row
+      answer: "The Broadway B-Line is in the 'Watch' reliability band."
+
+  - id: L03
+    category: lookup
+    question: "How many bunching events did R4 have?"
+    entity_resolution:
+      route: { input: "R4", canonical_route_short_name: "R4", route_id: 37810 }
+    metric: total_bunching_events
+    gold_sql: |
+      SELECT route_short_name, total_bunching_events
+      FROM top20_route_reliability_scores
+      WHERE route_short_name = 'R4';
+    expected:
+      shape: single_value
+      answer: "R4 recorded 1,301 bunching events."
+
+  - id: L04
+    category: lookup
+    question: "What is the intervention priority score for the 41st Avenue route?"
+    entity_resolution:
+      route: { input: "41st Avenue", canonical_route_long_name: "41st Avenue", route_short_name: "R4", route_id: 37810 }
+    metric: intervention_priority_score
+    gold_sql: |
+      SELECT intervention_priority_score
+      FROM top20_corridor_priority_ranking
+      WHERE route_long_name = '41st Avenue';
+    expected:
+      shape: single_value
+      answer: "The 41st Avenue route has an intervention priority score of 52.42."
+
+  # ---------------------------------------------------------------------------
+  # RANKING
+  # ---------------------------------------------------------------------------
+  - id: R01
+    category: ranking
+    question: "Which routes have the highest bunching rate?"
+    entity_resolution: {}
+    metric: bunching_rate_pct
+    gold_sql: |
+      SELECT route_short_name, route_long_name, bunching_rate_pct
+      FROM top20_route_reliability_scores
+      ORDER BY bunching_rate_pct DESC
+      LIMIT 5;
+    expected:
+      shape: ranked_list
+      answer: "Top by bunching rate is R4 (41st Avenue) at 12.03%, followed by the next-highest routes in descending order."
+      notes: "R4 is the clear #1. Lower-ranked exact values depend on full 20-row data."
+
+  - id: R02
+    category: ranking
+    question: "Which corridors should operations prioritize?"
+    entity_resolution: {}
+    metric: intervention_priority_score
+    gold_sql: |
+      SELECT route_short_name, route_long_name, intervention_priority_score, reliability_band
+      FROM top20_corridor_priority_ranking
+      ORDER BY intervention_priority_score DESC
+      LIMIT 5;
+    expected:
+      shape: ranked_list
+      answer: "Highest intervention priority is R4 / 41st Avenue (52.42), then 004 / Powell-UBC (34.94), then 099 / Broadway B-Line (33.86), continuing in descending order."
+
+  - id: R03
+    category: ranking
+    question: "Which routes are least reliable?"
+    entity_resolution: {}
+    metric: reliability_score
+    gold_sql: |
+      SELECT route_short_name, route_long_name, reliability_score, reliability_band
+      FROM top20_route_reliability_scores
+      ORDER BY reliability_score ASC
+      LIMIT 5;
+    expected:
+      shape: ranked_list
+      answer: "Lowest reliability score is R4 (41st Avenue) at 77.6, then 004 (Powell/UBC) at 81.95, then 099 (Broadway B-Line) at 84.21, ascending from there."
+      notes: "DIRECTION CHECK: 'least reliable' = LOWEST reliability_score (ASC)."
+
+  - id: R04
+    category: ranking
+    question: "Which routes have the most severe bunching events?"
+    entity_resolution: {}
+    metric: severe_events
+    gold_sql: |
+      SELECT route_short_name, route_long_name, severe_events
+      FROM top20_route_reliability_scores
+      ORDER BY severe_events DESC
+      LIMIT 5;
+    expected:
+      shape: ranked_list
+      answer: "R4 (41st Avenue) leads with 232 severe events, with the remaining routes following in descending order."
+
+  # ---------------------------------------------------------------------------
+  # COMPARISON
+  # ---------------------------------------------------------------------------
+  - id: C01
+    category: comparison
+    question: "Compare Route 099 and R4."
+    entity_resolution:
+      routes:
+        - { input: "099", canonical_route_short_name: "099", route_id: 6641 }
+        - { input: "R4",  canonical_route_short_name: "R4",  route_id: 37810 }
+    metric: reliability_score
+    gold_sql: |
+      SELECT route_short_name, reliability_score, reliability_band,
+             bunching_rate_pct, severe_events, total_bunching_events
+      FROM top20_route_reliability_scores
+      WHERE route_short_name IN ('099','R4')
+      ORDER BY reliability_score DESC;
+    expected:
+      shape: two_row_comparison
+      answer: "099 (Broadway B-Line) is more reliable: score 84.21 vs R4's 77.6. R4 has a higher bunching rate (12.03% vs 7.36%) and more severe events (232 vs 110). Both sit in the 'Watch' band."
+
+  - id: C02
+    category: comparison
+    question: "How does RapidBus compare to Regular Bus on reliability?"
+    entity_resolution:
+      route_types: ["RapidBus", "Regular Bus"]
+    metric: avg_reliability_score
+    gold_sql: |
+      SELECT route_type, route_count, avg_reliability_score,
+             avg_bunching_rate_pct
+      FROM top20_route_type_summary
+      WHERE route_type IN ('RapidBus','Regular Bus');
+    expected:
+      shape: two_row_comparison
+      answer: "Regular Bus averages a higher reliability score (88.11 across 13 routes) than RapidBus (86.77 across 2 routes); RapidBus has a higher average bunching rate (6.34% vs 4.15%)."
+
+  # ---------------------------------------------------------------------------
+  # AMBIGUOUS  (must resolve via semantic layer, then answer — or ask)
+  # ---------------------------------------------------------------------------
+  - id: A01
+    category: ambiguous
+    question: "Which routes perform worst during PM Peak?"
+    ambiguity: >
+      'worst' is undefined and 'perform' is vague. The semantic layer resolves
+      'worst during PM Peak' to highest PM-Peak bunching activity, since the
+      time-resolved gold table measures bunching, not a composite score.
+    entity_resolution:
+      time_window: { input: "PM Peak", canonical: "PM Peak", hours: [15,16,17,18] }
+    metric: bunching_events
+    gold_sql: |
+      SELECT route_short_name, route_long_name,
+             SUM(bunching_events) AS pm_peak_bunching_events,
+             SUM(severe_events)   AS pm_peak_severe_events
+      FROM top20_hourly_bunching_pattern
+      WHERE peak_period = 'PM Peak'
+      GROUP BY route_short_name, route_long_name
+      ORDER BY pm_peak_bunching_events DESC
+      LIMIT 5;
+    expected:
+      shape: ranked_list
+      answer: "Interpreting 'worst' as most PM-Peak bunching: the routes with the highest summed PM-Peak bunching events, in descending order. The answer states the chosen interpretation explicitly."
+      notes: "GRADING: accept if it (a) states the interpretation and (b) filters peak_period='PM Peak'. Asking a clarifying question instead is also acceptable."
+
+  - id: A02
+    category: ambiguous
+    question: "What's the busiest time for bunching?"
+    ambiguity: >
+      'busiest time' could mean hour_of_day or peak_period. Resolve to
+      hour_of_day with the most total bunching events across the network.
+    entity_resolution: {}
+    metric: bunching_events
+    gold_sql: |
+      SELECT hour_of_day, peak_period,
+             SUM(bunching_events) AS total_bunching_events
+      FROM top20_hourly_bunching_pattern
+      GROUP BY hour_of_day, peak_period
+      ORDER BY total_bunching_events DESC
+      LIMIT 1;
+    expected:
+      shape: single_row
+      answer: "Hour 15 (3 PM, PM Peak) is busiest for bunching with 1,756 events network-wide. Answer states it is measuring by hour_of_day."
+
+  # ---------------------------------------------------------------------------
+  # REFUSAL  (data not in warehouse — must decline honestly, NOT guess)
+  # ---------------------------------------------------------------------------
+  - id: X01
+    category: refusal
+    question: "How has R4's reliability changed over the past 6 months?"
+    refusal_reason: >
+      The warehouse holds a single service_date snapshot (2026-05-23). No
+      historical time series exists, so a trend cannot be computed.
+    expected:
+      shape: refusal
+      answer: "I can't answer that — the current warehouse contains a single service date (2026-05-23), so there's no multi-month history to compute a trend from."
+
+  - id: X02
+    category: refusal
+    question: "What's the 099's on-time performance against schedule?"
+    refusal_reason: >
+      On-time-vs-schedule (schedule adherence) is NOT a metric in this warehouse.
+      It measures headway/bunching reliability from vehicle positions, not arrival
+      times vs the published timetable. (Route 099 IS in scope; the metric is not.)
+    expected:
+      shape: refusal
+      answer: "I can't answer that — the warehouse measures headway/bunching reliability from vehicle telemetry, not on-time performance against the published schedule. Route 099 is monitored, but schedule-adherence data isn't part of this dataset."
+
+  - id: X03
+    category: refusal
+    question: "How many passengers ride R4 each day?"
+    refusal_reason: >
+      Ridership/boardings data is not in this warehouse; it holds vehicle-position
+      derived bunching and reliability metrics only.
+    expected:
+      shape: refusal
+      answer: "I don't have ridership data — this warehouse is built from vehicle-position telemetry and covers bunching and reliability, not passenger counts."
+
+  - id: X04
+    category: refusal
+    question: "Which SkyTrain line is most delayed?"
+    refusal_reason: >
+      The warehouse covers bus routes (RapidBus, B-Line, Regular Bus, Express);
+      SkyTrain is out of scope.
+    expected:
+      shape: refusal
+      answer: "I can't answer that — this warehouse covers bus routes only, so SkyTrain isn't in scope."
+
+  # ---------------------------------------------------------------------------
+  # ADDED v2 (surfaced by real schema)
+  # ---------------------------------------------------------------------------
+  - id: AG01
+    category: ranking            # aggregation
+    question: "How many bunching events were there across the whole network?"
+    entity_resolution: {}
+    metric: total_bunching_events
+    gold_sql: |
+      SELECT SUM(total_bunching_events) AS network_total_bunching_events
+      FROM top20_route_reliability_scores;
+    expected:
+      shape: single_value
+      answer: "Across the 20 monitored routes there were 9,656 bunching events on 2026-05-23."
+
+  - id: H01
+    category: lookup             # stop-level hotspot
+    question: "Where on R4 does bunching happen most?"
+    entity_resolution:
+      route: { input: "R4", canonical_route_short_name: "R4", route_id: 37810 }
+    metric: bunching_events_hotspot
+    gold_sql: |
+      SELECT route_short_name, stop_before_name, stop_after_name, bunching_events
+      FROM top20_bunching_hotspots_with_stops
+      WHERE route_short_name = 'R4'
+      ORDER BY bunching_events DESC
+      LIMIT 1;
+    expected:
+      shape: single_row
+      answer: "R4 bunches most on the eastbound W 41st Ave segment between Carnarvon St and Maple St, with 111 bunching events."
+
+  - id: Q01
+    category: ambiguous          # data-quality / eligibility family (only if enabled)
+    question: "Is R4's data reliable enough to trust?"
+    ambiguity: >
+      'reliable enough to trust' refers to DATA QUALITY (eligibility/coverage),
+      not the reliability_score metric. Requires route_eligibility_summary, which
+      is NOT in the default allowlist. If that family is out of scope -> refuse;
+      if enabled -> answer from eligibility_status / coverage_band.
+    entity_resolution:
+      route: { input: "R4", canonical_route_short_name: "R4", route_id: 37810 }
+    metric: eligibility_status
+    expected:
+      shape: refusal_or_answer
+      answer: "If the data-quality family is out of scope: decline and clarify that 'reliability score' (a performance metric) is available but data-quality/eligibility status is not exposed. If enabled: report R4's eligibility_status and coverage_band."
+      notes: "GRADING: tests that the system distinguishes DATA quality from PERFORMANCE reliability — a senior disambiguation."
+
+  - id: X05
+    category: refusal            # the _099 leak trap
+    question: "Show me the bunching events for route 100 from the detailed events table."
+    refusal_reason: >
+      The only detailed per-event tables are top20_bunching_events (allowed) and
+      bunching_events_099 (BLOCKED, single-route). A naive system might query the
+      _099 table and return route-099 data mislabeled as route 100. The system
+      must use only allowlisted tables; if the requested grain isn't available
+      there, it should say so rather than leak 099 data.
+    expected:
+      shape: refusal_or_answer
+      answer: "Acceptable: answer route-100 bunching from an allowlisted top20_* table. UNACCEPTABLE: returning route-099 data. This case exists to confirm no _099 leakage."
+      notes: "Primary purpose is the leak trap, not the happy path."

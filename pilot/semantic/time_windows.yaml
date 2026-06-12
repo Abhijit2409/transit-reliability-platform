@@ -1,0 +1,49 @@
+# =============================================================================
+# time_windows.yaml  —  Semantic layer: time qualifier resolution
+# =============================================================================
+# Maps stakeholder time language to concrete bounds. CRITICAL: the gold hourly
+# table already stores a `peak_period` label, so the preferred resolution is to
+# filter peak_period directly rather than reconstruct hour ranges. The hour
+# ranges below document what each label means (verified against the data).
+# =============================================================================
+
+resolution_preference: >
+  When a question references a peak period by name, filter on the gold column
+  `peak_period` directly (values: 'AM Peak', 'PM Peak', 'Off Peak'). Use the
+  hour_of_day ranges only when a question asks about a custom/explicit time span.
+
+peak_periods:
+  - canonical: "AM Peak"
+    column: peak_period
+    hours_of_day: [7, 8, 9]
+    aliases: ["am peak", "morning peak", "morning rush", "am rush", "morning commute"]
+
+  - canonical: "PM Peak"
+    column: peak_period
+    hours_of_day: [15, 16, 17, 18]
+    aliases: ["pm peak", "afternoon peak", "evening rush", "pm rush",
+              "evening commute", "afternoon rush", "rush hour"]
+    note: "Bare 'rush hour' is ambiguous (AM or PM); default to PM Peak but state the assumption."
+
+  - canonical: "Off Peak"
+    column: peak_period
+    hours_of_day: [0, 1, 5, 6, 10, 11, 12, 13, 14, 19, 20, 21, 22, 23]
+    aliases: ["off peak", "off-peak", "midday", "non-peak", "evening", "night"]
+    note: >
+      'Off Peak' spans midday + late evening + early morning in the data. If a
+      user means strictly 'midday' or 'evening', that finer split is NOT
+      available — surface the limitation rather than guessing.
+
+time_grain:
+  available: ["hour_of_day", "peak_period"]
+  unavailable: ["day_of_week", "month", "season", "year-over-year"]
+  note: >
+    Warehouse currently holds a SINGLE service_date (2026-05-23). Any question
+    about days, weeks, months, trends, or 'over time' must be REFUSED — there is
+    no multi-period history. (See golden_set refusal cases X01.)
+
+resolution_rules:
+  - "Named peak period -> filter peak_period = '<canonical>'."
+  - "Explicit clock range (e.g. '4pm to 6pm') -> filter hour_of_day IN (...)."
+  - "Any multi-day / trend / 'over time' phrasing -> refuse (single-date scope)."
+  - "Ambiguous 'rush hour' with no AM/PM -> default PM Peak, state assumption."
