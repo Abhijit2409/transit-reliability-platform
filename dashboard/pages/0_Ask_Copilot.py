@@ -16,12 +16,12 @@ st.markdown(APP_CSS, unsafe_allow_html=True)
 from core import state
 
 # --- make the tested copilot backend in pilot/ importable, without moving it ---
-_ROOT = Path(__file__).resolve().parent.parent          # project root
+ROOT_DIR = Path(__file__).resolve().parents[2]          # project root
 _PILOT = _ROOT / "pilot"
 if str(_PILOT) not in sys.path:
     sys.path.insert(0, str(_PILOT))
 
-from copilot import pipeline                              # noqa: E402
+from pilot.copilot import pipeline                              # noqa: E402
 from copilot.contracts import PipelineStatus              # noqa: E402
 
 # Warehouse path resolved from the project root (where the dashboard runs).

@@ -16,7 +16,7 @@ from core.theme import APP_CSS
 st.markdown(APP_CSS, unsafe_allow_html=True)
 from core import state
 
-_ROOT = Path(__file__).resolve().parent.parent
+_ROOT = Path(__file__).resolve().parents[2]
 _GUARDRAIL = _ROOT / "pilot" / "config" / "guardrail_config.yaml"
 
 state.sidebar_selectors()
