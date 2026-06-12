@@ -5,3 +5,6 @@ gtfs-realtime-bindings>=1.0.0
 protobuf>=4.25.0
 python-dotenv>=1.0.0
 PyYAML>=6.0
+openai>=1.0.0
+duckdb
+sqlglot
