@@ -16,7 +16,7 @@ st.markdown(APP_CSS, unsafe_allow_html=True)
 from core import state
 
 # --- make the tested copilot backend in pilot/ importable, without moving it ---
-ROOT_DIR = Path(__file__).resolve().parents[2]          # project root
+_ROOT = Path(__file__).resolve().parents[2]          # project root
 _PILOT = _ROOT / "pilot"
 if str(_PILOT) not in sys.path:
     sys.path.insert(0, str(_PILOT))
